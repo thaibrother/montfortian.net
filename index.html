@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montfortian.net — One Root, Many Branches</title>
+    <meta name="description" content="The Montfortian Family: three congregations founded by Saint Louis-Marie de Montfort — Company of Mary, Daughters of Wisdom, Brothers of St. Gabriel — serving worldwide since 1703.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #1a3a5c;
+            --navy-light: #2c5f8a;
+            --gold: #8b6914;
+            --gold-light: #c4960a;
+            --cream: #f5f3ed;
+            --smm-blue: #2c5f8a;
+            --fdls-purple: #5a3d7a;
+            --fsg-green: #2d5a1e;
+            --text: #2a2a2a;
+            --text-light: #666;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); }
+        h1, h2, h3 { font-family: 'Cinzel', serif; }
+
+        /* === HERO === */
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(160deg, var(--navy) 0%, #0d2640 60%, var(--gold) 200%);
+            color: white;
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 30% 20%, rgba(139,105,20,0.15) 0%, transparent 60%),
+                        radial-gradient(ellipse at 70% 80%, rgba(44,95,138,0.1) 0%, transparent 50%);
+        }
+        .hero > * { position: relative; z-index: 1; }
+        .hero-cross { font-size: 3em; opacity: 0.4; margin-bottom: 20px; }
+        .hero h1 { font-size: clamp(2em, 5vw, 3.5em); letter-spacing: 4px; margin-bottom: 12px; }
+        .hero .tagline { font-size: clamp(1em, 2.5vw, 1.4em); opacity: 0.8; font-weight: 300; margin-bottom: 8px; }
+        .hero .subtitle { font-size: 0.95em; opacity: 0.5; max-width: 600px; margin: 0 auto 40px; line-height: 1.6; }
+        .hero-quote {
+            max-width: 650px; margin: 0 auto 50px;
+            font-style: italic; font-size: 1.05em; opacity: 0.7; line-height: 1.7;
+            border-left: 3px solid var(--gold-light); padding-left: 20px; text-align: left;
+        }
+        .hero-quote cite { display: block; margin-top: 8px; font-style: normal; font-size: 0.85em; opacity: 0.8; color: var(--gold-light); }
+
+        /* === THREE PILLARS === */
+        .pillars {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 0; max-width: 960px; width: 100%;
+        }
+        .pillar {
+            padding: 36px 28px; text-align: center;
+            border-radius: 0; transition: transform 0.3s;
+            background: rgba(255,255,255,0.06); backdrop-filter: blur(4px);
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        .pillar:first-child { border-radius: 12px 0 0 12px; }
+        .pillar:last-child { border-radius: 0 12px 12px 0; }
+        .pillar:hover { transform: translateY(-4px); background: rgba(255,255,255,0.1); }
+        .pillar .year { font-size: 2.5em; font-weight: 700; font-family: 'Cinzel', serif; opacity: 0.4; }
+        .pillar h3 { font-size: 1.1em; margin: 8px 0 6px; letter-spacing: 1px; }
+        .pillar .mission { font-size: 0.85em; opacity: 0.6; }
+        .pillar .stat { font-size: 0.8em; opacity: 0.45; margin-top: 10px; }
+        .pillar.smm { border-bottom: 3px solid var(--smm-blue); }
+        .pillar.fdls { border-bottom: 3px solid var(--fdls-purple); }
+        .pillar.fsg { border-bottom: 3px solid var(--fsg-green); }
+
+        /* === NAV === */
+        nav {
+            background: white; position: sticky; top: 0; z-index: 100;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            display: flex; align-items: center; justify-content: center;
+            gap: 0; flex-wrap: wrap; padding: 0 16px;
+        }
+        nav a {
+            color: var(--navy); text-decoration: none;
+            padding: 16px 20px; font-size: 0.88em; font-weight: 500;
+            border-bottom: 3px solid transparent; transition: all 0.2s;
+            white-space: nowrap;
+        }
+        nav a:hover, nav a.active { border-bottom-color: var(--gold); color: var(--gold); }
+        nav .brand { font-family: 'Cinzel', serif; font-weight: 700; font-size: 1em; color: var(--navy); margin-right: auto; padding: 12px 0; }
+
+        /* === SECTIONS === */
+        .section { padding: 80px 20px; max-width: 1100px; margin: 0 auto; }
+        .section h2 { font-size: 1.8em; color: var(--navy); margin-bottom: 12px; }
+        .section .section-line { width: 60px; height: 3px; background: var(--gold); margin-bottom: 30px; }
+        .section p { line-height: 1.8; color: var(--text-light); max-width: 750px; }
+
+        /* === TIMELINE === */
+        .timeline { margin: 40px 0; position: relative; padding-left: 40px; }
+        .timeline::before { content: ''; position: absolute; left: 14px; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, var(--gold), var(--navy)); }
+        .tl-item { position: relative; margin-bottom: 32px; }
+        .tl-item::before {
+            content: ''; position: absolute; left: -33px; top: 4px;
+            width: 14px; height: 14px; border-radius: 50%;
+            background: var(--gold); border: 3px solid var(--cream);
+        }
+        .tl-item .tl-year { font-family: 'Cinzel', serif; font-weight: 700; color: var(--navy); font-size: 1.15em; }
+        .tl-item .tl-text { color: var(--text-light); font-size: 0.95em; margin-top: 4px; line-height: 1.6; }
+
+        /* === NETWORK DIRECTORY === */
+        .network-section { background: white; padding: 80px 20px; }
+        .network-section .inner { max-width: 1100px; margin: 0 auto; }
+        .network-group { margin-bottom: 40px; }
+        .network-group h3 { font-size: 1.2em; color: var(--navy); margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid #eee; }
+        .link-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+        .link-card {
+            display: flex; align-items: center; gap: 14px;
+            padding: 16px; border-radius: 10px; border: 1px solid #e8e8e8;
+            background: white; transition: all 0.2s; text-decoration: none; color: inherit;
+        }
+        .link-card:hover { border-color: var(--gold); box-shadow: 0 4px 16px rgba(0,0,0,0.08); transform: translateY(-2px); }
+        .link-card .flag {
+            width: 44px; height: 44px; border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 700; font-size: 0.85em; color: white; flex-shrink: 0;
+        }
+        .link-card .flag.gen { background: var(--navy); }
+        .link-card .flag.india { background: #e67e22; }
+        .link-card .flag.thai { background: var(--fsg-green); }
+        .link-card .flag.smm { background: var(--smm-blue); }
+        .link-card .flag.fdls { background: var(--fdls-purple); }
+        .link-card .flag.assoc { background: var(--gold); }
+        .link-card .flag.africa { background: #c0392b; }
+        .link-card .flag.school { background: #16a085; }
+        .link-card .info strong { color: var(--navy); font-size: 0.95em; display: block; }
+        .link-card .info .url { font-size: 0.78em; color: var(--gold); font-family: monospace; }
+        .link-card .info .desc { font-size: 0.82em; color: var(--text-light); margin-top: 2px; }
+        .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.7em; font-weight: 600; margin-left: 6px; vertical-align: middle; }
+        .badge-live { background: #e8f5e9; color: #2e7d32; }
+        .badge-info { background: #e3f2fd; color: #1565c0; }
+
+        /* === THAI PROVINCE === */
+        .thai-section { background: linear-gradient(135deg, #f0f7f0, #eef4ee); padding: 80px 20px; }
+        .thai-section .inner { max-width: 1100px; margin: 0 auto; }
+
+        /* === FOOTER === */
+        footer {
+            background: var(--navy); color: white; text-align: center;
+            padding: 40px 20px;
+        }
+        footer p { opacity: 0.6; font-size: 0.85em; margin: 4px 0; }
+        footer .links a { color: var(--gold-light); text-decoration: none; margin: 0 12px; font-size: 0.85em; }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 768px) {
+            .pillars { grid-template-columns: 1fr; }
+            .pillar, .pillar:first-child, .pillar:last-child { border-radius: 8px; margin-bottom: 8px; }
+            nav { justify-content: flex-start; overflow-x: auto; }
+            nav .brand { margin-right: 12px; }
+            .link-grid { grid-template-columns: 1fr; }
+            .section { padding: 50px 16px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+    <div class="hero-cross">&#10013;</div>
+    <h1>MONTFORTIAN</h1>
+    <p class="tagline">One Root, Many Branches</p>
+    <p class="subtitle">Three congregations, one spirit — founded by Saint Louis-Marie de Montfort,<br>serving the world since 1703</p>
+
+    <div class="hero-quote">
+        "God alone! God alone! I need nothing else."
+        <cite>— Saint Louis-Marie Grignion de Montfort (1673–1716)</cite>
+    </div>
+
+    <div class="pillars">
+        <div class="pillar smm">
+            <div class="year">1705</div>
+            <h3>Company of Mary</h3>
+            <p class="mission">Missionaries &amp; Priests</p>
+            <p class="stat">~800 members &middot; 32 countries</p>
+        </div>
+        <div class="pillar fdls">
+            <div class="year">1703</div>
+            <h3>Daughters of Wisdom</h3>
+            <p class="mission">Healthcare &amp; Education</p>
+            <p class="stat">~3,000 members &middot; 21 countries</p>
+        </div>
+        <div class="pillar fsg">
+            <div class="year">~1711</div>
+            <h3>Brothers of St. Gabriel</h3>
+            <p class="mission">Education of Youth</p>
+            <p class="stat">~1,200 members &middot; 33 countries</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== NAV ===== -->
+<nav>
+    <span class="brand">Montfortian.net</span>
+    <a href="#founder">The Founder</a>
+    <a href="#congregations">Three Congregations</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#network" class="active">Network Directory</a>
+    <a href="#thai-province">Thai Province</a>
+</nav>
+
+<!-- ===== FOUNDER ===== -->
+<section class="section" id="founder">
+    <h2>The Founder</h2>
+    <div class="section-line"></div>
+    <p>
+        <strong>Saint Louis-Marie Grignion de Montfort</strong> (1673–1716) was a French Catholic priest
+        whose radical love for the poor and passionate missionary preaching transformed the spiritual
+        landscape of western France. In just 16 years of ministry, he founded three religious congregations
+        that continue his mission across more than 40 countries today.
+    </p>
+    <p style="margin-top:16px;">
+        Born in Montfort-sur-Meu, Brittany, he was ordained in 1700 and spent his life traveling on foot
+        giving parish missions, caring for the sick and poor, and writing spiritual classics including
+        <em>True Devotion to the Blessed Virgin Mary</em> and <em>The Love of Eternal Wisdom</em>.
+        He died at age 43 in Saint-Laurent-sur-Sèvre, where the motherhouses of all three congregations
+        remain to this day. He was canonized in 1947 by Pope Pius XII.
+    </p>
+</section>
+
+<!-- ===== CONGREGATIONS ===== -->
+<section class="section" id="congregations" style="background:white; max-width:100%; padding-left:calc((100% - 1100px)/2); padding-right:calc((100% - 1100px)/2);">
+    <h2>Three Congregations</h2>
+    <div class="section-line"></div>
+    <p>United by the spirituality of their common founder, each congregation carries forward a distinct dimension of Montfort's mission:</p>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:24px; margin-top:30px;">
+        <div style="padding:28px; border-radius:12px; border:1px solid #e0e0e0;">
+            <div style="color:var(--smm-blue); font-family:'Cinzel',serif; font-weight:700; font-size:1.3em;">Company of Mary</div>
+            <div style="font-size:0.85em; color:var(--text-light); margin:4px 0 12px;">Societas Mariae Montfortana (SMM) &middot; Founded 1705</div>
+            <p style="font-size:0.92em; line-height:1.7; color:var(--text-light);">
+                Montfort Missionaries — priests and brothers dedicated to preaching parish missions,
+                promoting Marian devotion, and serving in parishes worldwide. Present in 32 countries
+                with approximately 800 members.
+            </p>
+        </div>
+        <div style="padding:28px; border-radius:12px; border:1px solid #e0e0e0;">
+            <div style="color:var(--fdls-purple); font-family:'Cinzel',serif; font-weight:700; font-size:1.3em;">Daughters of Wisdom</div>
+            <div style="font-size:0.85em; color:var(--text-light); margin:4px 0 12px;">Filles de la Sagesse (FDLS) &middot; Founded 1703</div>
+            <p style="font-size:0.92em; line-height:1.7; color:var(--text-light);">
+                Co-founded with Blessed Marie-Louise Trichet at Poitiers. "Call yourselves the Daughters
+                of Wisdom, for the teaching of children and the care of the poor." Present in 21 countries
+                with approximately 3,000 members.
+            </p>
+        </div>
+        <div style="padding:28px; border-radius:12px; border:1px solid #e0e0e0;">
+            <div style="color:var(--fsg-green); font-family:'Cinzel',serif; font-weight:700; font-size:1.3em;">Brothers of St. Gabriel</div>
+            <div style="font-size:0.85em; color:var(--text-light); margin:4px 0 12px;">Frères de Saint-Gabriel (FSG) &middot; Founded ~1711</div>
+            <p style="font-size:0.92em; line-height:1.7; color:var(--text-light);">
+                Originally the Brothers of the Holy Spirit, born from Montfort's schools for poor children
+                in La Rochelle. Devoted to the education of youth, especially the poor and those with
+                disabilities. Present in 33 countries with approximately 1,200 brothers across 15 provinces.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== TIMELINE ===== -->
+<section class="section" id="timeline">
+    <h2>Timeline</h2>
+    <div class="section-line"></div>
+    <p>From a small town in Brittany to more than 40 countries — the Montfortian story spans over three centuries.</p>
+
+    <div class="timeline">
+        <div class="tl-item">
+            <div class="tl-year">1673</div>
+            <div class="tl-text">Louis-Marie Grignion born in Montfort-sur-Meu, Brittany, France</div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">1700</div>
+            <div class="tl-text">Ordained priest — begins itinerant missionary preaching across western France</div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">1703</div>
+            <div class="tl-text">Founds the <strong>Daughters of Wisdom</strong> with Marie-Louise Trichet at Poitiers</div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">1705</div>
+            <div class="tl-text">Founds the <strong>Company of Mary</strong> (SMM) — a society of missionary priests</div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">~1711</div>
+            <div class="tl-text">Opens schools for poor children in La Rochelle — origin of the <strong>Brothers of St. Gabriel</strong></div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">1716</div>
+            <div class="tl-text">Dies at Saint-Laurent-sur-Sèvre, age 43, during a parish mission</div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">1800s</div>
+            <div class="tl-text">Congregations expand across Europe — Netherlands, Belgium, England, Italy, Spain</div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">1875</div>
+            <div class="tl-text">Daughters of Wisdom begin overseas missions in Haiti</div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">1901</div>
+            <div class="tl-text">Five Brothers of St. Gabriel arrive in <strong>Siam (Thailand)</strong> — take charge of Assumption College, Bangkok</div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">1903</div>
+            <div class="tl-text">Brothers of St. Gabriel arrive in <strong>India</strong> — beginning of the largest province network</div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">1904</div>
+            <div class="tl-text">Daughters of Wisdom reach Africa (Malawi) — first African mission</div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">1947</div>
+            <div class="tl-text">Louis-Marie de Montfort canonized by Pope Pius XII</div>
+        </div>
+        <div class="tl-item">
+            <div class="tl-year">Today</div>
+            <div class="tl-text">Three congregations serve in over 40 countries across all continents — education, healthcare, missions, and social work</div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== NETWORK DIRECTORY ===== -->
+<section class="network-section" id="network">
+    <div class="inner">
+        <h2 style="font-family:'Cinzel',serif; font-size:1.8em; color:var(--navy);">Network Directory</h2>
+        <div style="width:60px; height:3px; background:var(--gold); margin:12px 0 16px;"></div>
+        <p style="color:var(--text-light); max-width:700px; margin-bottom:40px; line-height:1.7;">
+            The Montfortian Family online — websites of provinces, congregations, and institutions worldwide.
+            Click any card to visit.
+        </p>
+
+        <!-- FSG Central -->
+        <div class="network-group">
+            <h3>Brothers of St. Gabriel — Central</h3>
+            <div class="link-grid">
+                <a class="link-card" href="https://www.stgabrielinst.org" target="_blank">
+                    <div class="flag gen">HQ</div>
+                    <div class="info">
+                        <strong>Generalate (Rome) <span class="badge badge-live">LIVE</span></strong>
+                        <div class="url">stgabrielinst.org</div>
+                        <div class="desc">Institute headquarters — Via Trionfale, Roma, Italy</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.stgabrielinst.org/important-dates" target="_blank">
+                    <div class="flag gen">FSG</div>
+                    <div class="info">
+                        <strong>Important Dates</strong>
+                        <div class="url">stgabrielinst.org/important-dates</div>
+                        <div class="desc">Key milestones in the history of the Brothers</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.stgabrielinst.org/montfortian-education" target="_blank">
+                    <div class="flag gen">FSG</div>
+                    <div class="info">
+                        <strong>Montfortian Education</strong>
+                        <div class="url">stgabrielinst.org/montfortian-education</div>
+                        <div class="desc">Educational philosophy and charter</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.stgabrielinst.org/copy-of-new-page" target="_blank">
+                    <div class="flag gen">FSG</div>
+                    <div class="info">
+                        <strong>Partnership</strong>
+                        <div class="url">stgabrielinst.org/partnership</div>
+                        <div class="desc">Collaboration with laity and associates worldwide</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- FSG Provinces - Asia -->
+        <div class="network-group">
+            <h3>Brothers of St. Gabriel — Asia</h3>
+            <div class="link-grid">
+                <a class="link-card" href="https://www.thaibrother.net" target="_blank">
+                    <div class="flag thai">TH</div>
+                    <div class="info">
+                        <strong>Province of Thailand <span class="badge badge-live">LIVE</span></strong>
+                        <div class="url">thaibrothers.net</div>
+                        <div class="desc">Thai Province — 14 schools under St. Gabriel Foundation</div>
+                    </div>
+                </a>
+                <a class="link-card" href="http://montfortbrothers.com" target="_blank">
+                    <div class="flag india">IN</div>
+                    <div class="info">
+                        <strong>National Council — India <span class="badge badge-live">LIVE</span></strong>
+                        <div class="url">montfortbrothers.com</div>
+                        <div class="desc">7 provinces in India — 159 institutions</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.montforthydprovince.org" target="_blank">
+                    <div class="flag india">IN</div>
+                    <div class="info">
+                        <strong>Province of Hyderabad</strong>
+                        <div class="url">montforthydprovince.org</div>
+                        <div class="desc">Hyderabad, India</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://stgabrielprovinceofdelhi.com" target="_blank">
+                    <div class="flag india">IN</div>
+                    <div class="info">
+                        <strong>Province of Delhi</strong>
+                        <div class="url">stgabrielprovinceofdelhi.com</div>
+                        <div class="desc">Delhi, India — established 2007</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.montfortpuneprovince.org" target="_blank">
+                    <div class="flag india">IN</div>
+                    <div class="info">
+                        <strong>Province of Pune</strong>
+                        <div class="url">montfortpuneprovince.org</div>
+                        <div class="desc">Pune, India</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.ibsgnortheast.org" target="_blank">
+                    <div class="flag india">IN</div>
+                    <div class="info">
+                        <strong>Province of North-East</strong>
+                        <div class="url">ibsgnortheast.org</div>
+                        <div class="desc">North-East India</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.montfortyercaudprovince.com" target="_blank">
+                    <div class="flag india">IN</div>
+                    <div class="info">
+                        <strong>Province of Yercaud</strong>
+                        <div class="url">montfortyercaudprovince.com</div>
+                        <div class="desc">Yercaud, India</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- FSG Provinces - Europe / Americas / Africa -->
+        <div class="network-group">
+            <h3>Brothers of St. Gabriel — Europe, Americas &amp; Africa</h3>
+            <div class="link-grid">
+                <a class="link-card" href="http://partnershipsg.org" target="_blank">
+                    <div class="flag gen">ES</div>
+                    <div class="info">
+                        <strong>Province of Spain</strong>
+                        <div class="url">partnershipsg.org</div>
+                        <div class="desc">Spain — Partnership &amp; Gabrielite Associates</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.stgabrielinst.org" target="_blank">
+                    <div class="flag gen">FR</div>
+                    <div class="info">
+                        <strong>Province of France</strong>
+                        <div class="url">via stgabrielinst.org</div>
+                        <div class="desc">Saint-Laurent-sur-Sèvre — the founding province</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.stgabrielinst.org" target="_blank">
+                    <div class="flag gen">CA</div>
+                    <div class="info">
+                        <strong>Province of Canada</strong>
+                        <div class="url">via stgabrielinst.org</div>
+                        <div class="desc">St. Gabriel Network Canada</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.stgabrielinst.org" target="_blank">
+                    <div class="flag africa">AF</div>
+                    <div class="info">
+                        <strong>Provinces of Senegal / Brazzaville / Kinshasa</strong>
+                        <div class="url">via stgabrielinst.org</div>
+                        <div class="desc">Three African provinces + Sector Rwanda-Burundi</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Montfortian Family -->
+        <div class="network-group">
+            <h3>Montfortian Family — Other Congregations</h3>
+            <div class="link-grid">
+                <a class="link-card" href="https://www.montfortian.info" target="_blank">
+                    <div class="flag smm">SMM</div>
+                    <div class="info">
+                        <strong>Company of Mary (Montfort Missionaries) <span class="badge badge-live">LIVE</span></strong>
+                        <div class="url">montfortian.info</div>
+                        <div class="desc">Montfort Fathers — missionaries in 32 countries</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.montfort.org.uk" target="_blank">
+                    <div class="flag smm">SMM</div>
+                    <div class="info">
+                        <strong>Company of Mary — GB &amp; Ireland</strong>
+                        <div class="url">montfort.org.uk</div>
+                        <div class="desc">Includes complete writings of St. Montfort in English</div>
+                    </div>
+                </a>
+                <a class="link-card" href="https://www.fdlsagesse.org" target="_blank">
+                    <div class="flag fdls">FDLS</div>
+                    <div class="info">
+                        <strong>Daughters of Wisdom <span class="badge badge-live">LIVE</span></strong>
+                        <div class="url">fdlsagesse.org</div>
+                        <div class="desc">Filles de la Sagesse — 21 countries</div>
+                    </div>
+                </a>
+                <a class="link-card" href="http://www.montfortian.com" target="_blank">
+                    <div class="flag assoc">MA</div>
+                    <div class="info">
+                        <strong>Montfortian Associates Thailand</strong>
+                        <div class="url">montfortian.com</div>
+                        <div class="desc">Lay associates sharing the Montfortian mission in Thailand</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== THAI PROVINCE ===== -->
+<section class="thai-section" id="thai-province">
+    <div class="inner">
+        <h2 style="font-family:'Cinzel',serif; font-size:1.8em; color:var(--fsg-green);">Thai Province</h2>
+        <div style="width:60px; height:3px; background:var(--fsg-green); margin:12px 0 16px;"></div>
+        <p style="color:var(--text-light); max-width:700px; line-height:1.7; margin-bottom:30px;">
+            On October 20, 1901, five Brothers of St. Gabriel arrived in Siam to take charge of
+            Assumption College, Bangkok. Today, the St. Gabriel Foundation of Thailand oversees
+            14 schools across the country. The Thai Province is one of the most vibrant in the
+            Congregation's worldwide network.
+        </p>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; margin-bottom:30px;">
+            <div style="background:white; padding:24px; border-radius:10px; text-align:center; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+                <div style="font-family:'Cinzel',serif; font-size:2.5em; color:var(--fsg-green); font-weight:700;">1901</div>
+                <div style="font-size:0.9em; color:var(--text-light);">Arrived in Siam</div>
+            </div>
+            <div style="background:white; padding:24px; border-radius:10px; text-align:center; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+                <div style="font-family:'Cinzel',serif; font-size:2.5em; color:var(--fsg-green); font-weight:700;">14</div>
+                <div style="font-size:0.9em; color:var(--text-light);">Schools Nationwide</div>
+            </div>
+            <div style="background:white; padding:24px; border-radius:10px; text-align:center; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+                <div style="font-family:'Cinzel',serif; font-size:2.5em; color:var(--fsg-green); font-weight:700;">125</div>
+                <div style="font-size:0.9em; color:var(--text-light);">Years of Service</div>
+            </div>
+        </div>
+
+        <p style="color:var(--text-light); font-size:0.95em;">
+            For more about the Thai Province, Brothers, and Foundation news:
+            <a href="https://www.thaibrother.net" target="_blank" style="color:var(--fsg-green); font-weight:600;">Visit thaibrothers.net &rarr;</a>
+        </p>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p style="font-family:'Cinzel',serif; font-size:1.1em; opacity:0.8; margin-bottom:12px;">Montfortian.net</p>
+    <p>One Root, Many Branches — The Montfortian Family Worldwide</p>
+    <div class="links" style="margin-top:16px;">
+        <a href="https://www.stgabrielinst.org" target="_blank">stgabrielinst.org</a>
+        <a href="https://www.montfortian.info" target="_blank">montfortian.info</a>
+        <a href="https://www.fdlsagesse.org" target="_blank">fdlsagesse.org</a>
+        <a href="https://www.thaibrother.net" target="_blank">thaibrothers.net</a>
+    </div>
+    <p style="margin-top:20px; font-size:0.75em;">Maintained by the Thai Province of the Brothers of St. Gabriel</p>
+</footer>
+
+<!-- Smooth scroll -->
+<script>
+document.querySelectorAll('nav a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+});
+
+// Highlight nav on scroll
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('nav a[href^="#"]');
+window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 100) current = s.id;
+    });
+    navLinks.forEach(a => {
+        a.classList.remove('active');
+        if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+    });
+});
+</script>
+
+</body>
+</html>

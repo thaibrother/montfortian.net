@@ -8,13 +8,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --navy: #1a3a5c;
-  --navy-light: #2c5f8a;
-  --gold: #8b6914;
-  --gold-light: #c4960a;
-  --cream: #f5f3ed;
-  --text: #2a2a2a;
-  --text-light: #666;
+  --navy: #1a3a5c; --navy-light: #2c5f8a;
+  --gold: #8b6914; --gold-light: #c4960a;
+  --cream: #f5f3ed; --text: #2a2a2a; --text-light: #666;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.8; font-size: 16px; }
@@ -35,7 +31,7 @@ header .abbr-tag {
 nav.bread {
   background: white; padding: 12px 24px;
   border-bottom: 1px solid #e0dcd2; font-size: 0.88em;
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   position: sticky; top: 0; z-index: 10;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -64,6 +60,19 @@ nav.bread .sep { color: #ccc; }
 }
 .content h4 {
   font-size: 1em; color: var(--gold); margin: 1.2em 0 0.4em;
+}
+
+/* Page markers */
+.page-marker {
+  display: flex; align-items: center; margin: 1.8em 0 0.5em;
+  border-top: 1px solid #e8e4db;
+  padding-top: 10px;
+}
+.page-marker span {
+  background: var(--navy); color: white;
+  font-size: 0.72em; font-weight: 600; padding: 2px 10px;
+  border-radius: 3px; font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .nav-footer {
@@ -95,13 +104,14 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <div class="abbr-tag">LCM</div>
 </header>
 <nav class="bread">
-  <a href="../index.html#writings">Montfortian Network</a>
+  <a href="../index.html">Montfortian Network</a>
   <span class="sep">&rsaquo;</span>
   <a href="../index.html#writings">Writings</a>
   <span class="sep">&rsaquo;</span>
   <span>10. Letter to the Members of the Company</span>
 </nav>
 <div class="content">
+<div class="page-marker" id="p431"><span>pp. 431–432</span></div>
 <p>Nolite  timere pusillus  grex quia  complacuit patri  vestro dare  vobis  regnum.</p>
 <p>Fear  not, little  flock, because  it has  pleased your  Father to  bestow a  kingdom onyou.</p>
 <h3>E</h3>
@@ -110,6 +120,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>You are  of little account.  They are  influential.  You  are</p>
 <p>2 poor.  They are rich.  You  have  no  influence.  They have the  backing of all  who  matter.  You  are  weak.  They  are  men in  positions  of au thority.  But let  me  repeat:  nolite timere, 4  have  no  fear,  at  least,  no deliberate  fear.  Listen  to  Jesus  Christ who  tells  you:  Ego sum,  no lite  timere,  It is  I,  do  not  be afraid.  It is  I  who  have  chosen  you, ego  elegi  vos; 5  I am  your  good shepherd and  I  know you  for  my sheep,  ego  sum pastor bonus;  ego  cognosco,  etc. 6  Nolite  mirari si odit vos  mundus,  scitote, 7  Do not be  surprised  if the  world  hates you,  but  know that it  began  by hating  me. 8  If you  belonged to the world,  it would  hold  you  dear as  something  of its  very  own,  but be cause you  do not belong to the world, 9  you  must  endure its  hatred, calumnies,  insults,  contempt and  outrages.</p>
 <p>Ego protector tuus sum 10  in  manibus meis descripsi  te, 11 I  am your protector;  I  hold you  in  my  hands,  little  Company,</p>
+<div class="page-marker" id="p433"><span>pp. 433–434</span></div>
 <p>Letter to  Missionaries</p>
 <p>says  our Eternal Father.  I  have  graven you  on my  heart and on the palms  of my  hands  in order to cherish  and defend you because  you have  put your trust in  me  and not in  men,  in  my  Providence and not in  wealth.  I will  deliver  you  from  the snares  they set  for  you, from  the calumnies  they  spread about you,  from  the terrors  of the night  and  from  the  devil  who  roams  at  noonday to  seduce you.</p>
 <p>I  will  shelter you  under my  wings;  I  will  carry you  on my  shoul ders.  I  will  provide your sustenance.  I will  arm you  with my  truth and you  will  find  it such  a  powerful weapon that you  will  see  with your very  eyes  your enemies  falling  by  the  thousands  around you:  a thousand  wicked  paupers  on your  left  hand and  ten  thousand evil rich  on your right.  You yourselves  have  nothing to  fear  from  my avenging  power.  It will  not even  come  near you.</p>
@@ -120,6 +131,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Understand this,  dear brothers,  no man realizes  the value of your evangelical poverty,  semper ergo  dives est christiana pauper/as, quia plus est  quod habet quam quod non habet;  nee timet in  hoc mundo indigentia laborare cui donatum est in  omnium rerum Domi no omnia possidere. 25  The man  who embraces  the poverty of Christ is  always  rich  because  what  he  possesses  more than offsets  what  he lacks.  He is  not afraid of being deprived  of anything in  this  world since  he  has  been given  the grace  of possessing  all  things  by  possess ing  the  Lord  of all. 9 main in  possession  of the kingdom you  have  conquered,  there  are three things  you  must  put into  practice:</p>
 <p>To increase the  rich  treasure your  poverty brings  you  and re-</p>
 <p>i  You  must  truly value this  real and effective  poverty to which you  have  committed yourself and have  a real love  for  it.  No  one  be- comes  rich  more easily or knows  the  best use  to  make  of these  rich-</p>
+<div class="page-marker" id="p435"><span>pp. 435–436</span></div>
 <p>Letter to  Missionaries</p>
 <p>es,  says  a  holy  bishop,  than the  man  who  is  truly poor in  spirit.  He knows  that wealth  only serves  to  reduce  to  poverty and misery  those whose heart is  centered on it;  whereas  those who give  up this  wealth through a  holy  and  praiseworthy contempt for  it  become  rich  and happy in the  truest sense  of the  word:  divitiae pauperem faciunt  et miserum,  si diligantur,  beatum et divitem,  si pro  Christo  contem nantur, 26  Riches  make  a  man poor and miserable  if he  loves  them. If he  despises  them  for  Christ&#x27;s sake,  they make  him  rich  and  hap py.</p>
 <p>Be  careful  then  and do not look  back  at  the  patrimony or bene fice  you  have  given  up:  nemo mittens manum ad aratrum  et respi ciens post se  est  aptus regno Dei, 27  No one  putting  his  hand  to the plow  and looking  behind  is  fit  for  the  kingdom  of God.  Be  careful, too,  not to glance enviously around you  at the  thousand  and  one benefits,  ecclesiastical  or otherwise,  which  you  could  acquire with  as much  right  as  anyone  else,  for  they  arouse  the  fool&#x27;s  concupiscence, quae concupiscentiam praebent insensato. 28 ii  Experience,  then,  for  yourselves  the  effects  of poverty,  for 10 instance,  (1)  the  labor it entails  in  the  pulpit or the confessional  by which  you  earn your  bread by the sweat  of your  brow;  (2)  the  hu miliation  and disdain which  are usually shown  to  poor clerics; (3)  other discomforts  which  poverty  brings  with  it:  lack  of suitable clothing,  of proper  food  and accommodations,  and the  fatigue  and traveling it  imposes. iii  Let all  your longings  be centered on eternal  things.  Knock 11 on the door which  opens  to  you  the mercy  of Jesus  Christ who  rec ognizes  and hears  without fail  those  who  are  dressed  in  the  livery  of his  poverty.</p>

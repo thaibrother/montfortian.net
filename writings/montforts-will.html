@@ -8,13 +8,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --navy: #1a3a5c;
-  --navy-light: #2c5f8a;
-  --gold: #8b6914;
-  --gold-light: #c4960a;
-  --cream: #f5f3ed;
-  --text: #2a2a2a;
-  --text-light: #666;
+  --navy: #1a3a5c; --navy-light: #2c5f8a;
+  --gold: #8b6914; --gold-light: #c4960a;
+  --cream: #f5f3ed; --text: #2a2a2a; --text-light: #666;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.8; font-size: 16px; }
@@ -35,7 +31,7 @@ header .abbr-tag {
 nav.bread {
   background: white; padding: 12px 24px;
   border-bottom: 1px solid #e0dcd2; font-size: 0.88em;
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   position: sticky; top: 0; z-index: 10;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -64,6 +60,19 @@ nav.bread .sep { color: #ccc; }
 }
 .content h4 {
   font-size: 1em; color: var(--gold); margin: 1.2em 0 0.4em;
+}
+
+/* Page markers */
+.page-marker {
+  display: flex; align-items: center; margin: 1.8em 0 0.5em;
+  border-top: 1px solid #e8e4db;
+  padding-top: 10px;
+}
+.page-marker span {
+  background: var(--navy); color: white;
+  font-size: 0.72em; font-weight: 600; padding: 2px 10px;
+  border-radius: 3px; font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .nav-footer {
@@ -95,20 +104,21 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <div class="abbr-tag">W</div>
 </header>
 <nav class="bread">
-  <a href="../index.html#writings">Montfortian Network</a>
+  <a href="../index.html">Montfortian Network</a>
   <span class="sep">&rsaquo;</span>
   <a href="../index.html#writings">Writings</a>
   <span class="sep">&rsaquo;</span>
   <span>17. Saint Louis Marie De Montfort&#x27;s Will</span>
 </nav>
 <div class="content">
+<div class="page-marker" id="p505"><span>pp. 505–506</span></div>
 <h3>Introduction</h3>
 <p>0 n  the first  of April1716,  Fr.  de Montfort,  ac</p>
 <p>companied by several Brothers,  arrived at  St.  Laurent-sur-Sevre  to begin a mission.  He  had previously made a pilgrimage to  Our Lady of Ardilliers at  Saumur to  confide to  the  Queen  of heaven  his fu ture apostolate and those foundations  which  he had previously be gun. After a short time  two  other missionaries joined him,  Fr. Thomas le  Bourhis  who  had been  associated with  him since 1712, and Fr.  Glisson  concerning  whom  nothing is known.  He  was joined also  by the Prior and parish priest  of Saint Pompain,  Jean  Mulot, who  had decided to accompany his  brother Rene,  a young priest thirty years of age.  Rene had joined Fr.  de  Montfort in  October 1715  and during  those few  months had become Montfort&#x27;s friend, confidant and confessor.</p>
 <p>During the  mission  which  began  on April 5th,  the bishop of the</p>
 <p>diocese  of La Rochelle arrived to  make a canonical visitation. Montfort,  as  the leader of the mission,  worked hard to prepare_  an enthusiastic reception for the bishop,  but he  was  not able to be present at  the bishop&#x27;s arrival,  being laid low by a feverish  illness. However,  later on  in  the day he  went into the pulpit and preached a moving sermon  on  the love of Jesus  Christ.</p>
 <p>After the sermon  he  was forced again  to  take to  his bed from which  he  was  not to  rise. From  the 23rd of April onwards the illness made rapid progress and nothing could give him relief- certainly not the bleedings and the medicines of the doctors.  On  the 27th  of April,  sensing  that death  was  approaching,  he decided to  dictate his last  will and testament and dispose  of all he possessed.  He charged Rene Mulot,  his confessor,  to  write down  his last  wishes.  Then  with a trembling  hand the dying man  traced his signature on the docu-</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p507"><span>pp. 507–508</span></div>
 <p>Montfort&#x27;s  Last  Will</p>
 <p>ment,  which  was followed by the signatures of Rene Felix Rougeau, dean  of Saint Laurent,  and Francis  Triault,  curate  of the parish, who  acted as  witnesses  requir.ed for the  validity of the  document.</p>
 <p>I , the  undersigned,  the greatest of sinners,</p>

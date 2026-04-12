@@ -8,13 +8,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --navy: #1a3a5c;
-  --navy-light: #2c5f8a;
-  --gold: #8b6914;
-  --gold-light: #c4960a;
-  --cream: #f5f3ed;
-  --text: #2a2a2a;
-  --text-light: #666;
+  --navy: #1a3a5c; --navy-light: #2c5f8a;
+  --gold: #8b6914; --gold-light: #c4960a;
+  --cream: #f5f3ed; --text: #2a2a2a; --text-light: #666;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.8; font-size: 16px; }
@@ -35,7 +31,7 @@ header .abbr-tag {
 nav.bread {
   background: white; padding: 12px 24px;
   border-bottom: 1px solid #e0dcd2; font-size: 0.88em;
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   position: sticky; top: 0; z-index: 10;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -64,6 +60,19 @@ nav.bread .sep { color: #ccc; }
 }
 .content h4 {
   font-size: 1em; color: var(--gold); margin: 1.2em 0 0.4em;
+}
+
+/* Page markers */
+.page-marker {
+  display: flex; align-items: center; margin: 1.8em 0 0.5em;
+  border-top: 1px solid #e8e4db;
+  padding-top: 10px;
+}
+.page-marker span {
+  background: var(--navy); color: white;
+  font-size: 0.72em; font-weight: 600; padding: 2px 10px;
+  border-radius: 3px; font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .nav-footer {
@@ -95,14 +104,14 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <div class="abbr-tag">S</div>
 </header>
 <nav class="bread">
-  <a href="../index.html#writings">Montfortian Network</a>
+  <a href="../index.html">Montfortian Network</a>
   <span class="sep">&rsaquo;</span>
   <a href="../index.html#writings">Writings</a>
   <span class="sep">&rsaquo;</span>
   <span>22. Sermons</span>
 </nav>
 <div class="content">
-<p>God  Alone</p>
+<div class="page-marker" id="p557"><span>pp. 557–558</span></div>
 <p>will  keep  you,&#x27; says  St.  Augustine,  &#x27;but if you  do not keep  it,  it will destroy you.&#x27;</p>
 <p>Arouse sorrow  in  your  heart  for  having  despised  God&#x27;s com</p>
 <p>mands and  resolve  to obey them  more  faithfully  in  the  future. 3  Consider  that on the  observance  of the  Rules  depends  the stability of the religious  life.  It is  its  very  texture,  its  support,  its  foundation, its  rampart.  Those therefore  who  are unfaithful  to the  Rule  are  the bane  of religious  life  and  a  source  of scandal.  They  are  like  parri cides,  children  who  kill  their  parents and dishonor and afflict  the spirit  of the  Founder.</p>
@@ -119,7 +128,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>The publication in full of this second part  would be of little in</p>
 <p>terest.  However,  to enlighten  the reader concerning Montfort&#x27;s  work of preparation for the missionary apostolate,  and to give some idea of the manner in  which  the seminarian condensed sermons into rough  schemas,  we reproduce a plan on  a theme  which particularly</p>
 <p>5 57</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p559"><span>pp. 559–560</span></div>
 <p>interested him,  namely baptism  and the promises of baptism.</p>
 <p>In  keeping  with  his  objective,  the seminarian  set out to  draw  up plans for a mission from  sermons of different  authors.  These pages contain  numerous extracts from  the  works of St.  John  Eudes,  St. Francis  de  Sales  and St.  Charles Borromeo.  One piece,  which  is  cer tainly  a later addition,  has as  title,  &#x27;Concerning  heretics.&#x27; Here  he gives  a method which,  if followed,  would make it easier  to  explain the  truths of the faith  to one of the &#x27;reformed&#x27; religion.  This  is  a proof that  the  missionary made a point of informing himself on  the procedure for winning  over the Protestants  who  were particularly numerous at La Rochelle and in  the  adjoining neighborhood.</p>
 <p>The  third part of the  book is  concerned with  a variety  of sub</p>
@@ -146,7 +155,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>4  The stimulus,  charm and bond:  &#x27;Where there  is  love,  there is no  labor,  or if there  is  labor,  the labor is  loved.&#x27; (!mit.  Christ,  bk . l.)</p>
 <p>5  The bond:  &#x27;The bond of perfection.&#x27;&#x27; (Col.  3.14)</p>
 <p>5th  (Repeated)  It is  the great  machine  which  makes  all  things  easy, no  matter  how  difficult  they may be. The machine  of the  mind  is</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p561"><span>pp. 561–562</span></div>
 <p>that power  of love  which  takes  one  from  the  world and carries  one to God.  (St.  Gregory)</p>
 <p>1  It enables  us  to  do everything  with  ease. 2  It gives  us  the courage to leave everything. 3  It enables  us  to  suffer everything  with  joy.</p>
 <p>The example  of the  saints:  &quot;They lived  by  faith,  they conquered kingdoms,  they  performed works  of justice,  they inherited  the promises.&quot; They said  with  St.  Paul:  &quot;For him  I  have  accepted the loss  of everything and  I  look  on everything  as  so  much  refuse,&quot; (Phil.  3.8)  or with  St.  Ignatius  the  Martyr:  &quot;Let fire,  beasts,  crosses, torments of the  devil  come  to me  as  long  as  I  have  the joy of pos sessing  Christ,&quot; or &quot;nothing will  come  between  me  and the  love  of God,  neither persecution  ... nor  troubles  or  worries  ... nor princes  ... neither  height  nor depth  ... nor danger.&quot; (Rom.  8.38, 39)</p>
@@ -178,7 +187,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>that charity is  proven.  &quot;Simon,  do you  love  me?  Feed  ... feed  ... &quot;  (Jn.  21.15)  &quot;It is  your  own  selves  that you  should  be  test ing.&quot; (11  Cor.  13.5.)</p>
 <p>&quot;We do not love  by word  or lips  (1.  Jn.  3.18),&quot;  but  by  deeds</p>
 <p>and  truth.  &quot;See the  crowd  of witnesses&quot;  (Heb.  12.1)  ... &quot;they have drunk  of the chalice  of the  Lord and  have  been made friends  of God.&quot; &quot;We  do  not live  in  love  without  there  be  sorrow  ... roses are gathered among  thorns.&quot; Love  with  all  one&#x27;s  heart:  that is,  cou rageously in  spite  of obstacles.</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p563"><span>pp. 563–564</span></div>
 <p>Love with  all  one&#x27;s  mind:  that is,  with  every  thought,  supremely  and discreetly,  for  love  is  discerning. Love  with  all  one&#x27;s  soul:  that is,  totally without  reservations,  deeply without  hypocrisy  for  love  is  tender. Love with  all  one&#x27;s strength:  that is,  courageously,  doing all,  aban doning  all,  suffering  all  for  God,  for  love  is  powerful.</p>
 <p>Conclusion: 1.  When  we  do not love  God,  even if we  perform marvels,  it  is</p>
 <p>a  waste  of life&#x27;s  precious  time.  &quot;Life is  lost,  if God  is  not loved.&quot; (St.  Augustine)</p>
@@ -214,7 +223,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>2  No  one dare listen  to his  voice.  Adam said,  &quot;I  heard  your</p>
 <p>voice  and  I  was  afraid.&quot;  ... &quot;Do not let  the  Lord  speak  to us,&quot; said the  Israelites.</p>
 <p>3.  No  one dared  look  at him.  &quot;No man  will  see  me  and  live.&quot;</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p565"><span>pp. 565–566</span></div>
 <p>&quot;We will  probably die  because  we  have  seen  the  ~ord.&quot;</p>
 <p>4  No one dared  approach  his  living seat which  was  the  Ark</p>
 <p>and  which  bore everywhere  the  dismal  traces  of death.  He  punished Osa because  of his  temerity  and  the fifty  thousand  Bethsamites  be cause  of their  curiosity and the  Philistines  because  of their  ungodli- ness.</p>
@@ -254,7 +263,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>hasten  to  follow  you  especially  because  of your gentleness  as  we hear  you  say  that you  do  not despise  the poor,  that  you  do  not  hate the  sinner,  that  you  did  not  reject  the  repentant  thief nor the  tear ful,  repentant woman,  nor  the  pleading  Canaanite woman,  nor  the woman  taken  in  adultery,  nor the  man sitting  in  the custom-house, nor  the pleading  publican,  nor  the  disciple  who  denied  you,  nor  the persecutor  of the  disciples,  nor your  executioners  ... we  hasten  to you  as  they did.&quot; (St.  Bernard) (Sermon 22  on  Song  of Songs)</p>
 <p>2  During  his  Passion  .  .  . at the washing of the  feet:  &quot;Do</p>
 <p>you  wash  my  feet?&quot;;  in  the garden  of olives:  &quot;Simon,  are  you  sleep ing?  ... The spirit  is  willing,  but  the flesh  is  weak&quot;  ... at the  kiss of Judas:  0  Judas,  how  monstrous  and  shameful  is  your  treachery! You  approach  as  a  friend,  &#x27;Amice&#x27;;  you  greet  him  as  a  disciple greets  his  master,  &#x27;Hail,  Master&#x27;;  you  kiss  him  as  a child  kisses  his father:  &quot;You  betray  the  Son of Man with  a  kiss?&quot;  as  a  cruel  serpent you  poison  him with  your  breath.  Jesus  says  to  him,  &quot;Friend,  if my enemy  had cursed  me  .. .&#x27;&#x27; ... during  all  his  passion  ... &quot;Jesus  re- mained  silent&quot;  ... on the  Cross:  &quot;Father,  forgive  them  ... today</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p567"><span>pp. 567–568</span></div>
 <p>you  will  be  with  me  in  paradise.&quot;</p>
 <p>3  After his  Resurrection:  &#x27;a lamb  in  a  manger,  a  lamb  born</p>
 <p>among tax-collectors  and sinners,  a  lamb  on the  Cross,  a  lamb  in bloody sacrifice and what is  more  marvellous,  a  lamb  on  a  kingly throne.  (Claud.  Aquavi.)  After  his  Resurrection,  out of charity  he remained  forty  days  with  his  apostles.  &quot;Greetings&quot;!  he  said  to the women who  sought  him  and  he  permitted them  to  kiss  his  feet. &quot;Mary,&quot; he  said  to  Mary .... What joy he  gave  to  St.  Peter!:  &quot;He appeared  to Peter&quot;  ... to the  disciples  of Emmaus,  &quot;Was  not  our heart  ... &quot; ... Was  there  anything  more  moving  than his  appear ance  to the  apostles  in  the cenacle  on the  very  day  of his  resurrec tion.  Recall  Joseph  who  made  himself known  to  his  brothers and who,  throwing  himself on their  necks  embraced  them  . . .  &quot;I  am Jo seph,  your  brother&quot;  ... What great clemency  he  showed  when  he returned eight days  afterwards  to  free  Thomas  from  unbelief ... the  sin  of this  apostle  was  great.  There  was  unbelief,  pride,  con tempt  of others,  stubbornness,  for  he  was  determined  not to  believe unless  he  saw  with  his  own  eyes  and touched  with  his  hands .... 0 unbelieving disciple!  If an  angel  came from  heaven,  would  you  not believe  him?  &quot;Unless I  see,  I shall  not believe.&quot; Even  if the  Blessed Virgin  ... &quot;I  will  not  believe.&quot;  Let  it  be.  A  &#x27;fiat&#x27; allows  us  to  be lieve  without  touching.  His  appearance  to St.  Paul:  &quot;I  am Jesus .... &quot;</p>
@@ -285,7 +294,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Saturday</p>
 <p>2  Particular examination of conscience. 1  Examination  of conscience. 2  Examination  of conscience. 1  Examination  of conscience. 2  General  consideration  of death. I  Dying  as  one  has  lived. 2  Happy death. 1  Qualities  of a good  penitent. 2  Further qualities. 3  Restitution. 1  Particular judgment. 2  Dignity  of the  Christian. 1  Hell. 2  Eternity of unhappiness. 1  The security  of penitence. 2  Sorrow and  tears . 1  Heaven . 2  Ways  of going  there. 1  Scandal. 2  Fraternal  correction and good example. 1  The necessity  of actual grace. 2  Devotion to  Mary. 1  Reconciliation . 2  Forgiveness  of sins. 3  Marriage. 1  Love  of Jesus  Christ. 2  Humility. 1  Lying. 2  Slander. 1  Gentleness  and  anger. 2  Obedience. 1  Purity. 2  Impurity. 1  Patience. 2  Reparation  to the  Blessed  Sacrament.</p>
 <p>Prayer.</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p569"><span>pp. 569–570</span></div>
 <p>5th Sunday</p>
 <p>Monday</p>
 <p>Tuesday</p>
@@ -324,7 +333,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>1  As  a  means  of waging  war against  God and 2  To  win  our soul over  to  him. Supreme  value  of soul!  ...</p>
 <p>1  It is  beautiful, 2  It is  immortal, 3  It is  precious:  in  its  principle,  its  value and its  purpose.</p>
 <p>4th  sermon</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p571"><span>pp. 571–572</span></div>
 <p>Holy Communion: 1  unworthy; 2  lukewarm; 3  fervent. 15th  sermon Good works:</p>
 <p>their  necessity; their qualities; and their  reward.</p>
 <p>16th  sermon Heaven</p>

@@ -8,13 +8,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --navy: #1a3a5c;
-  --navy-light: #2c5f8a;
-  --gold: #8b6914;
-  --gold-light: #c4960a;
-  --cream: #f5f3ed;
-  --text: #2a2a2a;
-  --text-light: #666;
+  --navy: #1a3a5c; --navy-light: #2c5f8a;
+  --gold: #8b6914; --gold-light: #c4960a;
+  --cream: #f5f3ed; --text: #2a2a2a; --text-light: #666;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.8; font-size: 16px; }
@@ -35,7 +31,7 @@ header .abbr-tag {
 nav.bread {
   background: white; padding: 12px 24px;
   border-bottom: 1px solid #e0dcd2; font-size: 0.88em;
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   position: sticky; top: 0; z-index: 10;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -64,6 +60,19 @@ nav.bread .sep { color: #ccc; }
 }
 .content h4 {
   font-size: 1em; color: var(--gold); margin: 1.2em 0 0.4em;
+}
+
+/* Page markers */
+.page-marker {
+  display: flex; align-items: center; margin: 1.8em 0 0.5em;
+  border-top: 1px solid #e8e4db;
+  padding-top: 10px;
+}
+.page-marker span {
+  background: var(--navy); color: white;
+  font-size: 0.72em; font-weight: 600; padding: 2px 10px;
+  border-radius: 3px; font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .nav-footer {
@@ -95,19 +104,20 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <div class="abbr-tag">H</div>
 </header>
 <nav class="bread">
-  <a href="../index.html#writings">Montfortian Network</a>
+  <a href="../index.html">Montfortian Network</a>
   <span class="sep">&rsaquo;</span>
   <a href="../index.html#writings">Writings</a>
   <span class="sep">&rsaquo;</span>
   <span>19. Hymns</span>
 </nav>
 <div class="content">
+<div class="page-marker" id="p519"><span>pp. 519–520</span></div>
 <h3>Introduction</h3>
 <p>Montfort could be called a missionary singer. With  the intuition of a zealous evangelizer he saw immediately the immense importance of song as supportive of his teaching,  ei ther as  a preparation for it or as  its continuation in  the minds and hearts of simple people to  whom  he always gave apostolic prefer ence.  For  their benefit he composed nearly 200 hymns on a great variety of subjects,  hymns  which  could be sung to  tunes of songs al ready  well-known.  Not that our missionary  was  the first  to  use  this device;  he simply adopted a practice already  in  vogue in  his time but brought to  bear on it his own genius and flair for composing. Popular hymns occupied an  important place in parish  missions.</p>
 <p>They  were sermons in  rhyme and song  that poet-preachers com posed,  basing  the  metre and tunes on existing songs of the day.</p>
 <p>Fr.  de  Montfort,  who  desired so much  an  effective apostolate and who  would seize upon  any medium  that  would bear fruit,  saw it as  an  obligation  to put his  natural gifts at the service of a method of apostolate that experience had proved so acceptable  to simple country folk and calculated to  enlighten  and convert them.  He saw here  a marvelous means of opening hearts to  the lessons  of the gos pel and extending its  message  to  the highways and into  the  homes of the faithful.</p>
 <p>Grande!,  Montfort&#x27;s first  biographer,  wrote eight years after the death  of the missionary:  &quot;The third means  was  the singing of hymns of which  he composed a whole  volume.&quot; M.  Blain,  Montfort&#x27;s friend  of his student days at the seminary,  tells  us that even at St. Sulpice Louis Marie  Grignion  &quot;busied himself composing spiritual songs  which  he intended to  use  in  his missions later on.&quot; This  was only the beginning.  It is  difficult,  with  a few exceptions,  to put a</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p521"><span>pp. 521–522</span></div>
 <p>date  to  the different  items of his  compositions,  but  we  can  safely say  that  the poetic career of Montfort extended over the  whole of his  missionary life.</p>
 <p>He brought,  however,  to  this medium his personal touch,  espe cially  his fiery zeal.  It  is  interesting  to  read on  this subject Hymns 1 and 2,  where  he gives  the justification for what he calls  &quot;my  verses and my songs.&quot; His real  aim  was  to  communicate the  teaching  of the gospel in  a form  easy  to retain  and not to  compose fine poetry; to give clear lessons and not to seek admiration.  We  can  safely af firm  that he has succeeded since many of his compositions have been  handed down from  generation  to  generation  even  to  our own day.</p>
 <p>That special aim  which  Fr.  de Montfort set for  himself explains</p>
@@ -133,7 +143,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>In our great  miseries. We  are  one Christian  family, All  brothers in  the  Lord;</p>
 <p>From your abundant store you  can</p>
 <p>A  mite to  us  accord.</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p523"><span>pp. 523–524</span></div>
 <p>Our God  has  only made you great</p>
 <p>To  be  our  fathers  dear,</p>
 <p>Our God has  furnished  you with  power</p>
@@ -189,7 +199,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Such charity wins  o&#x27;er  God&#x27;s  heart,</p>
 <p>Great  favors  will  ensue; An alms  extinguishes  the  fire Of all  his judgments true. Almsgiving  by  the sinner  brings The certain  hope  possessed,</p>
 <p>Hymns</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p525"><span>pp. 525–526</span></div>
 <p>To gain  one day  a  glorious  crown From  his  dear  Savior  blest.</p>
 <p>The  Triumph  of the  Cross</p>
 <p>&quot;La  croix est un  mystere&quot; No.  19</p>
@@ -208,7 +218,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>God&#x27;s  love  could  not resist Such  beauty or its  plea, Which  bade  Him  keep  a  tryst With our humanity. Coming to earth,  He said: This,  Lord,  and  nothing  more: Thy saving  Cross  imbed Here  in  My  bosom&#x27;s core.</p>
 <p>He took it,  found  it  fair,</p>
 <p>Hymns</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p527"><span>pp. 527–528</span></div>
 <p>Hymns</p>
 <p>An object not  of shame But honor,  made  it  share His  love&#x27;s  most  tender  flame. From childhood&#x27;s  morning  hour His  longing  kept  in  sight As  beauty would  a  flower The Cross of His  delight.</p>
 <p>At last  in  its  caress Long sought  for  eagerly, He died  of tenderness And  love&#x27;s  totality. That dear  supreme  baptism For which  His  heart  had cried, The Cross  became  His  chrism, Love&#x27;s  object  undenied.</p>
@@ -224,7 +234,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Is  cowardly and tame; Like  fire  to  a  coal The Cross sets  it  aflame. One  who  has  suffered  not, In  ignorance  is  bound; Only in  pain&#x27;s  hard lot Is  holy  wisdom  found.</p>
 <p>A  soul untried is  poor In  value;  new,  untrained, With destiny unsure And  little  wisdom gained. 0  sweetness  sovereign Which  the  afflicted  feels When  pleased  that  to  his  pain No human  solace  steals!</p>
 <p>&#x27;Tis  by the  Cross  alone God&#x27;s  blessing is  conferred, And  His  forgiveness  known In the  absolving  word .</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p529"><span>pp. 529–530</span></div>
 <p>He wants all  things  to  bear The mark  of that great  seal; Without it,  nought is  fair To  Him,  no  beauty  real.</p>
 <h4>21  Wherever  place  is  given</h4>
 <p>The Cross,  things  once  profane Become  instinct  with  heaven And shed  away  their  stain. On  breast and brow,  God&#x27;s sign, Worn proudly for  His  sake, Will  bless  with  Power divine Each task  we  undertake.</p>
@@ -240,7 +250,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>For life  I choose  thee  now , My  pleasure,  honor,  friend , Sole  object  of my  vow, Sole joy to  which  I  tend. For mercy&#x27;s  sake,  print,  trace Yourself upon my  heart, My arm,  my  forehead,  face; And not one  blush  will  start.</p>
 <p>Above  all  I  possess I  choose thy poverty; And  for  my  tenderness Thy sweet  austerity. Now  be  thy folly  wise And all  thy holy shame</p>
 <p>Hymns</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p531"><span>pp. 531–532</span></div>
 <p>As  grandeur in  my  eyes, My  glory  and my  fame.</p>
 <h4>31  When,  by  your  majesty,</h4>
 <p>And  for  your glory&#x27;s  sake, You  shall  have  vanquished  me, That conquest I  shall  take As  final  victory, Though  worthy  not to  fall Beneath thy  blows,  or be A  mockery  to  all.</p>
@@ -271,7 +281,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Beware ...</p>
 <p>I  am  your  friend,  believe  me,  do, Must  you  behave  like  pious  fools? It is  absurd  without  a  doubt To turn mere  trifles  into rules.</p>
 <p>Hymns</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p533"><span>pp. 533–534</span></div>
 <p>Beware . ..</p>
 <p>It&#x27;s  not what I alone  believe, Your  friends  and your  relations  shun Such over-zealous  practices; They surely  know  what is  not done.</p>
 <p>Beware  . ..</p>
@@ -305,7 +315,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Forgive the  dreadful  heritage</p>
 <p>Of harm  their  heresies  have  wrought.</p>
 <p>Pardon,  0  Sacred  Heart,  those who Neglect Thy Blessed  Sacrament.</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p535"><span>pp. 535–536</span></div>
 <p>Pardon Thy false  recipients,  too, Partaking,  yet  impenitent.</p>
 <p>Thy Heart of Hearts is  pierced thereby Something  the  Devil  cannot do. Though  anguished  by such  blasphemy, Let  still Thy pardon carry  through.</p>
 <p>Lord,  pardon all  unfaithful  priests, Betrayers  false  to Thy embrace; Forgive the  thousands at Thy Feasts Who come  ungarmented in grace.</p>
@@ -340,7 +350,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Jesus  is  glorified By  honors  paid  to  her. In  error those  abide Who  otherwise aver. To love  her  Son the Jess For loving  her would  be An insult  pardonless To Christian  piety.</p>
 <p>Away then,  heretic With scruples  overblown! Away your  false  critique And  its  presumptuous  tone! Unceasingly  I&#x27;ll  pray To her,  my  Paragon Of grace,  and in  that way Be  pleasing  to  her  Son.</p>
 <p>In  mercy she excels; Great  is  her gentleness. Not  one soul  she  repels That seeks  her  tenderness. Jesus  himself constrains My  soul  to grasp  and prize</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p537"><span>pp. 537–538</span></div>
 <p>The grace her  suffrage gains. Dare I  do otherwise?</p>
 <p>She  is  Queen-Sovereign Of all  the  universe. Heaven is  her  domain; Her  heel  is  Satan&#x27;s curse. She  is  the treasurer Of all  Christ&#x27;s goods.  She  lifts Sin&#x27;s  bar and bids  us  share The Holy Spirit&#x27;s  gifts.</p>
 <p>She  is  the  cloister-cell Where  God became  a  Child; Where  man,  0  miracle, With God was  reconciled. She  is  God&#x27;s daughter  fair, Mother of Grace  Divine, Made by  her fiat-prayer The Holy Spirit&#x27;s shrine.</p>
@@ -364,7 +374,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>On earth who  serve  her  best.</p>
 <p>Predestined ones,  prepare</p>
 <p>Your ears.  I  tell  things  true,</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p539"><span>pp. 539–540</span></div>
 <p>Marvels  sublime  and rare</p>
 <p>Of her  who  mothered you.</p>
 <p>Mary is  my  great wealth;</p>
@@ -423,7 +433,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>&quot;Mille fois  mon coeur  vous desire&quot; No.  112</p>
 <h4>1  My  Jesus,  I  long  ardently</h4>
 <p>For you  to come to me  this  day; Without you life  is  misery. Come to me  soon,  I  pray.</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p541"><span>pp. 541–542</span></div>
 <p>2  Without the  fervor  that you bring, 0  Love,  I  languish  night and day; And do  you  not desire  my  love? Inflame  my  heart,  I  pray.</p>
 <p>Good Shepherd,  bear your  lost  sheep  home Within  your  arms,  whene&#x27;er  I  stray; From ravening  wolves  that round  me  roam Oh,  keep  me  safe,  I  pray.</p>
 <p>0  bread  of Life,  for  you  I sigh, Give  me  yourself without delay; For  otherwise  my  soul  must  die. Give  me  to eat,  I  pray.</p>
@@ -455,7 +465,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>You  leapt  to  her  as  light  to  flame; She  gave  you  your embodiment, In her  Incarnate you  became.</p>
 <p>My  faith  no  longer  flags;  I  know it  shall  avail</p>
 <p>Against  all  odds  to  win  my plea That you,  0  Wisdom,  come  to  me, Since  God has  said  and cannot  fail:</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p543"><span>pp. 543–544</span></div>
 <p>&quot;Who prays  with  faith,  his  boon shall  win; &quot;Who knocks  with  faith  shall  enter in; &quot;Who seeks  with  faith  shall  find.&quot; Amen.</p>
 <p>Act  of  Reparation  to  the Blessed  Sacrament</p>
 <p>&quot;Soupirons,  gemissons,  pleurons amerement&quot; No.  136</p>
@@ -485,7 +495,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>man;</p>
 <p>She&#x27;ll  read  a  bit,  and  roll  her eyes,  and  fix  her  hat  with  care, Then look around the chapel  to  see  who&#x27;s watching her.</p>
 <p>0  strike  them,  God almighty,  strike this  ungrateful  lot! At least  let  them  respect  thee,  if they will  love  thee  not. Too long  hast  thou been  patient;  thy justice let  them see; Let  fear  replace  that insolence  with  which  they  now  mock  thee.</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p545"><span>pp. 545–546</span></div>
 <p>Thy glory  has  been ravished,  dishonored is  thy  name, Such sinners against thy majesty must bow their heads in shame. And yet  restrain thy anger,  at least  a  while,  I  pray; The greatness  of their wickedness  with greater good  repay.</p>
 <p>Forgive them,  dearest  Jesus,  for  they  know  not what  they do; Remember  thy great  Passion,  and have  mercy  on us  too. And if we  are  unable  to  atone  for  all  our guilt, Accept  our feeble  homage,  and treat  us  as  thou wilt.</p>
 <p>We  confess  before thy  altar  that we  are  sinners  still; Thou canst  punish us  or spare  us  according to thy  will. But remember thy great mercy and the tears that we  have shed, And hear our cries  for  pardon,  for our hearts are  full  of dread.</p>
@@ -527,7 +537,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>&quot;Man  cher parent,  mon cher voisin&quot; No.  163</p>
 <p>Arise,  dear  brother,  come,  my friend, Let  us  arise  before  the  sun, God calls  us  to his  festival, The mission  has  begun. So  be  there  ice  or be  there snow, To gain  God&#x27;s grace,  to church  we&#x27;ll  go.</p>
 <p>In spite  of every  obstacle, In spite  of cold and winter&#x27;s  sting, In spite  of all  the  body&#x27;s  groans, The mission  hymn  we&#x27;ll  sing. So  be  there  wind  or be  there rain, Off to the  church,  God&#x27;s grace  to gain.</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p547"><span>pp. 547–548</span></div>
 <p>The family,  they all  call  it  mad, The devil  and world  protest: &quot;Stay by  the  fireside,  stay  in  bed.&quot;</p>
 <p>But in  the  church  we&#x27;ll  rest.</p>
 <p>And be  there  ice  or  be there  frost, The mission grace  must  not be  lost.</p>

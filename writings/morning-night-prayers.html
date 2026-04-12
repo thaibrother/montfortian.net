@@ -8,13 +8,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --navy: #1a3a5c;
-  --navy-light: #2c5f8a;
-  --gold: #8b6914;
-  --gold-light: #c4960a;
-  --cream: #f5f3ed;
-  --text: #2a2a2a;
-  --text-light: #666;
+  --navy: #1a3a5c; --navy-light: #2c5f8a;
+  --gold: #8b6914; --gold-light: #c4960a;
+  --cream: #f5f3ed; --text: #2a2a2a; --text-light: #666;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.8; font-size: 16px; }
@@ -35,7 +31,7 @@ header .abbr-tag {
 nav.bread {
   background: white; padding: 12px 24px;
   border-bottom: 1px solid #e0dcd2; font-size: 0.88em;
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   position: sticky; top: 0; z-index: 10;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -64,6 +60,19 @@ nav.bread .sep { color: #ccc; }
 }
 .content h4 {
   font-size: 1em; color: var(--gold); margin: 1.2em 0 0.4em;
+}
+
+/* Page markers */
+.page-marker {
+  display: flex; align-items: center; margin: 1.8em 0 0.5em;
+  border-top: 1px solid #e8e4db;
+  padding-top: 10px;
+}
+.page-marker span {
+  background: var(--navy); color: white;
+  font-size: 0.72em; font-weight: 600; padding: 2px 10px;
+  border-radius: 3px; font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .nav-footer {
@@ -95,13 +104,14 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <div class="abbr-tag">MP/NP</div>
 </header>
 <nav class="bread">
-  <a href="../index.html#writings">Montfortian Network</a>
+  <a href="../index.html">Montfortian Network</a>
   <span class="sep">&rsaquo;</span>
   <a href="../index.html#writings">Writings</a>
   <span class="sep">&rsaquo;</span>
   <span>18. Morning and Night Prayers</span>
 </nav>
 <div class="content">
+<div class="page-marker" id="p509"><span>pp. 509–510</span></div>
 <h3>Introduction In the  original rules  of the Daughters of Wisdom</h3>
 <p>and the Missionary  Priests,  Fr.  de Montfort speaks  of prayers  that both  Congregations  must say,  but he does  not give any further de tails.</p>
 <p>We  do  not possess  the  original manuscript of the prayers.  How ever,  in  the report  of the general chapter of the  Company  of Mary held on  the 4th  and 5th  of June  1859,  we find this  note:  &quot;The chap ter,  desiring  to  adhere as  closely as possible to  the  wishes  of the Venerable  Founder,  prescribes that  the  morning and night prayers, recently published on  the 14th  of April,  be said throughout  the Congregation.  They are a faithful copy of the author&#x27;s own  manu script.&quot; (General archives of the  Company  of Mary.)</p>
@@ -112,7 +122,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>composition?</p>
 <p>The  &quot;Little Crown,&quot;  which  is  inspired by the  text  of the book of</p>
 <p>Revelation,  Chapter 12,  1-18,  is  a form  of prayer which  was  cur rently used in  the  17th  century.  Among its promoters were:  St.  Jo seph  Calasanctius  (d.  1648),  St.  Andrew Avellino (d.  1630),  Alexis of Salo,  Francis  0/impio (d.  1639).  The  Jesuits  commended it  to  the members of their Marian  congregations.  Blessed Julian  Maunoir put it into  verse,  and had it sung during  his  missions  in  Brittany.</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p511"><span>pp. 511–512</span></div>
 <p>Morning &amp; Night prayers</p>
 <p>The  sermon  of St.  Bernard,  &quot;In  signum  magnum,&quot; or &quot;De duo cecim stellis,&quot; served as  a basis for some versions.  That  of Fr.  de Montfort,  however,  derives  its structure from  the  work  of Fr. Poire,  entitled,  &quot;The  Triple  Crown.&quot;</p>
 <p>The  source of the final prayer of the Little Crown  is  uncertain; it evokes ideas and contains expressions reminiscent  of ecclesiastical writers  of the Middle Ages,  and adopted by other authors of the seventeenth  century.</p>
@@ -154,7 +164,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>gaudia Coelorum. Gaude,  Maria  Virgo; Gaude millies!</p>
 <p>12  Ave,  Maria. Gloria  tibi  sit,  in  vita et in  morte Adjutrix praesentissima!</p>
 <p>Tecum  nos  perducas  ad  Coelorum regna.</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p513"><span>pp. 513–514</span></div>
 <p>Gaude,  Maria Virgo; Gaude millies! Gloria Patri,  et Filio,  etc.</p>
 <p>s</p>
 <p>Oremus</p>
@@ -191,7 +201,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>cannot enclose. Rejoice,  0  Virgin  Mary. Rejoice  forever  and ever. Hail Mary.</p>
 <p>You  are  all  beautiful,  0  Mary. And  free  from  every stain of sin.</p>
 <p>Rejoice,  0  Virgin  Mary.</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p515"><span>pp. 515–516</span></div>
 <p>Rejoice  forever  and ever. Hail Mary.</p>
 <p>The gifts  bestowed  on  you,  Virgin  Mary. Outnumber the  stars  of heaven.</p>
 <p>Rejoice,  0  Virgin Mary. Rejoice  forever  and ever.. Glory be to  the Father. II</p>
@@ -233,6 +243,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>My  God,  I  love  you  with  all  my  heart,  above  all  things,  because</p>
 <p>you  are  infinitely worthy of my  love;  I  also  love  my  neighbor as myself for  your  sake.  Amen.</p>
 <p>My God,  I  hope  for  the  assistance  of your grace  to  obtain life everlasting  through the  merits  of Jesus  Christ,  my  Savior.  Amen. My  God,  I  firmly  believe  all  that the  Catholic,  Roman and Apostolic  Church  believes  and  teaches,  because  you,  the  sovereign Truth,  have  revealed  it.  Amen.</p>
+<div class="page-marker" id="p517"><span>pp. 517–518</span></div>
 <p>Morning &amp;  Night  prayers</p>
 <p>My  God,  I  thank you with  all  my  heart  for  all  the  graces  you have  bestowed  on me  during  my  whole life,  and especially  for  those of this  day.  Amen.</p>
 <p>My  God,  I beseech  you  to  enlighten  me  now  as  if it were  the hour  of my death,  so  that I  may know  the  sins  by which  I  have  of fended  you.  Amen. 16 thought,  word and deed.</p>
@@ -267,7 +278,6 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>(Here follows  the Magnificat.)</p>
 <p>After the &#x27;:fagnificat has  been  said in  two  choirs,  the subject</p>
 <p>23 of mental prayer IS  read.  Then  the following  verses are said kneel mg: Maria,  Mater gratiae, Dulcis  parens  dementiae, Tu  nos  ab hoste protege, Et  mortis  hora suscipe. Jesu,  tibi  sit gloria, Qui  natus  es  de Virgine, Cum Patre et  almo  Spiritu In sempiterna saecula.  Amen. Praised and blessed  be  at every moment. The most  holy and divine  Sacrament. Nos,  cum  prole pia,  benedicat  Virgo  Maria! Amen.</p>
-<p>God Alone</p>
 </div>
 <div class="nav-footer">
   <a href="montforts-will.html">&larr; Previous</a>

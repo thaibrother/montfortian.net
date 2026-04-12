@@ -8,13 +8,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --navy: #1a3a5c;
-  --navy-light: #2c5f8a;
-  --gold: #8b6914;
-  --gold-light: #c4960a;
-  --cream: #f5f3ed;
-  --text: #2a2a2a;
-  --text-light: #666;
+  --navy: #1a3a5c; --navy-light: #2c5f8a;
+  --gold: #8b6914; --gold-light: #c4960a;
+  --cream: #f5f3ed; --text: #2a2a2a; --text-light: #666;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.8; font-size: 16px; }
@@ -35,7 +31,7 @@ header .abbr-tag {
 nav.bread {
   background: white; padding: 12px 24px;
   border-bottom: 1px solid #e0dcd2; font-size: 0.88em;
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   position: sticky; top: 0; z-index: 10;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -64,6 +60,19 @@ nav.bread .sep { color: #ccc; }
 }
 .content h4 {
   font-size: 1em; color: var(--gold); margin: 1.2em 0 0.4em;
+}
+
+/* Page markers */
+.page-marker {
+  display: flex; align-items: center; margin: 1.8em 0 0.5em;
+  border-top: 1px solid #e8e4db;
+  padding-top: 10px;
+}
+.page-marker span {
+  background: var(--navy); color: white;
+  font-size: 0.72em; font-weight: 600; padding: 2px 10px;
+  border-radius: 3px; font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .nav-footer {
@@ -95,13 +104,14 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <div class="abbr-tag">RVP</div>
 </header>
 <nav class="bread">
-  <a href="../index.html#writings">Montfortian Network</a>
+  <a href="../index.html">Montfortian Network</a>
   <span class="sep">&rsaquo;</span>
   <a href="../index.html#writings">Writings</a>
   <span class="sep">&rsaquo;</span>
   <span>20. Rules on Voluntary Poverty</span>
 </nav>
 <div class="content">
+<div class="page-marker" id="p549"><span>pp. 549–550</span></div>
 <h3>I</h3>
 <h3>Introduction</h3>
 <p>This text,  found in  Montfort&#x27;s Notebook,  appears quite abruptly among pages  which  had been  left blank.  The subject treat ed is  unrelated to  other matters of the Notebook,  which  concen trates  in  its first part on  the Blessed  Virgin  and in  the second on Jesus  Christ. Montfort must have  written  these notes at a time  when the  theme of poverty for lay people living  in  community presented itself to  him  with  a certain  immediacy.  The  rules are  addressed to Brothers  who,  though  living  in  community,  still remained in  close relationship  with  their environment and their families.</p>
@@ -109,7 +119,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Rules  on voluntary poverty in  the  early church Basic  truths  regarding  poverty of spirit.</p>
 <p>I  w e  cannot serve  both God and money. 2 the root and source  of all  evils.  3  It is  a  misfortune to  be  rich.</p>
 <p>I  Money is  the god  of the wicked.  2  The desire  for  money is</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p551"><span>pp. 551–552</span></div>
 <p>Rules:  Voluntary  po verty</p>
 <p>in  the  money they  have  earned  or acquired,  having subtracted what is  necessary  for  their  upkeep.</p>
 <p>4)  Holy obedience,  which,  together with  the  vow  of poverty,  re moves  selfishness  in  the  necessary  use  of material possessions,  will nevertheless  allow  them  to draw  on the small personal  income aris ing  from  their  patrimony or work,  (i)  for  their  own  upkeep  and the maintenance of their  family,  (ii)  for  almsgiving,  (iii)  for  the  mainte nance  of their  essential  possessions.</p>

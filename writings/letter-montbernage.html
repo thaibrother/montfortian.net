@@ -8,13 +8,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --navy: #1a3a5c;
-  --navy-light: #2c5f8a;
-  --gold: #8b6914;
-  --gold-light: #c4960a;
-  --cream: #f5f3ed;
-  --text: #2a2a2a;
-  --text-light: #666;
+  --navy: #1a3a5c; --navy-light: #2c5f8a;
+  --gold: #8b6914; --gold-light: #c4960a;
+  --cream: #f5f3ed; --text: #2a2a2a; --text-light: #666;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.8; font-size: 16px; }
@@ -35,7 +31,7 @@ header .abbr-tag {
 nav.bread {
   background: white; padding: 12px 24px;
   border-bottom: 1px solid #e0dcd2; font-size: 0.88em;
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   position: sticky; top: 0; z-index: 10;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -64,6 +60,19 @@ nav.bread .sep { color: #ccc; }
 }
 .content h4 {
   font-size: 1em; color: var(--gold); margin: 1.2em 0 0.4em;
+}
+
+/* Page markers */
+.page-marker {
+  display: flex; align-items: center; margin: 1.8em 0 0.5em;
+  border-top: 1px solid #e8e4db;
+  padding-top: 10px;
+}
+.page-marker span {
+  background: var(--navy); color: white;
+  font-size: 0.72em; font-weight: 600; padding: 2px 10px;
+  border-radius: 3px; font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .nav-footer {
@@ -95,13 +104,14 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <div class="abbr-tag">LPM</div>
 </header>
 <nav class="bread">
-  <a href="../index.html#writings">Montfortian Network</a>
+  <a href="../index.html">Montfortian Network</a>
   <span class="sep">&rsaquo;</span>
   <a href="../index.html#writings">Writings</a>
   <span class="sep">&rsaquo;</span>
   <span>14. Letter to the People of Montbernage</span>
 </nav>
 <div class="content">
+<div class="page-marker" id="p487"><span>pp. 487–488</span></div>
 <h3>Introduction</h3>
 <p>G rignion  de  Montfort,  having been  released from  his post</p>
 <p>as chaplain of the general hospital of Poitiers in  1705,  obtained from Mgr.  de  Ia  Poype,  Bishop of Poitiers,  permission  to preach  missions in  the  town  and suburbs  of Poitiers.</p>
@@ -109,7 +119,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>The  original manuscript of this  letter has disappeared,  but we possess two  very  early  texts given  by his  biographers,  Grandet and Besnard,  which  are  almost identical.  The  text given  here  is  that of Besnard who  introduces it  with  these  words:  &quot;1 have no hesitation  in including it (the  letter)  here,  for it is an  exact copy of the  text  which has been juridically compared with  the original before being passed on  to  me.&quot;</p>
 <p>Letter to the  People of Montbernage</p>
 <p>Dear  people  of Montbernage .1 St.  Saturnin.  St.  Simplicien. La  Resurrection  and  others 2</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p489"><span>pp. 489–490</span></div>
 <p>who  profited  from  the  mission which  Jesus  Christ.  my  Master. has  just  given you. greetings  in  Jesus  and  Mary.</p>
 <p>No t  being able  to  speak  to  you  personally,  since  holy  obe</p>
 <p>dience  prevents  me,3  I  take the liberty  of writing to  you  on my  de parture,  as  a  father  writing to  his  children,  not to teach  you  any thing  new,  but to confirm you  in  the  truths  I  have  already  taught you.</p>
@@ -125,7 +135,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Alone and poor (cf.  Ps.  24:16)  as  I am,  I  would certainly  per</p>
 <p>ish  were  I  not supported  by  Our Lady and  the  prayers  of good people,  especially your  own.  These  are  obtaining for  me  from  God the gift  of speech  or divine  Wisdom,  which  will  be the  remedy  for all  my  ills  and a  powerful  weapon  against all  my enemies  (cf.  LEW 95-97).</p>
 <p>With Mary it  is  easy.  I  place  all  confidence  in  her,  despite  the snarls  of the  devil  and  the  world  and I  say  with  St.  Bernard,  &quot;In  her I  have  placed  unbounded confidence;  she is  the whole  reason  for my  hope.&quot;9  Have these  words  explained  to  you  for  I  would  not have dared  to  propose them  on my  own  authority.  Through Mary  I  will seek  and  find  Jesus;  I  will  crush  the  serpent&#x27;s  head  and overcome  all  489</p>
-<p>God  Alone</p>
+<div class="page-marker" id="p491"><span>pp. 491–492</span></div>
 <p>my  enemies  as  well  as  myself,  for  the greater glory  of God.</p>
 <p>Farewell  but  not goodbye,  for  if God spares  me,  I shall  pass this  way  again,  either  to stay  for  a  short while,  subject  to the  obedi ence  I owe  to  your  good  bishop  who  is  so  zealous  for  the  salvation of men  and so  compassionate to  us  in  our weakness,  or  while  on my  way  to  some  other place;  for  since  God is  my  Father,  wherever he  is  offended by  sinners,  there is  my  dwelling-place.</p>
 <p>11Let  tftose  wFto  cfo  goocC  go  on  cfoing  gooci. Let tFte  undean  continue  to  6e  undean  (Rev.  22:11). For  some  tFte  sme[[ of cfeatfi  fwfs  to  cfmth, For  otfters tFte sweet sme[ of Cife  fwfs  to  Cife&quot;  (2  Cor.  2:16).</p>

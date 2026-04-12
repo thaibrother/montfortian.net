@@ -8,13 +8,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --navy: #1a3a5c;
-  --navy-light: #2c5f8a;
-  --gold: #8b6914;
-  --gold-light: #c4960a;
-  --cream: #f5f3ed;
-  --text: #2a2a2a;
-  --text-light: #666;
+  --navy: #1a3a5c; --navy-light: #2c5f8a;
+  --gold: #8b6914; --gold-light: #c4960a;
+  --cream: #f5f3ed; --text: #2a2a2a; --text-light: #666;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.8; font-size: 16px; }
@@ -35,7 +31,7 @@ header .abbr-tag {
 nav.bread {
   background: white; padding: 12px 24px;
   border-bottom: 1px solid #e0dcd2; font-size: 0.88em;
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   position: sticky; top: 0; z-index: 10;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -64,6 +60,19 @@ nav.bread .sep { color: #ccc; }
 }
 .content h4 {
   font-size: 1em; color: var(--gold); margin: 1.2em 0 0.4em;
+}
+
+/* Page markers */
+.page-marker {
+  display: flex; align-items: center; margin: 1.8em 0 0.5em;
+  border-top: 1px solid #e8e4db;
+  padding-top: 10px;
+}
+.page-marker span {
+  background: var(--navy); color: white;
+  font-size: 0.72em; font-weight: 600; padding: 2px 10px;
+  border-radius: 3px; font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .nav-footer {
@@ -95,13 +104,14 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <div class="abbr-tag">L</div>
 </header>
 <nav class="bread">
-  <a href="../index.html#writings">Montfortian Network</a>
+  <a href="../index.html">Montfortian Network</a>
   <span class="sep">&rsaquo;</span>
   <a href="../index.html#writings">Writings</a>
   <span class="sep">&rsaquo;</span>
   <span>1. Letters</span>
 </nav>
 <div class="content">
+<div class="page-marker" id="p1"><span>pp. 1–2</span></div>
 <h3>Introduction</h3>
 <p>oth;ng helps us bett&quot; to  undmtond an  autho&#x27; and h~</p>
 <p>N works than  his  correspondence.  It is for this  reason  that  we  begin this  collection  of Montfort&#x27;s  works  with  his  letters.</p>
@@ -111,6 +121,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>This  collection  of letters and fragments  of letters  is  the sum-to</p>
 <p>tal of all we  now possess of his personal correspondence.  We  can only hazard a guess as  to  how many letters  have  been  lost.  We  do not, for example,  possess any of the letters  he  wrote  to  his personal friend,  Fr.  Blain,  and we  know that Mother Marie  Lduise,  the first Daughter of Wisdom,  was  ordered by her confessor to  burn several letters she received from  him.  Other losses  have been pointed out by his biographers.  However by all accounts,  even  if we possessed all his correspondence,  we  do  not think they  would fill a book of any appreciable size.  Evidently Saint Louis Marie  was  not a great  letter writer.</p>
 <p>The  letters and fragments  are  taken from  several sources.  There exist  only three  original manuscripts,  which  are possessed respective ly  by the Montfort Fathers,  the Daughters of Wisdom,  and the Do minican Fathers  in  Rome.  The  others are  quoted in  different biogra- phies of the saint.</p>
+<div class="page-marker" id="p3"><span>pp. 3–4</span></div>
 <p>Recipients Fr. Alain Robert (Louis Marie&#x27;s uncle) Fr. Leschassier (his confessor) Guyonne Jeanne (Louise) (his sister) A religious Sister of the Blessed Sacrament A religious Sister Mother Marie Louise of Jesus His mother The parish priest of Bn!al Fr. de Ia Carriere The Master-General of the Dominicans Sister de Ia Conception Marie Regnier and Madame Regnier The Community of La Sagesse Mademoiselle Dauvaise</p>
 <p>Letters 1  2  3  4 5  6  8  9  10  11 7  12  17  18  19  24  26 13 14 15  16  25  27  28  29  34 20 21 22 23 27  29  31 30 32 33</p>
 <h4>Letter  1 [Fragment] Source  Grandet. 1</h4>
@@ -136,6 +147,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>When  Fr.  de  Ia  Barmondiere died,  the seminary died with  him. The students divided into  two groups.  Some joined the  &#x27;Little&#x27; Semi nary of St.  Sulpice5  and the  others,  i.e.  the poorest,  among  whom was Louis Marie,  joined a community similar but even poorer than the  one he had left.  This  community  was founded by Fr.  Fran~ois Boucher on  the grounds of Montaigu  college  not far from  the Sor bonne.</p>
 <p>Here  the young man  began  his second year of theology.  During</p>
 <p>his stay he  became ill and was  taken  to  the H8tel-Dieu.  After a se ries  of terrible blood-lettings from  which  no one thought he  would recover,  he regained his health and then  entered the Little Seminary of St.  Sulpice.  This  letter tells of the circumstances surrounding this change.</p>
+<div class="page-marker" id="p5"><span>pp. 5–6</span></div>
 <p>lith of July,  1695</p>
 <p>My dear uncle,</p>
 <p>May  the perfect love  of God reign  in  our hearts!</p>
@@ -168,6 +180,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Dear Reverend  Father,</p>
 <p>May  the perfect  love  of God reign  in our  hearts! I cannot tell  you  how  much  pleasure your  short letter gave me. 1 2  It shows  the  bond of charity which  unites  you  and my  un worthy self,  a bond God  has  established  and  wishes  to maintain.  It is  with  this  in  mind that I  am  writing  to tell  you  briefly about my state  of mind  at the  moment.  I  have  not found  here  what  I  had hoped  for and what  led  me  to  leave  such  a  holy  place  as  St.  Sulpice, almost against  my better judgement.</p>
 <p>My intention  was,  as yours  was  too,  to prepare  for  mission work  and especially  for  teaching  catechism to  the poor,  since  this  is what  attracts  me  most.  But I  am not doing that at all  and I  do  not think  that I shall  ever  do  it  here,  for  there are very  few  people in</p>
+<div class="page-marker" id="p7"><span>pp. 7–8</span></div>
 <p>the  house and no  one has any experience except  Fr.  Leveque.  He is unable  to  undertake missions  now because  of his  age and even  if his great zeal  impelled  him  to  undertake  them,  Fr.  Desjoncheres 13 would not allow it as  he  told  me  himself.  There is  not even  half the organization and  observance here as  there was  at St.  Sulpice and it seems  that as  things  are,  there  could  never  be  any  improvement.  It seems  to  me  that  there are  four  types  of people  here,  whose aims and intentions are  quite different:-</p>
 <p>1  There are  five  people  in  the community proper of whom</p>
 <p>two  are  incapable  of any active  work.</p>
@@ -196,6 +209,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>On the  fourth  Sunday in  April,  I received a  letter written  at the request  of Madame de  Montespan, 16  from my  sister at Fontevrault, inviting me  to  be present when  she  received  the  Religious  habit which  was  to take place the  following  Tuesday.  I left  the same  day on  foot and arrived  at Fontevrault on Wednesday morning,  the  day after the  ceremony.</p>
 <p>During the  two  days  I spent at  Fontevrault  I  was  privileged  to</p>
 <p>have  several  private conversations  with  Madame de  Montespan.  She asked  me about many things,  especially about myself.  She asked me what  I  wanted to do.  I  answered very  simply  telling  her about the attraction  you  know  I  feel  to  work  for  my  brothers,  the poor.  She told me  that she very  much  approved of my plans,  the more  so  that she  knew  from  her  own  experience that instruction of the poor on the personal  level  was  much  neglected.  She was  prepared to give me,  if I would  accept  it,  a  canonry which  was  under  her authority. I thanked  her  humbly  but promptly assured her that I  would  never</p>
+<div class="page-marker" id="p9"><span>pp. 9–10</span></div>
 <p>exchange divine Providence  for  a  canonry or a  benefice. On my re fusal,  she told  me  to go  and  see the Bishop of Poitiers and tell  him my plans.  Although  I  had  no  inclination  whatever  to satisfy  Ma dame  de  Montespan&#x27;s  wishes,  as  much because of the twenty-eight leagues that  I should have  to  travel as  for  many other reasons,  I obeyed  her blindly  believing this  was  God&#x27;s  holy will,  which  was  all I  wanted.</p>
 <p>I  arrived  at Poitiers the day before the feast  of SS.  Philip and</p>
 <p>James  and  I  had  to wait four  days  to  see  the bishop who  was  due to return from  Niort.</p>
@@ -216,6 +230,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>May  the perfect  love  of God reign in our hearts!</p>
 <p>Even though we  are far  from  each  other,  we  are together  in</p>
 <p>spirit  because  you  are so close to Jesus  Christ and  his  holy  Mother, and both  you  and  I  are children  of divine  Providence though I am unworthy to be  so  called.  It would  be  better to  call  you a  novice of divine  Providence  because  you  are just beginning  to  practise  the trust  and perfect abandonment which God asks  of you.  You  will  be a  professed  Daughter of Providence only when  your abandonment is  perfect and your sacrifice complete.  God wants  you,  my  dear sis ter,  he  wants  you to be separated  from  everything that is  not him self,  even if it  means  being deserted  by everyone.  But be glad  and rejoice,  you  who  are the servant and the  spouse  of Jesus,  when  you resemble  your  master and spouse.  Jesus  is  poor;  Jesus  is  aban doned;  Jesus  is  despised  and rejected  as the refuse  of the world. You are indeed  happy,  Louise Grignion,  if you are poor in  spirit,</p>
+<div class="page-marker" id="p11"><span>pp. 11–12</span></div>
 <p>abandoned,  despised  and like  refuse  cast  out from  the house  of St. Joseph.  It is  then that you will  be  truly the servant and spouse  of Christ and a  truly professed  daughter  of divine  Providence,  even  if not professed as  a  religious.  What God wants  of you,  my dear  sis ter  is  that you  should live  each  day  as  it  comes,  like  a  bird in  the tre~s,  without worrying about tomorrow.  Be at  peace and trust in divine  Providence  and the Blessed  Virgin,  and do  not seek anything else  but to please God and love  him.  There is  an unshakeable  truth, a  divine  and eternal axiom,  as true as  the  existence  of one God (would  to God I  could engrave  it on your  mind  and heart!):  &#x27;Seek first  the  kingdom  of God and his justice  and  all  the rest will  be add ed  unto  you.&#x27; If you  fulfil  the  first  part of this  declaration,  God, who  is  infinitely faithful,  will  carry out the  second;  i.e.  if you serve God and  his  holy  Mother faithfully  you will  want for  nothing in this  world  or  the  next.  You  will  not even  lack  a  brother-priest  for  I will always  be  with  you  in my  sacrifices  so  that you may  more  fully belong to Christ in  your sacrifice. I  greet your Guardian Angel.</p>
 <p>1701</p>
 <h4>Letter  8 Source  Process of canonization.</h4>
@@ -246,6 +261,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Canonization process. Fr.  Leschassier. Le  Pellerin. 16th  of September,  1701.</p>
 <p>Louis Marie  is confronted with  choice of work either in  Poi</p>
 <p>tiers or Nantes.  He makes known  to  his director  his uncertainty as to  which  to  choose.</p>
+<div class="page-marker" id="p13"><span>pp. 13–14</span></div>
 <p>16th  of September,  1701</p>
 <p>To Reverend Father Leschassier, Superior  of the Seminary  of St.  Sulpice, Paris. Reverend and dear  Father in Jesus  Christ,</p>
 <p>May  the  perfect  love  of God reign  in our hearts!</p>
@@ -274,6 +290,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Reverend  and dear Father in Jesus  Christ,</p>
 <p>May the perfect love  of God reign  in  our  hearts! I am  in  the junior seminary at Poitiers  where  the  Bishop  has found  me  a  place while  waiting  for  the poorhouse authorities to  re ceive  me.  For almost a  fortnight  I  have  been teaching catechism  to the beggars  of the  town  with  the  approval  and help  of the Bishop.  I visit  the inmates  of the prisons  and the  sick  in  the  hospitals  preach ing  to them as  well  as sharing  with  them  the alms  I  receive.</p>
 <p>The  poorhouse  for  which  I am destined  is  a  house  of discord where  there is  no  peace whatever.  It is  also  a  house of privations, lacking temporal and  spiritual goods.  But  I trust  that  our Lord, through  the intercession of my  good  Mother Mary,  will  turn it  into a  holy  place,  one that will  become rich  and  peaceful.  So  you see  I am  in great  need  of your  help.</p>
+<div class="page-marker" id="p15"><span>pp. 15–16</span></div>
 <p>The matrons  of the poorhouse want me to  have  my  meals  with them as  some  of my  predecessors  did.  But I  won&#x27;t  hear  of it.  Am I doing the right  thing?</p>
 <p>I  explained to the Bishop that even  in the poorhouse I  do  not wish  to  be  separated from  my  mother,  divine  Providence,  and  with this  in  mind  I am  happy to share  the meals  of the poor and to  have no  fixed  salary.  The Bishop  agreed  heartily to  this  and offered to act as  a  father  to me.  Have I  done the right  thing?</p>
 <p>I am  continuing  here  several things  I did  at Nantes.  I am sleep</p>
@@ -295,6 +312,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>The  bishop,  unable to  resist  the  insistent appeals  of the poor any  longe~, allowed  me  to go  to  them shortly after All  Saints  Day.  I en.tered  this  poorhouse,  or  rather this  poor Babylon,  quite deter mmed  to  bear in  union  with  Jesus Christ my  Savior the  cross  that would not fail  to fall  to me if this  work  was  really  God&#x27;s  work.  All that I  had been told  by a  number  of experienced priests  of the  town to  dissuade me  from  going to  this  ill-regulated house  only increased my determination  to undertake this  work  despite  my  own inclina tions which  have  always  been  and still are  for  mission  work.</p>
 <p>When I got there,  all  those connected  with the house  from  the</p>
 <p>director down to the  most  humble  worker and the  entire  town  re joiced and looked  upon me  as  a  man sent by God  to  put an end to ~he prevailing abuses.  The directors with  whom I was  working,  not mdeed as  an  equal but as  an  inferior,  gave me  full  liberty in  the drawing  up  and the  observance  of the rules31  I wanted to  introduce. Even  the Bishop and the committee allowed me  to serve  the poor in the  refectory and to go  round the town  begging  for  something  extra for  them 32  to eat with the dry  bread  they were  usually given.  I did this  for  three  months,  enduring opposition and  snubs  which  went on increasing day after day to such an extent  that ultlmately through the disapproval  of a  certain gentleman  and the matron of the workhouse I  was  obliged to give  up providing  food  for  the  din-</p>
+<div class="page-marker" id="p17"><span>pp. 17–18</span></div>
 <p>ing-room  of the poor.  In giving  this  up,  I acted  in  obedience to my director  (the  one replacing you) although the  re-organization of the dining-room  had  been  a great  help to the administrators of the es tablishment.  This  particular gentleman,  embittered against me  with out any legitimate  reason  as  far  as  I  know,  used to  snub  me  and in sult me  in the  house and discredit my  behavior in  the eyes  of the administration and even  of the townsfolk.  His  actions drew  upon him the  resentment  of the  poor,  who  all  loved me  with the excep tion  of a  few  perverted ones who  backed him  against me.  During this  painful  period,  I  kept silent and lived  in retirement putting my cause  into  the hands of God and relying  on his  help,  in  spite  of op posite  advice  given  to me.  To this  end  I went  for  a  week&#x27;s  retreat  to the  Jesuits,  confident that  our Lord  and his  holy  Mother would take  my  cause  in  hand.  I  was  not wrong in  my  expectation:  when  I came back  I  found  this gentleman  ill  and  he  died  a  few  days  later. 3 3 The matron,  a  young and sturdy person,  also died  a  short time  af terwards . More  than eighty  of the poor inmates  fell  ill and  some  of them  died,  and the whole  town  began  to say  that there was  a  plague in  the poorhouse and that the place  was  cursed.  Through  all  this  pe riod  of sickness,  and in  spite  of my  involvement with the dying,  I was  the  only one not to  be  affected  with  the disease.</p>
 <p>Since the death  of these two  people  I  have  still  been subjected to  cruel  persecution.  One  of the poor  inmates,  haughty and  full  of arrogance,  placed  himself at the head  of a  few  perverted  characters and  set  himself up  in  opposition to  me,  pleading his  case  with  the administrators against  me,  condemning my behavior because  I spoke my  mind  openly but always  kindly  to  them,  concerning their drunkenness  and quarrelling and the scandal  they were  giving.</p>
 <p>Though I do  not receive  anything  for  my sustenance,  not even a  piece of bread,  being  fed  by  the  charity of strangers,  scarcely  any one  among the administrators takes the trouble to correct  the vices and disorders in the  place.  Most of the  administrators think  of nothing except providing  for  the temporal state of the house  and are  quite unconcerned  about the  spiritual welfare  of the inmates.</p>
@@ -315,6 +333,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>From  Poitiers. Date  Autumn  1702.</p>
 <p>The precarious situation of Guyonne Jeanne  (cf  Letter 7)  had worsened and was  ultimately settled by her departure from .the com munity of St.  Joseph  during  the summer of 1702.  She  then found herself left entirely  to  her own devices. Her brother,  moved by her plight,  left for Paris  where  his attempts to find her a place  were frustrated.  In  a farewell  visit  to  the Benedictines of the Blessed Sac rament he found unexpectedly a solution  to his sister&#x27;s difficulties. A  person  of high  rank provided a dowry and Louise was accepted as a choir nun  into  the  congregation  of the Benedictines of the Blessed Sacrament.  She  left at  once for the novitiate in  Lorraine and from  there she  wrote to  her brother thanking him and telling him  how happy she  was.  The following  letter is Louis Marie&#x27;s reply.</p>
 <p>My dear  sister in  Jesus Christ,</p>
+<div class="page-marker" id="p19"><span>pp. 19–20</span></div>
 <p>May the perfect Jove  of God reign  in  our  hearts!</p>
 <p>Permit my  heart to  join yours  in  a  flood  of joy and my eyes</p>
 <p>to shed tears  of gratitude and my  hands  to describe  on  paper  the happiness which  transports me.</p>
@@ -348,6 +367,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>What can I say  to  you,  my  dear  mother,  in  reply to  your  Jet ter except  to repeat what  the  Holy  Spirit  tells  you  every  day.  Love to  be  humbled  and  being given  scant respect,  Jove  the hidden  life, Jove  silence,  be  the silent  one who  offers Jesus in  the Blessed Sacra ment,  love  divine  Wisdom,  Jove  the  Cross.  I  am  opposed  and re stricted  in  everything I  do.  Thank  God in  my  name  for  the crosses he  has  given  me  and  which  he  keeps  within limits  to  suit my  weak ness,  etc. Letter  15 Source To From Date</p>
 <p>Pauvert. 42 Mademoiselle  Louise Trichet. 4 3 Paris. End  of April- beginning of May  1 703?</p>
 <p>Around Easter 1703,  Fr.  de Montfort,  encountering so  much opposition  to his  work in  the poorhouse,  suddenly left Poitiers for Paris.  There  he hoped to find some support and also  the  means  to</p>
+<div class="page-marker" id="p21"><span>pp. 21–22</span></div>
 <p>further  his desire  to found a missionary congregation.  We possess two  letters sent by him  while  on  this Paris  visit.  They  are  in  re sponse to  two letters sent to  him  by Mademoiselle  Triche!.</p>
 <p>My dear daughter in  our Lord Jesus Christ,</p>
 <p>May  the perfect  Jove  of God  reign  in  our hearts  with  divine</p>
@@ -370,6 +390,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Please do not think  that the distance  between  us  and my  ap parent silence mean  that  I  have  forgotten  your  charity towards me and the charity  I owe  you.  Your Jetter  tells  me  that your wishes46 are just as strong and eager and as  persistent as ever.  This  is  a  sure sign  that they  are  from  God.  So  you  must  put your trust in  God .  Be sure  of this,  that you will  obtain  from  him  even  more than  you think. 47  Heaven  and earth  would  pass away before God  would break his  promises and allow  anyone who hoped in  him  to  be  frus trated in  their hopes.</p>
 <p>I  feel  that you  are  still asking  God that  by crosses,  humiliations</p>
 <p>and poverty  I may  acquire divine  Wisdom.  Be  brave,  my  dear daughter,  be brave.  I am grateful  to you;  I feel  the effects  of your prayers  for  I am  infinitely more  impoverished,  crucified  and humili ated than  ever.  Both  men  and demons  in  this  great city of Paris are waging  against  me  a war  that  I  find  sweet and welcome.  Let  them slander  me,  scoff at me,  destroy my  good  name,  put me  into  pris on;48  these are precious gifts,  tasty morsels,  great and wonderful things.  They form  the accoutrements  and retinue  of divine Wisdom which  he  brings  into  the lives  of those  in  whom  he  dwells.  When shall  I  possess  this  lovable and  mysterious Wisdom?  When  will  Wis dom  come to live  in  me?  When shall I  be sufficiently equipped  to serve as  a  place  of rest  for Wisdom  in  a  world  where  he  is  rejected and  without a  home.</p>
+<div class="page-marker" id="p23"><span>pp. 23–24</span></div>
 <p>Who will  give  me  this  bread  of understanding with  which Wis</p>
 <p>dom  nourishes great souls?  Who  will give  to  drink  of the  chalice from which Wisdom quenches  the thirst  of those who serve  him? When  shall I be crucified  and lost to  the  world?</p>
 <p>My  dear  child in Jesus Christ,  do  not fail  to  reply  to  my  re</p>
@@ -399,6 +420,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>To  Catherine  of St.  Bernard (Guyonne  Jeanne).</p>
 <p>From  Paris. Date  Around  mid-March  1704.5 4</p>
 <p>Grandet gives  us  the  circumstances of this letter.  Sister Cather ine  of St.  Bernard,  having recovered from  her illness,  made profes sion  with  two  other sisters on  the 2nd of February,  1704 in  the  con vent of Rambervilliers. St.  Louis Marie  wrote  this letter to  her after the profession.</p>
+<div class="page-marker" id="p25"><span>pp. 25–26</span></div>
 <p>Dear  Victim in Jesus  Christ,</p>
 <p>May the  pure love  of God  reign  in  our  hearts! I cannot thank  God enough  for  the grace  he  has  given  you  in making you  a  perfect victim  of Jesus  Christ,  an adorer of the  Bless ed Sacrament and one  who  is  called to atone  for  so  many bad Christians and unfaithful  priests.</p>
 <p>What an honor it  is  for  your  body to be  spiritually sacrificed  in</p>
@@ -422,6 +444,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>few  people  do.  You will  understand  them  in  eternity if you  have  the happiness  to  be  saved.  It could  happen that you will  not,  so  fear and love  God all  the  more.</p>
 <p>Please  tell  my  father,  on behalf of my heavenly Father,  not to</p>
 <p>touch  pitch or else  he  will  be defiled;  tell  him  not to  indulge in earthly pleasures,  for  they will  suffocate him;  and not  to  be  en grossed in  worldly affairs,  for  he  will  be  choked  by them.  Flee  the</p>
+<div class="page-marker" id="p27"><span>pp. 27–28</span></div>
 <p>Letters</p>
 <p>world  and hold  it in contempt;  love  the Blessed Virgin  with whom I am all  in  all  to  you  and my father.</p>
 <p>I  greet  your Guardian Angel and I  am all  yours  in  Jesus  and</p>
@@ -453,6 +476,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>To the  Very  Reverend Father General  of the Dominican Order, Minerva, Rome.</p>
 <p>Very  Reverend  Father,</p>
 <p>May the  perfect love of God  reign  in  our hearts!</p>
+<div class="page-marker" id="p29"><span>pp. 29–30</span></div>
 <p>May I,  as  the  least  of your  children,  ask you  for  a  written permission  to  preach the  Holy  Rosary wherever the  Lord  calls  me and to  enrol  into  the  Rosary  confraternity,  with the usual  indul gences,  as  many people  as  I  can.  I  have  already  been doing this  with the  permission of the  local  Priors and  Provincials,  inscribing  the names  of brothers and sisters  in  the  confraternity registers  of the places  where  I  have  preached  missions.</p>
 <p>With deepest  respect,  this  is  my  request.</p>
 <p>Your most  humble  and  obedient servant,</p>
@@ -477,6 +501,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>who  shortly afterwards founded the Congregation  of the  Missionar ies  of the Holy  Ghost,  to join  him  and work together for the salva tion  of souls through  missionary apostolate.  Their dialogue  resulted in  a promise given  by Fr.  des  Places  that if he succeeded in found ing  a seminary for poor students,  Montfort could count on  his pre paring missionaries for both of them.  Fr.  des  Places died in  1709 and Montfort  interrupted his  work in  the diocese  of La Rochelle to go  to Paris and seek a continuation of the agreement  with  the suc cessor of Fr.  des  Places.  It  was during  this Paris  visit  that Montfort wrote  the following  letter to  his sister.</p>
 <p>May  Jesus  and his  Cross reign  for  ever!</p>
 <p>I f  only  you  knew  the  half of the  crosses  and  humiliations7t  I have to  bear,  I  don&#x27;t think  you  would be  so  eager  to see  me;  for  I never seem  to go  anywhere  without  bringing  something  of the  Cross to my  dearest  friends  without any  fault  of mine  or theirs . Those who  befriend  me  or support me  suffer for  doing so,  and sometimes dra~ down  upon themselves  the  wrath of the  devil  I  am fighting agamst,  as  well  as  the  world  I  am protesting against and the  flesh  I am  chastising.  This  veritable  ants&#x27;  nest  of sinners  against  whom  my preaching is  directed  cannot leave  me  or my  friends  in  peace.  I  have forever  to  be  on the  alert,  treading  warily as  though on thorns or sharp  stones.  I  am  like  a  ball  in a  game  of tennis;  no  sooner am  I hurled  to  one  side than  I  am sent  back to the  other,  and the players  29</p>
+<div class="page-marker" id="p31"><span>pp. 31–32</span></div>
 <p>strike  me  hard.  This  is  the  fate  of the  poor sinner  that  I am and I have  been like this  without  rest or respite  all  the thirteen  years  since leaving St.  Sulpice.</p>
 <p>However,  my  dear  sister,  thank God for  me  for  I  am  content and happy in all  my  troubles.  I think  there is  nothing in  the whole world  so  welcome  as the  most  bitter cross,  when  it  is  steeped  in  the blood  of Christ crucified  and  in  the  milk  of his  holy  Mother.  Be sides  this inward  happiness,  there  is  the great  merit  of carrying the crosses.  I  wish  you  could see  mine.  I have  never  had  more  conver sions than after the  most  painful and  unjust  prohibitions. 72  Be brave,  my  dear  sister,  all  three of us  must carry our cross  to the  ex treme  limits  of the  kingdom.  Carry yours  well  and  I will  carry mine well  too,  with  the  help  of God.  Let us not complain or put the  bur den  aside or make excuses  or  cry like  a  child who  weeps  because he is  given  a  load  of gold  to carry,  or a  farmer  who  loses  heart when his  fields  are  strewn  with  pieces  of gold by  people  wanting to  make him  rich.</p>
 <h4>Letter  27 Source To</h4>
@@ -505,6 +530,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>tablishment  of the Daughters of Wisdom has at last arrived. so  I only  wish  you  were  already  at  La Rochelle,  where  I am at  the mo ment;  but if you  delay  you  will  not find  me  here  as  I am  in  a  hurry to  leave  for  a  mission.</p>
 <h4>Letter 29</h4>
 <p>Source  Besnard.</p>
+<div class="page-marker" id="p33"><span>pp. 33–34</span></div>
 <p>To</p>
 <p>From Date</p>
 <p>Mother Marie Louise  of Jesus and Sister  of the Concep tion. Taugon-la-Ronde. 4th of April,  1715.</p>
@@ -532,6 +558,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>La Rochelle,  12th of August,  1715</p>
 <p>The grace  of the  Holy Spirit  does  not permit  of delay.  When</p>
 <p>God  is  asking  his  creatures  for  anything,  he  asks  gently  leaving them  entirely  free .  But  the  longer  we  delay  in  responding to his  gen tle  request  the less  we  hear  his  voice,  and .the longer  his  voice  goes unheeded  the  more  his  justice is  asserted .  You  must  be careful!  I spoke  to the  Bishop a  few  days  ago  and he  wants  you  to come  here and  join the  Daughters  of Wisdom.  I also  want you  here  and  I en treat  you  to come.  I  am sending  this  letter by a  special  messenger88 who  has  a  means  of conveyance  for  you  so  that nothing can  prevent you  following  the  call  of the  most  high God.  Bring  only what you need  and enough  material to supply yourself with  a  habit as  poOr  as St.  Clare&#x27;s,  or rather as  poor as  that  of Christ.  The Daughters of Wisdom  love  you  and they are  asking  for  you.  A  thousand and  one reasons,  both of grace  and  nature,  which  I will  not go  into  now, make  it  necessary  for  you to  be  here  tomorrow.  I am  obliged to leave  for  a  long  mission  before  the  feast  of the Assumption, 89  and  I would  like  to see  you  here  before  I  leave. 90  The  bishop  would like to see  you  and he  too is  going  away,  so  come  quickly.  The more you  delay,  the  less  pleasing your sacrifice  and your victory are to God.  I assure you  that if you  do  not take  advantage  of this  mark  of  33</p>
+<div class="page-marker" id="p35"><span>pp. 35–36</span></div>
 <p>esteem and affection  which  I  have  shown  you  and no other,  I  never want to see  you  again.  Your  troubles  will  increase  every  day  and this  may  well  lead  to the loss  of your  soul.  Don&#x27;t say:  &quot;I  will  obey the Lord after the grape-gathering,&quot;  because  you  will  offend this great Lord very  much.  You  will  be  like  the  young man in  the gospel who  lost  his  vocation  because  he  wanted  to go  and  bury his  father before coming to  follow  Christ.</p>
 <p>Letters</p>
 <p>give  you  permission  to go  to the  hospital chaplain for  three months.</p>
@@ -567,6 +594,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>If you  do  not wish  to go to confession  to Fr.  Le  Tellier, 95  I</p>
 <p>and contempt.</p>
 <h4>Letter  33 Source  Grandet.</h4>
+<div class="page-marker" id="p37"><span>pp. 37–38</span></div>
 <p>To</p>
 <p>From Date</p>
 <p>Mademoiselle Dauvaise,  matron of a home  for  incurables at  Nantes. Saint-Laurent-sur-Sevre. 4th of April,  1716.</p>
@@ -595,6 +623,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Mother Marie  Louise  of Jesus. Saint-Laurent-sur-Sevre. Around Easter,  1716. 1 o9</p>
 <p>The sisters  were  constantly faced  with  opposition in  La Ro</p>
 <p>chelle.  They  were  not wanted in  the house where  they lived in  the rue  des  Nsuites.  They  were seeking another house,  but it  was  hard to find a place suitable  to  their condition  and their  work,  which  was the education  of children.  It  would seem  that  the foundation  was  on  3 7</p>
+<div class="page-marker" id="p39"><span>pp. 39–40</span></div>
 <p>the  verge  of collapse,  so Marie  Louise seeks Montfort&#x27;s advice.  At the time  he  was preaching a mission  at  Saint-Laurent-sur-Si!vre and he  had very  little time to  answer because he  was  to  die  ten  or twelve days  later.  Marie  Louise fortunately preserves this  letter  which  con tains the last expression  of his love for sufferings and the  Cross.</p>
 <p>My dear  Daughter in  Jesus  Christ,</p>
 <p>May  Jesus  and his  Cross  reign  forever! I worship the justice and love  with  which  divine  Wisdom  is treating his  little  flock,  allowing  you  to live  in  cramped quarters here on earth so  that later you  may  find  spacious  dwellings  in  his divine  heart which  was  pierced  for  you  to enter.  How  pleasant and safe is  this  sacred refuge  for  a  soul truly possessing Wisdom!  Such  a soul came  forth  with  the  blood and water  which  flowed  when  the lance  pierced the  divine  heart,  and it is  here that it  finds  a  refuge when  persecuted  by its  enemies.  Here it can  remain hidden with  Je sus  Christ in God,  more victorious than  any hero,  crowned  with more  laurels  than  any  king,  shining with  greater splendor  than  the sun and raised  higher than the very  heavens.</p>
@@ -609,6 +638,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <h3>10 II</h3>
 <p>13 14</p>
 <p>Grandet was  the  first  to  publish  a  life of Louis Marie in  1724. L&#x27;Abbe Alain Robert was  Louis Marie&#x27;s  uncle  on  his  mother&#x27;s  side. Ten  days  after  his  arrival in Paris,  Montfort wrote to  his  parents asking  them  to  thank  God  for  his  safe journey.  The present text may  be  part of another written  during his  first  year at  the seminary. His  brother,  Joseph,  joined the Dominicans soon  after  Louis Marie&#x27;s  departure. Besnard  was  Superior General  of the Montfort Fathers (d.  1788). He  wrote an  unpublished  life of the saint. The Little Seminary was  for poor students.  It was  called  &#x27;Little&#x27; to distinguish  it from  the &#x27;Grand&#x27; Seminary of St.  Sulpice.  Both were theological  colleges. Mile  de  Montigny was  a  relative  of the Grignion  family  and  it  was through  her  influence  that  Louis  Marie had been  received  two  years earlier  into the community  of Fr.  de Ia  Barmondiere.  Nothing is known  of Mme  d&#x27;Aiegre  or  Mile  LeBreton. This  was  the  benefice of the chapel of St.  Julien  in  the diocese  of Nantes.  Louis  Marie would  renounce this  benefice in  1700 after  his family  had endowed  him  with  the  family  property of Ia  Bachelleraie which  brought him  a  revenue of 80 livres  a  year. This  letter comes  to us  through Grandet and Besnard.  The latter probably borrowed the text  from  the  former. Montfort-sur-Meu,  Louis  Marie&#x27;s  home  town,  belonged in  those days  to  the diocese  of St.  Malo. Ps.  42:1. This  letter is  taken  from  the documents  sent  to Rome  for Montfort&#x27;s canonization process. The letter referred  to was  a  note of seven  lines  in  which  Fr.  Les chassier  acknowledges  a  letter  from St.  Louis Marie which  is  now lost. M.  Desjonchi:res  was  vicar-general  of the diocese of Nantes. Canon de St.  Brieuc  was  successor to  Fr.  Maunoir in leading teams of diocesan missionaries.  For a  short time in  1707,  Louis Marie worked under him. This  is  Fr.  Bellier  from whom  Louis Marie as  a  student  learned  to serve  the  sick  so devotedly during  his  college  years. Louis  Marie  first  met Madame  de Montespan  some  time  between 1695  and  1697,  while he  was  still  a  seminarian.  She had  offered  to care  for  his  two  sisters,  Sylvie  and Francoise Marguerite.  She sent them to her sister,  the abbess  of Fontevrault,  who received  them warmly.  Francoise Marguerite was  to  leave  because of an eye  afflic tion  but Sylvie  went on  to  be professed and persevered  until  her death  in  1743, 27  years  after the death  of Louis Marie.</p>
+<div class="page-marker" id="p41"><span>pp. 41–42</span></div>
 <p>Letters</p>
 <p>23 24</p>
 <p>28 29 30</p>
@@ -616,12 +646,14 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>36 37</p>
 <p>41 42</p>
 <p>The rules  envisaged  here  are  those  he  speaks  of lower  down:  &#x27;Times for  rising,  retiring,  etc.&#x27; He re-established  the ancient custom of reminding  the  rich  of the existence  of the  very  poor who  were  no longer  seen  in  the  streets. The chaplain  generally  accompanied the collectors. The dots  seem  to  indicate  that  the  writer  himself was  shocked  by  a death  which  was  considered  a  &#x27;punishment&#x27; by  those  about  him. The Jesuit college.  Students  of the  university joined  the  college  stu- dents  and  Montfort formed  them  into  a  &#x27;congregation&#x27; with  special rules  and  daily  spiritual  exercises.  A  certain  number of girls  also were  grouped into a  &#x27;congregation.&#x27; He was  at  that  time  Vicar-Capitular  but afterwards  became  bishop. He  was  a  former  student of the Sulpicians  and  a  great  friend  of theirs. Fr.  Leveque  was  doubtless  also  a  confrere of Fr.  Leschassier. This  letter is  full  of allusions  to  the  spirituality  of the &#x27;Adorers&#x27; especially  in  the terms  used:  &#x27;Victim,&#x27; &#x27;sacrificed,&#x27; &#x27;crucified.&#x27; The Benedictines of the  Blessed Sacrament were  engaged in  daily adoration of the  Blessed  Sacrament during  which  they wore  a  cord about the  neck,  held  a  candle  in  the  hand  and  made atonement to Jesus  Christ  for  all  the  sacrileges  and  profanations  he  endured in this  Mystery. If Grandet,  Montfort&#x27;s  biographer,  has exactly  transmitted the sig- nature,  this  is  the  first  time this  form  has  been  used. Certain  biographers  identify  the  recipient  of this  letter with  Mother Saint  Joseph.  If this  is  true,  Fr.  de  Montfort must  have  written from  Poitiers around  the  autumn  of 1702,  because Mother Saint Joseph  died  two  months  after the  saint  had  visited  her  community. While  he was  there,  God let  him  see  the &#x27;exalted  state of perfection and grace attained by one of the religious (Mother Saint  Joseph) who  received  Communion  from his  hand&#x27; (Grandet).  This  religious in  her  turn,  by  a  special  enlightenment,  &#x27;perceived  the  state of Louis Marie&#x27;s  soul  which  appeared  similar  to  her  own&#x27; (Grandet). This is  probably another sister of the same community. Although we  can  accept  the general contents  of this  letter,  it would seem  that  the two Letters  15  and  16  have  been  touched  up.  There is a  clear  difference in  the style  and phraseology compared  with  the other letters. Louise Trichet was  born  in  Poitiers of a  family  of professional magistrates.  Montfort became her  director  from  the  first  day  he met  her,  declaring  that the  Blessed  Virgin had sent  her to  his  con- fessional.  He arranged  for  her to take  up residence  in  the poor- house and work  among the inmates.  Was  Montfort aware at  this stage  of the  plans divine  Providence  had  for her?  In  actual  fact  she became  the  first  member of his  congregation of Sisters. The General  Hospital was  La Salpetriere where  many  priests  assist- ed the chaplains in  ministering to  the multitude of destitute inmates who  had taken refuge  there.  Louis  Marie had joined this  band  of priests. Among these  we  must count in the first  place Fr.  Leschassier,  who</p>
+<div class="page-marker" id="p43"><span>pp. 43–44</span></div>
 <p>Letters</p>
 <p>46 47</p>
 <p>48 49</p>
 <p>57 58 59</p>
 <p>had  been  Montfort&#x27;s &#x27;oracle&#x27; but who  was now  muted and had ceased  to answer  his  letters.  Louis Marie  was  strongly  rebuffed when  he  went  to see him (cf.  Blain). I.e.  to embrace the  religious  life. An allusion  perhaps to the  future  congregation of the  Daughters of Wisdom  which  began  with  Louise  Trichet. This  alludes  to an  event  not recorded  by  historians. Guyonne Jeanne had  taken the  name Catherine of St.  Bernard  at her  clothing. She  made  profession on the  2nd  of February,  1704.  She therefore began  her  novitiate on the  2nd of February,  1703.  Around Easter, 1703  Montfort left  Poitiers  for  Paris.  Did he write  this  letter before or after this  date?  His  biographers believe  he  wrote this letter  from Paris. On the  date  this  letter  was  written,  Montfort was  resident  in  Paris. He remained  there  until  mid-March  1704. Grandet is  our only  source for  this  letter.  He quotes in  his  biogra phy of the saint seven  letters or  fragments  of letters  written  to Guy onne Jeanne.  There are  no signatures given  to five  of them.  Of the other two,  one is  signed:  &#x27;De Montfort,  priest and slave  of Jesus  in Mary&#x27; and this  present one is  simply signed:  &#x27;De Montfort.&#x27; Grandet seems  to  attach little  importance to  signatures! Grandet is  the  only  one among Montfort&#x27;s  first  biographers  who quotes  this  letter. On the  9th of March,  1704,  the  poor of the  workhouse at  Poitiers wrote  to Fr.  Leschassier:  &quot;We,  400  poor men  and  women,  plead with  you to  send  back  to us  our  much  loved  and respected  pastor.&quot; This  letter  was  doubtlessly sent  on to Fr.  Leschassier  by  Fr.  Blain. It was  instrumental  in  bringing about Montfort&#x27;s  return to Poitiers. Grandet is  the source of this  letter.  Besnard  also  gives  it but leaves out  the  first  paragraph  and makes  a  few  corrections. If the list  of 18  children in  the Grignion family,  as  given  by  the  bi ographers,  is  complete then,  in  1704,  four  daughters  and one son still  lived  at home  with  their  parents.  Possibly  they  were:  Renee (aged 29),  Fran&lt;;oise  Marguerite (aged 25),  Fran&lt;;oise Therese (aged 23),  Jean Baptiste (aged  15),  who inherited Bois  Marquer,  and the youngest,  Jeanne  Marguerite (aged  13). Louis  Marie died  in  1716,  two years  before his  mother. Besnard  is  the only  biographer to  give  this  letter. This  priest,  whose  name  was  Fr.  Hindre,  was once  parish  priest of St.  John&#x27;s  parish in  Montfort and  had baptized  Louis  Marie.  He left Montfort in  1698 and became  parish priest of Breal. A place very  near Montfort-sur-Meu.  Montfort often repaired  to the  hermitage  there  during intervals  between  missions. Mathurin Rangeard  (1687-1760)  was  born at Bouille-Saint-Paul in the  Poitou.  At  the age  of eighteen  he  joined Montfort and accom panied him  in  his  missions.  During the  mission at Jaulnay in  1722, Msgr.  de  Faudras,  coadjutor-bishop  of Poitiers,  conferred  the ton sure upon him.  Mathurin refrained  from  taking vows  as  he  was  in clined  to be  scrupulous.  He worked  for  55  years  in  the mission  min-</p>
 <p>istry  with  Louis Marie and his  successors. Breal  was  a garrison town.  The soldiers  had  assiduously  followed the  mission  exercises the  previous  year  and a  certain number  of them were  inscribed in  the confraternity of St.  Michael. In  1708,  the  17th of February  was  a Friday.  On the  following  Sun day,  Quinquagesima,  the Shrovetide,  began. Father de  Ia  Carriere was  chaplain of Codrosy (Coet-Rosic)  near Pontchiiteau. Brother Nicholas  was  a  lay-collaborator and  worked  with Montfort up  to the latter&#x27;s death  and became one of the  first  lay-brothers  of the Company of Mary. Montfort was  uneasy  about  the  statues  and  wanted  them  moved  to a safer place. Montfort had to obey an order probably  from  the  bishop,  or per haps  from  his  own  spiritual  director. Montfort&#x27;s  attempt  to  have  the statues transferred  from  Pontchii teau to Nantes  by  Brother Nicholas  was  doomed to  fail.  Eventually, three years  afterwards,  in  1714,  Montfort himself made the transfer to Nantes,  where  they  remained  until  1748  when  they  were  taken back  to the calvary of Pontchiiteau.  In that year,  Fr.  Audubon,  a missionary  of the Company of Mary,  restored  the calvary chapel. Montfort,  in  spite  of being  hopeful,  had  no illusions  about the time which  would  elapse  before the  statues could be returned. Montfort was  received  in  audience  by Clement XI  on the  6th  of June  1706,  when  the pope conferred  upon  him  the title  of &#x27;Apostol ic  Missionary.&#x27; Crosses  and humiliations  had dogged him all  his  missionary  life. His  desire  for  them  was  fully  satisfied  at Paris.  He was  reported  to have  been  preaching in  public  squares  and  incurred  a  prohibition from  the Archbishop.  He was  supposed to  have attacked  singers and  other revellers  on the  Pont-Neuf and  caused a  breach of public order and as  a  result  was  taken to  prison.  These reports  turned many against  him  although he was  innocent of all  the  accusations (cf.  Fr.  Blain). Louis  Marie does  not accuse  anyone  but  simply  states  that  the cross is  the source  of blessings. &#x27;Montfort sent it  to  a  person of trust  with the request  to  convey  it to Sister Marie  Louise.  This  was  a  necessary measure  because  her correspondence was  often intercepted  by  the personnel  of the  poor house  who  did  not want  her  to  have any communication  with  her director&#x27; (Besnard). Marie Louise&#x27;s  mother,  Madame Trichet,  opposed  and delayed  the departure of her  daughter  from  her home town  but resigned  herself to it  when  her  husband insisted  that  his  daughter  through  Louis Marie  be .given  an  assurance that  the  bishop would  take  her  under his  protection and approve of the  establishment of the  Congrega tion of the Daughters of Wisdom.  Msgr.  de Champflour gave this assurance  by  letter  of the  6th  of March,  1715. One is  surprised  that Montfort called his  daughters  by  their family names.  One questions if they  were really given  in  the original.</p>
+<div class="page-marker" id="p45"><span>pp. 45–46</span></div>
 <p>Letters</p>
 <p>76 77</p>
 <p>78 79</p>

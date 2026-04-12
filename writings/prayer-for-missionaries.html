@@ -8,13 +8,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --navy: #1a3a5c;
-  --navy-light: #2c5f8a;
-  --gold: #8b6914;
-  --gold-light: #c4960a;
-  --cream: #f5f3ed;
-  --text: #2a2a2a;
-  --text-light: #666;
+  --navy: #1a3a5c; --navy-light: #2c5f8a;
+  --gold: #8b6914; --gold-light: #c4960a;
+  --cream: #f5f3ed; --text: #2a2a2a; --text-light: #666;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.8; font-size: 16px; }
@@ -35,7 +31,7 @@ header .abbr-tag {
 nav.bread {
   background: white; padding: 12px 24px;
   border-bottom: 1px solid #e0dcd2; font-size: 0.88em;
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   position: sticky; top: 0; z-index: 10;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -64,6 +60,19 @@ nav.bread .sep { color: #ccc; }
 }
 .content h4 {
   font-size: 1em; color: var(--gold); margin: 1.2em 0 0.4em;
+}
+
+/* Page markers */
+.page-marker {
+  display: flex; align-items: center; margin: 1.8em 0 0.5em;
+  border-top: 1px solid #e8e4db;
+  padding-top: 10px;
+}
+.page-marker span {
+  background: var(--navy); color: white;
+  font-size: 0.72em; font-weight: 600; padding: 2px 10px;
+  border-radius: 3px; font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .nav-footer {
@@ -95,18 +104,20 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <div class="abbr-tag">PM</div>
 </header>
 <nav class="bread">
-  <a href="../index.html#writings">Montfortian Network</a>
+  <a href="../index.html">Montfortian Network</a>
   <span class="sep">&rsaquo;</span>
   <a href="../index.html#writings">Writings</a>
   <span class="sep">&rsaquo;</span>
   <span>8. Prayer for Missionaries</span>
 </nav>
 <div class="content">
+<div class="page-marker" id="p401"><span>pp. 401–402</span></div>
 <h3>Introduction</h3>
 <p>Memento,  Domine,</p>
 <p>I Congregationis  tuae. quam  possedisti ab  initio. 1</p>
 <p>Romombec, Locd,  thi•  Coogregatioo,  which  you  ha&quot;</p>
 <p>possessed  from  all  eternity.  Ybu  made it  your  own  from  the  begin ning,  ab  initio,  when  your  mind  dwelt  on it  before time  began.  You made  it  your  own  from  the  beginning,  ab  initio,  when  you  held it  in your  hand as  you  created  the world  out of nothing.  You  made it your  own  when  you  took  it  to  your  heart  while  your  dear Son,  dy ing  on the cross,  bedewed  it with  his  blood,  consecrated it by  his death  and entrusted it  to  his  holy  Mother&#x27;s  keeping. 2  Give  free  rein,  then,  0  Lord,  to  your  merciful  intent and raise up  men  of your  right-hand  whom you  revealed  through  the  prophet ic  insight  of some  of your greatest servants- Francis  of Paola,  Vin cent Ferrer,  Catherine  of Siena and so many  others  during  the  last century  and even  in  our day. 3  Memento.  Ever  keep  this  Congregation in  mind,  Almighty God,  and,  by  the  power  of your  right  arm  which  has  lost  nothing  of its  strength, 2  make  it  a  living  reality and lead  it  to perfection.  In no va  signa,  immuta mirabilia, 3  sentiamus adjutorium brachii tui: Great God,  who can change lifeless  stones  into sons  of Abraham, 4 say  but  one  word  and it  will  be  enough  to send good  workers  to gather  in  your  harvest,  and missionaries  worthy of the  name  to work  in  your  Church. 4  Memento.  God of all  goodness,  remember  your  mercy  of times  past,  and,  in  that same mercy,  be  ever  mindful  of this  Con- gregation.  Remember the  promises  you  made  to  us,  time  and again,</p>
+<div class="page-marker" id="p403"><span>pp. 403–404</span></div>
 <p>Prayer  for M issionaries</p>
 <p>through  your  prophets and through  your  divine Son,  that you would grant our just petitions.</p>
 <p>Remember  also  the prayers  of your servants  in  past ages.  May</p>
@@ -119,6 +130,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>,  What men  are  these  who  move  like  clouds  in  the</p>
 <p>7  What, then,  am  I asking  for?  Liberos,  men who  are  free, priests  who  are  free  with the  freedom  that comes  from  you,  de tached  from  everything,  without  father,  mother,  brothers,  sisters  or relatives  and  friends  as  the  world  and the  flesh  understand  them, without  worldly  possessions  to encumber or distract  them,  and de void  of all  self-interest. 16 8  Liberos:  men  who  are  free  but  still  in  bondage to  your  Jove and your  will;  men  after  your  own  heart who,  without  taint  or im pediment  of self-love,  will  carry out your will  to  the  full  and,  like David  of old,  lay low  all  your  enemies,  with  the  Cross  for  their staff and the  Rosary  for  their  sling:  in  bacula  Cruce  et in  virga  Virgine. 17 9  Liberos:  men  as  free  as  the  clouds  that sail  high  above the earth,  filled  with  the  dew  of heaven,  and moving,  without  let  or hindrance,  according  to  the inspiration of the Spirit.  They are  in cluded  among those  whom  the prophet  had  in  mind  when  he  asked : qui sunt isti qui sicut nubes  volant? 18  Ubi erat impetus spiritus illuc gradiebantur, 19 sky,  wherever  the  Spirit leads them? 10  Liberos:  free  men.  Men  always  available,  always  ready to obey  you  when  those  in  authority speak.  Always  with  the  words  of Samuel  on  their  lips:  praesto sum, 20  here  I am;  always  ready to  be on the  move  and to  suffer  with  you  and  for  you,  just as  the Apos tles  were:  eamus et moriamur cum  illo 21 with  him. 11  Liberos:  true children  of Mary whom  she  has  conceived  and begotten  by  her  love, 22  nurtured and  reared,  upheld  by  her and en riched  with  her graces. 12  Liberos:  true servants  of the  Blessed  Virgin  who,  like  a  Dom inic  of old,  will  range  far  and wide,  with  the  holy  Gospel  issuing from  their  mouths like  a  bright and  burning flame,  and the  Rosary in  their  hands,  and bay  like  your  watchdogs,  burn like  fire  and dis pel  the  darkness  of the  world  like  a  sun. 23  Their inspiration  will  be their  authentic devotion  to Mary  which  will  be  interior and devoid of all  hypocrisy,  exterior  but not critical,  prudent and well-in formed,  tender  without  indifference,  constant without fickleness, holy  without  presumption.  In  this  way,  they  will  crush  the  head  of the  serpent  wherever  they go  and ensure that the curse  you  have  laid upon  it  of old  will  be  fulfilled  to the letter:  inimicitias ponam  inter te  et mulierem,  inter semen  tuum et semen  ipsius et ipsa conteret</p>
 <p>,  let  us  go  and  die  along</p>
+<div class="page-marker" id="p405"><span>pp. 405–406</span></div>
 <p>Prayer for Missionaries</p>
 <p>caput tuum, 24 I  will  put enmity between you  and the  woman and between  your seed  and her  seed and he  shall  bruise your  head. 13  True it is,  indeed,  great God,  as  you  yourself have  foretold, that the  devil  will  lie  in  wait  to  attack the  heel  of this  mysterious woman,  that is,  the  little  company of her  children  who  will  come towards  the  end  of time.  There will  be  great enmity between  the blessed  posterity of Mary and the  accursed  issue  of Satan,  the  only enmity which  you  have  instigated.  The children of Belial  will  wage war against  the  children  of your  blessed  Mother and afflict  them with  persecutions  which  will  have  no other  outcome than to make more manifest,  in  a  striking manner,  the power of your grace,  their courage and virtue  and the  reality of your Mother&#x27;s authority.  It cannot be otherwise since,  from  the  beginning  of time,  you  have  ap pointed this  humble  Virgin  to crush  this  proud spirit  under  her  heel: Ipsa  conteret caput  tuum. 14  Alioquin moriar:  otherwise,  I  would  be  better dead.  Would it  not  be better  for  me  to  be  dead,  Lord,  than to  see  you  offended daily so  deliberately and with  such  impunity and,  daily,  to  stand, myself,  in  ever-increasing danger  of being swept  away  by  the  ever swelling  flood  of iniquity?  I  would  rather die  a  thousand deaths than endure such  a  fate .  Send  me  your  help  from  heaven  or let  me die.</p>
 <p>Were it  not for  the  hope  that  I  have  that,  sooner or later,  the  in</p>
@@ -139,6 +151,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>coagulatos.</p>
 <p>8  Mons in  quo beneplacitum est Deo  habitare in  eo,  etenim</p>
 <p>Deus habitabit in finem. 3 5 20  What is  meant,  Lord,  by  this  abundant rain that you  have</p>
+<div class="page-marker" id="p407"><span>pp. 407–408</span></div>
 <p>Prayer for Missionaries</p>
 <p>stored up for  your languishing  heritage,  if not these  holy  mission aries,  Mary&#x27;s  children,  whom you  are to gather  together  and set apart  from  the rest  of men  for  the good  of your  Church,  at  present so weakened and besmirched  by  the  crimes  of her children? 21  And  who  are  these creatures and these  poor  folk  who  will  dwell in the  heritage you  have given  them  and,  there  feed  on the divine sweetness  you  have  prepared  for  them?  They  are  none  other than the  poor missionaries,  entirely  dependent  on Providence,  who  will feast  to their heart&#x27;s content on the  spiritual  delights  you  provide for  them.  They  are  none  other than those  mysterious  animals described  by EzekieJ3 6  who  have  the  kindly  nature of a  man-wit ness  their selfless  and beneficent love of their  neighbor;  the  face  and boldness  of a  lion- witness  their  holy anger,  their burning and prudent zeal  against the devil  and the  children of Babylon;  the strength of an ox-witness their apostolic labors  and their  self-mor tification;  the soaring  flight  of an eagle-witness the  height  of their contemplation.  Such  will  be  the  missionaries  you  have  in  mind  for your  Church.  They will  fook  kindly  on their  fellowmen,  fearlessly on your  enemies,  impartially on themselves  and,  when  they look  on you,  they will  be carried  away in  contemplation. 22  These  followers  of the  apostles  will  preach  with  great  power and effect.  So  powerful  will  their impact  be that they  will  stir the minds  and  hearts  of all  who  hear them.  It is  to them  that you  will give  your word- dab it verbum;  the very  words  of your  own mouth and wisdom:  dabo  vobis os et sapientiam  cui non poterunt resistere omnes adversarii  vestri, 37  and none  of their  enemies  will  be able  to withstand  them. 23 the greatest gift  that Jesus  Christ,  the  beloved  Son,  has  made  to men,  will  be  pleased  to dwell  since,  in  all  the  missions  they under take,  their  sole aim  will  be to give glory to  you  for  the  spoils  they have  won  from  your  enemies:  Rex virtutum  dilecti dilecti et speciei domus dividere spolia. 24  The silver  wings  of the  dove  will  be  theirs  because  of their  total dependence  on Providence and their  devotion  to Mary;  inter medios cleros pennae columbae deargentatae,  they shall  be  covered  with  sil ver  like  the wings  of a  dove,  by the  purity of the  doctrine they  teach and their  irreproachable life;  et posteriora dorsi ejus in pal/ore auri, for  them the  silvered  pinions  of the  dove  will  be  the  perfect love they  have  for  their  neighbor which  enables  them to  bear  with  his shortcomings,  and their great  love  for  Jesus  Christ which  enables them  to carry his  cross. 25  You  alone,  King  of heaven  and King  of kings,  will  set  these men  apart like  kings  and  make  them  purer than the snows  on Zal mon,  the mountain of God,  where  all  good things  grow  in  abun- dance,  this  strong and compact  mountain  where God delights  to</p>
 <p>It is  among  these  men  so  dear  to  you,  that  you,  Holy Spirit,  as</p>
@@ -153,6 +166,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Tuae  Congregationis:  your  own  Congregation.  Opus tuum fac,  it  is  your work,  great  God.  Make  your  divine  purpose a  reality. Muster  your chosen  men  from  every corner of your  dominions.  Call them  and gather  them  together.  Mobilize  them and make  of them an army  to  fight  against  your enemies.</p>
 <p>·</p>
 <p>27  Look, Lord  God  of hosts,  the  captains of war are  forming companies,  each  with  its  full  complement  of soldiers;  and potentates have  recruited  vast armies.  The ship-owners  have  whole  fleets  at their disposal,  and the  merchants  are thronging  to  the  markets  and fairs.  What a  motley assembly of ungodly men!  Thieves,  drunkards, and profligates  gather together every day under  the  flimsiest  pretexts in  order to oppose  you!  Blow  a  whistle,  beat a  drum,  show  the blunt point  of a  sword,  promise a  withered laurel  branch as  a  re ward,  offer a  piece  of gold  or silver;  in  short,  a  whiff of fame,  a worthless  reward,  a  vile  beastly pleasure  and,  in  the twinkling  of an</p>
+<div class="page-marker" id="p409"><span>pp. 409–410</span></div>
 <p>eye,  along  come the  thieves,  soldiers  rally  by  battalions and mer chants  flock  together.  Gambling dens  and market  places  are crammed  full  and the whole  of land  and sea  is  covered  with  an in numerable  multitude of reprobates.  These people,  although at vari ance  among  themselves  for  reasons  of distance,  temperament or personal interest,  are  nevertheless  all  unanimously resolved  to wage war  to the death  against you,  under the  banner and leadership  of the  devil. 28  How is  it,  then,  great  God,  that although  it  is  so  glorious,  so satisfying and so  profitable to serve  you,  hardly anyone will  support your  cause?  Scarcely one soldier lines  up  under your standard. Scarcely anyone  fired  with  zeal  for  your glory will  stand up and cry out,  like  St.  Michael  in  the  midst  of his  fellow-angels:  Quis  ut Deus? Who is  like  to God?  Let me  then  raise  the cry  of alarm:  &quot;The House of God is  on fire!  Souls  are perishing in  the  flames!  The sanctuary itself is  ablaze!  Help!  Help!  Good people!  Help our brother who  is  being murdered.  Help  our children  who  are  being massacred.  Help  our kind  father  who is  being  done  to  death!&quot; 29  Qui Domini est jungatur mihi: 43  if anyone  has  the Lord&#x27;s cause  at heart,  let  him  stand side  by side  with me.  Let all those worthy priests  who  are to  be  found  throughout the  world, those still in the  fight  and those who  have  withdrawn  to deserts  and secluded  places,  let them,  I say,  come and join us.  In  unity there  is strength.  With  the  cross  as  our standard,  let  us  form  a  strongly dis ciplined  army  drawn  up  in  lines  of battle.  Let us  make  a  concerted attack on the enemies  of God who  have  already sounded the call  to arms:  sonuerunt,  frenduerunt,  fremuerunt,  multiplicati sunt. 44 Dirumpamus vincula eorum et projiciamus a nobis jugum  ipsorum. Qui habitat in  caelis  irridebit eos. 45  They have  sounded the  alarm, vented  their anger and become  a  mighty  army.  Let us  break their bonds asunder and throw away  their yoke.  He who  dwells  in  heaven will  laugh  them  to scorn. 30</p>
 <p>Exsurgat  Deus et  dissipentur  inimici  ejus!4 6 Exsurge.  Domine. quare  obdormis7  Exsurge. 4 7</p>
 <p>Let the  Lord arise and let  his  enemies  be  scattered.  Arise, Lord.  Why is  it  you  appear to  be  like  one asleep?  Arise in  your might,  your mercy and your justice and create this  bodyguard of handpicked  men  who  will  protect your  house,  defend  your glory and  save  the  souls  that are  yours.  Thus,  there will  be  but one  sheep fold  and one shepherd and all  will  make your  temple  resound  with their  praise  of your glory:  et in  templo ejus omnes dicent gloriam. 45 Amen.</p>

@@ -8,13 +8,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --navy: #1a3a5c;
-  --navy-light: #2c5f8a;
-  --gold: #8b6914;
-  --gold-light: #c4960a;
-  --cream: #f5f3ed;
-  --text: #2a2a2a;
-  --text-light: #666;
+  --navy: #1a3a5c; --navy-light: #2c5f8a;
+  --gold: #8b6914; --gold-light: #c4960a;
+  --cream: #f5f3ed; --text: #2a2a2a; --text-light: #666;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.8; font-size: 16px; }
@@ -35,7 +31,7 @@ header .abbr-tag {
 nav.bread {
   background: white; padding: 12px 24px;
   border-bottom: 1px solid #e0dcd2; font-size: 0.88em;
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   position: sticky; top: 0; z-index: 10;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
@@ -64,6 +60,19 @@ nav.bread .sep { color: #ccc; }
 }
 .content h4 {
   font-size: 1em; color: var(--gold); margin: 1.2em 0 0.4em;
+}
+
+/* Page markers */
+.page-marker {
+  display: flex; align-items: center; margin: 1.8em 0 0.5em;
+  border-top: 1px solid #e8e4db;
+  padding-top: 10px;
+}
+.page-marker span {
+  background: var(--navy); color: white;
+  font-size: 0.72em; font-weight: 600; padding: 2px 10px;
+  border-radius: 3px; font-family: 'Inter', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .nav-footer {
@@ -95,13 +104,14 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <div class="abbr-tag">MR</div>
 </header>
 <nav class="bread">
-  <a href="../index.html#writings">Montfortian Network</a>
+  <a href="../index.html">Montfortian Network</a>
   <span class="sep">&rsaquo;</span>
   <a href="../index.html#writings">Writings</a>
   <span class="sep">&rsaquo;</span>
   <span>5. Methods for Saying the Rosary</span>
 </nav>
 <div class="content">
+<div class="page-marker" id="p233"><span>pp. 233–234</span></div>
 <h3>Introduction</h3>
 <p>A s  would be expected from  a popular mission</p>
 <p>ary,  Montfort&#x27;s book:  &quot;The Secret  of the Holy Rosary,&quot; was  meant to serve a practical apostolate and with  this  in  mind he added to his book three  methods for saying  the Rosary,  including one  which  he composed for the Daughters of Wisdom.</p>
@@ -110,6 +120,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>It  was  thought useful to  reproduce some passages  on  the Rosary</p>
 <p>which  Montfort quotes verbatim from  other authors and these are placed after the  methods.  (See  Nos.  48-56.)</p>
 <p>Methods  of saying  the· Rosary to  draw  into  our souls  the  Graces  of the Mysteries  of the  Life, Passion and  Glory  of Jesus  and  Mary</p>
+<div class="page-marker" id="p235"><span>pp. 235–236</span></div>
 <p>First Method</p>
 <p>ay  the  &quot;Come Holy Spirit&quot; and then make this offering  of I the  Rosary:  I  unite with  all  the saints  in  heaven  and  with  all  the just on earth;  I  unite with you,  my  Jesus,  to praise  your  holy Mother worthily and to  praise you in her and by her.  I  renounce  all  the  dis tractions  that may  come to me  while  I  am saying this  Rosary.  0 Blessed  Virgin  Mary,  we  offer you  this  creed to  honor the  faith  you had  upon earth and to ask  you  to  permit us  to share  in  that same faith.  0  Lord,  we  offer you this  Our Father to  adore you in  your oneness  and to acknowledge  you  as  the  first  cause  and the  last  end of all  things.  Most  Holy Trinity,  we  offer  you  these  three  Hail Marys  to thank you  for all  the graces  which  you  have  given  to Mary and  which  you  have  given to  us  through  her  intercession.</p>
 <p>Our Father,  three  Hail Marys,  Glory be  to the Father ....</p>
@@ -138,6 +149,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Eighth  decade  We offer you,  Lord Jesus,  this  eighth decade  in  honor of being  crowned  with  Thorns.  Through this  mys tery and the  intercession  of your  holy Mother we  ask  for  a  deep contempt  of the  world.</p>
 <p>Our Father,  ten  Hail Marys,  Glory be  to the  Father.  May the grace  of the mystery of Our Lord&#x27;s Crowning with Thorns come  in to me  and make  me  truly opposed to the world.</p>
 <p>Ninth  decade  We offer you,  Lord Jesus,  this  ninth dec-</p>
+<div class="page-marker" id="p237"><span>pp. 237–238</span></div>
 <p>Saying the  Rosary</p>
 <p>ade  in  honor of your  carrying the  Cross.  Through this  mystery  and the  intercession  of your  holy Mother we  ask  for  great  patience  in carrying  our cross  after you  all  the  days  of our life.</p>
 <p>Our Father,  ten  Hail  Marys,  Glory be to the  Father.  May  the grace  of the  mystery  of the  carrying  of the  Cross  come  into  me  and make  me  truly  patient.</p>
@@ -164,6 +176,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Mary in  the  Holy Rosary and a  method  of restraining our imagina tion  and lessening  distractions. 6 decade  reminding  us  of the  mystery  we  are celebrating.  This  addi tion  follows  the  name  of Jesus  in  the  middle  of the  Hail  Mary: and blessed is  the  fruit  of thy womb, Decade</p>
 <p>1st 2nd 3rd 4th 5th 6th 7th 8th 9th lOth lith 12th 13th 14th 15th</p>
 <p>&quot;Jesus  becoming  man&quot; &quot;Jesus sanctifying&quot; &quot;Jesus born in  poverty&quot; &quot;Jesus  sacrificed&quot; &quot;Jesus  holy  of holies&quot; &quot;Jesus  in  his  agony&quot; &quot;Jesus scourged&quot; &quot;Jesus  crowned  with  thorns&quot; &quot;Jesus carrying  his  Cross&quot; &quot;Jesus crucified&quot; &quot;Jesus  risen  from  the  dead&quot; &quot;Jesus ascending  to  heaven&quot; &quot;Jesus  filling  thee  with  the  Holy Spirit&quot; &quot;Jesus raising  thee  up&quot; &quot;Jesus  crowning  thee&quot;</p>
+<div class="page-marker" id="p239"><span>pp. 239–240</span></div>
 <p>At the end of the  first  five  mysteries  we  say:</p>
 <p>May the grace  of the joyful mysteries come into  our souls  and make  us  really  holy.</p>
 <p>At the end  of the  second:</p>
@@ -202,6 +215,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>We offer you,  Lord  Jesus,  this  seventh  decade in  honor of your</p>
 <p>cruel  Scourging;  through this  mystery and the intercession  of your holy Mother we  ask  for  the grace  to mortify our senses.  Amen.</p>
 <p>Our Father.  Hail  Mary ten times.  Jesus  being scourged.  May the</p>
+<div class="page-marker" id="p241"><span>pp. 241–242</span></div>
 <p>grace  of the mystery  of the  Scourging of Jesus  come  into  our  souls. Amen. The Crowning with Thorns</p>
 <p>We offer you,  Lord  Jesus,  this  eighth  decade  in  honor of your being  Crowned  with Thorns;  through  this  mystery and the  interces sion  of your  holy  Mother we  ask  for  contempt of the world.  Amen . Our Father.  Hail  Mary ten  times.  Jesus  crowned  with  thorns. May the grace  of the mystery  of the  Crowning with  Thorns come into our souls.  Amen. The Carrying of the Cross</p>
 <p>We offer you,  Lord  Jesus,  this  ninth decade in  honor of your</p>
@@ -229,6 +243,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>We offer you,  Lord  Jesus,  this  twelfth  decade in  honor of your triumphant Ascension;  through  this  mystery and the  intercession  of your  holy Mother we  ask  for an ardent desire  for  heaven,  our true home.  Amen.</p>
 <p>Our Father.  Hail  Mary ten times.  Jesus  ascending to  heaven.  May</p>
 <p>the grace  of the  mystery  of the Ascension come into our souls. Amen.</p>
+<div class="page-marker" id="p243"><span>pp. 243–244</span></div>
 <p>The Pentecost</p>
 <p>We offer you,  Lord  Jesus,  this  thirteenth decade  in  honor  of the</p>
 <p>mystery  of Pentecost;  through this  mystery  and the  interc_ession  of your  holy Mother we  ask  that the  Holy Spirit may come  mto our souls.  Amen.</p>
@@ -275,6 +290,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Our Father The Incarnation H ail  Mary  To deplore  the unhappy state of disobedi-</p>
 <p>ent Adam; his  just condemnation and  that of all  his  descendants.</p>
 <h4>2  Hail  Mary  To honor the  desires  of the patriarchs and</h4>
+<div class="page-marker" id="p245"><span>pp. 245–246</span></div>
 <p>prophets who  pleaded  for  the  coming of the Messiah.</p>
 <h4>3  Hail  Mary  To  honor the  desires  and prayers  of the</h4>
 <p>Blessed  Virgin  Mary  to  bring forward  the coming of the  Messiah;  and  her  marriage with  Saint  Joseph.</p>
@@ -334,6 +350,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>7  Hail  Mary  The flight  of Jesus  to Egypt  through St.  Jo-</p>
 <p>seph&#x27;s  obedience to the voice  of the angel.</p>
 <p>8  Hail  Mary  The mystery of his  abode in Egypt. 9  Hail  Mary  His  return  to  Nazareth. 10  Hail  Mary  His growth  in age  and  wisdom .</p>
+<div class="page-marker" id="p247"><span>pp. 247–248</span></div>
 <p>Saying the  Rosary</p>
 <p>Our Father  The incomprehensible holiness  of God.</p>
 <p>The Finding of Jesus  in the Temple</p>
@@ -386,6 +403,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Our Father  Limitless  omnipotence of God. The Carrying of the  Cross Hail Mary  To honor Our Lord being  presented  to the people at the  &quot;Ecce Homo.&quot;</p>
 <p>2  Hail Mary  The  preferring  of Barabbas to Jesus. 3  Hail Mary  The false  testimonies given  against  him. 4  Hail  Mary  His  being condemned to death. 5  Hail Mary  The love  with  which  he embraced and</p>
 <p>kissed  the Cross.</p>
+<div class="page-marker" id="p249"><span>pp. 249–250</span></div>
 <p>Saying the  Rosary</p>
 <p>6  Hail  Mary  The dreadful sufferings  he  endured in  car-</p>
 <p>rying  it.</p>
@@ -439,6 +457,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>apostles  by the  Father and the Son.</p>
 <p>3  Hail Mary  His  descent accompanied  by the  sound  of a great wind  which  shows  his  might and pow- er.</p>
 <p>4  Hail  Mary  The tongues  of fire  he  sent to the  apostles giving  them  an  understanding of the  scrip-</p>
+<div class="page-marker" id="p251"><span>pp. 251–252</span></div>
 <p>tures  and love  of God and neighbor.</p>
 <h4>5  Hail Mary  The fullness  of grace  which  the  heart of</h4>
 <p>Mary,  his  faithful  spouse,  was  privileged to receive.</p>
@@ -460,7 +479,6 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>5  Hail  Mary  Mediatrix and advocate  of men. 6  Hail  Mary  Exterminator and destroyer  of the  devil  and</p>
 <p>of heresies.</p>
 <p>7  Hail Mary  Safe refuge  of sinners. 8  Hail Mary  Nurturing  Mother of sinners. 9  Hail Mary  The joy and delight  of the just. 10  Hail  Mary  Refuge  for  all  the  living,  all-powerful  relief for  the  afflicted,  for  the  dying  and  for  the souls  in  purgatory.</p>
-<p>God Alone</p>
 <p>Fifth  Method 150  Motives  Impelling  us  to  say the  Rosary.</p>
 <p>Creed definition  and essence of the  Rosary Our Father  Eminence  of the  Rosary Hail Mary 2  Hail Mary · Hail Mary 3</p>
 <p>the  daily  Rosary the  ordinary Rosary perpetual  Rosary</p>
@@ -488,6 +506,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <h4>4  Hail Mary</h4>
 <h4>5  Hail  Mary</h4>
 <p>excellence  of the  holy  Rosary as  prefigured in  the Old Testament and the  parables  of the New. the strength  of the  holy  Rosary against  the world,  as  prefigured by that small  stone, which,  thrown  by  no  hand of man,  fell  up- on the  statue of Nebuchadnezzar and broke it  into  pieces. its  strength against  the  devil,  as  prefigured by  the  sling  of David with  whi~h he  over- came  Goliath. its  power  against all  sorts  of enemies  of sal- vation,  as  prefigured  by  the  power  of David which  contained innumerable  kinds  of de- fensive  and offensive arms. its  miracles  as  prefigured  in  the  rod  of Moses  which  caused  water  to  flow  from  the rock,  calmed  the waters,  divided  the  seas and performed miracles. its  holiness  as  prefigured  by  the Ark of the Covenant which  contained  the law,  the manna and  the  rod  and  also  by  the psalter</p>
+<div class="page-marker" id="p253"><span>pp. 253–254</span></div>
 <h4>6  Hail Mary</h4>
 <h4>7  Hail Mary</h4>
 <h4>8  Hail  Mary</h4>
@@ -535,6 +554,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>must  ask  of God.</p>
 <p>9  Hail  Mary  Prayer whose  value  is  unknown  and  which is  said  very  badly  by the  majority of Chris- tians.</p>
 <h4>10  Hail  Mary  Paraphrase of the  Our Father.</h4>
+<div class="page-marker" id="p255"><span>pp. 255–256</span></div>
 <p>37  6  Our Father  The Rosary contains  the  angelic  greeting which  is  the  most  pleasing prayer we  can offer our Blessed  Lady. Hail  Mary  The Hail  Mary  is  a  divine  compliment</p>
 <h4>4  Hail  Mary</h4>
 <h4>2  Hail Mary</h4>
@@ -576,6 +596,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>The  Rosary is  a  practice  that God has  sane- tioned  by many miracles. Hail Mary  Miracles  in  the  conversion  of sinners.</p>
 <h4>2  Hail Mary 3  Hail Mary 4  Hail Mary</h4>
 <p>In  the conversion  of heretics. In the  cure  of all  sorts  of diseases. In  favor  of the dying  brethren.</p>
+<div class="page-marker" id="p257"><span>pp. 257–258</span></div>
 <p>5  Hail Mary 6  Hail  Mary 7  Hail  Mary 8  Hail  Mary  For the  procession  of the  holy  Rosary  and</p>
 <p>In the sanctification of devout  people. In  the  release  of souls  from  purgatory. In the  reception  into  the Confraternity.</p>
 <p>the  oil  lamp  of the  holy Rosary.</p>
@@ -627,6 +648,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>sin.</p>
 <p>5  Hail Mary  Those  who  say  it out  of hypocrisy,  lacking</p>
 <p>any  devotion.</p>
+<div class="page-marker" id="p259"><span>pp. 259–260</span></div>
 <h4>6  Hail Mary  Critics  who  strive ingeniously to do  away</h4>
 <p>with  it.</p>
 <p>7  Hail Mary  The impious who speak  against  it. 8  Hail Mary  The cowardly who  accept it and then aban-</p>
@@ -674,6 +696,7 @@ footer a { color: var(--gold-light); text-decoration: none; }
 <p>Remember that none  of these  rules  binds  under  pain  of sin. On  the  Power  and  Dignity  of the  Rosaryt</p>
 <p>&quot;T</p>
 <p>49 hrough  the  Rosary,  hardened sinners  of both sexes  be- came  converted  and began  to lead  a  holy life,  regretting their  past sins  with genuine  tears  of sorrow.  Even  children  performed unbe- lievable  penances,  and devotion  to my  Son and to me spread so much  that it  seemed  almost  as  though angels  were  living  on earth. Faith was  increasing  and many  of the  faithful  longed  to  shed  their</p>
+<div class="page-marker" id="p261"><span>pp. 261–262</span></div>
 <p>blood  for  it  and  fight  against  heretics . .. . &quot;Thus,  through  the  sermons  of my  very  dear  Dominic and 50 through the  power  of the  Rosary the  heretical  regions  became sub missive  to the Church.  Almsgiving  became  widespread;  churches and hospitals  were  built;  people  led  pure and honorable  lives;  real wonders  were  accomplished.  Holiness  and  unworldliness  were  seen everywhere;  the  church  was  seen  as  honorable;  princes  were  just; people lived  at  peace  with  one another and justice and equity reigned  in  the guilds  and in  the  home.  More  impressive  still,  work men  did  not take  up  their tools  until  after they  had  greeted  me  by saying  my  Rosary and they  did  not  retire  at  night  without again praying  to me  on their  knees.  If they  remembered  in  the  middle  of the  night  that they  had not offered me  this  tribute,  they would  im mediately rise  from  their  bed  and greet  me  with  even  greater  re spect,  and with  sorrow  for  their  lapse.  The Rosary  became  so  well known  that people  who  were  devout  were  considered  by  others as being  obviously confraternity members.  If a  man lived  openly in  sin or blasphemed,  it was  commonly said:  &quot;This man cannot possibly be  a  brother  of St.  Dominic.&quot;  I  must  not  fail  to mention  the  signs and  wonders  that  I have  wrought and  put in  different  lands  through the  holy  Rosary.</p>
 <p>&quot;I have  stopped  pestilences  and  put an end  to  horrible  wars  and averted  bloodshed,  besides  strengthening  those  who  said  the  Rosary in  order to  avoid  sin.  When  you  say the  Rosary the  angels  rejoice in it,  the  holy Trinity delights  in  it,  my son  finds  joy in  it and  I  myself am happier than you can possibly imagine. After the  holy  Sacrifice of the  Mass  there is  nothing  that  I  love  so  much  as  the holy Rosary.&quot;  (Cf.  Blessed  Alan de Ia  Roche) . ... &quot;Having been  strongly urged  to do  so  by  St.  Dominic,  all 51 the  brothers and sisters  of his  Order honored  my  Son  and me  un ceasingly and in  an indescribably beautiful way  by  saying this  psal ter  of the  Holy Trinity.  Every  day  each  one of them  said  at  least one complete  Rosary.  If anybody failed  to say  it  he  felt  that the whole  of his  day was  spoiled.  The  brothers of St.  Dominic  had so great  a love  for  this  holy  devotion  that it  made  them  hurry  to church or choir  more willingly.  If one  of them  was  seen  to  carry out his  duties  carelessly  the  others  would  say with  assurance,  &quot;Dear brother,  you  must  not  be  saying  Mary&#x27;s psalter any  more  or else  you are  saying  it badly.&quot;</p>
 <h4>52  On  the  Dignity of the  Hail  Mary</h4>

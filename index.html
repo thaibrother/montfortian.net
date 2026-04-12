@@ -154,6 +154,57 @@
         footer p { opacity: 0.6; font-size: 0.85em; margin: 4px 0; }
         footer .links a { color: var(--gold-light); text-decoration: none; margin: 0 12px; font-size: 0.85em; }
 
+        /* === WRITINGS === */
+        .writings-section { background: var(--cream); padding: 80px 20px; }
+        .writings-section .inner { max-width: 1100px; margin: 0 auto; }
+        .writings-hero {
+            background: linear-gradient(135deg, #1a3a5c 0%, #0d2640 60%, #2a1a0a 100%);
+            border-radius: 16px; padding: 48px 40px; text-align: center; color: white;
+            margin-bottom: 40px; position: relative; overflow: hidden;
+        }
+        .writings-hero::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 50% 30%, rgba(139,105,20,0.12) 0%, transparent 70%);
+        }
+        .writings-hero > * { position: relative; }
+        .writings-hero h2 { font-family: 'Cinzel', serif; font-size: 2.2em; font-style: italic; letter-spacing: 2px; margin-bottom: 8px; }
+        .writings-hero p { opacity: 0.7; font-size: 0.95em; max-width: 550px; margin: 0 auto; line-height: 1.6; }
+        .writings-hero .wr-stats {
+            display: flex; justify-content: center; gap: 32px; margin-top: 24px;
+            flex-wrap: wrap;
+        }
+        .writings-hero .wr-stat { text-align: center; }
+        .writings-hero .wr-stat b { display: block; font-family: 'Cinzel', serif; font-size: 1.8em; color: var(--gold-light); }
+        .writings-hero .wr-stat span { font-size: 0.78em; opacity: 0.6; }
+
+        .wr-group { margin-bottom: 32px; }
+        .wr-group h3 {
+            font-family: 'Cinzel', serif; font-size: 1em; letter-spacing: 2px;
+            color: var(--gold); margin-bottom: 14px; padding-bottom: 8px;
+            border-bottom: 2px solid #e0dcd2; text-transform: uppercase;
+        }
+        .wr-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+        .wr-card {
+            display: flex; align-items: flex-start; gap: 14px;
+            padding: 18px 16px; border-radius: 10px;
+            border: 1px solid #e0dcd2; background: white;
+            text-decoration: none; color: inherit; transition: all 0.2s;
+        }
+        .wr-card:hover { border-color: var(--gold); box-shadow: 0 4px 16px rgba(0,0,0,0.07); transform: translateY(-2px); }
+        .wr-card .wr-num {
+            font-family: 'Cinzel', serif; font-size: 1.4em; font-weight: 700;
+            color: var(--navy); opacity: 0.35; min-width: 36px; text-align: center;
+            line-height: 1.2; padding-top: 2px;
+        }
+        .wr-card .wr-info { flex: 1; }
+        .wr-card .wr-title { font-weight: 600; color: var(--navy); font-size: 0.95em; display: block; }
+        .wr-card .wr-abbr {
+            display: inline-block; background: #f0ede4; padding: 1px 8px;
+            border-radius: 3px; font-size: 0.7em; color: #999;
+            font-family: monospace; margin-left: 6px;
+        }
+        .wr-card .wr-desc { font-size: 0.82em; color: var(--text-light); margin-top: 3px; line-height: 1.5; }
+
         /* === RESPONSIVE === */
         @media (max-width: 768px) {
             .pillars { grid-template-columns: 1fr; }
@@ -208,6 +259,7 @@
     <a href="#congregations">Three Congregations</a>
     <a href="#timeline">Timeline</a>
     <a href="#network" class="active">Network Directory</a>
+    <a href="#writings">Writings</a>
     <a href="#thai-province">Thai Province</a>
 </nav>
 
@@ -519,6 +571,218 @@
             </div>
         </div>
 
+    </div>
+</section>
+
+<!-- ===== WRITINGS ===== -->
+<section class="writings-section" id="writings">
+    <div class="inner">
+
+        <div class="writings-hero">
+            <h2>God Alone</h2>
+            <p>The Collected Writings of Saint Louis Marie de Montfort — the spiritual foundation of all three Montfortian congregations</p>
+            <div class="wr-stats">
+                <div class="wr-stat"><b>23</b><span>Writings</span></div>
+                <div class="wr-stat"><b>620+</b><span>Pages</span></div>
+                <div class="wr-stat"><b>1694–1716</b><span>Period</span></div>
+            </div>
+        </div>
+
+        <div class="wr-group">
+            <h3>Major Spiritual Writings</h3>
+            <div class="wr-grid">
+                <a class="wr-card" href="writings/true-devotion.html">
+                    <div class="wr-num">7</div>
+                    <div class="wr-info">
+                        <span class="wr-title">True Devotion to the Blessed Virgin <span class="wr-abbr">TD</span></span>
+                        <span class="wr-desc">The most celebrated work — total consecration to Jesus through Mary</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/love-of-eternal-wisdom.html">
+                    <div class="wr-num">2</div>
+                    <div class="wr-info">
+                        <span class="wr-title">The Love of Eternal Wisdom <span class="wr-abbr">LEW</span></span>
+                        <span class="wr-desc">Montfort's masterwork on the pursuit of Divine Wisdom</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/friends-of-the-cross.html">
+                    <div class="wr-num">3</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Letter to the Friends of the Cross <span class="wr-abbr">FC</span></span>
+                        <span class="wr-desc">The meaning and value of suffering united with Christ</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/secret-of-the-rosary.html">
+                    <div class="wr-num">4</div>
+                    <div class="wr-info">
+                        <span class="wr-title">The Secret of the Rosary <span class="wr-abbr">SR</span></span>
+                        <span class="wr-desc">Five decades revealing the surpassing merit of the Rosary</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/secret-of-mary.html">
+                    <div class="wr-num">6</div>
+                    <div class="wr-info">
+                        <span class="wr-title">The Secret of Mary <span class="wr-abbr">SM</span></span>
+                        <span class="wr-desc">A condensed guide to true devotion to the Blessed Virgin</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/methods-for-rosary.html">
+                    <div class="wr-num">5</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Methods for Saying the Rosary <span class="wr-abbr">MR</span></span>
+                        <span class="wr-desc">Five practical methods for praying with devotion</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="wr-group">
+            <h3>Personal Correspondence</h3>
+            <div class="wr-grid">
+                <a class="wr-card" href="writings/letters.html">
+                    <div class="wr-num">1</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Letters <span class="wr-abbr">L</span></span>
+                        <span class="wr-desc">34 letters and fragments of personal correspondence (1694–1716)</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/letter-montbernage.html">
+                    <div class="wr-num">14</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Letter to the People of Montbernage <span class="wr-abbr">LPM</span></span>
+                        <span class="wr-desc">A touching letter to the poor, written while expelled and silenced</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="wr-group">
+            <h3>Missionary Writings &amp; Rules</h3>
+            <div class="wr-grid">
+                <a class="wr-card" href="writings/prayer-for-missionaries.html">
+                    <div class="wr-num">8</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Prayer for Missionaries <span class="wr-abbr">PM</span></span>
+                        <span class="wr-desc">An urgent plea for future missionaries of the Company of Mary</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/rule-missionary-priests.html">
+                    <div class="wr-num">9</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Rule of the Missionary Priests <span class="wr-abbr">RM</span></span>
+                        <span class="wr-desc">Directives for the Company of Mary: poverty, obedience, prayer, missions</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/letter-members-company.html">
+                    <div class="wr-num">10</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Letter to the Members of the Company <span class="wr-abbr">LCM</span></span>
+                        <span class="wr-desc">To the future members of a congregation in the Saint's mind and heart</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/rule-daughters-wisdom.html">
+                    <div class="wr-num">12</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Original Rule of the Daughters of Wisdom <span class="wr-abbr">RW</span></span>
+                        <span class="wr-desc">Constitution for the Daughters of Wisdom congregation</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/the-rules.html">
+                    <div class="wr-num">15</div>
+                    <div class="wr-info">
+                        <span class="wr-title">The Rules <span class="wr-abbr">RV/RP/PS</span></span>
+                        <span class="wr-desc">Rule of the Forty-Four Virgins, the White Penitents, and the Pilgrimage</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/wisdom-cross.html">
+                    <div class="wr-num">11</div>
+                    <div class="wr-info">
+                        <span class="wr-title">The Wisdom Cross of Poitiers <span class="wr-abbr">WC</span></span>
+                        <span class="wr-desc">A visual program of spiritual life hand-lettered on a large wooden cross</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="wr-group">
+            <h3>Shorter Writings, Meditations &amp; Last Testament</h3>
+            <div class="wr-grid">
+                <a class="wr-card" href="writings/maxims-lessons.html">
+                    <div class="wr-num">13</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Maxims and Lessons of Divine Wisdom <span class="wr-abbr">MLW</span></span>
+                        <span class="wr-desc">Spiritual instructions for the Daughters of Wisdom</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/covenant-with-god.html">
+                    <div class="wr-num">16</div>
+                    <div class="wr-info">
+                        <span class="wr-title">The Covenant with God <span class="wr-abbr">CG</span></span>
+                        <span class="wr-desc">Formulas for the renewal of Baptismal Vows</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/montforts-will.html">
+                    <div class="wr-num">17</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Saint Louis Marie De Montfort's Will <span class="wr-abbr">W</span></span>
+                        <span class="wr-desc">Dictated the day before he died, April 27, 1716</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/four-meditations.html">
+                    <div class="wr-num">21</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Four Short Meditations on the Religious Life <span class="wr-abbr">MRL</span></span>
+                        <span class="wr-desc">Meditations on Poverty, Chastity, Obedience, and the Religious rules</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/voluntary-poverty.html">
+                    <div class="wr-num">20</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Rules on Voluntary Poverty <span class="wr-abbr">RVP</span></span>
+                        <span class="wr-desc">Taken from St. Louis de Montfort's Notebook</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/happy-death.html">
+                    <div class="wr-num">23</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Dispositions for a Happy Death <span class="wr-abbr">HD</span></span>
+                        <span class="wr-desc">Preparing for death — a recurring topic of Montfort's missions</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="wr-group">
+            <h3>Prayers, Hymns &amp; Sermons</h3>
+            <div class="wr-grid">
+                <a class="wr-card" href="writings/morning-night-prayers.html">
+                    <div class="wr-num">18</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Morning and Night Prayers <span class="wr-abbr">MP/NP</span></span>
+                        <span class="wr-desc">Daily prayers composed by St. Louis Marie de Montfort</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/hymns.html">
+                    <div class="wr-num">19</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Hymns <span class="wr-abbr">H</span></span>
+                        <span class="wr-desc">A sampling of the 163 hymns from the pen of the Saint</span>
+                    </div>
+                </a>
+                <a class="wr-card" href="writings/sermons.html">
+                    <div class="wr-num">22</div>
+                    <div class="wr-info">
+                        <span class="wr-title">Sermons <span class="wr-abbr">S</span></span>
+                        <span class="wr-desc">A selection of sermon outlines from the Saint's Book of Sermons</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <p style="text-align:center; color:var(--text-light); font-size:0.88em; margin-top:24px;">
+            Source: <em>God Alone</em> — The Collected Writings of St. Louis Marie de Montfort
+            &middot; Montfort Publications, Bay Shore, NY &middot; ISBN 0-910984-55-7
+        </p>
     </div>
 </section>
 

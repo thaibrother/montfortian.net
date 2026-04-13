@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Stream of Montfortian Mission in Thailand</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #1a3a5c;
+    --navy-dark: #0d2640;
+    --navy-light: #2c5f8a;
+    --gold: #c9a74e;
+    --gold-dark: #8b6914;
+    --gold-light: #e8d494;
+    --cream: #fafaf7;
+    --white: #ffffff;
+    --gray-100: #f1f3f5;
+    --gray-200: #e9ecef;
+    --text: #2a2a2a;
+    --text-light: #5a5a5a;
+    --text-muted: #8a8a8a;
+    --shadow: 0 2px 12px rgba(0,0,0,0.07);
+    --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+    --radius: 12px;
+    --root-purple: #6d28d9;
+    --heart-rose: #be185d;
+    --frame-navy: #1a3a5c;
+    --engine-orange: #ea580c;
+    --engine-orange-dark: #9a3412;
+    --engine-orange-light: #fed7aa;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body {
+    font-family: 'Sarabun', 'Inter', sans-serif;
+    color: var(--text); background: var(--cream);
+    line-height: 1.85; -webkit-font-smoothing: antialiased;
+  }
+  .en { font-family: 'Inter', sans-serif; }
+  h1,h2,h3 { font-family: 'Playfair Display', Georgia, serif; font-weight:600; color:var(--navy); line-height:1.35; }
+
+  /* ── LANG TOGGLE ── */
+  .lang-toggle {
+    position:fixed; top:16px; right:16px; z-index:1001;
+    display:flex; background:rgba(255,255,255,0.9); backdrop-filter:blur(8px);
+    border-radius:20px; overflow:hidden; border:1px solid var(--gray-200);
+    box-shadow:var(--shadow);
+  }
+  .lang-btn {
+    padding:6px 16px; font-size:12px; font-weight:600; cursor:pointer;
+    border:none; background:none; color:var(--text-light); transition:all 0.2s;
+    font-family:'Inter',sans-serif;
+  }
+  .lang-btn.active { background:var(--navy); color:var(--white); }
+  .th-content, .en-content { display:none; }
+  body.lang-th .th-content { display:block; }
+  body.lang-en .en-content { display:block; }
+  body.lang-th .th-inline { display:inline; }
+  body.lang-th .en-inline { display:none; }
+  body.lang-en .th-inline { display:none; }
+  body.lang-en .en-inline { display:inline; }
+
+  /* ── NAV ── */
+  nav {
+    position:fixed; top:0; left:0; right:0; z-index:1000;
+    background:rgba(255,255,255,0.95); backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--gray-200);
+  }
+  .nav-inner {
+    max-width:1100px; margin:0 auto;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:0 24px; height:56px;
+  }
+  .nav-brand { text-decoration:none; color:var(--navy); font-weight:700; font-size:14px; font-family:'Playfair Display',serif; }
+  .nav-links { display:flex; gap:20px; list-style:none; }
+  .nav-links a { text-decoration:none; color:var(--text-light); font-size:12px; font-weight:500; font-family:'Inter',sans-serif; }
+  .nav-links a:hover { color:var(--navy); }
+
+  /* ── HERO ── */
+  .hero {
+    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    background: linear-gradient(160deg, #0a1628 0%, #1a3a5c 50%, #2c5f8a 100%);
+    color:var(--white); text-align:center; padding:100px 24px 80px;
+    position:relative; overflow:hidden;
+  }
+  .hero::before {
+    content:''; position:absolute; inset:0;
+    background:
+      radial-gradient(ellipse at 20% 50%, rgba(109,40,217,0.12) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 30%, rgba(201,167,78,0.1) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 90%, rgba(234,88,12,0.06) 0%, transparent 40%);
+  }
+  .hero-content { position:relative; max-width:780px; }
+  .hero-eyebrow {
+    display:inline-block; font-size:10px; font-weight:600; letter-spacing:4px;
+    text-transform:uppercase; color:var(--gold-light); margin-bottom:20px;
+    font-family:'Inter',sans-serif;
+  }
+  .hero h1 { font-size:clamp(26px,4.5vw,44px); color:var(--white); margin-bottom:20px; line-height:1.5; }
+  .hero h1 .gold { color:var(--gold); }
+  .hero-sub { font-size:16px; opacity:0.75; max-width:640px; margin:0 auto 36px; line-height:2; }
+  .hero-sites { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; }
+  .hero-site {
+    display:flex; align-items:center; gap:7px;
+    background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.12);
+    padding:7px 16px; border-radius:20px; text-decoration:none; color:rgba(255,255,255,0.85);
+    font-size:12px; font-weight:500; font-family:'Inter',sans-serif; transition:all 0.3s;
+  }
+  .hero-site:hover { background:rgba(255,255,255,0.16); color:var(--white); }
+  .site-dot { width:7px; height:7px; border-radius:50%; flex-shrink:0; }
+
+  /* ── SECTIONS ── */
+  .section { padding:80px 24px; }
+  .section.alt { background:var(--white); }
+  .sec-inner { max-width:900px; margin:0 auto; }
+
+  /* ── STREAM CHAPTER ── */
+  .chapter { position:relative; padding-left:48px; margin-bottom:64px; }
+  .chapter::before {
+    content:''; position:absolute; left:18px; top:0; bottom:-64px;
+    width:2px; background: linear-gradient(to bottom, var(--gray-200), transparent);
+  }
+  .chapter:last-child::before { display:none; }
+  .chapter-dot {
+    position:absolute; left:6px; top:4px;
+    width:26px; height:26px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-size:12px; color:var(--white); font-weight:700; z-index:1;
+  }
+  .chapter-dot.c1 { background:var(--root-purple); }
+  .chapter-dot.c2 { background:var(--heart-rose); }
+  .chapter-dot.c3 { background:var(--frame-navy); }
+  .chapter-dot.c4 { background:var(--engine-orange); }
+  .chapter-label {
+    font-size:10px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase;
+    margin-bottom:4px; font-family:'Inter',sans-serif;
+  }
+  .chapter-label.c1 { color:var(--root-purple); }
+  .chapter-label.c2 { color:var(--heart-rose); }
+  .chapter-label.c3 { color:var(--frame-navy); }
+  .chapter-label.c4 { color:var(--engine-orange); }
+  .chapter-site {
+    font-size:11px; color:var(--text-muted); margin-bottom:6px; font-family:'Inter',sans-serif;
+  }
+  .chapter-site a { color:var(--text-muted); text-decoration:none; border-bottom:1px dashed var(--gray-200); }
+  .chapter-site a:hover { color:var(--navy); }
+  .chapter h2 { font-size:clamp(20px,3vw,28px); margin-bottom:4px; }
+  .chapter-subtitle {
+    font-family:'Playfair Display',serif; font-style:italic; font-size:16px;
+    color:var(--text-light); margin-bottom:16px;
+  }
+  .chapter p { font-size:15px; color:var(--text-light); line-height:2; margin-bottom:12px; }
+  .chapter p strong { color:var(--text); font-weight:600; }
+  .chapter-points { list-style:none; margin-top:16px; }
+  .chapter-points li {
+    padding:10px 0; font-size:14px; color:var(--text-light); line-height:1.8;
+    border-bottom:1px solid var(--gray-100);
+  }
+  .chapter-points li:last-child { border:none; }
+  .chapter-points .point-title {
+    font-family:'Inter',sans-serif; font-weight:700; font-size:13px; color:var(--navy);
+    display:block; margin-bottom:2px;
+  }
+
+  /* ── SCHOOLS STRIP ── */
+  .schools-wrap { text-align:center; margin-top:20px; }
+  .schools-wrap h4 {
+    font-family:'Inter',sans-serif; font-size:11px; font-weight:600;
+    letter-spacing:2px; text-transform:uppercase; color:var(--text-muted); margin-bottom:12px;
+  }
+  .schools-strip { display:flex; flex-wrap:wrap; gap:6px; justify-content:center; }
+  .sch-chip {
+    display:inline-flex; align-items:center; gap:5px;
+    background:var(--white); border:1px solid var(--gray-200);
+    padding:5px 12px; border-radius:16px; font-size:11px; font-weight:500;
+    text-decoration:none; color:var(--navy); transition:all 0.2s; font-family:'Inter',sans-serif;
+  }
+  .sch-chip:hover { background:var(--navy); color:var(--white); border-color:var(--navy); }
+  .sch-chip .abbr {
+    font-size:9px; font-weight:700; background:var(--gray-100);
+    padding:1px 5px; border-radius:3px; color:var(--text-muted);
+  }
+  .sch-chip:hover .abbr { background:rgba(255,255,255,0.2); color:var(--white); }
+
+  /* ── SWIS ACCENT (orange, subtle) ── */
+  .swis-accent {
+    background: linear-gradient(135deg, #7c2d12 0%, #ea580c 100%);
+    border-radius:12px; padding:28px 24px; color:var(--white); text-align:center;
+    margin-top:16px; position:relative; overflow:hidden;
+  }
+  .swis-accent::before {
+    content:''; position:absolute; inset:0;
+    background: radial-gradient(circle at 75% 25%, rgba(255,255,255,0.06) 0%, transparent 50%);
+  }
+  .swis-accent h4 { color:var(--white); font-size:18px; margin-bottom:4px; position:relative; font-family:'Playfair Display',serif; }
+  .swis-accent .sub { opacity:0.7; font-size:12px; margin-bottom:20px; position:relative; font-family:'Inter',sans-serif; }
+  .swis-stats {
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(100px,1fr));
+    gap:10px; max-width:480px; margin:0 auto; position:relative;
+  }
+  .swis-stat {
+    background:rgba(255,255,255,0.1); border-radius:8px; padding:12px 6px;
+    border:1px solid rgba(255,255,255,0.1);
+  }
+  .swis-stat .num { font-family:'Playfair Display',serif; font-size:22px; font-weight:700; }
+  .swis-stat .label { font-size:9px; opacity:0.6; margin-top:2px; font-family:'Inter',sans-serif; text-transform:uppercase; letter-spacing:1px; }
+
+  /* ── CONCLUSION ── */
+  .conclusion {
+    background: var(--navy-dark); border-radius:16px; padding:48px 32px;
+    text-align:center; color:var(--white); margin-top:48px;
+  }
+  .conclusion blockquote {
+    font-family:'Playfair Display',serif; font-size:clamp(17px,2.5vw,22px);
+    font-style:italic; line-height:2; max-width:680px; margin:0 auto 16px;
+    color:var(--gold-light);
+  }
+  .conclusion .body-text {
+    opacity:0.7; font-size:14px; max-width:640px; margin:0 auto 20px; line-height:2;
+  }
+  .pillars {
+    display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:20px;
+  }
+  .pillar {
+    display:flex; align-items:center; gap:6px;
+    padding:8px 16px; border-radius:20px; font-size:12px; font-weight:600;
+    border:1px solid rgba(255,255,255,0.15); color:rgba(255,255,255,0.9);
+    font-family:'Inter',sans-serif;
+  }
+  .pillar .pdot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+
+  /* ── CTA ── */
+  .cta-section {
+    text-align:center; padding:48px 24px;
+    background: linear-gradient(135deg, var(--navy-dark), var(--navy));
+    color:var(--white);
+  }
+  .cta-buttons { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:16px; }
+  .btn-cta {
+    display:inline-flex; align-items:center; gap:6px;
+    padding:10px 24px; border-radius:20px; text-decoration:none;
+    font-size:12px; font-weight:600; transition:all 0.3s; font-family:'Inter',sans-serif;
+  }
+  .btn-gold { background:var(--gold); color:var(--navy-dark); }
+  .btn-gold:hover { background:var(--gold-light); transform:translateY(-2px); }
+  .btn-outline { border:1px solid rgba(255,255,255,0.25); color:var(--white); }
+  .btn-outline:hover { background:rgba(255,255,255,0.08); }
+
+  /* ── FOOTER ── */
+  footer {
+    background:var(--navy-dark); color:rgba(255,255,255,0.35);
+    padding:24px 24px; text-align:center; font-size:11px; font-family:'Inter',sans-serif;
+  }
+  footer a { color:var(--gold-light); text-decoration:none; }
+
+  @media (max-width:600px) {
+    .chapter { padding-left:36px; }
+    .chapter-dot { left:2px; width:22px; height:22px; font-size:10px; }
+    .hero { padding:80px 16px 60px; }
+    .swis-stats { grid-template-columns:1fr 1fr; }
+    .conclusion { padding:32px 20px; }
+  }
+</style>
+</head>
+<body class="lang-th">
+
+<!-- LANGUAGE TOGGLE -->
+<div class="lang-toggle">
+  <button class="lang-btn active" id="btn-th" onclick="setLang('th')">TH</button>
+  <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="https://fsgthailand.org" class="nav-brand">
+      <span class="th-inline">มูลนิธิคณะเซนต์คาเบรียลฯ</span>
+      <span class="en-inline">FSG Thailand</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="https://montfortian.net" target="_blank">Montfortian</a></li>
+      <li><a href="https://fsgthailand.org">Foundation</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank">Thai Brothers</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow en">The Stream of Montfortian Mission in Thailand</div>
+
+    <div class="th-content">
+      <h1>การหลอมรวม<span class="gold">จิตตารมณ์มงฟอร์ต</span><br>สู่<span class="gold">วิถีชีวิตภราดา</span><br>และความเป็นปึกแผ่นเชิงสถาบัน<br>ผ่านนวัตกรรมดิจิทัล</h1>
+      <p class="hero-sub">สายธารพันธกิจที่สืบทอดมากว่า 300 ปี จากนักบุญหลุยส์ มารี เดอ มงฟอร์ต
+        สู่วิถีชีวิตภราดาในสนามพันธกิจ 14 โรงเรียนในประเทศไทย
+        ขับเคลื่อนด้วยระบบสารสนเทศและปัญญาประดิษฐ์</p>
+    </div>
+
+    <div class="en-content">
+      <h1>Integrating the <span class="gold">Montfortian Spirit</span><br>with the <span class="gold">Religious Life</span> of the Brothers<br>and Institutional Excellence<br>through Digital Innovation</h1>
+      <p class="hero-sub">A sacred journey of over 300 years, from Saint Louis-Marie de Montfort
+        to the Brothers serving in 14 premier institutions across Thailand,
+        powered by information systems and artificial intelligence.</p>
+    </div>
+
+    <div class="hero-sites">
+      <a href="https://montfortian.net" target="_blank" class="hero-site">
+        <span class="site-dot" style="background:var(--root-purple)"></span> montfortian.net
+      </a>
+      <a href="https://thaibrothers.net" target="_blank" class="hero-site">
+        <span class="site-dot" style="background:var(--heart-rose)"></span> thaibrothers.net
+      </a>
+      <a href="https://fsgthailand.org" class="hero-site">
+        <span class="site-dot" style="background:var(--gold)"></span> fsgthailand.org
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- THE STREAM -->
+<div class="section">
+  <div class="sec-inner">
+
+    <!-- CHAPTER 1: THE ETERNAL ROOT -->
+    <div class="chapter">
+      <div class="chapter-dot c1">1</div>
+      <div class="chapter-label c1 en">The Eternal Root</div>
+      <div class="chapter-site"><a href="https://montfortian.net" target="_blank">montfortian.net</a></div>
+
+      <div class="th-content">
+        <h2>ต้นน้ำแห่งพระปรีชาญาณ</h2>
+        <div class="chapter-subtitle">"The Source of Divine Wisdom"</div>
+        <p>สายธารนี้เริ่มต้นขึ้นเมื่อปี ค.ศ. 1711 จากปณิธานของ<strong>นักบุญหลุยส์ มารี เดอ มงฟอร์ต</strong>
+          ผู้สถาปนาคณะนักบวชที่มุ่งเน้นการศึกษาแบบองค์รวม
+          จิตตารมณ์นี้ไม่ใช่เพียงประวัติศาสตร์ แต่เป็น<strong>ขุมพลังที่ไหลเวียน</strong>อยู่ในทุกภารกิจ
+          ของครอบครัวมงฟอร์ตทั่วโลก เพื่อนำความรักและปัญญาไปสู่ใจคน</p>
+      </div>
+
+      <div class="en-content">
+        <h2>The Source of Divine Wisdom</h2>
+        <div class="chapter-subtitle">"ต้นน้ำแห่งพระปรีชาญาณ"</div>
+        <p>This sacred journey began in 1711, inspired by the profound vision of
+          <strong>Saint Louis-Marie Grignion de Montfort.</strong>
+          He established a religious family dedicated to holistic education and the pursuit of Wisdom.
+          This spirit is not merely history; it is a <strong>living spring</strong> that flows through every mission
+          of the Montfortian family worldwide &mdash; the Brothers of Saint Gabriel, the Company of Mary,
+          and the Daughters of Wisdom &mdash; bringing love and enlightenment to the hearts of the youth.</p>
+      </div>
+    </div>
+
+    <!-- CHAPTER 2: THE HEART IN THE FIELD -->
+    <div class="chapter">
+      <div class="chapter-dot c2">2</div>
+      <div class="chapter-label c2 en">The Heart in the Field</div>
+      <div class="chapter-site"><a href="https://thaibrothers.net" target="_blank">thaibrothers.net</a></div>
+
+      <div class="th-content">
+        <h2>วิถีชีวิตภราดาในสนามพันธกิจ</h2>
+        <div class="chapter-subtitle">"The Religious Life in the Field of Mission"</div>
+        <p>จากรากเหง้าสู่การปฏิบัติจริง ผ่านชีวิตของ<strong>คณะภราดาเซนต์คาเบรียล</strong>
+          ที่พำนักและปฏิบัติงานอยู่เคียงข้างนักเรียนใน 14 สถาบันทั่วประเทศไทย
+          นี่คือชีวิตนักบวชที่อุทิศตนท่ามกลางโลก (<em>Incarnational Presence</em>)
+          เป็นสะพานเชื่อมระหว่างคุณค่าทางจิตวิญญาณกับการพัฒนาเยาวชน</p>
+        <p><strong>เราไม่ได้เพียงบริหารโรงเรียน</strong> แต่เรามีชีวิตอยู่เพื่อเป็นแบบอย่าง
+          และผู้นำทางชีวิตให้กับครูและนักเรียนทุกคน</p>
+      </div>
+
+      <div class="en-content">
+        <h2>The Religious Life in the Field of Mission</h2>
+        <div class="chapter-subtitle">"วิถีชีวิตภราดาในสนามพันธกิจ"</div>
+        <p>The wisdom of our founder takes flight through the lives of the
+          <strong>Brothers of Saint Gabriel.</strong> Residing and serving within our 14 premier institutions
+          across Thailand, the Brothers embody an <em>"Incarnational Presence"</em> &mdash;
+          living among students and staff to bridge spiritual values with modern development.</p>
+        <p><strong>We do not simply manage schools;</strong> we live as spiritual mentors and companions,
+          guiding the next generation toward virtue and excellence.</p>
+      </div>
+
+      <!-- 14 Schools -->
+      <div class="schools-wrap">
+        <h4 class="en">14 Institutions Across Thailand</h4>
+        <div class="schools-strip">
+          <a class="sch-chip" href="https://www.assumption.ac.th" target="_blank"><span class="abbr">AC</span> Assumption College</a>
+          <a class="sch-chip" href="https://www.acp.ac.th" target="_blank"><span class="abbr">ACP</span> AC Primary</a>
+          <a class="sch-chip" href="https://www.sg.ac.th" target="_blank"><span class="abbr">SG</span> Saint Gabriel's</a>
+          <a class="sch-chip" href="https://www.montfort.ac.th" target="_blank"><span class="abbr">MC</span> Montfort College</a>
+          <a class="sch-chip" href="https://www.acs.ac.th" target="_blank"><span class="abbr">ACS</span> AC Sriracha</a>
+          <a class="sch-chip" href="https://www.slc.ac.th" target="_blank"><span class="abbr">SLC</span> Saint Louis</a>
+          <a class="sch-chip" href="https://www.acl.ac.th" target="_blank"><span class="abbr">ACL</span> AC Lampang</a>
+          <a class="sch-chip" href="https://www.act.ac.th" target="_blank"><span class="abbr">ACT</span> AC Thonburi</a>
+          <a class="sch-chip" href="https://www.acr.ac.th" target="_blank"><span class="abbr">ACR</span> AC Rayong</a>
+          <a class="sch-chip" href="https://www.acu.ac.th" target="_blank"><span class="abbr">ACU</span> AC Ubon</a>
+          <a class="sch-chip" href="https://www.acn.ac.th" target="_blank"><span class="abbr">ACN</span> AC Nakhon Ratchasima</a>
+          <a class="sch-chip" href="https://www.acsp.ac.th" target="_blank"><span class="abbr">ACSP</span> AC Samutprakarn</a>
+          <a class="sch-chip" href="https://www.atn.ac.th" target="_blank"><span class="abbr">ATN</span> AT Nakhon Phanom</a>
+          <a class="sch-chip" href="https://www.acep.ac.th" target="_blank"><span class="abbr">ACEP</span> AC English Program</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CHAPTER 3: THE INSTITUTIONAL FRAMEWORK -->
+    <div class="chapter">
+      <div class="chapter-dot c3">3</div>
+      <div class="chapter-label c3 en">The Institutional Framework</div>
+      <div class="chapter-site"><a href="https://fsgthailand.org">fsgthailand.org</a></div>
+
+      <div class="th-content">
+        <h2>โครงสร้างเชิงสถาบันเพื่อความยั่งยืนของพันธกิจ</h2>
+        <div class="chapter-subtitle">"The Foundation: A Structure for Mission Sustainability"</div>
+        <p>เพื่อให้ภารกิจของคณะภราดาดำเนินไปได้อย่างเป็นระบบและมั่นคง
+          สอดคล้องกับระเบียบวิธีปฏิบัติในประเทศไทย
+          <strong>มูลนิธิคณะเซนต์คาเบรียลแห่งประเทศไทย</strong>
+          จึงทำหน้าที่เป็นกลไกหลักในการบริหารจัดการเชิงสถาบัน
+          เพื่ออำนวยการให้งานสาธารณประโยชน์และพันธกิจทางการศึกษาบรรลุเป้าหมายอย่างสูงสุด</p>
+        <ul class="chapter-points">
+          <li>
+            <span class="point-title en">Strategic Governance</span>
+            การแปลงนโยบายจากส่วนกลางสู่แผนยุทธศาสตร์ 12 ปี (2026&ndash;2038) เพื่อความเป็นหนึ่งเดียว
+          </li>
+          <li>
+            <span class="point-title en">Systemic Excellence</span>
+            การบริหารงานผ่านคณะกรรมการ 6 ฝ่าย (Commissions) ตามมาตรฐานการดำเนินงานระดับสากล
+          </li>
+          <li>
+            <span class="point-title en">Institutional Stewardship</span>
+            การจัดสรรทรัพยากรอย่างมีส่วนร่วม เพื่อให้ทุกโรงเรียนในเครือเดินหน้าไปสู่ทิศทางเดียวกันอย่างมีพลัง
+          </li>
+        </ul>
+      </div>
+
+      <div class="en-content">
+        <h2>The Foundation: A Structure for Mission Sustainability</h2>
+        <div class="chapter-subtitle">"โครงสร้างเชิงสถาบันเพื่อความยั่งยืนของพันธกิจ"</div>
+        <p>To ensure that the Brothers' mission remains steadfast and flourishes within the Thai context,
+          the <strong>Foundation of the Brothers of Saint Gabriel in Thailand</strong> serves as our primary
+          institutional pillar. It provides the systemic support necessary to harmonize
+          our educational and charitable endeavors.</p>
+        <ul class="chapter-points">
+          <li>
+            <span class="point-title">Strategic Governance</span>
+            Translating central charisms into the Strategic Plan 2026&ndash;2038, ensuring a unified direction for all 14 institutions.
+          </li>
+          <li>
+            <span class="point-title">Systemic Excellence</span>
+            Operating through 6 Specialized Commissions, adhering to international standards of professional management.
+          </li>
+          <li>
+            <span class="point-title">Institutional Stewardship</span>
+            Managing resources with shared accountability to ensure every school thrives as a beacon of the Montfortian mission.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CHAPTER 4: THE INTELLIGENT ENGINE -->
+    <div class="chapter" id="engine">
+      <div class="chapter-dot c4">4</div>
+      <div class="chapter-label c4 en">The Intelligent Engine</div>
+
+      <div class="th-content">
+        <h2>สารสนเทศและปัญญาประดิษฐ์: พลวัตขับเคลื่อนการบริหารจัดการ</h2>
+        <div class="chapter-subtitle">"Information &amp; AI: The Digital Pulse of Modern Management"</div>
+        <p>ในยุคสารสนเทศที่ความถูกต้องและรวดเร็วเป็นสิ่งสำคัญ มูลนิธิฯ ได้นำระบบ
+          <strong>SWIS</strong> (School Web-based Information System)
+          มาเป็นระบบประสาทกลางดิจิทัล
+          ที่ไม่ใช่เพียงแค่ซอฟต์แวร์ แต่คือ<strong>เครื่องมือขับเคลื่อนแผนงานเชิงกลยุทธ์</strong></p>
+        <ul class="chapter-points">
+          <li>
+            <span class="point-title en">AI-Enhanced Insights</span>
+            การนำปัญญาประดิษฐ์มาวิเคราะห์ข้อมูลเชิงลึก ทั้งด้านการพัฒนาคน (HRM)
+            และพัฒนาการผู้เรียน 5 มิติ เพื่อให้ผู้บริหารมองเห็นภาพรวมและตัดสินใจได้อย่างแม่นยำ
+          </li>
+          <li>
+            <span class="point-title en">Operational Agility</span>
+            การติดตามแผนงานตามวงจร PDCA แบบเรียลไทม์
+            ทำให้ทุกฟันเฟืองของมูลนิธิฯ ตั้งแต่ระดับนโยบายไปจนถึงห้องเรียน
+            เชื่อมโยงถึงกันอย่างไร้รอยต่อ
+          </li>
+        </ul>
+      </div>
+
+      <div class="en-content">
+        <h2>Information &amp; AI: The Digital Pulse of Modern Management</h2>
+        <div class="chapter-subtitle">"สารสนเทศและปัญญาประดิษฐ์: พลวัตขับเคลื่อนการบริหารจัดการ"</div>
+        <p>In an era where precision and agility are paramount, the Foundation utilizes
+          <strong>SWIS</strong> (School Web-based Information System) as its digital central nervous system.
+          It is more than software; it is a <strong>strategic engine driven by intelligence.</strong></p>
+        <ul class="chapter-points">
+          <li>
+            <span class="point-title">AI-Enhanced Insights</span>
+            Leveraging Artificial Intelligence to analyze deep data &mdash; from Human Capital Management (HRM)
+            to the 5 Dimensions of Holistic Student Growth &mdash; enabling leaders to make data-driven,
+            compassionate decisions.
+          </li>
+          <li>
+            <span class="point-title">Operational Agility</span>
+            Monitoring strategic execution through real-time PDCA cycles, ensuring that every level
+            of the organization, from the Provincial Council to the classroom, is seamlessly connected.
+          </li>
+        </ul>
+      </div>
+
+      <!-- SWIS stats — subtle, orange -->
+      <div class="swis-accent">
+        <h4>SWIS</h4>
+        <div class="sub">School Web-based Information System</div>
+        <div class="swis-stats">
+          <div class="swis-stat">
+            <div class="num">220</div>
+            <div class="label">Functions</div>
+          </div>
+          <div class="swis-stat">
+            <div class="num">14</div>
+            <div class="label">Schools</div>
+          </div>
+          <div class="swis-stat">
+            <div class="num">5,000+</div>
+            <div class="label">Users</div>
+          </div>
+          <div class="swis-stat">
+            <div class="num">20+</div>
+            <div class="label">Years</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONCLUSION -->
+    <div class="conclusion">
+      <div class="th-content">
+        <blockquote>
+          "จากศรัทธาสู่มาตรฐานนวัตกรรม<br>เพื่ออนาคตที่ยั่งยืนของเยาวชน"
+        </blockquote>
+        <p class="body-text">
+          นี่คือความสอดประสานที่สมบูรณ์: เรามี<strong>จิตตารมณ์</strong>เป็นเข็มทิศ
+          มี<strong>วิถีชีวิตภราดา</strong>เป็นหัวใจ
+          มี<strong>โครงสร้างมูลนิธิฯ</strong>เป็นระบบสนับสนุนที่เข้มแข็ง
+          และมี<strong>ระบบสารสนเทศและ AI</strong> เป็นเครื่องยนต์ขับเคลื่อน
+          เพื่อให้มั่นใจว่าการศึกษามงฟอร์ตในประเทศไทยจะยังคงเป็นผู้นำ
+          และสร้างคุณประโยชน์แก่สังคมสืบไป
+        </p>
+      </div>
+      <div class="en-content">
+        <blockquote>
+          "From Faith to Innovative Standards:<br>Sustaining the Future of Youth."
+        </blockquote>
+        <p class="body-text">
+          This is a perfect synergy: We have the <strong>Montfortian Spirit</strong> as our compass,
+          the <strong>Religious Life of the Brothers</strong> as our heart,
+          the <strong>Foundation's Framework</strong> as our institutional shield,
+          and <strong>Information Systems &amp; AI</strong> as our driving engine.
+          Together, we ensure that Montfortian education in Thailand remains a global leader,
+          dedicated to the betterment of society for generations to come.
+        </p>
+      </div>
+      <div class="pillars">
+        <div class="pillar"><span class="pdot" style="background:var(--root-purple)"></span>
+          <span class="th-inline">จิตตารมณ์</span><span class="en-inline">Spirit</span></div>
+        <div class="pillar"><span class="pdot" style="background:var(--heart-rose)"></span>
+          <span class="th-inline">วิถีชีวิตภราดา</span><span class="en-inline">Religious Life</span></div>
+        <div class="pillar"><span class="pdot" style="background:var(--gold)"></span>
+          <span class="th-inline">มูลนิธิฯ</span><span class="en-inline">Foundation</span></div>
+        <div class="pillar"><span class="pdot" style="background:var(--engine-orange)"></span>
+          <span class="th-inline">สารสนเทศ &amp; AI</span><span class="en-inline">IT &amp; AI</span></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-section">
+  <div class="th-content"><p style="opacity:0.7; font-size:14px;">มูลนิธิคณะเซนต์คาเบรียลแห่งประเทศไทย</p></div>
+  <div class="en-content"><p style="opacity:0.7; font-size:14px;">Foundation of the Brothers of Saint Gabriel in Thailand</p></div>
+  <div class="cta-buttons">
+    <a href="https://fsgthailand.org" class="btn-cta btn-gold en">FSG Thailand &#8594;</a>
+    <a href="https://thaibrothers.net" target="_blank" class="btn-cta btn-outline en">Thai Brothers &#8594;</a>
+    <a href="https://montfortian.net" target="_blank" class="btn-cta btn-outline en">Montfortian &#8594;</a>
+    <a href="mailto:thaibrother@gmail.com" class="btn-cta btn-outline">&#9993; Contact</a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2026 <a href="https://fsgthailand.org">Foundation of the Brothers of Saint Gabriel in Thailand</a></p>
+  <p style="margin-top:4px;">
+    <a href="https://montfortian.net" target="_blank">montfortian.net</a> &middot;
+    <a href="https://fsgthailand.org">fsgthailand.org</a> &middot;
+    <a href="https://thaibrothers.net" target="_blank">thaibrothers.net</a>
+  </p>
+</footer>
+
+<script>
+function setLang(lang) {
+  document.body.className = 'lang-' + lang;
+  document.getElementById('btn-th').className = lang === 'th' ? 'lang-btn active' : 'lang-btn';
+  document.getElementById('btn-en').className = lang === 'en' ? 'lang-btn active' : 'lang-btn';
+}
+</script>
+</body>
+</html>

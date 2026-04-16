@@ -103,12 +103,9 @@
     <div class="nav-tabs">
         <a href="brothers.html" class="nav-tab">By Community</a>
         <a href="brothers-age.html" class="nav-tab">By Birth Date</a>
-        <a href="brothers-vow.html" class="nav-tab active">By Vows</a>
-    </div>
-    <div class="view-selector">
-        <button class="view-btn active" data-view="firstGroups">📿 First Vows — จัดกลุ่มตามปีปฏิญาณพร้อมกัน</button>
-        <button class="view-btn" data-view="perpGroups">✝️ Perpetual Vows — ถวายตัวตลอดชีวิตพร้อมกัน</button>
-        <button class="view-btn" data-view="notPerp">⏳ Temporary Vow</button>
+        <a href="brothers-vow.html#first" class="nav-tab active" data-view="firstGroups">📿 By First Vows</a>
+        <a href="brothers-vow.html#perp" class="nav-tab" data-view="perpGroups">✝️ By Perpetual Vows</a>
+        <a href="brothers-vow.html#temp" class="nav-tab" data-view="notPerp">⏳ Temporary Vow</a>
     </div>
     <div class="stats-bar">
         <div class="stat-item"><div class="stat-number" id="total-count">0</div><div class="stat-label">Brothers</div></div>
@@ -356,19 +353,34 @@
             document.getElementById('stat-groups').textContent = groupCount;
         }
 
+        function applyHash() {
+            const h = (location.hash || '').replace('#','').toLowerCase();
+            const map = { first:'firstGroups', perp:'perpGroups', temp:'notPerp' };
+            if (map[h]) currentView = map[h];
+            document.querySelectorAll('.nav-tab[data-view]').forEach(t => {
+                t.classList.toggle('active', t.dataset.view === currentView);
+            });
+        }
+
         function init() {
             document.getElementById('total-count').textContent = brothers.length;
             document.getElementById('stat-perp').textContent = brothers.filter(b => b.perpVow).length;
             document.getElementById('stat-first').textContent = brothers.filter(b => b.firstVow && !b.perpVow).length;
 
-            document.querySelectorAll('.view-btn').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
-                    btn.classList.add('active');
-                    currentView = btn.dataset.view;
+            document.querySelectorAll('.nav-tab[data-view]').forEach(tab => {
+                tab.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    document.querySelectorAll('.nav-tab[data-view]').forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    currentView = tab.dataset.view;
+                    const slug = { firstGroups:'first', perpGroups:'perp', notPerp:'temp' }[currentView];
+                    if (slug) history.replaceState(null, '', '#' + slug);
                     render();
                 });
             });
+            window.addEventListener('hashchange', () => { applyHash(); render(); });
+
+            applyHash();
             document.getElementById('search-input').addEventListener('input', render);
             render();
         }

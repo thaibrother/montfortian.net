@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brothers Directory — By Vows & Posting History | FSG Thailand</title>
+    <title>Brothers Directory — By Vows & Posting History | Montfortian Network</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -125,8 +125,8 @@
                 <div class="modal-dates" id="modal-dates"></div>
             </div>
             <div class="modal-section" id="modal-posting-wrap">
-                <h4>🏫 Posting History — ประวัติการย้ายโรงเรียน</h4>
-                <div style="font-size:0.78em;color:#888;font-style:italic;margin:-4px 0 10px 0">* แสดงผลเฉพาะข้อมูลจากระบบ SWIS</div>
+                <h4>🏫 Posting History</h4>
+                <div style="font-size:0.78em;color:#888;font-style:italic;margin:-4px 0 10px 0">* Showing data from SWIS system only</div>
                 <table class="posting-table" id="modal-posting"></table>
             </div>
             <button class="modal-close" onclick="closeModal()">Close</button>
@@ -335,18 +335,18 @@
             if (currentView === 'firstGroups') {
                 const filtered = applyFilter(brothers.filter(b => b.firstVow), query);
                 const groups = groupByYear(filtered, 'firstVow');
-                groupCount = renderGroups(groups, '', (y, list) => 'First Vows ' + y + ' — ชุดปฏิญาณครั้งแรกพร้อมกัน (' + list[0].firstVowDisplay.replace(/\d+ /, '') + ')');
+                groupCount = renderGroups(groups, '', (y, list) => 'First Vows ' + y + ' — Professed Together (' + list[0].firstVowDisplay.replace(/\d+ /, '') + ')');
                 document.getElementById('stat-groups-label').textContent = 'First-Vow Cohorts';
                 document.getElementById('filter-info').textContent = query ? filtered.length + ' matching' : '';
             } else if (currentView === 'perpGroups') {
                 const filtered = applyFilter(brothers.filter(b => b.perpVow), query);
                 const groups = groupByYear(filtered, 'perpVow');
-                groupCount = renderGroups(groups, 'perpetual', (y, list) => 'Perpetual Vows ' + y + ' — ถวายตัวตลอดชีวิตพร้อมกัน (' + list[0].perpVowDisplay.replace(/\d+ /, '') + ')');
+                groupCount = renderGroups(groups, 'perpetual', (y, list) => 'Perpetual Vows ' + y + ' — Professed Together (' + list[0].perpVowDisplay.replace(/\d+ /, '') + ')');
                 document.getElementById('stat-groups-label').textContent = 'Perpetual Cohorts';
                 document.getElementById('filter-info').textContent = query ? filtered.length + ' matching' : '';
             } else if (currentView === 'notPerp') {
                 const filtered = applyFilter(brothers.filter(b => !b.perpVow), query).sort((a,b) => (a.firstVow || '').localeCompare(b.firstVow || ''));
-                groupCount = renderFlat(filtered, 'Temporary Vow — เรียงตามปีปฏิญาณครั้งแรก', 'pending');
+                groupCount = renderFlat(filtered, 'Temporary Vow — Sorted by First Vow Year', 'pending');
                 document.getElementById('stat-groups-label').textContent = 'Awaiting Perpetual';
                 document.getElementById('filter-info').textContent = query ? filtered.length + ' matching' : '';
             }

@@ -58,6 +58,12 @@
   .th-content, .en-content { display:none; }
   body.lang-th .th-content { display:block; }
   body.lang-en .en-content { display:block; }
+  .legal-note { background:linear-gradient(135deg, rgba(201,167,78,0.08), rgba(26,58,92,0.04)); border:1px solid rgba(201,167,78,0.35); border-left:4px solid var(--gold); border-radius:10px; padding:20px 22px; margin:24px 0 28px; }
+  .legal-note .legal-label { font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--gold-dark); margin-bottom:10px; display:flex; align-items:center; gap:8px; }
+  .legal-note .legal-label::before { content:'\2696'; font-size:14px; }
+  .legal-note p { font-size:15px; line-height:1.75; color:var(--text); margin:0; }
+  .legal-note p + p { margin-top:10px; }
+  .legal-note strong { color:var(--navy); }
   body.lang-th .th-inline { display:inline; }
   body.lang-th .en-inline { display:none; }
   body.lang-en .th-inline { display:none; }
@@ -411,6 +417,16 @@
       <div class="th-content">
         <h2>โครงสร้างเชิงสถาบันเพื่อความยั่งยืนของพันธกิจ</h2>
         <div class="chapter-subtitle">"The Foundation: A Structure for Mission Sustainability"</div>
+        <div class="legal-note">
+          <div class="legal-label">บริบททางกฎหมาย &middot; Legal Context</div>
+          <p>ภายใต้กฎหมายของราชอาณาจักรไทย <strong>คณะภราดาเซนต์คาเบรียล</strong> ดำเนินพันธกิจสาธารณประโยชน์ในนามของ
+            <strong>&ldquo;มูลนิธิคณะเซนต์คาเบรียลแห่งประเทศไทย&rdquo;</strong>
+            ซึ่งเป็นนิติบุคคลที่จดทะเบียนถูกต้องตามกฎหมาย
+            ทำหน้าที่เป็นเจ้าของและผู้รับใบอนุญาตสถานศึกษาในเครือทั้ง 14 แห่ง
+            และเป็นกลไกรองรับการบริหารจัดการงานด้านการศึกษา การกุศล และกิจการสาธารณประโยชน์ทั้งปวงของคณะฯ ในประเทศไทย</p>
+          <p>ด้วยเหตุนี้ เมื่อกล่าวถึงการดำเนินงานของคณะภราดาในประเทศไทยในมิติทางสถาบัน
+            จึงปรากฏในนามของ &ldquo;มูลนิธิฯ&rdquo; เป็นหลัก เพื่อความสอดคล้องกับบทบัญญัติของกฎหมายไทย</p>
+        </div>
         <p>เพื่อให้ภารกิจของคณะภราดาดำเนินไปได้อย่างเป็นระบบและมั่นคง
           สอดคล้องกับระเบียบวิธีปฏิบัติในประเทศไทย
           <strong>มูลนิธิคณะเซนต์คาเบรียลแห่งประเทศไทย</strong>
@@ -435,6 +451,18 @@
       <div class="en-content">
         <h2>The Foundation: A Structure for Mission Sustainability</h2>
         <div class="chapter-subtitle">"โครงสร้างเชิงสถาบันเพื่อความยั่งยืนของพันธกิจ"</div>
+        <div class="legal-note">
+          <div class="legal-label">Legal Context &middot; บริบททางกฎหมาย</div>
+          <p>Under the laws of the Kingdom of Thailand, the <strong>Congregation of the Brothers of Saint Gabriel</strong>
+            conducts its public-benefit mission under the legal identity of
+            <strong>&ldquo;The Foundation of the Brothers of Saint Gabriel in Thailand&rdquo;</strong>
+            (&ldquo;มูลนิธิคณะเซนต์คาเบรียลแห่งประเทศไทย&rdquo;) &mdash;
+            a duly registered charitable foundation which holds the licenses of, and operates,
+            the fourteen affiliated schools, and serves as the statutory framework for all
+            educational, charitable, and public-benefit activities of the Brothers in Thailand.</p>
+          <p>Accordingly, at the institutional level, the Brothers' works in Thailand are formally
+            carried out in the name of the <strong>Foundation</strong>, in full compliance with Thai law.</p>
+        </div>
         <p>To ensure that the Brothers' mission remains steadfast and flourishes within the Thai context,
           the <strong>Foundation of the Brothers of Saint Gabriel in Thailand</strong> serves as our primary
           institutional pillar. It provides the systemic support necessary to harmonize

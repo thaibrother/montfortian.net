@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brothers Directory — By Community | FSG Thailand</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #1a3a5c;
+            --dark-navy: #0f2440;
+            --gold: #c9a74e;
+            --light-gold: #e8d5a0;
+            --cream: #fafaf7;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--cream); color: #333; line-height: 1.6; }
+        .header { background: linear-gradient(135deg, var(--navy) 0%, var(--dark-navy) 100%); color: white; padding: 40px 20px; text-align: center; }
+        .header h1 { font-family: 'Playfair Display', 'Georgia', serif; font-size: 2.2em; margin-bottom: 8px; }
+        .header p { opacity: 0.85; font-size: 1.1em; }
+        .nav-tabs { display: flex; justify-content: center; gap: 8px; padding: 16px 20px; background: white; border-bottom: 2px solid #eee; flex-wrap: wrap; }
+        .nav-tab { padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95em; transition: all 0.2s; border: 2px solid transparent; }
+        .nav-tab.active { background: var(--navy); color: white; }
+        .nav-tab:not(.active) { color: var(--navy); border-color: var(--navy); }
+        .nav-tab:hover:not(.active) { background: var(--navy); color: white; opacity: 0.85; }
+        .stats-bar { display: flex; justify-content: center; gap: 40px; padding: 20px; background: white; border-bottom: 1px solid #eee; }
+        .stat-item { text-align: center; }
+        .stat-number { font-size: 2em; font-weight: 700; color: var(--navy); }
+        .stat-label { font-size: 0.85em; color: #666; }
+        .search-box { max-width: 500px; margin: 20px auto; padding: 0 20px; }
+        .search-box input { width: 100%; padding: 12px 20px; border: 2px solid #ddd; border-radius: 30px; font-size: 1em; outline: none; transition: border-color 0.3s; }
+        .search-box input:focus { border-color: var(--gold); }
+        .filter-info { text-align: center; color: #666; font-size: 0.9em; min-height: 1.4em; }
+        .content { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .group-section { margin-bottom: 32px; }
+        .group-header { font-family: 'Playfair Display', 'Georgia', serif; font-size: 1.3em; color: var(--navy); padding: 12px 20px; background: linear-gradient(90deg, rgba(26,58,92,0.08), transparent); border-left: 4px solid var(--gold); margin-bottom: 16px; border-radius: 0 8px 8px 0; }
+        .group-header.admin { background: linear-gradient(90deg, rgba(201,167,78,0.15), transparent); border-left-color: var(--navy); }
+        .brothers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+        .brother-card { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease; display: flex; flex-direction: column; }
+        .brother-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.12); transform: translateY(-4px); }
+        .brother-photo { width: 100%; height: 300px; background: linear-gradient(135deg, var(--navy) 0%, var(--dark-navy) 100%); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+        .brother-img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+        .photo-placeholder { width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, var(--gold) 0%, var(--light-gold) 100%); display: flex; align-items: center; justify-content: center; font-size: 36px; font-weight: 700; color: var(--navy); font-family: 'Playfair Display', serif; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .brother-badge { position: absolute; top: 12px; font-size: 0.7em; padding: 4px 10px; border-radius: 20px; font-weight: 600; white-space: nowrap; }
+        .brother-badge.provincial { right: 12px; background: var(--gold); color: var(--dark-navy); }
+        .brother-info { padding: 16px; flex: 1; display: flex; flex-direction: column; }
+        .brother-name { font-family: 'Playfair Display', 'Georgia', serif; font-size: 1.1em; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+        .brother-assignment { margin-bottom: 8px; }
+        .community { font-weight: 600; color: var(--gold); font-size: 0.9em; }
+        .role { color: #666; font-size: 0.85em; }
+        .brother-dates { font-size: 0.8em; color: #888; margin-bottom: 8px; line-height: 1.5; }
+        .view-profile-btn { margin-top: auto; padding: 8px 16px; border: 2px solid var(--navy); background: transparent; color: var(--navy); border-radius: 8px; cursor: pointer; font-weight: 600; transition: all 0.2s; }
+        .view-profile-btn:hover { background: var(--navy); color: white; }
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center; }
+        .modal-overlay.active { display: flex; }
+        .modal { background: white; border-radius: 20px; padding: 40px; max-width: 500px; width: 90%; text-align: center; position: relative; }
+        .modal h3 { color: var(--navy); margin-bottom: 12px; font-family: 'Playfair Display', serif; }
+        .modal p { color: #666; margin-bottom: 20px; }
+        .modal-close { padding: 10px 30px; background: var(--navy); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; }
+        .no-results { text-align: center; padding: 60px 20px; color: #999; display: none; }
+        .footer { text-align: center; padding: 30px; color: #999; font-size: 0.85em; margin-top: 40px; border-top: 1px solid #eee; }
+        .back-link { display: inline-block; margin-bottom: 10px; color: var(--light-gold); text-decoration: none; font-weight: 600; }
+        .back-link:hover { text-decoration: underline; }
+        @media (max-width: 768px) { .header h1 { font-size: 1.6em; } .stats-bar { gap: 20px; } .stat-number { font-size: 1.5em; } .nav-tabs { gap: 4px; padding: 12px 8px; } .nav-tab { padding: 8px 14px; font-size: 0.85em; } }
+</style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="back-link">← Back to Montfortian Network</a>
+        <h1>Brothers of Saint Gabriel</h1>
+        <p>Province of Thailand — Obedience 2026–2027</p>
+    </div>
+    <div class="nav-tabs"><a href="brothers.html" class="nav-tab active">By Community</a><a href="brothers-age.html" class="nav-tab">By Birth Date</a><a href="brothers-vow.html" class="nav-tab">By Vows</a></div>
+    <div class="stats-bar">
+        <div class="stat-item"><div class="stat-number" id="total-count">0</div><div class="stat-label">Brothers</div></div>
+        <div class="stat-item"><div class="stat-number" id="community-count">0</div><div class="stat-label">Communities</div></div>
+        <div class="stat-item"><div class="stat-number" id="provincial-count">0</div><div class="stat-label">Provincial Council</div></div>
+    </div>
+    <div class="search-box"><input type="text" id="search-input" placeholder="Search by name or community..."><div class="filter-info" id="filter-info"></div></div>
+    <div class="content" id="content-area"></div>
+    <div class="no-results" id="no-results"><h3>No brothers found</h3><p>Try a different search term</p></div>
+    
+    <div class="modal-overlay" id="modal-overlay" onclick="closeModal()">
+        <div class="modal" onclick="event.stopPropagation()">
+            <h3 id="modal-name"></h3>
+            <p>Profile coming soon.<br>Each brother will submit their own profile information.</p>
+            <button class="modal-close" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    <div class="footer"><p>Brothers of Saint Gabriel — Province of Thailand</p><p>Obedience effective 1 May 2026</p></div>
+    <script>
+        const brothers = [
+            { name: "Dechachai", full: "Dechachai Sripicharn", community: "AC", role: "Superior & Director", provincial: false, memorial: false, initials: "DS", photo: "02 Bro Dechachai Sripicharn/DSC_0705.JPG", born: "1958-04-20", bornDisplay: "20 Apr 1958", firstVow: "1979-04-27", firstVowDisplay: "27 Apr 1979", provincialTitle: "" },
+            { name: "Monthol", full: "Monthol Prathumarach", community: "ACSP", role: "Superior & Director", provincial: false, memorial: false, initials: "MP", photo: "03 Bro Monthol Prathumarach/DSC_0274.JPG", born: "1962-11-18", bornDisplay: "18 Nov 1962", firstVow: "1988-08-15", firstVowDisplay: "15 Aug 1988", provincialTitle: "" },
+            { name: "Pisutr", full: "Pisutr Vapiso", community: "ACS", role: "Provincial Councillor & Director", provincial: true, memorial: false, initials: "PV", photo: "04 Bro Pisutr Vapiso/DSC_0762.JPG", born: "1962-11-10", bornDisplay: "10 Nov 1962", firstVow: "1987-08-15", firstVowDisplay: "15 Aug 1987", provincialTitle: "Provincial Councilor" },
+            { name: "Prawat", full: "Prawat Sutthinont", community: "GPC", role: "Member", provincial: false, memorial: false, initials: "PS", photo: "05 Bro Prawat Sutthinont/DSC_0657.JPG", born: "1970-02-16", bornDisplay: "16 Feb 1970", firstVow: "1996-10-05", firstVowDisplay: "5 Oct 1996", provincialTitle: "" },
+            { name: "Sirichai F", full: "Sirichai Fonseka", community: "AU", role: "Superior & President", provincial: false, memorial: false, initials: "SF", photo: "07 Bro Sirichai Fonseka/Sirichai1.JPG", born: "1955-08-21", bornDisplay: "21 Aug 1955", firstVow: "1976-05-01", firstVowDisplay: "1 May 1976", provincialTitle: "" },
+            { name: "Manit", full: "Manit Sakonthawat", community: "AC/ACP", role: "Provincial Bursar & Director ACP", provincial: true, memorial: false, initials: "MS", photo: "08 Bro Manit Sakonthawat/DSC_0226.JPG", born: "1975-11-26", bornDisplay: "26 Nov 1975", firstVow: "2002-12-21", firstVowDisplay: "21 Dec 2002", provincialTitle: "Provincial Bursar" },
+            { name: "Phiranant", full: "Phiranant Numkanisorn", community: "SG", role: "Member", provincial: false, memorial: false, initials: "PN", photo: "09 Bro Phiranant Numkanisorn/Bro_Piranant01.JPG", born: "1959-09-29", bornDisplay: "29 Sep 1959", firstVow: "1981-04-25", firstVowDisplay: "25 Apr 1981", provincialTitle: "" },
+            { name: "Amnuay", full: "Amnuay Yoonprayong", community: "SLJ", role: "Spiritual Guidance", provincial: false, memorial: false, initials: "AY", photo: "10 Bro Amnuay Yoonprayong/DSC_0342.JPG", born: "1944-05-01", bornDisplay: "1 May 1944", firstVow: "1963-04-07", firstVowDisplay: "7 Apr 1963", provincialTitle: "" },
+            { name: "Thinaratana", full: "Thinaratana Komkris", community: "GPC", role: "Superior", provincial: false, memorial: false, initials: "TK", photo: "11 Bro Thinaratana Komkris/DSC_0572.JPG", born: "1943-05-08", bornDisplay: "8 May 1943", firstVow: "1964-05-08", firstVowDisplay: "8 May 1964", provincialTitle: "" },
+            { name: "Surasit", full: "Surasit Sukchai", community: "ACS", role: "Superior", provincial: false, memorial: false, initials: "SS", photo: "12 Bro Surasit Sukchai/DSC_0735.JPG", born: "1946-04-12", bornDisplay: "12 Apr 1946", firstVow: "1969-05-08", firstVowDisplay: "8 May 1969", provincialTitle: "" },
+            { name: "Surakit", full: "Surakit Srisrankulwong", community: "SG", role: "Provincial Superior & Director", provincial: true, memorial: false, initials: "SS", photo: "13 Bro Surakit Srisrankulwong/DSC_0225.JPG", born: "1959-01-04", bornDisplay: "4 Jan 1959", firstVow: "1981-04-25", firstVowDisplay: "25 Apr 1981", provincialTitle: "Provincial Superior" },
+            { name: "Verayuth", full: "Verayuth Boonpram", community: "ACT", role: "Provincial Councillor & Director", provincial: true, memorial: false, initials: "VB", photo: "14 Bro Verayuth Boonpram/[Originals]/DSC_0812.JPG", born: "1966-02-01", bornDisplay: "1 Feb 1966", firstVow: "1995-04-01", firstVowDisplay: "1 Apr 1995", provincialTitle: "Provincial Councilor" },
+            { name: "Chamnan", full: "Chamnan Laoruckphon", community: "MC/MCP", role: "Provincial Councillor & Director MC", provincial: true, memorial: false, initials: "CL", photo: "15 Bro Chamnan Laoruckphon/[Originals]/DSC_0669.JPG", born: "1962-12-09", bornDisplay: "9 Dec 1962", firstVow: "1988-08-15", firstVowDisplay: "15 Aug 1988", provincialTitle: "Provincial Councilor" },
+            { name: "Thaksabutr", full: "Thaksabutr Kraiprasit", community: "MC/MCP", role: "Superior & Director MCP", provincial: false, memorial: false, initials: "TK", photo: "16 Bro Thaksabutr Kraiprasit/DSC_0362.JPG", born: "1968-07-23", bornDisplay: "23 Jul 1968", firstVow: "1991-10-06", firstVowDisplay: "6 Oct 1991", provincialTitle: "" },
+            { name: "Arwut", full: "Arwut Silaket", community: "SG", role: "Member & L. Bursar", provincial: false, memorial: false, initials: "AS", photo: "17 Bro Arwut Silaket/[Originals]/DSC_0186.JPG", born: "1968-08-06", bornDisplay: "6 Aug 1968", firstVow: "1999-11-20", firstVowDisplay: "20 Nov 1999", provincialTitle: "" },
+            { name: "Nontacha", full: "Nontacha Srivilai", community: "MNS", role: "Master of Novices", provincial: false, memorial: false, initials: "NS", photo: "18 Bro Nontacha Srivilai/[Originals]/DSC_0784.JPG", born: "1982-09-14", bornDisplay: "14 Sep 1982", firstVow: "2007-11-04", firstVowDisplay: "4 Nov 2007", provincialTitle: "" },
+            { name: "Witthaya", full: "Witthaya Thepkom", community: "ACL", role: "Provincial Councillor & Superior & Director", provincial: true, memorial: false, initials: "WT", photo: "19 Bro Witthaya Thepkom/DSC_0430.JPG", born: "1983-04-13", bornDisplay: "13 Apr 1983", firstVow: "2008-11-02", firstVowDisplay: "2 Nov 2008", provincialTitle: "Provincial Councilor" },
+            { name: "Kriangsak", full: "Kriangsak Mayod", community: "ACU", role: "Superior & Director", provincial: false, memorial: false, initials: "KM", photo: "20 Bro Kriangsak Mayod/DSC_1002.JPG", born: "1978-06-06", bornDisplay: "6 Jun 1978", firstVow: "2005-10-16", firstVowDisplay: "16 Oct 2005", provincialTitle: "" },
+            { name: "Kullachart", full: "Kullachart Juntachoto", community: "SLC", role: "Director", provincial: false, memorial: false, initials: "KJ", photo: "21 Bro Kullachart Juntachoto/DSC_0182.JPG", born: "1981-08-13", bornDisplay: "13 Aug 1981", firstVow: "2007-11-04", firstVowDisplay: "4 Nov 2007", provincialTitle: "" },
+            { name: "Sa-ard", full: "Sa-ard Vongsacharoenbhakdi", community: "GPC", role: "Member", provincial: false, memorial: false, initials: "SV", photo: "22 Bro Sa-ard Vongsacharoenbhakdi/DSC_0329.JPG", born: "1978-03-31", bornDisplay: "31 Mar 1978", firstVow: "2005-10-16", firstVowDisplay: "16 Oct 2005", provincialTitle: "" },
+            { name: "Siriroj", full: "Siriroj Viriyasirimongkol", community: "SG", role: "Retirement", provincial: false, memorial: false, initials: "SV", photo: "23 Bro Siriroj Viriyasirimongkol/DSC_1003.JPG", born: "1934-04-16", bornDisplay: "16 Apr 1934", firstVow: "1953-05-08", firstVowDisplay: "8 May 1953", provincialTitle: "" },
+            { name: "Visith", full: "Visith Srivichairatana", community: "ACT", role: "Superior", provincial: false, memorial: false, initials: "VS", photo: "24 Bro Visith Srivichairatana/DSC_0635.JPG", born: "1940-12-30", bornDisplay: "30 Dec 1940", firstVow: "1961-04-12", firstVowDisplay: "12 Apr 1961", provincialTitle: "" },
+            { name: "Chumpol", full: "Chumpol Deesutchit", community: "ACS", role: "Retirement", provincial: false, memorial: false, initials: "CD", photo: "25 Bro Chumpol Deesutchit/Chumpol1.jpg", born: "1942-12-12", bornDisplay: "12 Dec 1942", firstVow: "1965-05-08", firstVowDisplay: "8 May 1965", provincialTitle: "" },
+            { name: "Bancha", full: "Bancha Saenghiran", community: "AU", role: "Rector Magnificus", provincial: false, memorial: false, initials: "BS", photo: "27 Bro Bancha Saenghiran/DSC_0204.JPG", born: "1945-07-07", bornDisplay: "7 Jul 1945", firstVow: "1965-05-08", firstVowDisplay: "8 May 1965", provincialTitle: "" },
+            { name: "Meesakdi", full: "Meesakdi Wongprachanukul", community: "SGS", role: "Socius", provincial: false, memorial: false, initials: "MW", photo: "28 Bro Meesakdi Wongprachanukul/DSC_0898.JPG", born: "1944-11-04", bornDisplay: "4 Nov 1944", firstVow: "1965-12-08", firstVowDisplay: "8 Dec 1965", provincialTitle: "" },
+            { name: "Achin", full: "Achin Tengtrakul", community: "SG", role: "Superior & Manager", provincial: false, memorial: false, initials: "AT", photo: "29 Bro Achin Tengtrakul/DSC_0416.JPG", born: "1947-11-20", bornDisplay: "20 Nov 1947", firstVow: "1970-05-15", firstVowDisplay: "15 May 1970", provincialTitle: "" },
+            { name: "Vicharn", full: "Vicharn Saengharn", community: "MNS", role: "Socius", provincial: false, memorial: false, initials: "VS", photo: "30 Bro Vicharn Saengharn/DSC_0385.JPG", born: "1949-05-28", bornDisplay: "28 May 1949", firstVow: "1972-04-27", firstVowDisplay: "27 Apr 1972", provincialTitle: "" },
+            { name: "Anant", full: "Anant Prichavudhi", community: "AU", role: "Member", provincial: false, memorial: false, initials: "AP", photo: "31 Bro Anant Prichavudhi/DSC_3589.JPG", born: "1951-10-21", bornDisplay: "21 Oct 1951", firstVow: "1973-04-28", firstVowDisplay: "28 Apr 1973", provincialTitle: "" },
+            { name: "Sunant", full: "Sunant Yotharaksa", community: "ACS", role: "Retirement", provincial: false, memorial: false, initials: "SY", photo: "32 Bro Sunant Yotharaksa/DSC_0666.JPG", born: "1952-04-01", bornDisplay: "1 Apr 1952", firstVow: "1973-04-28", firstVowDisplay: "28 Apr 1973", provincialTitle: "" },
+            { name: "Phiraphongs", full: "Phiraphongs Darathai", community: "ACT", role: "Member", provincial: false, memorial: false, initials: "PD", photo: "33 Bro Phiraphongs Darathai/Phiraphongs11.JPG", born: "1954-08-03", bornDisplay: "3 Aug 1954", firstVow: "1976-05-01", firstVowDisplay: "1 May 1976", provincialTitle: "" },
+            { name: "Anurak", full: "Anurak Nidhibhadrabhorn", community: "MHE", role: "Director", provincial: false, memorial: false, initials: "AN", photo: "34 Bro Anurak Nidhibhadrabhorn/Anurak1.JPG", born: "1956-09-14", bornDisplay: "14 Sep 1956", firstVow: "1979-04-27", firstVowDisplay: "27 Apr 1979", provincialTitle: "" },
+            { name: "Viharn", full: "Viharn Srihaphol", community: "SLC", role: "Superior", provincial: false, memorial: false, initials: "VS", photo: "36 Bro Viharn Srihaphol/DSC_0143.JPG", born: "1962-10-22", bornDisplay: "22 Oct 1962", firstVow: "1987-08-15", firstVowDisplay: "15 Aug 1987", provincialTitle: "" },
+            { name: "Bhuvarindhara", full: "Bhuvarindhara Khemrachanon", community: "SGS", role: "Master of Scholastics", provincial: false, memorial: false, initials: "BK", photo: "37 Bro Bhuvarindhara Khemrachanon/DSC_0196.JPG", born: "1964-04-12", bornDisplay: "12 Apr 1964", firstVow: "1988-08-15", firstVowDisplay: "15 Aug 1988", provincialTitle: "" },
+            { name: "Thankorn", full: "Thankorn Tansuwongs", community: "ACR", role: "Superior", provincial: false, memorial: false, initials: "TT", photo: "39 Bro Thankorn Tansuwongs/DSC_0405.JPG", born: "1965-07-11", bornDisplay: "11 Jul 1965", firstVow: "1991-10-06", firstVowDisplay: "6 Oct 1991", provincialTitle: "" },
+            { name: "Seksan", full: "Seksan Sakonthawat", community: "ACR", role: "Director", provincial: false, memorial: false, initials: "SS", photo: "40 Bro Seksan Sakonthawat/DSC_0991.JPG", born: "1969-07-21", bornDisplay: "21 Jul 1969", firstVow: "1993-03-29", firstVowDisplay: "29 Mar 1993", provincialTitle: "" },
+            { name: "Supanun", full: "Supanun Khantapreecha", community: "ACEP", role: "Provincial Councillor & Superior & Director", provincial: true, memorial: false, initials: "SK", photo: "41 Bro Supanun Khantapreecha/DSC_0878.JPG", born: "1971-06-25", bornDisplay: "25 Jun 1971", firstVow: "1996-10-05", firstVowDisplay: "5 Oct 1996", provincialTitle: "Provincial Councilor" },
+            { name: "Siam", full: "Siam Kaewprasith", community: "ACT", role: "Member", provincial: false, memorial: false, initials: "SK", photo: "42 Bro Siam Kaewprasith/DSC_0895.JPG", born: "1973-10-10", bornDisplay: "10 Oct 1973", firstVow: "1999-11-20", firstVowDisplay: "20 Nov 1999", provincialTitle: "" },
+            { name: "Kittisak", full: "Kittisak Charoensri", community: "MC/MCP", role: "Member", provincial: false, memorial: false, initials: "KC", photo: "43 Bro Kittisak Charoensri/DSC_0547.JPG", born: "1967-09-12", bornDisplay: "12 Sep 1967", firstVow: "2002-12-21", firstVowDisplay: "21 Dec 2002", provincialTitle: "" },
+            { name: "Pichitphon", full: "Pichitphon Buraphan", community: "ACU", role: "Member, Manager & L. Bursar", provincial: false, memorial: false, initials: "PB", photo: "44 Bro Pichitphon Buraphan/DSC_0306.JPG", born: "1978-08-23", bornDisplay: "23 Aug 1978", firstVow: "2004-10-16", firstVowDisplay: "16 Oct 2004", provincialTitle: "" },
+            { name: "Anuwat", full: "Anuwat Wipakthamrongkun", community: "GPC", role: "Member & L. Bursar", provincial: false, memorial: false, initials: "AW", photo: "45 Bro Anuwat Wipakthamrongkun/DSC_0616.JPG", born: "1976-07-23", bornDisplay: "23 Jul 1976", firstVow: "2005-10-16", firstVowDisplay: "16 Oct 2005", provincialTitle: "" },
+            { name: "Sarawut Y", full: "Sarawut Yuchompoo", community: "MC/MCP", role: "Member & L. Bursar", provincial: false, memorial: false, initials: "SY", photo: "46 Bro Sarawut Yuchompoo/DSC_0914.JPG", born: "1976-10-22", bornDisplay: "22 Oct 1976", firstVow: "2006-10-14", firstVowDisplay: "14 Oct 2006", provincialTitle: "" },
+            { name: "Sirichai P", full: "Sirichai Phangrak", community: "ATSN", role: "Member", provincial: false, memorial: false, initials: "SP", photo: "48 Bro Sirichai Phangrak/DSC_0721.JPG", born: "1979-08-21", bornDisplay: "21 Aug 1979", firstVow: "2010-11-07", firstVowDisplay: "7 Nov 2010", provincialTitle: "" },
+            { name: "Prajak", full: "Prajak Nansrithong", community: "ACL", role: "Member & Bursar", provincial: false, memorial: false, initials: "PN", photo: "49 Bro Prajak Nansrithong/1.jpg", born: "1987-01-13", bornDisplay: "13 Jan 1987", firstVow: "2014-10-25", firstVowDisplay: "25 Oct 2014", provincialTitle: "" },
+            { name: "Pittaya", full: "Pittaya Tueaita", community: "ACS", role: "Member", provincial: false, memorial: false, initials: "PT", photo: "50 Bro Pittaya Tueaita/DSC_0535.JPG", born: "1987-05-30", bornDisplay: "30 May 1987", firstVow: "2014-10-25", firstVowDisplay: "25 Oct 2014", provincialTitle: "" },
+            { name: "Jamrus", full: "Jamrus Kaewamka", community: "ATSN", role: "Superior & Director", provincial: false, memorial: false, initials: "JK", photo: "51 Bro Jamrus Kaewamka/DSC_0761.JPG", born: "1988-02-06", bornDisplay: "6 Feb 1988", firstVow: "2014-10-25", firstVowDisplay: "25 Oct 2014", provincialTitle: "" },
+            { name: "Khanchit", full: "Khanchit Seesawan", community: "ACN", role: "Superior & Director", provincial: false, memorial: false, initials: "KS", photo: "52 Bro Khanchit Seesawan/DSC_0558.JPG", born: "1989-11-17", bornDisplay: "17 Nov 1989", firstVow: "2014-10-25", firstVowDisplay: "25 Oct 2014", provincialTitle: "" },
+            { name: "Charnnarong", full: "Charnnarong Boonpharm", community: "AU", role: "Member & L. Bursar", provincial: false, memorial: false, initials: "CB", photo: "53 Bro Charnnarong Boonpharm/DSC_0685.JPG", born: "1988-11-27", bornDisplay: "27 Nov 1988", firstVow: "2014-10-25", firstVowDisplay: "25 Oct 2014", provincialTitle: "" },
+            { name: "Rachanon", full: "Rachanon Udomsungnern", community: "SLJ", role: "Master of Juniors", provincial: false, memorial: false, initials: "RU", photo: "54 Bro Rachanon Udomsungnern/DSC_0524.JPG", born: "1990-07-18", bornDisplay: "18 Jul 1990", firstVow: "2014-10-25", firstVowDisplay: "25 Oct 2014", provincialTitle: "" },
+            { name: "Supharoek", full: "Supharoek Singhaphan", community: "ACT", role: "Member, Manager & L. Bursar", provincial: false, memorial: false, initials: "SS", photo: "55 Bro Supharoek Singhaphan/DSC_0559.JPG", born: "1991-08-15", bornDisplay: "15 Aug 1991", firstVow: "2016-03-20", firstVowDisplay: "20 Mar 2016", provincialTitle: "" },
+            { name: "Palakorn", full: "Palakorn Pianpan", community: "ACN", role: "Member & L. Bursar", provincial: false, memorial: false, initials: "PP", photo: "56 Bro Palakorn Pianpan/DSC_0795.JPG", born: "1992-04-22", bornDisplay: "22 Apr 1992", firstVow: "2016-03-20", firstVowDisplay: "20 Mar 2016", provincialTitle: "" },
+            { name: "Patcharapakorn", full: "Patcharapakorn Langbubpha", community: "AC", role: "Member", provincial: false, memorial: false, initials: "PL", photo: "60 Bro Patcharapakorn Langbubpha/DSC_0594.JPG", born: "1990-05-14", bornDisplay: "14 May 1990", firstVow: "2019-02-19", firstVowDisplay: "19 Feb 2019", provincialTitle: "" },
+            { name: "Pathanant", full: "Pathanant Chaiyara", community: "GPC", role: "Member", provincial: false, memorial: false, initials: "PC", photo: "61 Bro Pathanant Chaiyara/DSC_0139.JPG", born: "1991-01-04", bornDisplay: "4 Jan 1991", firstVow: "2019-02-19", firstVowDisplay: "19 Feb 2019", provincialTitle: "" },
+            { name: "Kornkavee", full: "Kornkavee Yindeevech", community: "ACSP", role: "Member", provincial: false, memorial: false, initials: "KY", photo: "62 Bro Kornkavee Yindeevech/DSC_0330.JPG", born: "1992-06-05", bornDisplay: "5 Jun 1992", firstVow: "2019-02-19", firstVowDisplay: "19 Feb 2019", provincialTitle: "" },
+            { name: "Natton", full: "Natton Suphon", community: "ACEP", role: "Member & L. Bursar", provincial: false, memorial: false, initials: "NS", photo: "63 Bro Natton Suphon/DSC_0626.JPG", born: "1993-01-30", bornDisplay: "30 Jan 1993", firstVow: "2019-02-19", firstVowDisplay: "19 Feb 2019", provincialTitle: "" },
+            { name: "Krissada", full: "Krissada Ngamwong", community: "ACS", role: "Member & L. Bursar", provincial: false, memorial: false, initials: "KN", photo: "64 Bro Krissada Ngamwong/DSC_0810.JPG", born: "1993-05-22", bornDisplay: "22 May 1993", firstVow: "2019-02-19", firstVowDisplay: "19 Feb 2019", provincialTitle: "" },
+            { name: "Panuwat", full: "Panuwat Mouentup", community: "ACSP", role: "Member, Manager & L. Bursar", provincial: false, memorial: false, initials: "PM", photo: "65 Bro Panuwat Mouentup/DSC_0686.JPG", born: "1993-08-31", bornDisplay: "31 Aug 1993", firstVow: "2019-02-19", firstVowDisplay: "19 Feb 2019", provincialTitle: "" },
+            { name: "Warut", full: "Warut Waenphet", community: "ACU", role: "Member", provincial: false, memorial: false, initials: "WW", photo: "66 Bro Warut Waenphet/Bro. Warut Waenphet.png", born: "1992-09-23", bornDisplay: "23 Sep 1992", firstVow: "2023-02-05", firstVowDisplay: "5 Feb 2023", provincialTitle: "" },
+            { name: "Pakpoom", full: "Pakpoom Jaisamret", community: "SLC", role: "Member & L. Bursar", provincial: false, memorial: false, initials: "PJ", photo: "67 Bro Pakpoom Jaisamret/6.png", born: "1997-10-01", bornDisplay: "1 Oct 1997", firstVow: "2023-02-05", firstVowDisplay: "5 Feb 2023", provincialTitle: "" },
+            { name: "Sarawut S", full: "Sarawut Singyai", community: "SLJ", role: "Socius & L. Bursar", provincial: false, memorial: false, initials: "SS", photo: "68 Bro Sarawut Singyai/1.png", born: "1996-08-08", bornDisplay: "8 Aug 1996", firstVow: "2023-02-05", firstVowDisplay: "5 Feb 2023", provincialTitle: "" },
+            { name: "Teerachai", full: "Teerachai Charoensamran", community: "GPC", role: "Member", provincial: false, memorial: false, initials: "TC", photo: "69 Bro Teerachai Charoensamran/7.png", born: "1997-03-25", bornDisplay: "25 Mar 1997", firstVow: "2023-02-05", firstVowDisplay: "5 Feb 2023", provincialTitle: "" },
+            { name: "Thanapoom", full: "Thanapoom Saiprom", community: "ACR", role: "Member & L. Bursar", provincial: false, memorial: false, initials: "TS", photo: "70 Bro Thanapoom Saiprom/9.png", born: "1998-03-17", bornDisplay: "17 Mar 1998", firstVow: "2023-02-05", firstVowDisplay: "5 Feb 2023", provincialTitle: "" },
+            { name: "Apisit", full: "Apisit Ngamwong", community: "ACP", role: "Member & L. Bursar", provincial: false, memorial: false, initials: "AN", photo: "71 Bro Apisit Ngamwong/11.png", born: "1993-05-22", bornDisplay: "22 May 1993", firstVow: "2023-02-05", firstVowDisplay: "5 Feb 2023", provincialTitle: "" },
+            { name: "Prathip", full: "Prathip M. Komolmas", community: "AU", role: "Rector Emeritus", provincial: false, memorial: false, initials: "PK", photo: "Bro. Prathip M. Komolmas/Bro. Prathip M. Komolmas.jpg", born: "1933-12-22", bornDisplay: "22 Dec 1933", firstVow: "1954-05-08", firstVowDisplay: "8 May 1954", provincialTitle: "" },
+            { name: "Viriya", full: "Viriya Chandavarodom", community: "AC", role: "Retirement", provincial: false, memorial: false, initials: "VC", photo: "Bro. Viriya Chandavarodom/Bro. Viriya Chandavarodom.jpg", born: "1933-11-26", bornDisplay: "26 Nov 1933", firstVow: "1954-05-08", firstVowDisplay: "8 May 1954", provincialTitle: "" },
+            { name: "Anucha", full: "Anucha Karunprot", community: "ACN", role: "Retirement", provincial: false, memorial: false, initials: "AK", photo: "72 Bro Anucha Karunprot/Bro.John.jpg", born: "1939-11-11", bornDisplay: "11 Nov 1939", firstVow: "1959-05-07", firstVowDisplay: "7 May 1959", provincialTitle: "" },
+            { name: "Nattapong", full: "Nattapong Wantaprom", community: "ACL", role: "Member", provincial: false, memorial: false, initials: "NW", photo: "", born: "1996-06-29", bornDisplay: "29 Jun 1996", firstVow: "2025-01-31", firstVowDisplay: "31 Jan 2025", provincialTitle: "" },
+            { name: "Wanwasan", full: "Wanwasan Sukul", community: "ACEP", role: "Member", provincial: false, memorial: false, initials: "WS", photo: "", born: "1993-05-26", bornDisplay: "26 May 1993", firstVow: "2020-10-17", firstVowDisplay: "17 Oct 2020", provincialTitle: "" },
+            { name: "Pongpat", full: "Pongpat Wanse", community: "ATSN", role: "Member & L. Bursar", provincial: false, memorial: false, initials: "PW", photo: "", born: "1992-10-12", bornDisplay: "12 Oct 1992", firstVow: "2020-10-17", firstVowDisplay: "17 Oct 2020", provincialTitle: "" }
+        ];
+        const communityGroups = [
+            { name: "Provincial Administration", members: ["Surakit Srisrankulwong", "Chamnan Laoruckphon", "Pisutr Vapiso", "Supanun Khantapreecha", "Verayuth Boonpram", "Witthaya Thepkom", "Manit Sakonthawat"] },
+            { name: "1. GPC — Gabrielite Provincial Center", members: ["Thinaratana Komkris", "Anuwat Wipakthamrongkun", "Prawat Sutthinont", "Pathanant Chaiyara", "Teerachai Charoensamran", "Sa-ard Vongsacharoenbhakdi"] },
+            { name: "2. ACSP — Assumption College Samut Prakan", members: ["Monthol Prathumarach", "Panuwat Mouentup", "Kornkavee Yindeevech"] },
+            { name: "3. AU — Assumption University", members: ["Sirichai Fonseka", "Charnnarong Boonpharm", "Anant Prichavudhi", "Prathip M. Komolmas", "Bancha Saenghiran"] },
+            { name: "4. AC/ACP — Assumption College", members: ["Dechachai Sripicharn", "Manit Sakonthawat", "Patcharapakorn Langbubpha", "Apisit Ngamwong", "Viriya Chandavarodom"] },
+            { name: "5. SG — Saint Gabriel's College", members: ["Achin Tengtrakul", "Surakit Srisrankulwong", "Arwut Silaket", "Phiranant Numkanisorn", "Siriroj Viriyasirimongkol"] },
+            { name: "6. ACT — Assumption College Thonburi", members: ["Visith Srivichairatana", "Verayuth Boonpram", "Supharoek Singhaphan", "Siam Kaewprasith", "Phiraphongs Darathai"] },
+            { name: "7. SGS — Saint Gabriel's Scholasticate", members: ["Bhuvarindhara Khemrachanon", "Meesakdi Wongprachanukul"] },
+            { name: "8. ACEP — Assumption College English Programme", members: ["Supanun Khantapreecha", "Natton Suphon", "Wanwasan Sukul"] },
+            { name: "9. SLC — Saint Louis College", members: ["Viharn Srihaphol", "Kullachart Juntachoto", "Pakpoom Jaisamret"] },
+            { name: "10. ACS — Assumption College Sriracha", members: ["Surasit Sukchai", "Pisutr Vapiso", "Krissada Ngamwong", "Pittaya Tueaita", "Chumpol Deesutchit", "Sunant Yotharaksa"] },
+            { name: "11. SLJ — Saint Louis Mary's Juniorate", members: ["Rachanon Udomsungnern", "Sarawut Singyai", "Amnuay Yoonprayong"] },
+            { name: "12. ACR — Assumption College Rayong", members: ["Thankorn Tansuwongs", "Seksan Sakonthawat", "Thanapoom Saiprom"] },
+            { name: "13. MC/MCP — Montfort College", members: ["Thaksabutr Kraiprasit", "Chamnan Laoruckphon", "Sarawut Yuchompoo", "Kittisak Charoensri"] },
+            { name: "14. ACL — Assumption College Lampang", members: ["Witthaya Thepkom", "Prajak Nansrithong", "Nattapong Wantaprom"] },
+            { name: "15. MNS — De Montfort Novitiate", members: ["Nontacha Srivilai", "Vicharn Saengharn"] },
+            { name: "16. MHE — Montfort Home for Education", members: ["Anurak Nidhibhadrabhorn", "Dechachai Sripicharn"] },
+            { name: "17. ACN — Assumption College Nakhon Ratchasima", members: ["Khanchit Seesawan", "Palakorn Pianpan", "Anucha Karunprot"] },
+            { name: "18. ACU — Assumption College Ubon Ratchathani", members: ["Kriangsak Mayod", "Pichitphon Buraphan", "Warut Waenphet"] },
+            { name: "19. ATSN — Assumption Technical School Nakhon Phanom", members: ["Jamrus Kaewamka", "Pongpat Wanse", "Sirichai Phangrak"] }
+        ];
+        const brotherMap = {};
+        brothers.forEach(b => brotherMap[b.full] = b);
+        
+        function getPhotoHTML(bro) {
+            const baseDir = encodeURI('รูปคณะภราดา');
+            if (bro.photo) {
+                const photoPath = baseDir + '/' + bro.photo.split('/').map(s => encodeURIComponent(s)).join('/');
+                return '<img src="' + photoPath + '" alt="Bro. ' + bro.full + '" class="brother-img" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">' +
+                       '<div class="photo-placeholder" style="display:none">' + bro.initials + '</div>';
+            }
+            return '<div class="photo-placeholder">' + bro.initials + '</div>';
+        }
+
+        function getBadgeHTML(bro) {
+            if (bro.provincial && bro.provincialTitle) {
+                return '<div class="brother-badge provincial">' + bro.provincialTitle + '</div>';
+            }
+            return '';
+        }
+
+        function renderCard(bro, showDates) {
+            let datesHTML = '';
+            if (showDates) {
+                if (bro.bornDisplay) datesHTML += '<div>Born: ' + bro.bornDisplay + '</div>';
+                if (bro.firstVowDisplay) datesHTML += '<div>First Vows: ' + bro.firstVowDisplay + '</div>';
+            }
+            return `
+                <div class="brother-card">
+                    <div class="brother-photo">
+                        ${getPhotoHTML(bro)}
+                        ${getBadgeHTML(bro)}
+                    </div>
+                    <div class="brother-info">
+                        <div class="brother-name">Bro. ${bro.full}</div>
+                        <div class="brother-assignment">
+                            <div class="community">${bro.community}</div>
+                            <div class="role">${bro.role}</div>
+                        </div>
+                        ${datesHTML ? '<div class="brother-dates">' + datesHTML + '</div>' : ''}
+                        <button class="view-profile-btn" onclick="openModal('${bro.full}')">View Profile</button>
+                    </div>
+                </div>`;
+        }
+
+        function openModal(name) {
+            document.getElementById('modal-name').textContent = 'Bro. ' + name;
+            document.getElementById('modal-overlay').classList.add('active');
+        }
+        function closeModal() { document.getElementById('modal-overlay').classList.remove('active'); }
+
+        function setupSearch(filterFn) {
+            document.getElementById('search-input').addEventListener('input', (e) => {
+                filterFn(e.target.value.toLowerCase().trim());
+            });
+        }
+
+        function renderGrouped(query) {
+            const content = document.getElementById('content-area');
+            const noResults = document.getElementById('no-results');
+            let html = '';
+            let totalShown = 0;
+            communityGroups.forEach(group => {
+                let members = group.members.map(n => brotherMap[n]).filter(Boolean);
+                if (query) members = members.filter(b => b.full.toLowerCase().includes(query) || b.community.toLowerCase().includes(query) || b.role.toLowerCase().includes(query));
+                if (members.length === 0) return;
+                const isAdmin = group.name === 'Provincial Administration';
+                html += '<div class="group-section"><div class="group-header' + (isAdmin ? ' admin' : '') + '">' + group.name + ' (' + members.length + ')</div><div class="brothers-grid">';
+                members.forEach(bro => { html += renderCard(bro, false); totalShown++; });
+                html += '</div></div>';
+            });
+            if (totalShown === 0) { content.style.display = 'none'; noResults.style.display = 'block'; }
+            else { content.style.display = 'block'; noResults.style.display = 'none'; content.innerHTML = html; }
+            document.getElementById('filter-info').textContent = query ? totalShown + ' results' : '';
+        }
+        function init() {
+            document.getElementById('total-count').textContent = brothers.length;
+            document.getElementById('community-count').textContent = new Set(brothers.map(b => b.community)).size;
+            document.getElementById('provincial-count').textContent = brothers.filter(b => b.provincial).length;
+            renderGrouped('');
+            setupSearch(renderGrouped);
+        }
+        init();
+    </script>
+</body>
+</html>

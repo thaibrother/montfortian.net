@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -265,12 +265,12 @@
   }
 </style>
 </head>
-<body class="lang-th">
+<body class="lang-en">
 
 <!-- LANGUAGE TOGGLE -->
 <div class="lang-toggle">
-  <button class="lang-btn active" id="btn-th" onclick="setLang('th')">TH</button>
-  <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+  <button class="lang-btn" id="btn-th" onclick="setLang('th')">TH</button>
+  <button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
 </div>
 
 <!-- NAV -->
@@ -599,7 +599,16 @@ function setLang(lang) {
   document.body.className = 'lang-' + lang;
   document.getElementById('btn-th').className = lang === 'th' ? 'lang-btn active' : 'lang-btn';
   document.getElementById('btn-en').className = lang === 'en' ? 'lang-btn active' : 'lang-btn';
+  document.documentElement.lang = lang;
 }
+// Smart default: URL ?lang= > Thai referrer > English
+(function() {
+  var urlLang = new URLSearchParams(window.location.search).get('lang');
+  if (urlLang === 'th' || urlLang === 'en') { setLang(urlLang); return; }
+  var ref = document.referrer || '';
+  if (/thaibrothers\.net|fsgthailand\.org/i.test(ref)) { setLang('th'); return; }
+  setLang('en'); // default for montfortian.net and direct visits
+})();
 </script>
 </body>
 </html>

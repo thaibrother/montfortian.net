@@ -263,6 +263,71 @@
     <a href="#thai-province">Thai Province</a>
 </nav>
 
+<!-- ============================================
+     ROME CALENDAR (adapted from thaibrothers.net)
+     ============================================ -->
+<style>
+  .rome-cal { background: #0d2640; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+  .rome-cal .rc-container { max-width: 1200px; margin: 0 auto; }
+  .rome-cal-inner { display: flex; align-items: stretch; min-height: 56px; }
+  .rome-cal-date {
+    background: linear-gradient(135deg, #8b0000 0%, #6d0000 100%);
+    color: white; padding: 14px 28px;
+    display: flex; align-items: center; gap: 12px;
+    flex-shrink: 0;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 16px; font-weight: 600;
+  }
+  .rome-cal-date .rc-cross { font-size: 20px; opacity: 0.8; }
+  .rome-cal-items {
+    display: flex; align-items: center; gap: 6px;
+    padding: 10px 24px; flex-wrap: wrap; flex: 1;
+  }
+  .rome-cal-items .rc-tag {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12px; color: rgba(255,255,255,0.85);
+    padding: 5px 14px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    white-space: nowrap;
+  }
+  .rome-cal-items .rc-tag .rc-label {
+    color: #c9a74e; font-weight: 600; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  @media (max-width: 767px) {
+    .rome-cal-inner { flex-direction: column; }
+    .rome-cal-date { padding: 12px 20px; font-size: 14px; justify-content: center; }
+    .rome-cal-items { padding: 10px 16px; justify-content: center; }
+    .rome-cal-items .rc-tag { font-size: 11px; padding: 4px 10px; }
+  }
+</style>
+<section class="rome-cal">
+  <div class="rc-container">
+    <div class="rome-cal-inner">
+      <div class="rome-cal-date">
+        <span class="rc-cross">&#10014;</span>
+        <span id="rc-date">Apr 16 &middot; Wednesday</span>
+      </div>
+      <div class="rome-cal-items">
+        <span class="rc-tag"><span class="rc-label">Season</span> Easter &mdash; 3rd Week</span>
+        <span class="rc-tag"><span class="rc-label">Saints</span> St. Bernadette Soubirous</span>
+        <span class="rc-tag"><span class="rc-label">Special</span> World Voice Day</span>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  (function(){
+    var d = new Date();
+    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    var el = document.getElementById('rc-date');
+    if (el) el.innerHTML = months[d.getMonth()] + ' ' + d.getDate() + ' &middot; ' + days[d.getDay()];
+  })();
+</script>
+
 <!-- ===== FOUNDER ===== -->
 <section class="section" id="founder">
     <h2>The Founder</h2>

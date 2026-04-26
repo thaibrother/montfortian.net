@@ -95,6 +95,12 @@ footer a { color: var(--gold-light); text-decoration: none; }
   header h1 { font-size: 1.3em; }
   header { padding: 28px 16px; }
 }
+body { user-select: none; -webkit-user-select: none; }
+.content section.block { user-select: text; -webkit-user-select: text; padding: 0.4em 0.6em; margin: 0.3em -0.6em; border: 1px solid transparent; border-radius: 4px; transition: all 0.2s; }
+.content section.block.active { border-color: #e8e0c8; background: #fbfaf3; }
+.content section.block::selection { background: #d4e5f7; }
+.content section.block .num { font-weight: bold; color: var(--gold); margin-right: 0.4em; }
+.content section.block.intro { font-style: italic; color: var(--text-light); }
 </style>
 </head>
 <body>
@@ -111,22 +117,19 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <span>11. The Wisdom Cross of Poitiers</span>
 </nav>
 <div class="content">
-<div class="page-marker" id="p437"><span>pp. 437–438</span></div>
-<p>22 23 24 25</p>
-<p>27 28 29</p>
-<p>Gen.  49:20. SAINT AUGUSTINE,  Serm.  ult.  de  diversis. Job 28:13. Similar  ideas,  though  not identically expressed,  are to be  found  in SAINT AUGUSTINE,  Sermo  78  and  Sermo 85. HUMBERTUS OF ROMANS,  Epistola de  tribus  votis substantiali- bus religionis. Cf.  Lk.  9:62. Cf.  Wis.  15 :5. 2 Tim.  2:4.</p>
-<h3>Introduction</h3>
-<p>IF YOU  ARE ASHAMED OF THE CROSS OF JESUS CHRIST,  HE WILL BE ASHAMED OF YOU  BEFORE  HIS FATHER.</p>
-<p>When Fr.  de  Montfort  was chaplain at the poorhouse at Poitiers from  1701-1703,  he formed a group of young girls  who  gathered together regularly  in  a house which  he called &quot;La Sagesse&quot; (Wisdom). Soon  afterwards Ma rie Louise  Trichet  and Catherine Bru- net,  who  were  to  become the first Daughters of Wisdom,  joined them.</p>
-<p>Montfort composed for them a pro-</p>
-<p>gram  of the spiritual life  based upon the  words  of Jesus  Christ,  Incarnate Wisdom:  &quot;We must renounce self and carry  our cross after Jesus  Christ, under Mary&#x27;s guidance.&quot;</p>
-<p>He  wrote  this program  in  a very simple  way  on  a cross,  which  has been preserved by the  community of the Daughters of Wisdom  in  Rome.</p>
-<p>DENY ONESELF CARRY ONE&#x27;S CROSS TO FOLLOW JESUS CHRIST</p>
-<h3>LOVE THE CROSS DESIRE:</h3>
-<h3>CROSSES CONTEMPT A~~~~E INSULTS</h3>
-<h3>DISGRACE PERSECUTION HUMILIATIONS CALUMNIES ILLNESS INJURIES.</h3>
-<h3>MAY JESUS  PREVAIL MAY HIS CROSS  PREVAIL</h3>
-<p>DIVINE  LOVE HUMILITY SUBMISSION PATIENCE OBEDIENCE: COMPLETE PROMPT JOYFUL BLIND PERSEVERING</p>
+<p class="source-note" style="font-size:0.85em;color:#888;text-align:center;font-style:italic;margin-bottom:2em;">Text: The Wisdom Cross of Poitiers &mdash; Faber translation, edited by Montfort Missionaries 1987 &mdash; for private study</p>
+<h3>The "Wisdom Cross" of Poitiers</h3>
+<p><em>If you are ashamed of the Cross of Jesus Christ, he will be ashamed of you before his Father.</em></p>
+<section class="block intro" data-num="intro"><p>When Fr. de Montfort was chaplain at the poorhouse at Poitiers from 1701&ndash;1703, he formed a group of young girls who gathered together regularly in a house which he called "La Sagesse" (Wisdom). Soon afterwards Marie Louise Trichet and Catherine Brunet, who were to become the first Daughters of Wisdom, joined them.</p>
+<p>Montfort composed for them a programme of the spiritual life based upon the words of Jesus Christ, Incarnate Wisdom: "We must renounce self and carry our cross after Jesus Christ, under Mary's guidance."</p>
+<p>He wrote this programme in a very simple way on a cross, which has been preserved by the community of the Daughters of Wisdom in Rome.</p></section>
+<h4>The Inscription on the Cross</h4>
+<section class="block" data-num="1"><span class="num">1</span><strong>Top arm:</strong> Deny oneself &mdash; Carry one's cross &mdash; To follow Jesus Christ.</section>
+<section class="block" data-num="2"><span class="num">2</span><strong>Crossbar:</strong> If you are ashamed of the Cross of Jesus Christ, he will be ashamed of you before his Father.</section>
+<section class="block" data-num="3"><span class="num">3</span><strong>Upper stem &mdash; Love the Cross. Desire:</strong> crosses, contempt, pain, abuse, insults, disgrace, persecution, humiliations, calumnies, illness, injuries.</section>
+<section class="block" data-num="4"><span class="num">4</span><strong>Centre:</strong> May Jesus prevail. May his Cross prevail.</section>
+<section class="block" data-num="5"><span class="num">5</span><strong>Lower stem:</strong> Divine love &mdash; Humility &mdash; Submission &mdash; Patience &mdash; Obedience: complete, prompt, joyful, blind, persevering.</section>
+
 </div>
 <div class="nav-footer">
   <a href="letter-members-company.html">&larr; Previous</a>
@@ -137,5 +140,89 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <p><em>God Alone</em> — The Collected Writings of St. Louis Marie de Montfort</p>
   <p>Montfort Publications, Bay Shore, NY &middot; Digital edition for <a href="https://montfortian.net">montfortian.net</a></p>
 </footer>
+<script>
+(function(){
+  const blocks = () => document.querySelectorAll('.block');
+  const blockOf = (n) => {
+    if (!n) return null;
+    if (n.nodeType === 3) n = n.parentElement;
+    return n.closest ? n.closest('.block') : null;
+  };
+  document.addEventListener('keydown', e => {
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'a' || e.key === 'A')) {
+      e.preventDefault();
+      return false;
+    }
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'c' || e.key === 'C')) {
+      const s = window.getSelection();
+      if (s.rangeCount > 0) {
+        const r = s.getRangeAt(0);
+        if (blockOf(r.startContainer) !== blockOf(r.endContainer)) {
+          e.preventDefault();
+          s.removeAllRanges();
+        }
+      }
+    }
+  });
+  document.addEventListener('contextmenu', e => e.preventDefault());
+  let activeOnDrag = null;
+  document.addEventListener('mousedown', e => {
+    const b = blockOf(e.target);
+    blocks().forEach(x => x.classList.remove('active'));
+    if (b) {
+      b.classList.add('active');
+      activeOnDrag = b;
+      blocks().forEach(x => {
+        if (x !== b) {
+          x.style.userSelect = 'none';
+          x.style.webkitUserSelect = 'none';
+        }
+      });
+    }
+  });
+  document.addEventListener('mouseup', () => {
+    setTimeout(() => {
+      blocks().forEach(x => {
+        x.style.userSelect = '';
+        x.style.webkitUserSelect = '';
+      });
+      activeOnDrag = null;
+    }, 50);
+  });
+  document.addEventListener('selectionchange', () => {
+    const s = window.getSelection();
+    if (s.rangeCount === 0) return;
+    const r = s.getRangeAt(0);
+    const sb = blockOf(r.startContainer);
+    const eb = blockOf(r.endContainer);
+    if (sb && eb && sb !== eb) {
+      s.removeAllRanges();
+    }
+  });
+  document.addEventListener('copy', e => {
+    const s = window.getSelection();
+    if (s.rangeCount === 0) { e.preventDefault(); return; }
+    const r = s.getRangeAt(0);
+    const sb = blockOf(r.startContainer);
+    const eb = blockOf(r.endContainer);
+    if (!sb || !eb || sb !== eb) {
+      e.preventDefault();
+      s.removeAllRanges();
+    }
+  });
+  document.addEventListener('dragstart', e => e.preventDefault());
+  document.addEventListener('mouseup', e => {
+    if (e.detail >= 3) {
+      const s = window.getSelection();
+      if (s.rangeCount > 0) {
+        const r = s.getRangeAt(0);
+        if (blockOf(r.startContainer) !== blockOf(r.endContainer)) {
+          s.removeAllRanges();
+        }
+      }
+    }
+  });
+})();
+</script>
 </body>
 </html>

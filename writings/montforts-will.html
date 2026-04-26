@@ -95,6 +95,12 @@ footer a { color: var(--gold-light); text-decoration: none; }
   header h1 { font-size: 1.3em; }
   header { padding: 28px 16px; }
 }
+body { user-select: none; -webkit-user-select: none; }
+.content section.block { user-select: text; -webkit-user-select: text; padding: 0.4em 0.6em; margin: 0.3em -0.6em; border: 1px solid transparent; border-radius: 4px; transition: all 0.2s; }
+.content section.block.active { border-color: #e8e0c8; background: #fbfaf3; }
+.content section.block::selection { background: #d4e5f7; }
+.content section.block .num { font-weight: bold; color: var(--gold); margin-right: 0.4em; }
+.content section.block.intro { font-style: italic; color: var(--text-light); }
 </style>
 </head>
 <body>
@@ -111,27 +117,17 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <span>17. Saint Louis Marie De Montfort&#x27;s Will</span>
 </nav>
 <div class="content">
-<div class="page-marker" id="p505"><span>pp. 505–506</span></div>
-<h3>Introduction</h3>
-<p>0 n  the first  of April1716,  Fr.  de Montfort,  ac</p>
-<p>companied by several Brothers,  arrived at  St.  Laurent-sur-Sevre  to begin a mission.  He  had previously made a pilgrimage to  Our Lady of Ardilliers at  Saumur to  confide to  the  Queen  of heaven  his fu ture apostolate and those foundations  which  he had previously be gun. After a short time  two  other missionaries joined him,  Fr. Thomas le  Bourhis  who  had been  associated with  him since 1712, and Fr.  Glisson  concerning  whom  nothing is known.  He  was joined also  by the Prior and parish priest  of Saint Pompain,  Jean  Mulot, who  had decided to accompany his  brother Rene,  a young priest thirty years of age.  Rene had joined Fr.  de  Montfort in  October 1715  and during  those few  months had become Montfort&#x27;s friend, confidant and confessor.</p>
-<p>During the  mission  which  began  on April 5th,  the bishop of the</p>
-<p>diocese  of La Rochelle arrived to  make a canonical visitation. Montfort,  as  the leader of the mission,  worked hard to prepare_  an enthusiastic reception for the bishop,  but he  was  not able to be present at  the bishop&#x27;s arrival,  being laid low by a feverish  illness. However,  later on  in  the day he  went into the pulpit and preached a moving sermon  on  the love of Jesus  Christ.</p>
-<p>After the sermon  he  was forced again  to  take to  his bed from which  he  was  not to  rise. From  the 23rd of April onwards the illness made rapid progress and nothing could give him relief- certainly not the bleedings and the medicines of the doctors.  On  the 27th  of April,  sensing  that death  was  approaching,  he decided to  dictate his last  will and testament and dispose  of all he possessed.  He charged Rene Mulot,  his confessor,  to  write down  his last  wishes.  Then  with a trembling  hand the dying man  traced his signature on the docu-</p>
-<div class="page-marker" id="p507"><span>pp. 507–508</span></div>
-<p>Montfort&#x27;s  Last  Will</p>
-<p>ment,  which  was followed by the signatures of Rene Felix Rougeau, dean  of Saint Laurent,  and Francis  Triault,  curate  of the parish, who  acted as  witnesses  requir.ed for the  validity of the  document.</p>
-<p>I , the  undersigned,  the greatest of sinners,</p>
-<p>will  that my  body be  buried  in  the cemetery and my  heart  under  the step  of the  altar of the  Blessed  Vi.rgin.  I confide to  His  Lordship  the Bishop  of La Rochelle and to  Father Mulot  my  small  pieces  of fur niture  and  my  mission  books,  to  be  preserved  for  the  use  of the four  Brothers  who joined me  in  a  life  of obedience  and  poverty; namely,  Brother Nicholas  of Poitiers,  Brother Philip of Nantes, Brother Louis  of La Rochelle,  and Brother Gabriel,  who  is  at pres ent  with  me,  for  as  long as  they continue to  renew  their annual vows,  and  for  the use  of those  whom divine  Providence  will  call into  the  same  community of the  Holy Spirit.  I give  all  the  statues  of the  Calvary and  the  cross  to the house  of the  Sisters  of the  Incura bles  at  Nantes.  I  have  no  private  money belonging to  me,  but there are  135  pounds  belonging  to  Nicholas  of Poitiers  to  pay for  his keep  after  he  has  finished  his  stay with  us.</p>
-<p>Fr.  Mulot  will  give  the  following  monies  from  the  common fund :  ten  crowns  to James,  if he  decides  to leave;  ten crowns  to John,  if he  also  decides  to leave;  ten  crowns  to  Mathurin,  if he  de cides  to  leave  and  not renew  the vows  of poverty  and  obedience.  If there is  anything remaining  in  the  purse,  Fr.  Mulot will  use  it  like  a good  father  for  the  Brothers  and  for  himself.  As  the  house  at ·La Rochelle is  reverting to its  natural  heirs,  there  will  only be  left  for the  community of the  Holy Spirit  the  house at Vouvant,  which  was given  to me  by  Madame de Ia  Brulerie  by an  agreement,  the condi tions  of which  Fr.  Mulot must  fulfill;  and  the  two  pieces  of land given  by  the  Lieutenant of Vouvant&#x27;s  wife,  and  a  small  house given by a good lady  of rank.  If there  is  no  possibility of building there, it  should  be  put at the disposal  of the  Brothers  of the  community of the  Holy Spirit  to  conduct charity schools.</p>
-<p>I give  three  of my  banners  to Our Lady of Patience at La Seguiniere,  and  the  other four  to Our Lady of Victories  at La Gar nache,  and to every  parish of Aunis  where  the  Rosary  is  still  being said  I  give  one of the  banners  of the  holy Rosary.  I  give  to Fr. Bouris  the  six  volumes  of sermons  of La Volpilliere,  and to Fr.  Clis son  the  four  volumes  of the &quot;Catechism  for  Country People.&quot; If there  is  anything  owing  to the printer,  he  can  be  paid  from  the fund.  Should there  be  anything  over,  Fr.  Vatel  must be given  what belongs  to  him,  if His  Lordship decides  that  this is  right.</p>
-<p>This  is  my  Last  Will,  and  I  make Fr.  Mulot my  executor  giving him  full  right  to dispose as  it  seems  good  to  him  of the  chasubles,</p>
-<p>chalice and  other church and mission  articles,  for  the  benefit  of the community of the  Holy Spirit.</p>
-<p>Written during the  mission at St.  Laurent-sur-Sevre,  this  27th day  of the  month  of April,  one  thousand seven  hundred  and six teen.  All  the  pieces  of furniture  at present  at Nantes  are  for  the  use of the  Brothers  who  run  the  school,  as  long as  the  school  remains there.</p>
-<p>Louis Marie de Montfort Grignion</p>
-<p>N.  F.  Rougeau,  Dean  of Saint</p>
-<p>Laurent</p>
-<p>F.  Triault,  priest,  curate</p>
+<p class="source-note" style="font-size:0.85em;color:#888;text-align:center;font-style:italic;margin-bottom:2em;">Text: Saint Louis Marie de Montfort&rsquo;s Will &mdash; Faber translation, edited by Montfort Missionaries 1987 &mdash; for private study</p>
+<h3>Last Will and Testament</h3>
+<p>I, the undersigned, the greatest of sinners, will that my body be buried in the cemetery and my heart under the step of the altar of the Blessed Virgin. I confide to his Lordship the Bishop of La Rochelle and to Father Mulot my small pieces of furniture and my mission books, to be preserved for the use of the four Brothers who joined me in a life of obedience and poverty; namely, Brother Nicholas of Poitiers, Brother Philip of Nantes, Brother Louis of La Rochelle, and Brother Gabriel, who is at present with me, for as long as they continue to renew their annual vows, and for the use of those whom divine Providence will call into the same community of the Holy Spirit. I give all the statues of the Calvary and the cross to the house of the Sisters of the Incurables at Nantes. I have no private money belonging to me, but there are 135 pounds belonging to Nicholas of Poitiers to pay for his keep after he has finished his stay with us.</p>
+<p>Fr. Mulot will give the following monies from the common fund: ten crowns to James, if he decides to leave; ten crowns to John, if he also decides to leave; ten crowns to Mathurin, if he decides to leave and not renew the vows of poverty and obedience. If there is anything remaining in the purse, Fr. Mulot will use it like a good father for the Brothers and for himself. As the house at La Rochelle is reverting to its natural heirs, there will only be left for the community of the Holy Spirit the house at Vouvant, which was given to me by Madame de la Brulerie by an agreement, the conditions of which Fr. Mulot must fulfill; and the two pieces of land given by the Lieutenant of Vouvant's wife, and a small house given by a good lady of rank. If there is no possibility of building there, it should be put at the disposal of the Brothers of the community of the Holy Spirit to conduct charity schools.</p>
+<p>I give three of my banners to Our Lady of Patience at La S&eacute;guini&egrave;re, and the other four to Our Lady of Victories at La Garnache, and to every parish of Aunis where the Rosary is still being said I give one of the banners of the holy Rosary. I give to Fr. Bouris the six volumes of sermons of La Volpilli&egrave;re, and to Fr. Clisson the four volumes of the &ldquo;Catechism for Country People.&rdquo; If there is anything owing to the printer, he can be paid from the fund. Should there be anything over, Fr. Vatel must be given what belongs to him, if his Lordship decides that this is right.</p>
+<p>This is my Last Will, and I make Fr. Mulot my executor giving him full right to dispose as it seems good to him of the chasubles, chalice and other church and mission articles, for the benefit of the community of the Holy Spirit.</p>
+<p>Written during the mission at Saint-Laurent-sur-S&egrave;vre, this 27th day of the month of April, one thousand seven hundred and sixteen. All the pieces of furniture at present at Nantes are for the use of the Brothers who run the school, as long as the school remains there.</p>
+<p style="text-align:right;"><em>Louis Marie de Montfort Grignion</em></p>
+<p><em>N.F. Rougeou, Dean of Saint-Laurent</em></p>
+<p><em>F. Triault, priest, curate</em></p>
+
 </div>
 <div class="nav-footer">
   <a href="covenant-with-god.html">&larr; Previous</a>
@@ -142,5 +138,89 @@ footer a { color: var(--gold-light); text-decoration: none; }
   <p><em>God Alone</em> — The Collected Writings of St. Louis Marie de Montfort</p>
   <p>Montfort Publications, Bay Shore, NY &middot; Digital edition for <a href="https://montfortian.net">montfortian.net</a></p>
 </footer>
+<script>
+(function(){
+  const blocks = () => document.querySelectorAll('.block');
+  const blockOf = (n) => {
+    if (!n) return null;
+    if (n.nodeType === 3) n = n.parentElement;
+    return n.closest ? n.closest('.block') : null;
+  };
+  document.addEventListener('keydown', e => {
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'a' || e.key === 'A')) {
+      e.preventDefault();
+      return false;
+    }
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'c' || e.key === 'C')) {
+      const s = window.getSelection();
+      if (s.rangeCount > 0) {
+        const r = s.getRangeAt(0);
+        if (blockOf(r.startContainer) !== blockOf(r.endContainer)) {
+          e.preventDefault();
+          s.removeAllRanges();
+        }
+      }
+    }
+  });
+  document.addEventListener('contextmenu', e => e.preventDefault());
+  let activeOnDrag = null;
+  document.addEventListener('mousedown', e => {
+    const b = blockOf(e.target);
+    blocks().forEach(x => x.classList.remove('active'));
+    if (b) {
+      b.classList.add('active');
+      activeOnDrag = b;
+      blocks().forEach(x => {
+        if (x !== b) {
+          x.style.userSelect = 'none';
+          x.style.webkitUserSelect = 'none';
+        }
+      });
+    }
+  });
+  document.addEventListener('mouseup', () => {
+    setTimeout(() => {
+      blocks().forEach(x => {
+        x.style.userSelect = '';
+        x.style.webkitUserSelect = '';
+      });
+      activeOnDrag = null;
+    }, 50);
+  });
+  document.addEventListener('selectionchange', () => {
+    const s = window.getSelection();
+    if (s.rangeCount === 0) return;
+    const r = s.getRangeAt(0);
+    const sb = blockOf(r.startContainer);
+    const eb = blockOf(r.endContainer);
+    if (sb && eb && sb !== eb) {
+      s.removeAllRanges();
+    }
+  });
+  document.addEventListener('copy', e => {
+    const s = window.getSelection();
+    if (s.rangeCount === 0) { e.preventDefault(); return; }
+    const r = s.getRangeAt(0);
+    const sb = blockOf(r.startContainer);
+    const eb = blockOf(r.endContainer);
+    if (!sb || !eb || sb !== eb) {
+      e.preventDefault();
+      s.removeAllRanges();
+    }
+  });
+  document.addEventListener('dragstart', e => e.preventDefault());
+  document.addEventListener('mouseup', e => {
+    if (e.detail >= 3) {
+      const s = window.getSelection();
+      if (s.rangeCount > 0) {
+        const r = s.getRangeAt(0);
+        if (blockOf(r.startContainer) !== blockOf(r.endContainer)) {
+          s.removeAllRanges();
+        }
+      }
+    }
+  });
+})();
+</script>
 </body>
 </html>

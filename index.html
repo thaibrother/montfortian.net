@@ -257,6 +257,10 @@
     .rome-cal-items { padding: 10px 16px; justify-content: center; }
     .rome-cal-items .rc-tag { font-size: 11px; padding: 4px 10px; }
   }
+body { user-select: none; -webkit-user-select: none; }
+section.block, .content section.block, .block { user-select: text; -webkit-user-select: text; padding: 0.4em 0.6em; margin: 0.3em -0.6em; border: 1px solid transparent; border-radius: 4px; transition: all 0.2s; }
+section.block.active, .block.active { border-color: #d8d2c0; background: #fafaf5; }
+section.block::selection, .block::selection { background: #d4e5f7; }
 </style>
 <section class="rome-cal">
   <div class="rc-container">
@@ -961,5 +965,48 @@ window.addEventListener('scroll', () => {
 });
 </script>
 
+<script>
+(function(){
+  const blocks = () => document.querySelectorAll('.block, section.block, p, h1, h2, h3, h4, li');
+  const blockOf = (n) => {
+    if (!n) return null;
+    if (n.nodeType === 3) n = n.parentElement;
+    return n.closest ? n.closest('.block, section.block, p, h1, h2, h3, h4, li') : null;
+  };
+  document.addEventListener('keydown', e => {
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'a' || e.key === 'A')) { e.preventDefault(); return false; }
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'c' || e.key === 'C')) {
+      const s = window.getSelection();
+      if (s.rangeCount > 0) {
+        const r = s.getRangeAt(0);
+        if (blockOf(r.startContainer) !== blockOf(r.endContainer)) { e.preventDefault(); s.removeAllRanges(); }
+      }
+    }
+  });
+  document.addEventListener('contextmenu', e => e.preventDefault());
+  document.addEventListener('mousedown', e => {
+    const b = blockOf(e.target);
+    blocks().forEach(x => x.classList && x.classList.remove('active'));
+    if (b && b.classList) b.classList.add('active');
+  });
+  document.addEventListener('selectionchange', () => {
+    const s = window.getSelection();
+    if (s.rangeCount === 0) return;
+    const r = s.getRangeAt(0);
+    const sb = blockOf(r.startContainer);
+    const eb = blockOf(r.endContainer);
+    if (sb && eb && sb !== eb) s.removeAllRanges();
+  });
+  document.addEventListener('copy', e => {
+    const s = window.getSelection();
+    if (s.rangeCount === 0) { e.preventDefault(); return; }
+    const r = s.getRangeAt(0);
+    const sb = blockOf(r.startContainer);
+    const eb = blockOf(r.endContainer);
+    if (!sb || !eb || sb !== eb) { e.preventDefault(); s.removeAllRanges(); }
+  });
+  document.addEventListener('dragstart', e => e.preventDefault());
+})();
+</script>
 </body>
 </html>

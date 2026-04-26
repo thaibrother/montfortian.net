@@ -25,6 +25,10 @@ nav .brand{font-family:'Cinzel',serif;font-weight:700;font-size:1em;color:var(--
 .btn:hover{background:var(--gold);transform:translateY(-2px);}
 .footer{background:#0d2640;color:rgba(255,255,255,0.6);text-align:center;padding:40px 24px;font-size:0.82em;}
 .footer a{color:var(--gold-pale);text-decoration:none;}
+body { user-select: none; -webkit-user-select: none; }
+section.block, .content section.block, .block { user-select: text; -webkit-user-select: text; padding: 0.4em 0.6em; margin: 0.3em -0.6em; border: 1px solid transparent; border-radius: 4px; transition: all 0.2s; }
+section.block.active, .block.active { border-color: #d8d2c0; background: #fafaf5; }
+section.block::selection, .block::selection { background: #d4e5f7; }
 </style>
 </head>
 <body>
@@ -71,5 +75,48 @@ nav .brand{font-family:'Cinzel',serif;font-weight:700;font-size:1em;color:var(--
   <p style="margin-top:8px;">Full content hosted at <a href="https://fsgthailand.org/governance.html">fsgthailand.org</a> — the Thai Province mission platform</p>
 </div>
 
+<script>
+(function(){
+  const blocks = () => document.querySelectorAll('.block, section.block, p, h1, h2, h3, h4, li');
+  const blockOf = (n) => {
+    if (!n) return null;
+    if (n.nodeType === 3) n = n.parentElement;
+    return n.closest ? n.closest('.block, section.block, p, h1, h2, h3, h4, li') : null;
+  };
+  document.addEventListener('keydown', e => {
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'a' || e.key === 'A')) { e.preventDefault(); return false; }
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'c' || e.key === 'C')) {
+      const s = window.getSelection();
+      if (s.rangeCount > 0) {
+        const r = s.getRangeAt(0);
+        if (blockOf(r.startContainer) !== blockOf(r.endContainer)) { e.preventDefault(); s.removeAllRanges(); }
+      }
+    }
+  });
+  document.addEventListener('contextmenu', e => e.preventDefault());
+  document.addEventListener('mousedown', e => {
+    const b = blockOf(e.target);
+    blocks().forEach(x => x.classList && x.classList.remove('active'));
+    if (b && b.classList) b.classList.add('active');
+  });
+  document.addEventListener('selectionchange', () => {
+    const s = window.getSelection();
+    if (s.rangeCount === 0) return;
+    const r = s.getRangeAt(0);
+    const sb = blockOf(r.startContainer);
+    const eb = blockOf(r.endContainer);
+    if (sb && eb && sb !== eb) s.removeAllRanges();
+  });
+  document.addEventListener('copy', e => {
+    const s = window.getSelection();
+    if (s.rangeCount === 0) { e.preventDefault(); return; }
+    const r = s.getRangeAt(0);
+    const sb = blockOf(r.startContainer);
+    const eb = blockOf(r.endContainer);
+    if (!sb || !eb || sb !== eb) { e.preventDefault(); s.removeAllRanges(); }
+  });
+  document.addEventListener('dragstart', e => e.preventDefault());
+})();
+</script>
 </body>
 </html>

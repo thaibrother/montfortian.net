@@ -270,7 +270,6 @@
             document.getElementById('modal-name').textContent = 'Bro. ' + bro.full;
             document.getElementById('modal-salutation').textContent = bro.salutation ? '(' + bro.salutation + ') — ' + bro.community + ' · ' + bro.role : bro.community + ' · ' + bro.role;
             let dates = '';
-            if (bro.bornDisplay) dates += '<div class="label">🎂 Born</div><div class="val">' + bro.bornDisplay + '</div>';
             if (bro.firstVowDisplay) dates += '<div class="label">📿 First Vows</div><div class="val">' + bro.firstVowDisplay + '</div>';
             if (bro.perpVowDisplay) dates += '<div class="label">✝️ Perpetual Vows</div><div class="val">' + bro.perpVowDisplay + '</div>';
             else dates += '<div class="label">✝️ Perpetual Vows</div><div class="val" style="color:#c9a74e">Temporary Vow</div>';

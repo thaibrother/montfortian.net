@@ -1,0 +1,14 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Windows metadata
+Thumbs.db
+ehthumbs.db
+
+# Editor backups
+*~
+*.swp
+*.swo
+.idea/
+.vscode/

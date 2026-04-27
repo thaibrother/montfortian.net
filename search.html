@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search — Montfortian Network</title>
+<meta name="description" content="Search across the Montfortian Network — writings, brothers, governance, network directory.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #1a3a5c;
+  --gold: #8b6914;
+  --gold-light: #c4960a;
+  --cream: #f5f3ed;
+  --text: #2a2a2a;
+  --text-light: #666;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.6; }
+h1, h2, h3 { font-family: 'Cinzel', serif; }
+
+nav {
+  background: white; position: sticky; top: 0; z-index: 100;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  display: flex; align-items: center; flex-wrap: wrap;
+  padding: 0 16px; gap: 0;
+}
+nav a {
+  color: var(--navy); text-decoration: none;
+  padding: 16px 16px; font-size: 0.88em; font-weight: 500;
+  border-bottom: 3px solid transparent; transition: all 0.2s;
+  white-space: nowrap;
+}
+nav a:hover, nav a.active { border-bottom-color: var(--gold); color: var(--gold); }
+nav .brand { font-family: 'Cinzel', serif; font-weight: 700; font-size: 1em; color: var(--navy); margin-right: auto; padding: 12px 0; }
+
+.search-hero {
+  background: linear-gradient(160deg, var(--navy) 0%, #0d2640 70%, var(--gold) 200%);
+  color: white; padding: 60px 20px 40px; text-align: center;
+}
+.search-hero h1 { font-size: 2.2em; margin-bottom: 12px; letter-spacing: 2px; }
+.search-hero p { opacity: 0.7; font-size: 0.95em; max-width: 600px; margin: 0 auto 30px; }
+.search-box-wrap { max-width: 700px; margin: 0 auto; position: relative; }
+.search-box {
+  width: 100%; padding: 16px 56px 16px 24px;
+  font-size: 1.1em; border: none; border-radius: 50px;
+  font-family: inherit; outline: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+.search-box:focus { box-shadow: 0 4px 30px rgba(196,150,10,0.5); }
+.search-icon {
+  position: absolute; right: 22px; top: 50%; transform: translateY(-50%);
+  font-size: 1.3em; color: var(--text-light); pointer-events: none;
+}
+
+.results {
+  max-width: 900px; margin: 0 auto; padding: 40px 20px 80px;
+}
+.results-meta {
+  font-size: 0.9em; color: var(--text-light); margin-bottom: 20px;
+}
+.result-item {
+  background: white; padding: 20px 24px; border-radius: 10px;
+  margin-bottom: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-left: 4px solid var(--gold);
+}
+.result-item:hover { transform: translateX(4px); box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+.result-item a { color: var(--navy); text-decoration: none; }
+.result-item h3 {
+  font-size: 1.1em; font-family: 'Inter', sans-serif;
+  font-weight: 600; margin-bottom: 6px;
+}
+.result-item h3 a { color: var(--navy); }
+.result-item h3 a:hover { color: var(--gold); }
+.result-item .snippet {
+  font-size: 0.9em; color: var(--text-light); line-height: 1.7;
+  margin-top: 6px;
+}
+.result-item .url-tag {
+  display: inline-block; font-size: 0.78em; color: var(--gold);
+  background: rgba(196,150,10,0.08); padding: 2px 10px;
+  border-radius: 12px; margin-top: 8px;
+}
+.result-item mark {
+  background: rgba(196,150,10,0.25); color: inherit; padding: 0 2px; border-radius: 2px;
+}
+.empty {
+  text-align: center; padding: 60px 20px; color: var(--text-light);
+}
+.empty h3 { color: var(--navy); margin-bottom: 12px; }
+
+.filter-tabs {
+  display: flex; gap: 8px; flex-wrap: wrap; max-width: 900px;
+  margin: 30px auto 0; padding: 0 20px;
+  justify-content: center;
+}
+.filter-tab {
+  padding: 6px 16px; border-radius: 20px;
+  background: white; border: 1px solid #ddd;
+  font-size: 0.85em; cursor: pointer; transition: all 0.2s;
+  color: var(--text-light);
+}
+.filter-tab.active {
+  background: var(--navy); color: white; border-color: var(--navy);
+}
+.filter-tab:hover:not(.active) { border-color: var(--gold); color: var(--navy); }
+</style>
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav>
+    <a href="index.html" class="brand">Montfortian Network</a>
+    <a href="index.html#founder">The Founder</a>
+    <a href="index.html#congregations">Three Congregations</a>
+    <a href="index.html#network">Network Directory</a>
+    <a href="index.html#writings">Writings</a>
+    <a href="index.html#thai-province">Thai Province</a>
+    <a href="governance.html">Governance</a>
+    <a href="search.html" class="active">🔍 Search</a>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="search-hero">
+    <h1>Search</h1>
+    <p>Search across the Montfortian Network — writings of Saint Louis-Marie de Montfort, the three congregations, brothers' biographies, governance documents, and Thai Province network.</p>
+    <div class="search-box-wrap">
+        <input type="text" class="search-box" id="q" placeholder="Type to search… (e.g. wisdom, cross, rosary, brothers, governance)" autofocus>
+        <span class="search-icon">🔍</span>
+    </div>
+    <div class="filter-tabs" id="filters">
+        <button class="filter-tab active" data-filter="all">All</button>
+        <button class="filter-tab" data-filter="writings/">Writings</button>
+        <button class="filter-tab" data-filter="brothers">Brothers</button>
+        <button class="filter-tab" data-filter="governance">Governance</button>
+        <button class="filter-tab" data-filter="index|stream">Main pages</button>
+    </div>
+</section>
+
+<!-- ===== RESULTS ===== -->
+<div class="results">
+    <div class="results-meta" id="meta"></div>
+    <div id="results"></div>
+</div>
+
+<script>
+let INDEX = [];
+let currentFilter = "all";
+
+const meta = document.getElementById("meta");
+const resultsEl = document.getElementById("results");
+const qInput = document.getElementById("q");
+const filtersEl = document.getElementById("filters");
+
+// Load index
+fetch("search-index.json")
+    .then(r => r.json())
+    .then(data => {
+        INDEX = data;
+        meta.textContent = `Indexed ${INDEX.length} pages — type to search`;
+        // Show all by default
+        renderAll();
+    })
+    .catch(err => {
+        meta.textContent = "Error loading search index. Please try again.";
+        console.error(err);
+    });
+
+function renderAll() {
+    const items = applyFilter(INDEX);
+    resultsEl.innerHTML = items.map(item => `
+        <div class="result-item">
+            <h3><a href="${item.url}">${escapeHtml(item.title)}</a></h3>
+            ${item.description ? `<div class="snippet">${escapeHtml(item.description)}</div>` : ""}
+            <span class="url-tag">${item.url}</span>
+        </div>
+    `).join("");
+    meta.textContent = `Showing all ${items.length} pages`;
+}
+
+function search(query) {
+    if (!query) { renderAll(); return; }
+    const q = query.toLowerCase().trim();
+    const terms = q.split(/\s+/).filter(t => t);
+
+    const scored = applyFilter(INDEX).map(item => {
+        const haystack = [
+            item.title, item.description,
+            (item.headings || []).join(" "),
+            item.body || ""
+        ].join(" ").toLowerCase();
+
+        let score = 0;
+        for (const t of terms) {
+            if (item.title.toLowerCase().includes(t)) score += 100;
+            if ((item.description || "").toLowerCase().includes(t)) score += 50;
+            for (const h of (item.headings || [])) {
+                if (h.toLowerCase().includes(t)) score += 20;
+            }
+            const matches = (haystack.match(new RegExp(escapeRegex(t), "gi")) || []).length;
+            score += matches;
+        }
+        return { item, score };
+    }).filter(x => x.score > 0)
+      .sort((a, b) => b.score - a.score);
+
+    if (scored.length === 0) {
+        resultsEl.innerHTML = `<div class="empty"><h3>No results found</h3><p>Try different keywords.</p></div>`;
+        meta.textContent = `No matches for "${query}"`;
+        return;
+    }
+
+    resultsEl.innerHTML = scored.map(({ item }) => {
+        const snippet = makeSnippet(item, terms);
+        return `
+            <div class="result-item">
+                <h3><a href="${item.url}">${highlight(item.title, terms)}</a></h3>
+                <div class="snippet">${snippet}</div>
+                <span class="url-tag">${item.url}</span>
+            </div>
+        `;
+    }).join("");
+    meta.textContent = `${scored.length} result${scored.length === 1 ? "" : "s"} for "${query}"`;
+}
+
+function makeSnippet(item, terms) {
+    const text = (item.body || "") + " " + (item.headings || []).join(". ");
+    const lower = text.toLowerCase();
+    let bestIdx = -1;
+    for (const t of terms) {
+        const i = lower.indexOf(t);
+        if (i >= 0 && (bestIdx < 0 || i < bestIdx)) bestIdx = i;
+    }
+    if (bestIdx < 0) {
+        return highlight((item.description || text.slice(0, 200)), terms);
+    }
+    const start = Math.max(0, bestIdx - 80);
+    const end = Math.min(text.length, bestIdx + 200);
+    let snip = text.slice(start, end);
+    if (start > 0) snip = "…" + snip;
+    if (end < text.length) snip = snip + "…";
+    return highlight(snip, terms);
+}
+
+function highlight(text, terms) {
+    if (!terms || terms.length === 0) return escapeHtml(text);
+    let out = escapeHtml(text);
+    for (const t of terms) {
+        const re = new RegExp(`(${escapeRegex(t)})`, "gi");
+        out = out.replace(re, "<mark>$1</mark>");
+    }
+    return out;
+}
+
+function applyFilter(items) {
+    if (currentFilter === "all") return items;
+    const re = new RegExp(currentFilter, "i");
+    return items.filter(item => re.test(item.url));
+}
+
+function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+}
+function escapeRegex(s) { return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+
+// URL ?q= initial query
+const params = new URLSearchParams(window.location.search);
+const initialQ = params.get("q");
+if (initialQ) {
+    qInput.value = initialQ;
+}
+
+let timer;
+qInput.addEventListener("input", () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => search(qInput.value), 150);
+});
+
+// Filter tabs
+filtersEl.addEventListener("click", e => {
+    const btn = e.target.closest(".filter-tab");
+    if (!btn) return;
+    document.querySelectorAll(".filter-tab").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentFilter = btn.dataset.filter;
+    search(qInput.value);
+});
+
+// Run initial search if q param present
+if (initialQ) {
+    setTimeout(() => search(initialQ), 100);
+}
+</script>
+
+</body>
+</html>

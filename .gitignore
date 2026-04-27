@@ -12,3 +12,7 @@ ehthumbs.db
 *.swo
 .idea/
 .vscode/
+
+# Private — view locally only, NEVER deploy
+# (contains sensitive birth date data — user keeps for personal reference)
+brothers-age.html

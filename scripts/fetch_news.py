@@ -89,6 +89,23 @@ QUERIES = [
     ('site:matichon.co.th การศึกษา', 'th', 'TH', 'gov-edu'),
     ('site:dailynews.co.th การศึกษา', 'th', 'TH', 'gov-edu'),
     ('site:khaosod.co.th การศึกษา', 'th', 'TH', 'gov-edu'),
+
+    # ===== โรงเรียนเอกชน — บริบทเฉพาะ =====
+    ('"สมาคมการศึกษาเอกชน"', 'th', 'TH', 'private-edu'),
+    ('"สสอท."', 'th', 'TH', 'private-edu'),
+    ('"โรงเรียนเอกชน"', 'th', 'TH', 'private-edu'),
+    ('"เงินอุดหนุน" "โรงเรียนเอกชน"', 'th', 'TH', 'private-edu'),
+    ('"การศึกษาเอกชน" "นโยบาย"', 'th', 'TH', 'private-edu'),
+
+    # ===== วงการศึกษาคาทอลิก =====
+    ('"สภาการศึกษาคาทอลิก"', 'th', 'TH', 'catholic-edu'),
+    ('"การศึกษาคาทอลิก"', 'th', 'TH', 'catholic-edu'),
+    ('"โรงเรียนคาทอลิก"', 'th', 'TH', 'catholic-edu'),
+    ('"พระสังฆราช" "การศึกษา"', 'th', 'TH', 'catholic-edu'),
+    ('"อัครสังฆมณฑล" การศึกษา', 'th', 'TH', 'catholic-edu'),
+    ('"Catholic schools" Thailand', 'en', 'US', 'catholic-edu'),
+    ('"Catholic education" Asia', 'en', 'US', 'catholic-edu'),
+    ('"Catholic schools" Asia', 'en', 'US', 'catholic-edu'),
 ]
 
 # Words that indicate UNRELATED content (filter out)
@@ -193,6 +210,16 @@ AUDIENCE_KEYWORDS = {
         'Montfort', 'Saint Gabriel', 'Brother',
         'Daughters of Wisdom', 'Filles de la Sagesse', 'Pope', 'Vatican',
     ],
+    'private-edu': [
+        'โรงเรียนเอกชน', 'การศึกษาเอกชน', 'สสอท.', 'สมาคมการศึกษาเอกชน',
+        'เงินอุดหนุน',
+        'private school', 'private education',
+    ],
+    'catholic-edu': [
+        'คาทอลิก', 'สังฆมณฑล', 'อัครสังฆมณฑล', 'พระสังฆราช',
+        'สภาการศึกษาคาทอลิก', 'โรงเรียนคาทอลิก',
+        'Catholic', 'Diocese', 'Archdiocese', 'Bishop',
+    ],
 }
 
 # Map source-tag → primary audience (auto-assign without keyword match)
@@ -286,8 +313,10 @@ def relevance_score(item):
         'founder':           80,
         'devotion':          70,
         'thai-foundation':   90,
-        'gov-edu':           85,  # ประกาศกระทรวง/สช/คุรุสภา — สถานศึกษาต้องตาม
+        'gov-edu':           85,  # ประกาศกระทรวง/สช/คุรุสภา
         'thai-school':       25,  # tangential
+        'private-edu':       95,  # ตรงกับโรงเรียนคุณ
+        'catholic-edu':      95,  # ตรงกับเครือคาทอลิก
     }
     score += tag_scores.get(item['tag'], 40)
     # Priority keyword boost
@@ -355,8 +384,10 @@ def main():
         'founder':           4,
         'devotion':          3,
         'thai-foundation':   12,
-        'gov-edu':           25,
-        'thai-school':       6,
+        'gov-edu':           20,
+        'thai-school':       5,
+        'private-edu':       12,
+        'catholic-edu':      12,
     }
 
     # ★ Classify audiences for each item

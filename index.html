@@ -267,25 +267,19 @@ section.block::selection, .block::selection { background: #d4e5f7; }
     <div class="rome-cal-inner">
       <div class="rome-cal-date">
         <span class="rc-cross">&#10014;</span>
-        <span id="rc-date">Apr 16 &middot; Wednesday</span>
+        <span id="rc-date">Loading&hellip;</span>
       </div>
       <div class="rome-cal-items">
-        <span class="rc-tag"><span class="rc-label">Season</span> Easter &mdash; 3rd Week</span>
-        <span class="rc-tag"><span class="rc-label">Saints</span> St. Bernadette Soubirous</span>
-        <span class="rc-tag"><span class="rc-label">Special</span> World Voice Day</span>
+        <span class="rc-tag" id="rc-season"><span class="rc-label">Season</span> &hellip;</span>
+        <span class="rc-tag" id="rc-saints" style="display:none"><span class="rc-label">Saints</span> </span>
+        <span class="rc-tag" id="rc-special" style="display:none"><span class="rc-label">Special</span> </span>
+        <span class="rc-tag" id="rc-history" style="display:none"><span class="rc-label">History</span> </span>
+        <span class="rc-tag" id="rc-deceased" style="display:none"><span class="rc-label">Deceased</span> </span>
       </div>
     </div>
   </div>
 </section>
-<script>
-  (function(){
-    var d = new Date();
-    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-    var el = document.getElementById('rc-date');
-    if (el) el.innerHTML = months[d.getMonth()] + ' ' + d.getDate() + ' &middot; ' + days[d.getDay()];
-  })();
-</script>
+<script src="js/liturgical-calendar.js"></script>
 
 <!-- ===== HERO ===== -->
 <section class="hero">

@@ -24,17 +24,39 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
+# ★ Maximum age for news items (drop anything older than this)
+MAX_AGE_DAYS = 540  # ~18 months
+
 # Query definitions: (query, lang, region, tag)
 QUERIES = [
-    # English — strict / global
-    ('"Brothers of Saint Gabriel"', 'en', 'US', 'global-en'),
-    ('"Montfort Brothers"', 'en', 'US', 'global-en'),
-    ('"Gabrielite" Catholic', 'en', 'US', 'global-en'),
-    ('"Montfortian education"', 'en', 'US', 'education'),
-    # Thai — Foundation-related
+    # ===== Brothers of Saint Gabriel (Gabrielites) =====
+    ('"Brothers of Saint Gabriel"', 'en', 'US', 'sg-brothers'),
+    ('"Montfort Brothers"', 'en', 'US', 'sg-brothers'),
+    ('"Gabrielite" Catholic', 'en', 'US', 'sg-brothers'),
+
+    # ===== Daughters of Wisdom (Filles de la Sagesse / FDLS) =====
+    ('"Daughters of Wisdom" Catholic', 'en', 'US', 'fdls-sisters'),
+    ('"Filles de la Sagesse"', 'fr', 'FR', 'fdls-sisters'),
+
+    # ===== Montfort Missionaries / Company of Mary (SMM) =====
+    ('"Montfort Missionaries"', 'en', 'US', 'smm-missionaries'),
+    ('"Company of Mary" Montfort Catholic', 'en', 'US', 'smm-missionaries'),
+
+    # ===== Founder & spiritual heritage =====
+    ('"Louis-Marie de Montfort"', 'en', 'US', 'founder'),
+    ('"Saint Louis de Montfort"', 'en', 'US', 'founder'),
+    ('"Totus Tuus" Mary Pope', 'en', 'US', 'devotion'),
+
+    # ===== Vatican / Catholic news mentioning Montfortians =====
+    ('"Pope" "Montfort" -concert -music', 'en', 'US', 'vatican-news'),
+    ('Montfort Saint-Laurent-sur-Sevre Catholic', 'en', 'US', 'vatican-news'),
+
+    # ===== Thai Foundation =====
     ('"ภราดาเซนต์คาเบรียล"', 'th', 'TH', 'thai-foundation'),
     ('"คณะเซนต์คาเบรียล"', 'th', 'TH', 'thai-foundation'),
-    # Thai — major schools (filtered for relevance)
+    ('"มูลนิธิคณะเซนต์คาเบรียล"', 'th', 'TH', 'thai-foundation'),
+
+    # ===== Thai schools (kept lower relevance — see scoring) =====
     ('"มงฟอร์ตวิทยาลัย"', 'th', 'TH', 'thai-school'),
     ('"โรงเรียนอัสสัมชัญ"', 'th', 'TH', 'thai-school'),
     ('"เซนต์หลุยส์" โรงเรียน', 'th', 'TH', 'thai-school'),
@@ -116,30 +138,37 @@ def is_relevant(item):
 
 
 def relevance_score(item):
-    """Higher = more relevant for Brothers of Saint Gabriel context."""
+    """Higher = more relevant for Montfortian Family context."""
     score = 0
     title_lower = item['title'].lower()
-    # Tag-based base score (foundation news ranked higher than tangential school sports news)
+    # Tag-based base score
     tag_scores = {
-        'global-en': 100,
-        'thai-foundation': 90,
-        'education': 80,
-        'thai-school': 30,  # lower base — school sports/events tangential
+        'sg-brothers':       100,  # core
+        'fdls-sisters':      100,  # core
+        'smm-missionaries':  100,  # core
+        'vatican-news':      95,
+        'founder':           80,
+        'devotion':          70,
+        'thai-foundation':   90,
+        'thai-school':       25,  # tangential
     }
-    score += tag_scores.get(item['tag'], 50)
-    # Priority keywords boost
+    score += tag_scores.get(item['tag'], 40)
+    # Priority keyword boost
     for p in PRIORITY_KEYWORDS:
         if p.lower() in title_lower:
-            score += 20
-    # Recency boost (newer = more relevant)
+            score += 15
+    # Recency — STRONG factor (we want fresh news)
     if item['pub_ts'] > 0:
         days_old = (datetime.now(timezone.utc).timestamp() - item['pub_ts']) / 86400
-        if days_old < 7:
-            score += 30
-        elif days_old < 30:
-            score += 15
+        if days_old < 30:
+            score += 80
         elif days_old < 90:
-            score += 5
+            score += 50
+        elif days_old < 180:
+            score += 25
+        elif days_old < 365:
+            score += 10
+        # > 1 year = no boost
     return score
 
 
@@ -152,6 +181,13 @@ def main():
             all_items.extend(items)
         except Exception as ex:
             print(f'  ERROR {tag}: {ex}', file=sys.stderr)
+
+    # ★ Filter by age — drop anything older than MAX_AGE_DAYS
+    cutoff_ts = datetime.now(timezone.utc).timestamp() - (MAX_AGE_DAYS * 86400)
+    before_age = len(all_items)
+    all_items = [i for i in all_items if i['pub_ts'] >= cutoff_ts]
+    after_age = len(all_items)
+    print(f'  age filter: {before_age} → {after_age} (dropped {before_age - after_age} older than {MAX_AGE_DAYS} days)', file=sys.stderr)
 
     # Filter relevance
     all_items = [i for i in all_items if is_relevant(i)]

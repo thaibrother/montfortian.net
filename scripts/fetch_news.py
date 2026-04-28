@@ -70,6 +70,18 @@ QUERIES = [
     ('"โรงเรียนอัสสัมชัญ"', 'th', 'TH', 'thai-school'),
     ('"เซนต์หลุยส์" โรงเรียน', 'th', 'TH', 'thai-school'),
     ('"เซนต์คาเบรียล" โรงเรียน', 'th', 'TH', 'thai-school'),
+
+    # ===== ข่าวที่สถานศึกษาต้องติดตาม — ประกาศ กฎหมาย นโยบาย =====
+    # (Mission framing: ภายใต้พันธกิจ MEC + จิตตารมณ์มงฟอร์ตเตียน)
+    ('"ประกาศกระทรวงศึกษาธิการ"', 'th', 'TH', 'gov-edu'),
+    ('"สช." โรงเรียน นโยบาย', 'th', 'TH', 'gov-edu'),
+    ('"คุรุสภา" ครู ใบประกอบวิชาชีพ', 'th', 'TH', 'gov-edu'),
+    ('"พ.ร.บ.การศึกษา"', 'th', 'TH', 'gov-edu'),
+    ('"หลักสูตรแกนกลาง"', 'th', 'TH', 'gov-edu'),
+    ('"สมศ." ประเมินคุณภาพ', 'th', 'TH', 'gov-edu'),
+    ('"โรงเรียนเอกชน" นโยบาย ประกาศ', 'th', 'TH', 'gov-edu'),
+    ('"PISA" ไทย คะแนน', 'th', 'TH', 'gov-edu'),
+    ('"O-NET" คะแนน', 'th', 'TH', 'gov-edu'),
 ]
 
 # Words that indicate UNRELATED content (filter out)
@@ -159,6 +171,7 @@ def relevance_score(item):
         'founder':           80,
         'devotion':          70,
         'thai-foundation':   90,
+        'gov-edu':           85,  # ประกาศกระทรวง/สช/คุรุสภา — สถานศึกษาต้องตาม
         'thai-school':       25,  # tangential
     }
     score += tag_scores.get(item['tag'], 40)

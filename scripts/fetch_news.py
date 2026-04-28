@@ -71,17 +71,24 @@ QUERIES = [
     ('"เซนต์หลุยส์" โรงเรียน', 'th', 'TH', 'thai-school'),
     ('"เซนต์คาเบรียล" โรงเรียน', 'th', 'TH', 'thai-school'),
 
-    # ===== ข่าวที่สถานศึกษาต้องติดตาม — ประกาศ กฎหมาย นโยบาย =====
-    # (Mission framing: ภายใต้พันธกิจ MEC + จิตตารมณ์มงฟอร์ตเตียน)
-    ('"ประกาศกระทรวงศึกษาธิการ"', 'th', 'TH', 'gov-edu'),
-    ('"สช." โรงเรียน นโยบาย', 'th', 'TH', 'gov-edu'),
-    ('"คุรุสภา" ครู ใบประกอบวิชาชีพ', 'th', 'TH', 'gov-edu'),
+    # ===== ข่าวการศึกษาไทย — ที่สถานศึกษาต้องติดตาม =====
+    # (queries กว้าง — ใช้ relevance scoring + age filter กรองอีกชั้น)
+    ('"กระทรวงศึกษาธิการ"', 'th', 'TH', 'gov-edu'),
+    ('"ศธ." ประกาศ', 'th', 'TH', 'gov-edu'),
+    ('"คุรุสภา"', 'th', 'TH', 'gov-edu'),
+    ('"สมศ."', 'th', 'TH', 'gov-edu'),
+    ('"สช." การศึกษาเอกชน', 'th', 'TH', 'gov-edu'),
     ('"พ.ร.บ.การศึกษา"', 'th', 'TH', 'gov-edu'),
+    ('"ครูและบุคลากรทางการศึกษา"', 'th', 'TH', 'gov-edu'),
     ('"หลักสูตรแกนกลาง"', 'th', 'TH', 'gov-edu'),
-    ('"สมศ." ประเมินคุณภาพ', 'th', 'TH', 'gov-edu'),
-    ('"โรงเรียนเอกชน" นโยบาย ประกาศ', 'th', 'TH', 'gov-edu'),
-    ('"PISA" ไทย คะแนน', 'th', 'TH', 'gov-edu'),
-    ('"O-NET" คะแนน', 'th', 'TH', 'gov-edu'),
+    ('"การศึกษาเอกชน"', 'th', 'TH', 'gov-edu'),
+    ('"O-NET"', 'th', 'TH', 'gov-edu'),
+    ('"PISA" ไทย', 'th', 'TH', 'gov-edu'),
+    # ===== Thai newspapers' education sections =====
+    ('site:thairath.co.th การศึกษา', 'th', 'TH', 'gov-edu'),
+    ('site:matichon.co.th การศึกษา', 'th', 'TH', 'gov-edu'),
+    ('site:dailynews.co.th การศึกษา', 'th', 'TH', 'gov-edu'),
+    ('site:khaosod.co.th การศึกษา', 'th', 'TH', 'gov-edu'),
 ]
 
 # Words that indicate UNRELATED content (filter out)
@@ -144,14 +151,122 @@ def fetch_query(query, lang, region, tag):
     return items
 
 
+# ===== Audience-based classifier =====
+# Each item gets one or more audience tags — based on title keywords
+# Purpose: คัดข่าวเพื่อเรียนรู้/ปรับตัว/เปรียบเทียบ/ขับเคลื่อนคุณภาพ — by reader role
+AUDIENCE_KEYWORDS = {
+    'students': [
+        'นักเรียน', 'ทุนการศึกษา', 'ทุน ', 'สอบเข้า', 'สอบ O-NET', 'สอบเข้ามหาวิทยาลัย',
+        'เยาวชน', 'สอวน', 'โอลิมปิก', 'student', 'scholarship', 'youth competition',
+        'รับสมัครนักเรียน', 'admission',
+    ],
+    'teachers': [
+        'ครู ', 'วิชาชีพครู', 'ใบประกอบวิชาชีพ', 'คุรุสภา', 'พัฒนาครู', 'อบรมครู',
+        'ครูและบุคลากร', 'การสอน', 'ห้องเรียน', 'หลักสูตรการสอน',
+        'teacher', 'classroom', 'pedagogy', 'professional development',
+    ],
+    'administrators': [
+        'ผู้อำนวยการ', 'ผอ.', 'ผู้บริหาร', 'นโยบาย', 'พ.ร.บ.', 'ประกาศ',
+        'ศธ.', 'รมว.ศธ', 'ปลัด ศธ', 'สช.', 'สพฐ.', 'สมศ.', 'ก.ค.ศ.',
+        'มาตรฐาน', 'งบประมาณ', 'กระทรวงศึกษาธิการ', 'ปฏิรูป',
+        'principal', 'administrator', 'policy', 'law', 'governance',
+    ],
+    'alumni': [
+        'ศิษย์เก่า', 'centennial', 'reunion', 'รุ่น', 'alumni',
+        'ครบรอบ', 'สมาคมศิษย์',
+    ],
+    'edu-tech': [
+        'AI', 'เอไอ', 'ดิจิทัล', 'เทคโนโลยี', 'นวัตกรรม', 'EdTech',
+        'STEM', 'coding', 'อัปสกิล', 'reskill',
+        'artificial intelligence', 'digital learning', 'innovation',
+        'data-driven', 'big data', 'cloud',
+    ],
+    'quality': [
+        'คุณภาพการศึกษา', 'ประเมินคุณภาพ', 'มาตรฐานการศึกษา', 'ranking',
+        'การประเมินภายนอก', 'best practice', 'OECD', 'PISA', 'O-NET',
+        'การประกันคุณภาพ',
+        'quality', 'accreditation', 'assessment', 'evaluation',
+    ],
+    'montfortian-family': [
+        # auto-assigned by source tag below — keywords as backup
+        'มงฟอร์ต', 'เซนต์คาเบรียล', 'ภราดา',
+        'Montfort', 'Saint Gabriel', 'Brother',
+        'Daughters of Wisdom', 'Filles de la Sagesse', 'Pope', 'Vatican',
+    ],
+}
+
+# Map source-tag → primary audience (auto-assign without keyword match)
+SOURCE_TAG_TO_AUDIENCE = {
+    'sg-brothers':       ['montfortian-family'],
+    'fdls-sisters':      ['montfortian-family'],
+    'smm-missionaries':  ['montfortian-family'],
+    'vatican-news':      ['montfortian-family'],
+    'founder':           ['montfortian-family'],
+    'devotion':          ['montfortian-family'],
+    'thai-foundation':   ['montfortian-family'],
+}
+
+
+def classify_audience(item):
+    """Return list of audience tags for this item."""
+    audiences = set()
+    # Auto-assign by source tag
+    for a in SOURCE_TAG_TO_AUDIENCE.get(item['tag'], []):
+        audiences.add(a)
+    # Keyword classification
+    title = item['title']
+    for audience, keywords in AUDIENCE_KEYWORDS.items():
+        for kw in keywords:
+            if kw.lower() in title.lower():
+                audiences.add(audience)
+                break
+    return sorted(audiences)
+
+
+# gov-edu: ต้องมี indicator จริงของข่าวการศึกษาเชิงนโยบาย — ไม่ใช่แค่คำว่า "ศึกษา" ลอย ๆ
+GOV_EDU_REQUIRED = [
+    'กระทรวงศึกษา', 'ศธ.', 'รมว.ศธ', 'ปลัด ศธ',
+    'สช.', 'สพฐ.', 'สมศ.', 'คุรุสภา', 'ก.ค.ศ.',
+    'พ.ร.บ.การศึกษา', 'พ.ร.บ.โรงเรียน',
+    'นโยบายการศึกษา', 'ปฏิรูปการศึกษา',
+    'หลักสูตร',
+    'ครูและบุคลากรทางการศึกษา', 'วิชาชีพครู', 'ใบประกอบวิชาชีพ',
+    'การประเมินคุณภาพ', 'การประเมินภายนอก',
+    'PISA', 'O-NET', 'V-NET',
+    'การศึกษาเอกชน', 'โรงเรียนเอกชน',
+    'ศึกษาธิการจังหวัด', 'ศึกษานิเทศก์',
+]
+
+# gov-edu: exclude เพิ่ม (สำหรับ tag นี้โดยเฉพาะ)
+GOV_EDU_EXCLUDE = [
+    'มหาวิทยาลัย', 'ม.กรุงเทพ', 'ม.มหิดล', 'ม.จุฬา', 'ม.ธรรมศาสตร์',
+    'ม.เกษตร', 'มก.', 'ม.ขอนแก่น', 'มจพ.', 'มศว',
+    'นายกเล็ก', 'เทศบาล', 'อบต.', 'อบจ.',
+    'โรงพยาบาล', 'รพ.',
+    'ร่วมบริจาค', 'เลขเด็ด', 'ดวงวันนี้', 'หวย',
+    'ศุภชัย สมัปปิโต',  # specific noise from earlier test
+]
+
+
 def is_relevant(item):
-    """Keep items that are clearly about Brothers of Saint Gabriel / Montfortian family."""
+    """Keep items that are clearly relevant to Brothers/Montfortian family OR Thai education policy."""
     title_lower = item['title'].lower()
-    # Strong priority keyword? — keep regardless
+
+    # Tag-specific: gov-edu must have at least one ministry/policy indicator
+    if item['tag'] == 'gov-edu':
+        # exclude noise specific to gov-edu tag
+        for ex in GOV_EDU_EXCLUDE:
+            if ex.lower() in title_lower:
+                return False
+        # require at least one strong indicator
+        if not any(req.lower() in title_lower for req in GOV_EDU_REQUIRED):
+            return False
+        return True
+
+    # Other tags — original logic
     has_priority = any(p.lower() in title_lower for p in PRIORITY_KEYWORDS)
     if has_priority:
         return True
-    # Has exclude keyword and no priority? → reject
     for kw in EXCLUDE_KEYWORDS:
         if kw.lower() in title_lower:
             return False
@@ -231,11 +346,49 @@ def main():
     for item in deduped:
         item['relevance'] = relevance_score(item)
 
-    # Sort: relevance score desc, then pub_ts desc
-    deduped.sort(key=lambda x: (-x['relevance'], -x['pub_ts']))
+    # ★ Balance categories — ตั้ง quota per tag เพื่อให้ feed มีหลายหมวด ไม่ให้หมวดใดหมวดหนึ่งล้น
+    QUOTAS = {
+        'sg-brothers':       10,
+        'fdls-sisters':      8,
+        'smm-missionaries':  8,
+        'vatican-news':      6,
+        'founder':           4,
+        'devotion':          3,
+        'thai-foundation':   12,
+        'gov-edu':           25,
+        'thai-school':       6,
+    }
 
-    # Cap at 60
-    final = deduped[:60]
+    # ★ Classify audiences for each item
+    for item in deduped:
+        item['audiences'] = classify_audience(item)
+
+    # Drop items with no audience tag — they're not relevant to any reader role
+    before_aud = len(deduped)
+    deduped = [i for i in deduped if i['audiences']]
+    print(f'  audience filter: {before_aud} → {len(deduped)} (dropped {before_aud - len(deduped)} unclassified)', file=sys.stderr)
+
+    by_tag = {}
+    for item in deduped:
+        by_tag.setdefault(item['tag'], []).append(item)
+
+    # ในแต่ละหมวด: sort relevance + recency, เอาตาม quota
+    final = []
+    for tag, items in by_tag.items():
+        items.sort(key=lambda x: (-x['relevance'], -x['pub_ts']))
+        quota = QUOTAS.get(tag, 5)
+        final.extend(items[:quota])
+        print(f'    {tag}: {len(items)} → keep {min(quota, len(items))}', file=sys.stderr)
+
+    # Final ordering: recency-first (ของใหม่ขึ้นบน) — แต่ก็ไม่อยากให้ tag เดียวขึ้นยาว
+    # แยกเป็น 3 buckets ตามอายุ → ใน bucket sort by relevance
+    now = datetime.now(timezone.utc).timestamp()
+    def bucket(item):
+        days_old = (now - item['pub_ts']) / 86400
+        if days_old < 30: return 0
+        if days_old < 90: return 1
+        return 2
+    final.sort(key=lambda x: (bucket(x), -x['relevance'], -x['pub_ts']))
 
     # ★ Translate English titles → Thai (for Thai-display pages like fsgthailand.org/news)
     translation_count = 0

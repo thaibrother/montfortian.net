@@ -1,9 +1,88 @@
 {
-  "generated_at": "2026-04-28T02:03:08.356025+00:00",
-  "count": 60,
-  "sources_queried": 19,
-  "translated": 19,
+  "generated_at": "2026-04-28T03:41:56.961374+00:00",
+  "count": 59,
+  "sources_queried": 34,
+  "translated": 23,
   "items": [
+    {
+      "title": "April 28 : St. Louis Marie Grignion de Montfort, Priest - Catholic Time",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaEFwVGxRRDdTVnJUM2tTdlExWk9pbl81Tkw1OGFMbEpidE9ScDFjeTJzOFFjbXBhVW04YkpZMDdjOHFkRHQxRUgxcDBqZXVvX08xSHpPUDU1TmRCS0ROZFpSemhqQmFBZENEVlhYX1Rib2JrVVBBUnZ4eHV2M0xFUlc3SzZhcmpRVnRTdWxuYkNEN0VWZE1kSmJ1eE94OGhM?oc=5",
+      "pub_date": "2026-04-28T02:37:53+00:00",
+      "pub_ts": 1777343873,
+      "source": "Catholic Time",
+      "lang": "en",
+      "tag": "smm-missionaries",
+      "query": "\"Company of Mary\" Montfort Catholic",
+      "summary": "April 28 : St. Louis Marie Grignion de Montfort, Priest&nbsp;&nbsp;Catholic Time",
+      "relevance": 195,
+      "audiences": [
+        "montfortian-family"
+      ],
+      "title_th": "28 เมษายน : นักบุญหลุยส์ มารี กรีญอง เดอ มงฟอร์ต พระสงฆ์ - ตามเวลาคาทอลิก"
+    },
+    {
+      "title": "ดีป้า เปิดหลักสูตรอัปสกิลดิจิทัล ปั้นเยาวชน-บุคลากรทางการศึกษา ต่อยอดเส้นทางการศึกษาและอาชีพดิจิทัล - LINE TODAY",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rTDNxTUxwQjNFUkNvN2swZFV0dDZfZ2V5dnplYU03Y25tRWZVY1FtaWtubHVJTlExckRaNmlSR2EzeVhSRVdleVdMU2RqdnFlYXNGenN3?oc=5",
+      "pub_date": "2026-04-27T14:44:26+00:00",
+      "pub_ts": 1777301066,
+      "source": "LINE TODAY",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"ครูและบุคลากรทางการศึกษา\"",
+      "summary": "ดีป้า เปิดหลักสูตรอัปสกิลดิจิทัล ปั้นเยาวชน-บุคลากรทางการศึกษา ต่อยอดเส้นทางการศึกษาและอาชีพดิจิทัล&nbsp;&nbsp;LINE TODAY",
+      "relevance": 180,
+      "audiences": [
+        "edu-tech",
+        "students"
+      ],
+      "title_th": "ดีป้า เปิดหลักสูตรอัปสกิลดิจิทัล ปั้นเยาวชน-บุคลากรทางการศึกษา ต่อยอดเส้นทางการศึกษาและอาชีพดิจิทัล - LINE TODAY"
+    },
+    {
+      "title": "คณะหลักสูตรผู้นำธุรกิจไทย–จีน Young 3 ศึกษาดูงาน บริษัท นามยง เทอร์มินอล จำกัด - เดลินิวส์",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YWGtyZWxqN2FtRHhMbEl4dzhvd0ZiRjh6dk9rbE55WGlWM0VqbEhtOEUyZUdLdi1Ka1hCUWcwQ1NxN1VELU5oemlxYTludWw3WWRR?oc=5",
+      "pub_date": "2026-04-27T07:32:00+00:00",
+      "pub_ts": 1777275120,
+      "source": "เดลินิวส์",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "site:dailynews.co.th การศึกษา",
+      "summary": "คณะหลักสูตรผู้นำธุรกิจไทย–จีน Young 3 ศึกษาดูงาน บริษัท นามยง เทอร์มินอล จำกัด&nbsp;&nbsp;เดลินิวส์",
+      "relevance": 180,
+      "audiences": [],
+      "title_th": "คณะหลักสูตรผู้นำธุรกิจไทย–จีน Young 3 ศึกษาดูงาน บริษัท นามยง เทอร์มินอล จำกัด - เดลินิวส์"
+    },
+    {
+      "title": "“ยศชนัน” หนุนยกร่างกฎหมายการศึกษาไร้พระเอก เปิดรับทุกข้อเสนอ ปฏิรูปหลักสูตรทันโลก ปรับทุก 3 ปี - banmuang.co.th",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1VWFPby1sbmVBTVZSZF9Mek90RWI0Z0JGUWxyN1NlYkowMmhlaXNUYTNmbjZ1VXlKUUFmb196YnJaUXY1aW43MldvZFV6VjJJbEQ5ZEdSUFUwLUFo?oc=5",
+      "pub_date": "2026-04-27T03:27:00+00:00",
+      "pub_ts": 1777260420,
+      "source": "banmuang.co.th",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"พ.ร.บ.การศึกษา\"",
+      "summary": "“ยศชนัน” หนุนยกร่างกฎหมายการศึกษาไร้พระเอก เปิดรับทุกข้อเสนอ ปฏิรูปหลักสูตรทันโลก ปรับทุก 3 ปี&nbsp;&nbsp;banmuang.co.th",
+      "relevance": 180,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "“ยศชนัน” หนุนยกร่างกฎหมายการศึกษาไร้พระเอก เปิดรับทุกข้อเสนอ ปฏิรูปหลักสูตรทันโลก ปรับทุก 3 ปี - banmuang.co.th"
+    },
+    {
+      "title": "‘ยศชนัน’ หนุนปฏิรูปการศึกษา ย้ำหลักสูตรต้องไม่ล้าสมัย ดัน พ.ร.บ.การศึกษาฯ คลอดรัฐบาลนี้ - เดลินิวส์",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE81LXE0VDRNQU5PbmFWVk9Ea211MUlCdGhLQ0NTWXlpSUo1LTM2dGdDVGJnWEo5N2lkY3AwUEpGUFREQmExSkNOVzAzODVWelVUQ3Nz?oc=5",
+      "pub_date": "2026-04-27T03:19:00+00:00",
+      "pub_ts": 1777259940,
+      "source": "เดลินิวส์",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"พ.ร.บ.การศึกษา\"",
+      "summary": "‘ยศชนัน’ หนุนปฏิรูปการศึกษา ย้ำหลักสูตรต้องไม่ล้าสมัย ดัน พ.ร.บ.การศึกษาฯ คลอดรัฐบาลนี้&nbsp;&nbsp;เดลินิวส์",
+      "relevance": 180,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "‘ยศชนัน’ หนุนปฏิรูปการศึกษา ย้ำหลักสูตรต้องไม่ล้าสมัย ดัน พ.ร.บ.การศึกษาฯ คลอดรัฐบาลนี้ - เดลินิวส์"
+    },
     {
       "title": "Daughters of Wisdom - The Advocate",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRGlaZ0F2QmczekJmRXpfZmdBRWQtVkhiSVlPaWZmZHlzMFFNbHRlcUxDd0xpSTgyZS1ZZ2s1OFp2ZkNfSjVsMXEzbG16WVFQSWJvUDExY04zWVBfTTBOd3pyVGNSN2E1N09iZmoxemFXZFdWVldCWDZkQWJWaDBjMndCZVZnTVBDbEV6UFVDbHJ6NWp1Znc2dmFoNA?oc=5",
@@ -15,20 +94,125 @@
       "query": "\"Daughters of Wisdom\" Catholic",
       "summary": "Daughters of Wisdom&nbsp;&nbsp;The Advocate",
       "relevance": 180,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "ธิดาแห่งปัญญา - ผู้สนับสนุน"
     },
     {
-      "title": "Pope Leo XIV advances sainthood causes, including Dutch nun who served in Missouri - Detroit Catholic",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUXNqRG9MZmFCZG13UXBJeEVmUXlJT1FHWi1hQ3cxV3RaWWZPTi0wUkdJdDJaUE05VGd3MGdLZ1BQdllUYmpJclItUUlscTRzUGhLV21tX3lrRmpZd2tjdHF3TGVXTlh5bENJMU1ET3VXWkh1S1U4ZXphd3JyVTJlWEJYOFBWYlFfdGtkV1RDckMtYzdmWlZrZzVHVHNZM1hKQmtXSGhNS0NKTmJOWUtKUkg5QVdSMFRrN1E?oc=5",
-      "pub_date": "2026-04-27T19:25:32+00:00",
-      "pub_ts": 1777317932,
-      "source": "Detroit Catholic",
-      "lang": "en",
-      "tag": "vatican-news",
-      "query": "\"Pope\" \"Montfort\" -concert -music",
-      "summary": "Pope Leo XIV advances sainthood causes, including Dutch nun who served in Missouri&nbsp;&nbsp;Detroit Catholic",
-      "relevance": 175,
-      "title_th": "สมเด็จพระสันตะปาปาลีโอที่ 14 ทรงยกระดับความเป็นนักบุญ ซึ่งรวมถึงแม่ชีชาวดัตช์ที่รับใช้ในรัฐมิสซูรี - คาทอลิกแห่งดีทรอยต์"
+      "title": "ประกาศสำนักงานปลัดกระทรวงศึกษาธิการ เรื่อง รับสมัครข้าราชการเพื่อขึ้นบัญชีรายชื่อผู้ผ่านการกลั่นกรอง ประเภทอำนวยการ ระดับสูง สังกัดสำนักงานปลัดกระทรวงศึกษาธิการ - moe.go.th",
+      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNUWJIRl9BRGhrcElxMUVSM1hlRTJMLThuMHFwTDFPZWdSVFprNENveW9yeXM0ZkZPZmNqaGs3SXE5dnk3NFhEUnhqTXdIUzgyTlRLbVlaNFV6VGtjNTRmUk1DNG1mVmtXWUE3WjItd01UNGJybnpjWWNKcFlMWnlMNG5iR21UOFdwMlptZTBYaWdfY2hYX1pIOWFrT1c5U2FoTGI5MXdXSWdpLU9TdDUtMVQ0OTYzaVVueUo5SmdDUl9qUEQ5YUx6UUJ2Q3Y4bTU5OHBTSHlNdkxoeGZndnhtWXZIekdpaWZaMmR6MWVBWDVlTzVFVnBfQjBjeldOT2ViMEtkR0NwN3hHbmpyeWJINGFreTM3bzN3TGk1RFNnR1lVS1JHbVZUZWx1YVBhRGcyUUg2TDZXdFA0aE0?oc=5",
+      "pub_date": "2026-04-17T07:00:00+00:00",
+      "pub_ts": 1776409200,
+      "source": "moe.go.th",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "ประกาศสำนักงานปลัดกระทรวงศึกษาธิการ เรื่อง รับสมัครข้าราชการเพื่อขึ้นบัญชีรายชื่อผู้ผ่านการกลั่นกรอง ประเภทอำนวยการ ระดับสูง สังกัดสำนักงานปลัดกระทรวงศึกษาธิการ&nbsp;&nbsp;moe.go.th",
+      "relevance": 180,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "ประกาศสำนักงานปลัดกระทรวงศึกษาธิการ เรื่อง รับสมัครข้าราชการเพื่อขึ้นบัญชีรายชื่อผู้ผ่านการกลั่นกรอง ประเภทอำนวยการ ระดับสูง สังกัดสำนักงานปลัดกระทรวงศึกษาธิการ - moe.go.th"
+    },
+    {
+      "title": "The Reporters. . LIVE:สช.สงขลา ประชุมโต๊ะครู-ปอเนาะ ยันไม่ใช่แหล่งบ่มเพาะ เผยมีมาตรการกำกับดูแล ในพื้นที่ 4 อำเภอ จ.สงขลา และ สามจังหวัดชายแดนภาคใต้ ขณะที่ที่ปรึกษาสมาคมสมาพันธ์โรงเรียนเอกชนภาคใต้ ยันตรวจสอบได้ และรร.สามัญก็ปรับตัวนำหลักสูตรสอนศาสนาเข้าไปปรับใ - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgVBVV95cUxPZEpvRDVfTU1fRzN4ZmpOYXVJMVZUc0ExQk9LMW01eEVPNlhvMmVGMFpJbmxFcXVwc2dra1prdGExcGZ3VUlMb21ldnZHeTdkTzl1TVV1MDFkandCRnhqb0tZSzF0LVJ3T0ltTUxyZW5HbGw4OGZBX3pZR1ZhOEYzTVdSb3BFMXVtXzhxYmxYZjZEUG4yVzUyNkcxdEhUTk1ITHdOc3FmcjItUzBoR3NkWXJVUlFObGw3Q29FX3BZM0p0TVRBd3k3X2RTeVpQdXhibXBzTURIU3gtbmRuZjM2RElDQlIwcEVfSTVDTXFKVG5NVk5sQmpEVTJrdmQzeDVLN2ZQSzJ4WjYzXzVyV0RvX2h1MDQwei1qTzdEcUFmNlM3ZnprM25oX3o5eHhITmg1dmh4akFCSFQ4a3REYTFwTDBnLUZub2FIWDlvT2ZXcTJKWER0MUl1QzRuaVRUSnpxTVRndnVqN05NS3NJS2dKSFBRVnJwaEJVSTBaVWpTWFpWZTE3d2ZCcHFwWmRZdTItcjBnM1RqTk56ZmN3MUZvNzZJRGNfNmZvU1BqRmJad2RiSWhaMnUtdlZocExyeXBuLTBOa1YxYjJPeGRSbHhoYTA4LWZ6TUhlNkliMGF1VDdvbzZxR3FUSW1yR1pTWTViVHJBZEdYSHMtRjdqY21Sd3ZsQzFRMFBOaTkzOXNWSG1NMUNjVFBpWFFjdE1GV2VHbGw4VGN4SXVYZS1Oa3pnckhvUExxZ3hTV3BxSDJWVFJHNXpJSFVicV9xLTg2VGFBVWRtWHNqakdXSTc1Z2xBS1hZNmliMFlCZHl3QzdfNExMNnZ4VkZMdzZZVGhUakJ1QWNrWVRKVlhVZGdoYkRLdlVxa1JaaEVuOXFobWlHMkxfT2hvZ295WHh3?oc=5",
+      "pub_date": "2026-04-16T11:28:29+00:00",
+      "pub_ts": 1776338909,
+      "source": "facebook.com",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"สช.\" การศึกษาเอกชน",
+      "summary": "The Reporters. . LIVE:สช.สงขลา ประชุมโต๊ะครู-ปอเนาะ ยันไม่ใช่แหล่งบ่มเพาะ เผยมีมาตรการกำกับดูแล ในพื้นที่ 4 อำเภอ จ.สงขลา และ สามจังหวัดชายแดนภาคใต้ ขณะที่ที่ปรึกษาสมาคมสมาพันธ์โรงเรียนเอกชนภาคใต้ ยันตรวจสอบได้ และรร.สามัญก็ปรับตัวนำหลักสูตรสอนศาสนาเข้าไปปรับใ&nbsp;&nbsp;facebook",
+      "relevance": 180,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "The Reporters. . LIVE:สช.สงขลา ประชุมโต๊ะครู-ปอเนาะ ยันไม่ใช่แหล่งบ่มเพาะ เผยมีมาตรการกำกับดูแล ในพื้นที่ 4 อำเภอ จ.สงขลา และ สามจังหวัดชายแดนภาคใต้ ขณะที่ที่ปรึกษาสมาคมสมาพันธ์โรงเรียนเอกชนภาคใต้ ยันตรวจสอบได้ และรร.สามัญก็ปรับตัวนำหลักสูตรสอนศาสนาเข้าไปปรับใ - facebook.com"
+    },
+    {
+      "title": "อัครนันท์ ปักธงยกเครื่องการศึกษา รื้อหลักสูตร-ลดภาระครู-ปฏิรูประบบ - Matichon Online",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzZUxtZDdQRkNCWm1lNEotRjFlNjdQNnAtVUdWZmRXNUJ4aE1uU2swWmt2eWhMSnN2Q1YtdE1hRmt4b3d2S2k4N3lYMGkzZU94ZGtzQUEySmF1X3VQX2NUUmNBSk1KZw?oc=5",
+      "pub_date": "2026-04-03T07:00:00+00:00",
+      "pub_ts": 1775199600,
+      "source": "Matichon Online",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "site:matichon.co.th การศึกษา",
+      "summary": "อัครนันท์ ปักธงยกเครื่องการศึกษา รื้อหลักสูตร-ลดภาระครู-ปฏิรูประบบ&nbsp;&nbsp;Matichon Online",
+      "relevance": 180,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "อัครนันท์ ปักธงยกเครื่องการศึกษา รื้อหลักสูตร-ลดภาระครู-ปฏิรูประบบ - Matichon Online"
+    },
+    {
+      "title": "(ศธจ.มหาสารคาม)จัดงานวันคล้ายวันสถาปนากระทรวงศึกษาธิการ ครบรอบ 134 ปี กระทรวงศึกษาธิการ - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPOFVvRWZjY05Cckt2ZTRfN3p1RzdaTjZvRjVBcUNnZVR1aHBpNUtwTHlRbjZVR3NfSDdPWmYtZnNxdXctdzN1VndCSktPMVVhVTRjdC1hVGNrZVZpMWpDUnl1M3dIaXJzb1g0Y0I1MEpSay1qN0JlTkttS3hxSjRmSU9lcU5GeUNLOUotNDBOZ21Ka25iVVQ0Mm80LVNuM0VHTlh5NUg0WUQ5ZlNoUDJBeVkxbVpia2ZxVzdqdjFReTVsSm05SWVYem1vZjgyckNfNUJaR2lKZUdXVU1tQlN0bmlVdXREZXNibDRma01XLXgxWmltbmxablZaQ0EyWEdNaDI0YWZYcHYta3NVNEZjU3RFVjRhUUpwd0lfamk5LTZGNDNCb1ZKY0RoZ0R4YWRmdmtBSFNwYWQ?oc=5",
+      "pub_date": "2026-04-03T03:02:41+00:00",
+      "pub_ts": 1775185361,
+      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "(ศธจ.มหาสารคาม)จัดงานวันคล้ายวันสถาปนากระทรวงศึกษาธิการ ครบรอบ 134 ปี กระทรวงศึกษาธิการ&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "relevance": 180,
+      "audiences": [
+        "administrators",
+        "alumni"
+      ],
+      "title_th": "(ศธจ.มหาสารคาม)จัดงานวันคล้ายวันสถาปนากระทรวงศึกษาธิการ ครบรอบ 134 ปี กระทรวงศึกษาธิการ - สำนักงานปลัดกระทรวงศึกษาธิการ"
+    },
+    {
+      "title": "ยศชนันกางวิชั่นปฏิรูปการศึกษาแก้เหลื่อมล้ำใข้AIปฏิรูปหลักสูตรสู่แรงงาน - posttoday",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA5QVRPT3VwNUNUSDRDc29HS1FZRlNkNXdQMUNmaWNsS2g1MHptd2k4Mk9UZGlYUHBIaFBZamRaS3FpZGdFX0dDcmo2bWZiOTJoUGxv?oc=5",
+      "pub_date": "2026-04-02T07:00:00+00:00",
+      "pub_ts": 1775113200,
+      "source": "posttoday",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"พ.ร.บ.การศึกษา\"",
+      "summary": "ยศชนันกางวิชั่นปฏิรูปการศึกษาแก้เหลื่อมล้ำใข้AIปฏิรูปหลักสูตรสู่แรงงาน&nbsp;&nbsp;posttoday",
+      "relevance": 180,
+      "audiences": [
+        "administrators",
+        "edu-tech"
+      ],
+      "title_th": "ยศชนันกางวิชั่นปฏิรูปการศึกษาแก้เหลื่อมล้ำใข้AIปฏิรูปหลักสูตรสู่แรงงาน - posttoday"
+    },
+    {
+      "title": "ศธภ.5 ร่วมงานวันคล้ายวันสถาปนากระทรวงศึกษาธิการ ครบรอบ 134 ปี - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxONDlWUHR1WVZGQk8wNHhnNVowVjV2SldZNVJhVlhEeDRsMXpwMkM5ZGxXN291YlBxVFVCcjVXbk1mUEQ4R0hKU3c0UnlVV2N2WUdKV0YySHl4ZmRRRi1ab3ZoMFl4d2wweU44N0tiX2RmUFZWMERrVU5HZkowRzNOcmlPOEp4VVN0S3Z1Q0lWU3M4LTd6S20zMHJuWmZuelpoZzVKZVB4b1JoYjhnbExlbHZ2Z29vbjZLbExsYUV5LW0xc2s2NFoza05vSGhmTHo3OWZCSWl5ZEpkZ05JQUxpN0xhOTJRTzBhVXllLUlhdGpLblBxZUVWd0gzM2tfVjgzbnVfMXRzN0ROcjBuUWxGNFFUajNWbVJOZkRtc054Nk9nc2FUNmlXcFBSclE5TUtyaVllS1NwdzU2Qjg?oc=5",
+      "pub_date": "2026-04-01T07:00:00+00:00",
+      "pub_ts": 1775026800,
+      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "ศธภ.5 ร่วมงานวันคล้ายวันสถาปนากระทรวงศึกษาธิการ ครบรอบ 134 ปี&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "relevance": 180,
+      "audiences": [
+        "administrators",
+        "alumni"
+      ],
+      "title_th": "ศธภ.5 ร่วมงานวันคล้ายวันสถาปนากระทรวงศึกษาธิการ ครบรอบ 134 ปี - สำนักงานปลัดกระทรวงศึกษาธิการ"
+    },
+    {
+      "title": "ประกาศ อ.ก.ค.ศ. สำนักงานปลัดกระทรวงศึกษาธิการ เรื่อง รับสมัครคัดเลือกบุคคลเพื่อบรรจุและแต่งตั้งให้ดำรงตำแหน่งศึกษาธิการจังหวัด - moe.go.th",
+      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPeUpNNWlMdFc5dTAzN280a0JIbFpqdHJVVzhJX1o3LXN2UXhEZlNvbEthVk1MRmZkX2tyaEZRaUtEbk1BcmpBTE5kVm5QV09leU12MU5tUGdFRUROV3dxa011aHNuTkd1RVpLWmxrai0teDFEdU1kajBNa0xKRElOWThCeFloamc3TzdncFFOUGMyaG13TlRYcXV6OTE3Mk9oa05vaG5zdXpUaElqbWNsLWNWVGFnSW5nc3lBenFyT1NSV1pRUFBpbUhvU3l6V29WbzNGRTh2NWJjVVF4VlNOdEFSVmZUS2tUYTJMd09JRGJfaTlSLWk2UThnbFBLYWEwMmtqSGFxLXdtbTJxQ0FnQWM0QVYzN0dJcWN6dzZycEp6RWZ0dTBLTGw3aU1yeTZ3eUg0WHN5dzFRRmwyUE90NkJn?oc=5",
+      "pub_date": "2026-03-31T07:00:00+00:00",
+      "pub_ts": 1774940400,
+      "source": "moe.go.th",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "ประกาศ อ.ก.ค.ศ. สำนักงานปลัดกระทรวงศึกษาธิการ เรื่อง รับสมัครคัดเลือกบุคคลเพื่อบรรจุและแต่งตั้งให้ดำรงตำแหน่งศึกษาธิการจังหวัด&nbsp;&nbsp;moe.go.th",
+      "relevance": 180,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "ประกาศ อ.ก.ค.ศ. สำนักงานปลัดกระทรวงศึกษาธิการ เรื่อง รับสมัครคัดเลือกบุคคลเพื่อบรรจุและแต่งตั้งให้ดำรงตำแหน่งศึกษาธิการจังหวัด - moe.go.th"
     },
     {
       "title": "Story Of Saint Louis Mary De Montfort I Saints And Angels TV | #SaintLouisDeMontfort #saints (LMWt6GvAJB) - Fathom Journal",
@@ -41,7 +225,241 @@
       "query": "\"Saint Louis de Montfort\"",
       "summary": "Story Of Saint Louis Mary De Montfort I Saints And Angels TV | #SaintLouisDeMontfort #saints (LMWt6GvAJB)&nbsp;&nbsp;Fathom Journal",
       "relevance": 175,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
       "title_th": "เรื่องราวของนักบุญหลุยส์ แมรี เดอ มงฟอร์ตที่ 1 นักบุญและเทวดา ทีวี | #SaintLouisDeMontfort #saints (LMWt6GvAJB) - Fathom Journal"
+    },
+    {
+      "title": "มรภ.เลย ลงนามบันทึกข้อตกลง(MOU)เครือข่ายสถานศึกษาฝึกประสบการณ์วิชาชีพครู - เดลินิวส์",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kalpuenY1ODNMT1BrLWg1YkdFWEo2Sk41Uy16bWZ4aUpyaEdmYjBHTW5Pdnl4YlBRbm1wY0EwSEFiLVZJQ3NRTG9zWWowOFgzdjdV?oc=5",
+      "pub_date": "2026-04-28T03:30:00+00:00",
+      "pub_ts": 1777347000,
+      "source": "เดลินิวส์",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "site:dailynews.co.th การศึกษา",
+      "summary": "มรภ.เลย ลงนามบันทึกข้อตกลง(MOU)เครือข่ายสถานศึกษาฝึกประสบการณ์วิชาชีพครู&nbsp;&nbsp;เดลินิวส์",
+      "relevance": 165,
+      "audiences": [
+        "teachers"
+      ],
+      "title_th": "มรภ.เลย ลงนามบันทึกข้อตกลง(MOU)เครือข่ายสถานศึกษาฝึกประสบการณ์วิชาชีพครู - เดลินิวส์"
+    },
+    {
+      "title": "การประชุมสภากาแฟ ครั้งที่ 3/2569 - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNRy1MSHRUMmlVYkhZU1lwWUFrQjJUSjFFVkxHVVhLVEtrM0ZGbVNBejdnY2pRelU3NE9zY2VGWk9QdzRJUWVVYWhURTdBV2UycVFkWGZGNTFkNWw3amM5bVdUQWdoMFhwSWpWR3VKN1k3SlhTZFZQQlpoVTAzM0FOS1I0b2pDZUVoY1VkWWRwYzBWam96dE94UGtuNnFvQXluMDJnRnRPa0IyMHlaUjRqSDRKb0FZSDJhbjVvcEFKQzdaMk1CYnhnS2s4TloySE80NmllUVNua281ODFJWUN4NnpoUVpyZHI2TlBPaTluVXlfMVVyNklXbTFfQWVvcjZ0M1BqYm1qbjJvSmEtdmpNaVdnWi1feTkwWW12bG5sRnJOMVZMRGQ2ckdjRTlzMU9fNXFGUjRpRnpBZFE?oc=5",
+      "pub_date": "2026-04-28T03:01:39+00:00",
+      "pub_ts": 1777345299,
+      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "การประชุมสภากาแฟ ครั้งที่ 3/2569&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "relevance": 165,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "การประชุมสภากาแฟ ครั้งที่ 3/2569 - สำนักงานปลัดกระทรวงศึกษาธิการ"
+    },
+    {
+      "title": "รัฐมนตรีว่าการกระทรวงศึกษาธิการและการฝึกอบรม หว่าง มินห์ ซอน: โอกาสอันยิ่งใหญ่สำหรับภาคการศึกษา - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWjYxYkRxTVBHcVJLRUVXN0VROXJodEZ3c0tlX2t1Q1BPWEZnUVZWcjM2R1lmUXYtMVVVTHE5eWhGWjNWSGtpNHpYY01xUEVsWjh6ZUFUQ21uTjRreVd3ZTlaZjRPU1lRRk5Bb0NsRjFtVXVBV2dqVVBvTUZKT24zalRzb1BUcG5VVGhaQVZYVUR6ZnZMUmUxTmJMeklLczZYWTc0?oc=5",
+      "pub_date": "2026-04-28T02:46:02+00:00",
+      "pub_ts": 1777344362,
+      "source": "Vietnam.vn",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "รัฐมนตรีว่าการกระทรวงศึกษาธิการและการฝึกอบรม หว่าง มินห์ ซอน: โอกาสอันยิ่งใหญ่สำหรับภาคการศึกษา&nbsp;&nbsp;Vietnam.vn",
+      "relevance": 165,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "รัฐมนตรีว่าการกระทรวงศึกษาธิการและการฝึกอบรม หว่าง มินห์ ซอน: โอกาสอันยิ่งใหญ่สำหรับภาคการศึกษา - Vietnam.vn"
+    },
+    {
+      "title": "วันจันทร์ที่ 27 เมษายน พ.ศ. 2569 นางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง มอบหมายให้นางธนภร คุ้มเพชร นักวิชาการศึกษาชำนาญการพิเศษ (ผู้อำนวยการกลุ่มส่งเสริมการศึกษาเอกชน) พร้อมด้วยนางสาวประณีต พรมโสภา นักทรัพยากรบุคคลปฏิบัติการ และบุคลากรกลุ่มส่งเสริมการศึกษา - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOSFIxcG5ndnVZSFVuUy1RZWxucGhFaGc2REYxNWt4VnRxbzZoaXNHc3huU1pISXFGdGxCSlU0ZDY2MFlLT3JMdjcySVhFRTVjM3NjNHNDaHFJdm1IMWdsUHpsT18tZXdSa2txMTEzOGcxaGgzNGNEY0RTdV83TUJIcDhDSGt5YnpqTjJPYlhZVUVXRjVUV1g0eC1QVVF1UFNmMTV1RmRFVUk1Zi05QmxrdmoyWGJsWXp6UFd3c1dkd1NvektGLXRzYW9QZ29tN2ZOV29jVTdwTXNDRnJ2bTM5RlRNRmVnY3BfaVpvcnVqR1RFOHB0NnA2WkFGLURsT09rQ1M4SU0xSGJEeWZqYUNRUHVGc2Z6RUMwZk5mUDJGYlpLeFloMVhPYjBoUm5jWFVPZE5hdS1ZZ29UQQ?oc=5",
+      "pub_date": "2026-04-28T01:41:16+00:00",
+      "pub_ts": 1777340476,
+      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"การศึกษาเอกชน\"",
+      "summary": "วันจันทร์ที่ 27 เมษายน พ.ศ. 2569 นางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง มอบหมายให้นางธนภร คุ้มเพชร นักวิชาการศึกษาชำนาญการพิเศษ (ผู้อำนวยการกลุ่มส่งเสริมการศึกษาเอกชน) พร้อมด้วยนางสาวประณีต พรมโสภา นักทรัพยากรบุคคลปฏิบัติการ และบุคลากรกลุ่มส่งเสริมการศึกษา&nbsp;&nbsp;สำนักงา",
+      "relevance": 165,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "วันจันทร์ที่ 27 เมษายน พ.ศ. 2569 นางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง มอบหมายให้นางธนภร คุ้มเพชร นักวิชาการศึกษาชำนาญการพิเศษ (ผู้อำนวยการกลุ่มส่งเสริมการศึกษาเอกชน) พร้อมด้วยนางสาวประณีต พรมโสภา นักทรัพยากรบุคคลปฏิบัติการ และบุคลากรกลุ่มส่งเสริมการศึกษา - สำนักงานปลัดกระทรวงศึกษาธิการ"
+    },
+    {
+      "title": "รมช.ศธ. ร่วมสวดพระอภิธรรม “ครูปภัสรา” เหยื่อคลั่งยิงมั่วอยุธยา มอบทุนส่วนตัวส่งบุตร 2 คนเรียนจนจบ ม.6 - ข่าวสด",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QOWJMN2xXU05DdGh3dGNKSms3TDhfTFBDd0tXaGVJVmNZaEZpdU9JNV83MHE1emp2bFhZRktxLUMyWEVkVnRvT3dvNE5jbXdseVZaOXk2ZW1RbzF3VEVFZi01YnZyQQ?oc=5",
+      "pub_date": "2026-04-27T14:38:00+00:00",
+      "pub_ts": 1777300680,
+      "source": "ข่าวสด",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "site:khaosod.co.th การศึกษา",
+      "summary": "รมช.ศธ. ร่วมสวดพระอภิธรรม “ครูปภัสรา” เหยื่อคลั่งยิงมั่วอยุธยา มอบทุนส่วนตัวส่งบุตร 2 คนเรียนจนจบ ม.6&nbsp;&nbsp;ข่าวสด",
+      "relevance": 165,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "รมช.ศธ. ร่วมสวดพระอภิธรรม “ครูปภัสรา” เหยื่อคลั่งยิงมั่วอยุธยา มอบทุนส่วนตัวส่งบุตร 2 คนเรียนจนจบ ม.6 - ข่าวสด"
+    },
+    {
+      "title": "“อัครนันท์” รมช.ศธ. มอบทุนบุตร 2 คน เหยื่อยิงกราดอยุธยา ให้เรียนจนจบ ม.6 - Thairath.co.th",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sRkEzRXVBbjhRQ01CbHhiWVhjUUF6amxUaHhVY1lOYUtfa1NjbFp2VlhhTmg2TTBMZzdITGxmbFhsSV80VlYzUEtoRzNTQk5RNzBhb0FtekRDbFE?oc=5",
+      "pub_date": "2026-04-27T13:51:52+00:00",
+      "pub_ts": 1777297912,
+      "source": "Thairath.co.th",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "site:thairath.co.th การศึกษา",
+      "summary": "“อัครนันท์” รมช.ศธ. มอบทุนบุตร 2 คน เหยื่อยิงกราดอยุธยา ให้เรียนจนจบ ม.6&nbsp;&nbsp;Thairath.co.th",
+      "relevance": 165,
+      "audiences": [
+        "administrators",
+        "edu-tech"
+      ],
+      "title_th": "“อัครนันท์” รมช.ศธ. มอบทุนบุตร 2 คน เหยื่อยิงกราดอยุธยา ให้เรียนจนจบ ม.6 - Thairath.co.th"
+    },
+    {
+      "title": "กระทรวงศึกษาธิการทุ่มงบ 83 ล้านเหรียญ หนุนโรงเรียนประถม–มัธยมต้น 611 แห่ง ดึงผู้ช่วยครูต่างชาติพัฒนาทักษะภาษาอังกฤษแก่เด็ก - Rti - rti.org.tw",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00VEhIeVAwaHE5MXJGT1Z4MlNxb1pWNm9CeUdxUWNNRFhDOWx5X0VpSXY0SHBKRGdhYTNqbzhHM0tzYnVVcGxiMS1Cc0dRYktYOFpFcDQxcnVfZ3M?oc=5",
+      "pub_date": "2026-04-27T11:00:17+00:00",
+      "pub_ts": 1777287617,
+      "source": "rti.org.tw",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "กระทรวงศึกษาธิการทุ่มงบ 83 ล้านเหรียญ หนุนโรงเรียนประถม–มัธยมต้น 611 แห่ง ดึงผู้ช่วยครูต่างชาติพัฒนาทักษะภาษาอังกฤษแก่เด็ก - Rti&nbsp;&nbsp;rti.org.tw",
+      "relevance": 165,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "กระทรวงศึกษาธิการทุ่มงบ 83 ล้านเหรียญ หนุนโรงเรียนประถม–มัธยมต้น 611 แห่ง ดึงผู้ช่วยครูต่างชาติพัฒนาทักษะภาษาอังกฤษแก่เด็ก - Rti - rti.org.tw"
+    },
+    {
+      "title": "ในประเทศ - ยศชนัน เดินหน้าปฏิรูปการศึกษา รวมฉันทามติทุกภาคส่วน ดัน พ.ร.บ.การศึกษาใหม่ สร้างคนทันโลก - แนวหน้า",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1PNk9sb05UZ3pPT21YRmJzRExfNXVxeWY4LUFRd3ZaSEViWXEwTUpHSFJQU1FnYUE4NUctQ0F0S1REZGlOWjZUYkM2QQ?oc=5",
+      "pub_date": "2026-04-27T10:08:00+00:00",
+      "pub_ts": 1777284480,
+      "source": "แนวหน้า",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"พ.ร.บ.การศึกษา\"",
+      "summary": "ในประเทศ - ยศชนัน เดินหน้าปฏิรูปการศึกษา รวมฉันทามติทุกภาคส่วน ดัน พ.ร.บ.การศึกษาใหม่ สร้างคนทันโลก&nbsp;&nbsp;แนวหน้า",
+      "relevance": 165,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "ในประเทศ - ยศชนัน เดินหน้าปฏิรูปการศึกษา รวมฉันทามติทุกภาคส่วน ดัน พ.ร.บ.การศึกษาใหม่ สร้างคนทันโลก - แนวหน้า"
+    },
+    {
+      "title": "วันจันทร์ที่ 27 เมษายน 2569 สำนักงานศึกษาธิการจังหวัดระนอง จัดพิธีมอบเกียรติบัตรให้กับนักเรียนที่มีผลการทดสอบทางการศึกษาระดับชาติขั้นพื้นฐาน (O-NET) ปีการศึกษา 2568 ได้ 100 คะแนนเต็ม เพื่อเป็นขวัญกำลังใจให้แก่นักเรียน โดยมีนางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง กล่า - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNdjlTTGlqVkkzNUxpZm9KS2M0aFl0blZaQzZWZTVTUXZJRjRvM2lLUktJbkZjempsR2s1RGFBdHlEOFZyNWlJQzhLaVRUaW9MS1ZNOXF6NmVpTnlhSGd1cHNXRGRzam5NV3h3Ynh6cTVDWjN6RkpNWVFHSEZHeVBIcWwwMXJMOW5zT0RLZDNLbjl4dC1vS1l6QXQxZzRiZG1yZTEyUG9rejg4a1haYWttMEMzVUVxQWR4SEV0czUwSThIVmtZNmVZLU0xRC1vOHdzclVWR2MwZlBFbXBHakpZNnFxVV94ODlYYTFTVmlBUlVsenA4M1VWeG9xdlRwWTJRai1QRXE3RW9pQkc2aVVFT3BremNJeU53NTNZdWEtNU1TeWRoWElycHkxMFI5eG84T2ZEdVBqVFp5MFliUTNKQUlLaDY?oc=5",
+      "pub_date": "2026-04-27T09:30:40+00:00",
+      "pub_ts": 1777282240,
+      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"O-NET\"",
+      "summary": "วันจันทร์ที่ 27 เมษายน 2569 สำนักงานศึกษาธิการจังหวัดระนอง จัดพิธีมอบเกียรติบัตรให้กับนักเรียนที่มีผลการทดสอบทางการศึกษาระดับชาติขั้นพื้นฐาน (O-NET) ปีการศึกษา 2568 ได้ 100 คะแนนเต็ม เพื่อเป็นขวัญกำลังใจให้แก่นักเรียน โดยมีนางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง กล่า&nbsp;&nb",
+      "relevance": 165,
+      "audiences": [
+        "administrators",
+        "quality",
+        "students"
+      ],
+      "title_th": "วันจันทร์ที่ 27 เมษายน 2569 สำนักงานศึกษาธิการจังหวัดระนอง จัดพิธีมอบเกียรติบัตรให้กับนักเรียนที่มีผลการทดสอบทางการศึกษาระดับชาติขั้นพื้นฐาน (O-NET) ปีการศึกษา 2568 ได้ 100 คะแนนเต็ม เพื่อเป็นขวัญกำลังใจให้แก่นักเรียน โดยมีนางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง กล่า - สำนักงานปลัดกระทรวงศึกษาธิการ"
+    },
+    {
+      "title": "‘ยศชนันท์’ สั่งลุยยกร่างพ.ร.บ.การศึกษาฯ ปั้น ‘ทุนมนุษย์ไทย’ ยกเครื่องการเรียนรู้ทั้งประเทศ - Matichon Online",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5DUm04ZnRwX1NwdTRvQmpsMDd1ZDl3dVRfLUh1alBPM01xc0ltMkdTYVJWT2lJaHFkam5FQ3JqZ3JGWmNNV1I5bUdybjYtYnBPZ0Yyb1NxRm9LNXhsb1Z0TzlrcFBJUQ?oc=5",
+      "pub_date": "2026-04-27T05:40:58+00:00",
+      "pub_ts": 1777268458,
+      "source": "Matichon Online",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"พ.ร.บ.การศึกษา\"",
+      "summary": "‘ยศชนันท์’ สั่งลุยยกร่างพ.ร.บ.การศึกษาฯ ปั้น ‘ทุนมนุษย์ไทย’ ยกเครื่องการเรียนรู้ทั้งประเทศ&nbsp;&nbsp;Matichon Online",
+      "relevance": 165,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "‘ยศชนันท์’ สั่งลุยยกร่างพ.ร.บ.การศึกษาฯ ปั้น ‘ทุนมนุษย์ไทย’ ยกเครื่องการเรียนรู้ทั้งประเทศ - Matichon Online"
+    },
+    {
+      "title": "ศาลอาญาคดีทุจริตฯ สั่งจำคุกอดีตผอ.เตรียมอุดมศึกษา 27 ปี คดีรับนักเรียน ขัดหลักเกณฑ์ สพฐ. - Matichon Online",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BVnQ2YTlVZGQzaXRERVd5cnlaT2o1NU9JUmxYcWx2ZmRLZVpxNk9yVWdldkpyVjZsS241RnpDVUZHRVNoaW1pRTNVbk90YUxWcnIybWxzTUZ4eFNNek9JTXN2d3luZw?oc=5",
+      "pub_date": "2026-04-27T04:49:22+00:00",
+      "pub_ts": 1777265362,
+      "source": "Matichon Online",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "site:matichon.co.th การศึกษา",
+      "summary": "ศาลอาญาคดีทุจริตฯ สั่งจำคุกอดีตผอ.เตรียมอุดมศึกษา 27 ปี คดีรับนักเรียน ขัดหลักเกณฑ์ สพฐ.&nbsp;&nbsp;Matichon Online",
+      "relevance": 165,
+      "audiences": [
+        "administrators",
+        "students"
+      ],
+      "title_th": "ศาลอาญาคดีทุจริตฯ สั่งจำคุกอดีตผอ.เตรียมอุดมศึกษา 27 ปี คดีรับนักเรียน ขัดหลักเกณฑ์ สพฐ. - Matichon Online"
+    },
+    {
+      "title": "คุรุสภา มอบรางวัล ครูถิรคุณ ให้ ผอ.ศศิพัชร ผู้มีจิตวิญญาณครูจนวินาทีสุดท้าย - MSN",
+      "link": "https://news.google.com/rss/articles/CBMijAlBVV95cUxNc0hZUGV1T1h5TEtaLVFOYlpwNFhfU3QyaE5hSjFuSTZmX200WUlaMXRWWU4tN3kyZ2hwMlY2c3ZFSlJRc1ZJNGt6TUVTTEhNd0Q4R0xZTS1JUDZ5MHl6M2dHSXlGTndSUHlUaHFEQlRQRzQwLUM2TGtqb0JkeWhOOUFNdzJfb0ZycDFFYjViZWVRME94WDBPaUs0LUpzUlpfNFMyRzVHanVraEpyQnBGeDJSTzg5QkVwUW1EZ3F0YnpsNFJKTDV1SXhwS0RLZlVOTWkzQkFsemlFQVJCWnJ2UGdadWhzdk4tdDVfTGNEQ3BlLWpQM09Obk96SFpQd281YVdSTnA0dEJ4UlRmREVmUUtGMkpzelJMU1loTUZpZUFWNG5iNmkzVmxNdy1XTHkzN1hTR05WaV9Ib1hVNUg3bFJGQjlZWlBRaXh6RkRpVVdHWVUzWmp5V0ZRRWhUcUpvam9oaG9Dc3RVR2pMQU9PZEg1aXVwaG12OFlWNFh5dkVkZHd3OE9RX2xFNUQ4N0VTLU12YzQzS0tGMnVCVjEyRW9XQUtkNGxnVl8zZl95RUs4eFBqZlBtbUNfUF92aUJNMEZKMS02cW1tX1VMYmNNME92TTU0cEZIVHhqTXh4bVlJUlNPRlRTMTB4Y1BWVmdONnIwaVgzNHlHOF9mMDM2dDNRSWcyeURJcERhMWpfQ09sZ0pzY3ZONExuNnBIcUZiN19UMTh5NEppSDJYUDBuWm5aNFB1Q1ZxR1FkS2NsZGhCejhTNVpmMjRMOXoxSDdXMXlHS09yWU5mbThfQzlXWWVtdGRGal9UZWVBMFBOcTd5SmIwMWEzd25WcHkwaTdZSWlnSHZPb1JUSGtjTjFkR3BVOHItVEVXOHBqMUZVOWFieW5xYnZaRk1acnM0M0lYRVVuWFhTR1YtNENFU0M5Q1JEbnN1VkkxRVdfUHZ4OTUxTVEyZHpKRjBqLS1rSFBvd2F1aU81VGp2Ynd2NnFtQjlRWWUxV0FzN0RSc2FrcnRtRGl6cV9lUWdZUndoWDNSVzJOR0hBbWJyMGJDOTduZ3J1VWxLLWFpUkxUZmlDWnZaa1FhWU5lem93eUxJVDhobG9tZmtnQ0FNVWVpczhlV2Yzb0l2ZWpNU3Q2UHhKNWdlT0NqQnZlNEdKWDVoMHUxWHU5Qk5SWmtRZTNMUXphWXVEQkZZR1JFOHBOeFBLUUNFYTBzNVBxd3dTUkRvNEhPdFdPSEFTWHNLU3Mwb1p5X2ducE95emFFR3Q5cFVaRjhOc2Z6dVdzWjc5TVVacGtuZ1JBQ0dSM1lPUG1vc2JpSVZqT2czclV1dzRVRWlISTZxLW1BRnpPRjZhUGJYazF3aUhSVUpaNUlmTjFoWHpVUFpDQkIzQUhVZ0Z1YVFJRzNWeTJDaVhxUDNTYklTR2hLN29tbWY5MW5neWJZeXg3MTNETHF3TmpXMDBKSThBVlgzb2RfalM2UklwSWZWM2tuazQwTjNYbnMxaVhYT1FVV1hlQkJudUd2YXE3Um9ITGpBcFFzd1FHZlh6TXY?oc=5",
+      "pub_date": "2026-04-26T20:41:25+00:00",
+      "pub_ts": 1777236085,
+      "source": "MSN",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"คุรุสภา\"",
+      "summary": "คุรุสภา มอบรางวัล ครูถิรคุณ ให้ ผอ.ศศิพัชร ผู้มีจิตวิญญาณครูจนวินาทีสุดท้าย&nbsp;&nbsp;MSN",
+      "relevance": 165,
+      "audiences": [
+        "administrators",
+        "teachers"
+      ],
+      "title_th": "คุรุสภา มอบรางวัล ครูถิรคุณ ให้ ผอ.ศศิพัชร ผู้มีจิตวิญญาณครูจนวินาทีสุดท้าย - MSN"
+    },
+    {
+      "title": "กระทรวงศึกษาธิการญี่ปุ่นส่งเสริมการจัดตั้งทีมช่วยเหลือนักเรียนสำหรับพื้นที่ประสบภัยพิบัติ - nhk.or.jp",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE54NnpIamNhWGRESXJWQkEzVHRmcTlQN3hkejNTZktWYy1pVUJEaVlrWTB1elB1TUxPWTlwZm5HNGtFTFhHemt0NUs1a2taOVFldkhRYTlQeXVZTmtTRW1DdGhR?oc=5",
+      "pub_date": "2026-04-26T07:00:00+00:00",
+      "pub_ts": 1777186800,
+      "source": "nhk.or.jp",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "กระทรวงศึกษาธิการญี่ปุ่นส่งเสริมการจัดตั้งทีมช่วยเหลือนักเรียนสำหรับพื้นที่ประสบภัยพิบัติ&nbsp;&nbsp;nhk.or.jp",
+      "relevance": 165,
+      "audiences": [
+        "administrators",
+        "students"
+      ],
+      "title_th": "กระทรวงศึกษาธิการญี่ปุ่นส่งเสริมการจัดตั้งทีมช่วยเหลือนักเรียนสำหรับพื้นที่ประสบภัยพิบัติ - nhk.or.jp"
+    },
+    {
+      "title": "กระทรวงศึกษาธิการ จัดอบรมผู้ประเมินสถานศึกษาพอเพียง ยกระดับมาตรฐานสู่การพัฒนาที่ยั่งยืน - moe.go.th",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVm1zWG5PSVZnaEViWm5MZGY0NVRMMTd1Sk1nbUNYMU9sVVpnMkNLc0ktR1dMbmIzSmUzazJOQm9xYnQyQ3lCWWJ0S1NObnhNOVdsamN1Smpob3BzeTdsRHFDWGJkSWd5WWRYM0lEMVZrUHFpUGN3RUF4OEF3d0hiZmlIMkZaSG1aVFA3RF9YakhfZWctME5CUGh2aGs5VUVnNDl3TVo3Q3RyaXdxelQ1dDdYQ3R2S1hwQlNOOWN4VUlfb3RhbHpvcnNXUmJvLVZpbzNGVVp2M2c5QnJ3R2tmRmFCdnE0N2ZfOFpKYmFYOHpEV2lTUDhaTDhmMjB3dw?oc=5",
+      "pub_date": "2026-04-25T07:00:00+00:00",
+      "pub_ts": 1777100400,
+      "source": "moe.go.th",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "กระทรวงศึกษาธิการ จัดอบรมผู้ประเมินสถานศึกษาพอเพียง ยกระดับมาตรฐานสู่การพัฒนาที่ยั่งยืน&nbsp;&nbsp;moe.go.th",
+      "relevance": 165,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "กระทรวงศึกษาธิการ จัดอบรมผู้ประเมินสถานศึกษาพอเพียง ยกระดับมาตรฐานสู่การพัฒนาที่ยั่งยืน - moe.go.th"
     },
     {
       "title": "Donna Lee Doron Rollman Obituary April 11, 2026 - Flanner Buchanan",
@@ -54,202 +472,10 @@
       "query": "\"Saint Louis de Montfort\"",
       "summary": "Donna Lee Doron Rollman Obituary April 11, 2026&nbsp;&nbsp;Flanner Buchanan",
       "relevance": 160,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "Donna Lee Doron Rollman ข่าวมรณกรรม 11 เมษายน 2026 - Flanner Buchanan"
-    },
-    {
-      "title": "BACK IN HISTORY | Monfort opens in the North - The Fiji Times",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03OGNhdHZyb0w2a1FRN0ViaEg5c3Q3TG8tbDV6dWNRSnJ4M2Y0WlUwUGVTLUo3NVAxaWVtcnFUQzNBSzVJUlFJSHN0dU5ZR21nbDBUWllWXzlQcVhrWnQ0Y3VIQVFCc0xtT3BiQ3FvYWYwTDFIUzJSODJyeXI?oc=5",
-      "pub_date": "2026-02-11T08:00:00+00:00",
-      "pub_ts": 1770796800,
-      "source": "The Fiji Times",
-      "lang": "en",
-      "tag": "sg-brothers",
-      "query": "\"Brothers of Saint Gabriel\"",
-      "summary": "BACK IN HISTORY | Monfort opens in the North&nbsp;&nbsp;The Fiji Times",
-      "relevance": 150,
-      "title_th": "ย้อนกลับไปในประวัติศาสตร์ | Monfort เปิดขึ้นทางตอนเหนือ - The Fiji Times"
-    },
-    {
-      "title": "ศิษย์เก่ามงฟอร์ตฯ ซิวแชมป์ใหญ่ CGA ESPORTS 2025 ดวลเดือดสองวันเต็ม 12 ทีมจาก 9 สถาบันประชันฝีมือสุดมันส์ - แนวหน้า",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA1d2thbjJXTVplSzEtaENYZHZkR0dMZEVYV094cmUxMmRSNGplSzFqWF9jMWJNLWZjdFR1cnFYNk13WHdwOC1Ha3J3?oc=5",
-      "pub_date": "2025-11-25T08:00:00+00:00",
-      "pub_ts": 1764057600,
-      "source": "แนวหน้า",
-      "lang": "th",
-      "tag": "thai-foundation",
-      "query": "\"คณะเซนต์คาเบรียล\"",
-      "summary": "ศิษย์เก่ามงฟอร์ตฯ ซิวแชมป์ใหญ่ CGA ESPORTS 2025 ดวลเดือดสองวันเต็ม 12 ทีมจาก 9 สถาบันประชันฝีมือสุดมันส์&nbsp;&nbsp;แนวหน้า",
-      "relevance": 145,
-      "title_th": "ศิษย์เก่ามงฟอร์ตฯ ซิวแชมป์ใหญ่ CGA ESPORTS 2025 ดวลเดือดสองวันเต็ม 12 ทีมจาก 9 สถาบันประชันฝีมือสุดมันส์ - แนวหน้า"
-    },
-    {
-      "title": "เยี่ยมสุสานคณะภราดาเซนต์คาเบรียลแห่งประเทศไทย - chiangmainews.co.th",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIQ0ptcHMxYWJiRHJGUl9qNWtlZFJWQUVrNktyUkVNWGMzMkw3blB2VVVMdkNLcXMzVHY2NjZfZ0VyRjIwVzFnTGtCQzNrcE4zSUhtb1pCdkg?oc=5",
-      "pub_date": "2025-07-26T08:48:54+00:00",
-      "pub_ts": 1753519734,
-      "source": "chiangmainews.co.th",
-      "lang": "th",
-      "tag": "thai-foundation",
-      "query": "\"ภราดาเซนต์คาเบรียล\"",
-      "summary": "เยี่ยมสุสานคณะภราดาเซนต์คาเบรียลแห่งประเทศไทย&nbsp;&nbsp;chiangmainews.co.th",
-      "relevance": 130,
-      "title_th": "เยี่ยมสุสานคณะภราดาเซนต์คาเบรียลแห่งประเทศไทย - chiangmainews.co.th"
-    },
-    {
-      "title": "Montfort Brother helps urban poor tell their stories - Matters India",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOGJUdGNOMEIxMXlCaFBWX291LUdTUW9zT296X2tyaU5SdjlsTXRfaWt6VDJFRW5OaDNJc0V3UkFCQ2FkZXk4aS0tSnFoOEdoQnJ2UGpsclpNZm4wdEZXNl93Nk8zMkFzeW13V0J2Q0o4WmNmT0NEQV9pemw4YlllSmZVZUVacnF5QXhOTkJNRQ?oc=5",
-      "pub_date": "2025-02-24T08:00:00+00:00",
-      "pub_ts": 1740384000,
-      "source": "Matters India",
-      "lang": "en",
-      "tag": "sg-brothers",
-      "query": "\"Montfort Brothers\"",
-      "summary": "Montfort Brother helps urban poor tell their stories&nbsp;&nbsp;Matters India",
-      "relevance": 130,
-      "title_th": "Montfort Brother ช่วยคนจนในเมืองบอกเล่าเรื่องราวของพวกเขา - Matters India"
-    },
-    {
-      "title": "Sr Jeanne Lavallée - necrologie.cn2i.ca",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX0s5SnJBNVl4R2RQNUJXYmdiSk1rOUc3M185dGlpM0ZhMWs3SDRMX21uaGtKcERyajY0OFBVN09OaDNjYzR1WVFVQ01oUXA4NDcxVHZvXzY5Rllnc1VuQ2FLRHJhVmdhb1hIaW1zMzZodnYyZWp3blVmS1dhLUhGcjQxMG0?oc=5",
-      "pub_date": "2026-01-20T08:00:00+00:00",
-      "pub_ts": 1768896000,
-      "source": "necrologie.cn2i.ca",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Sr Jeanne Lavallée&nbsp;&nbsp;necrologie.cn2i.ca",
-      "relevance": 125,
-      "title_th": "Sr Jeanne Lavallée - necrologie.cn2i.ca"
-    },
-    {
-      "title": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête a séduit le public - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZV9IMDhLR2hiREdxTk5yOU9TaGQxRHFGczl3eGpVdy1ISjBKR2tUX2tZdjcxQWEtdHlNWkwyNTZzTncwR1p4ZGl6UGFMYXRmb19KY2NJajJfMXprN1NQRmhKWEZ3eEpiLTRuT3JmXzZFVzZaVDdxOEx4VW5FS1FBVXRrdHQ4X2tSSld1eUdMeGdVRWRlcW5ZTk5CSWFqUnc1UkhMYjQ0Qy1uWkg3Vkc0VjBpUzZEUjZ1NThIMFlXVE9fV0htZlhSZVRxaEVkSWlpVk1rbWdpZmJLc2w2UUs3ZUVVdXdDMHpDU3lCZWhXalF1c1d1NXA0a3lCd2hXZw?oc=5",
-      "pub_date": "2025-12-27T08:00:00+00:00",
-      "pub_ts": 1766822400,
-      "source": "Ouest-France",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête a séduit le public&nbsp;&nbsp;Ouest-France",
-      "relevance": 125,
-      "title_th": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête a séduit le public - Ouest-France"
-    },
-    {
-      "title": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête, c’est ce week-end - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPTGZrdkd5aHVxb0JlSkI5Zmo5QkI1Y09XMzZvN0RNMFhuQWd4b1A0Q0MwelNndU1xMWk4TnJ0U2FobWFCbUlTZzlaeVVwYzhVU1pOQzZuMy0zcWZVZ2FjVUxuWkVILThwV1lmZi1ZZGx2QkxPZENuME1Bd3BXWnZoMThpRnJwVXdPX2l4clNmbkloRElZMmU4VElFSmQ3TU9JUGU0S0VkbU1NX3Y5MDR5U3lTLXp1VmFCMmRJaHRIbEp5WnNuS2JIdXNma1pibjB3WlVrUnhGV01HYWwzQWZObUhKSkxST0NDZFdQXzJkRFpVeS0yYTg0bTNnZw?oc=5",
-      "pub_date": "2025-12-18T08:00:00+00:00",
-      "pub_ts": 1766044800,
-      "source": "Ouest-France",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête, c’est ce week-end&nbsp;&nbsp;Ouest-France",
-      "relevance": 125,
-      "title_th": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête, c’est ce week-end - Ouest-France"
-    },
-    {
-      "title": "La Congrégation des Filles de la Sagesse célèbre 150 ans de service en Haïti - lenouvelliste.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVzEyWFJPOG11ZVZZa04wXzRfQ2paZEhlU3paYUpreGNsMjdWdWhQSXR2Sy1wMHpvWVUtSkY0akJKWGk4bHBSMnpDZS1LT0VHTHRVV0xuNm5FT25JUElZelljY0gwWDl4MHlCbl9melA0UlVaT0w3YVM0RS1UUzdRT2owaWxoZ0RuZU1RSnN6V09HbW44QkpvdFJOVGMxMlVUcDRrUWFFWm9qOVVkYm5CbzcxSnlsZTVO?oc=5",
-      "pub_date": "2025-12-01T08:00:00+00:00",
-      "pub_ts": 1764576000,
-      "source": "lenouvelliste.com",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "La Congrégation des Filles de la Sagesse célèbre 150 ans de service en Haïti&nbsp;&nbsp;lenouvelliste.com",
-      "relevance": 125,
-      "title_th": "La Congrégation des Filles de la Sagesse célèbre 150 ans de service en Haïti - lenouvelliste.com"
-    },
-    {
-      "title": "Technical and cocational training ‘not a fallback Option’: PM - Fiji Sun",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMUhhUTJoWjg4Ujhjb08xVnVGRjY0QXNlR295ZmxxWEJDbFJzalJQUjhPck1kbThPYThnQTY3eTAtZTJqZWpLeHdaU0JXQmxvczQwcklCbnJPaTE3eWVNczl1US1tRGR1MjFLN2JUVktMY05OcG9MS2EwYkYtNFloOFZEc1FybUNpQzZ4ZkxxcUYyQXdSNUpIMV8zYkk?oc=5",
-      "pub_date": "2025-11-30T20:17:18+00:00",
-      "pub_ts": 1764533838,
-      "source": "Fiji Sun",
-      "lang": "en",
-      "tag": "sg-brothers",
-      "query": "\"Brothers of Saint Gabriel\"",
-      "summary": "Technical and cocational training ‘not a fallback Option’: PM&nbsp;&nbsp;Fiji Sun",
-      "relevance": 125,
-      "title_th": "การฝึกอบรมด้านเทคนิคและ cocational 'ไม่ใช่ทางเลือกสำรอง': PM - Fiji Sun"
-    },
-    {
-      "title": "Saint-Laurent-sur-Sèvre. 1 163 € de bénéfices pour le Secours catholique - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPS3d0bEpPdzJaYzdyZW1NempNU2Q5V1JVYkNlUlZvWmMzS0pkQi1RX3JERTI2WGtCeGFYVHNzd3NjNEsxT3ZHaGtGX2gwSkxlLWs2WmtLRmo3RzBqX2k0enVWeGd6T25XVnp6VFhScnEyQ21UT05JaDRsVm5wejAyNVVhTGxYTVU5Z1JnOVZrMXI2aTE3c1RUaXctRDVNdGNadVEyMWIydm5FRTQ0ekhKU2s3YUFmQ3ZMeUstb240Wk1LdWRZN3lBWUgzb0NvbTZJQnA5SUpCNVFIendoNGpzZVdUaXl5N3lrQWI4dGl3?oc=5",
-      "pub_date": "2025-11-22T08:00:00+00:00",
-      "pub_ts": 1763798400,
-      "source": "Ouest-France",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Saint-Laurent-sur-Sèvre. 1 163 € de bénéfices pour le Secours catholique&nbsp;&nbsp;Ouest-France",
-      "relevance": 125,
-      "title_th": "Saint-Laurent-sur-Sèvre. 1 163 € de bénéfices pour le Secours catholique - Ouest-France"
-    },
-    {
-      "title": "Sr Huguette Blais - necrologie.cn2i.ca",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZFR0V0xuc0t3Tkl5NnpDcC1QbmNwUnlOSjN5c1lTX0V3Z1RHdENaWFZiRHBTRlpPT25ZenE5a1laX1g3ZTIyVmR2X2NhMjN3OU9BOVRZSEU3dWdxNXdlZXBhUGxOa1V5YUVSa2ZmOExwSkxqNHd6Y2llMDg4Vk80Y25DVQ?oc=5",
-      "pub_date": "2025-11-22T08:00:00+00:00",
-      "pub_ts": 1763798400,
-      "source": "necrologie.cn2i.ca",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Sr Huguette Blais&nbsp;&nbsp;necrologie.cn2i.ca",
-      "relevance": 125,
-      "title_th": "Sr Huguette Blais - necrologie.cn2i.ca"
-    },
-    {
-      "title": "Confitures, gâteaux, objets divers… La vente solidaire du Secours catholique du Pays de Sèvre - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOdm5BRFIzalR6d2djX1EwaXBBc2UzbDdTTHotZkE1ZFF5cWlvYTRnZVo4M29BUlItVEdWcm45VVdnVnFKcG4xM1RvcVNQRlJRTU5GeThCd3dpaF9FOTJiSDdGVkpiaWZGdnhqRWtCQWltSVhVQWd3TUhpOThCT2ItWHZXZ1liOTNVQmx5TEFrSlYzYVhkb2JaMGhOY0prNHRNNTIzR2tCT3I0R0ptZlFqYVB3XzhPcnZSeE0xWF9TbkhtUnA4U19wRnRtTmxmSTI3OExHRjBnNFUwOWkzcTUxMFJtV3hfd2hqa3RuenRCTlJCV1Q5TEc1b0ZwY1dqVHE4aVI4d0s5TjFudkdkaXJnNTNwNGxnU2dEYkdMMzBLRlRoUGpKTVBnY0lR?oc=5",
-      "pub_date": "2025-11-14T08:00:00+00:00",
-      "pub_ts": 1763107200,
-      "source": "Ouest-France",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Confitures, gâteaux, objets divers… La vente solidaire du Secours catholique du Pays de Sèvre&nbsp;&nbsp;Ouest-France",
-      "relevance": 125,
-      "title_th": "Confitures, gâteaux, objets divers… La vente solidaire du Secours catholique du Pays de Sèvre - Ouest-France"
-    },
-    {
-      "title": "Poitiers : un lieu spirituel et de partage ouvre le 14 novembre à Montmidi - lanouvellerepublique.fr",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRmw5c0wxR0FIRW5wdjV3SkZSZldQN2FXbFdJUlZuR3NxUFBncVJjYkVrVkxJLTlYN1V2QkpOTW9JendNVVI5eTRkdEZnUTJlbFFfNVV4RnMwZklCOHJfMTUzS29Oekhlc0xHZl94WHVTd3k0NDFTU0lOMGxnQWR5VGlMbTVxOXlRZDJGNUMxSVBoQy1zQk5XelFxTHB2VmFOemNGS2hOdGl2aGM2LXFKS2hkMkpjQlAzdmJjX2pETG1sQ2I3?oc=5",
-      "pub_date": "2025-11-02T07:00:00+00:00",
-      "pub_ts": 1762066800,
-      "source": "lanouvellerepublique.fr",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Poitiers : un lieu spirituel et de partage ouvre le 14 novembre à Montmidi&nbsp;&nbsp;lanouvellerepublique.fr",
-      "relevance": 125,
-      "title_th": "Poitiers : un lieu spirituel et de partage ouvre le 14 novembre à Montmidi - lanouvellerepublique.fr"
-    },
-    {
-      "title": "Bishop Chaima urge Sisters of Daughters of Wisdom to rely on God - Malawi 24",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQazZPc0dLdWQwSThGNl9kTmItZm1FR2dPeWhFbEVhMWdFRmU0QXRyNVdfVUZDUVg4ejJlOEItWnNXRGxwbDZLeFJnRnRSX3JKc3RLSFVuYXdYV0pTbk14clhhVWhnUE4xQzVkVjZycGhucVJkemNmbVgzcmZCRGlwZzZnSGhCNmRsOGZES055azNVdF9GYlBfaWs3M1FKQQ?oc=5",
-      "pub_date": "2025-06-16T07:00:00+00:00",
-      "pub_ts": 1750057200,
-      "source": "Malawi 24",
-      "lang": "en",
-      "tag": "fdls-sisters",
-      "query": "\"Daughters of Wisdom\" Catholic",
-      "summary": "Bishop Chaima urge Sisters of Daughters of Wisdom to rely on God&nbsp;&nbsp;Malawi 24",
-      "relevance": 125,
-      "title_th": "อธิการชัยมาเรียกร้องให้ซิสเตอร์ธิดาแห่งปัญญาพึ่งพาพระเจ้า - มาลาวี 24"
-    },
-    {
-      "title": "Lundi 28 avril 2025 : Saint Louis-Marie Grignion de Montfort - Etoile Notre Dame",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVjhERGI0U2UtcTh3MTFJOUVxeERwaF9yMlZKb3NsMlo3aXpPeXZDclhpZEx5VE9wdGVUZFZOWVRFeGV6czI2ZG10bHo5WmZFM0JOeDRTOV9yeEZEM1YxeVNTWGtFbXpvcExWczRndVJMX3AyeEI1VmJsdTVsZkFWZUlmbjV1Mzg5b1kxMjBBcDNYUC15dFRfNVNURWQxUGhHTVpF?oc=5",
-      "pub_date": "2025-04-28T07:00:00+00:00",
-      "pub_ts": 1745823600,
-      "source": "Etoile Notre Dame",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Lundi 28 avril 2025 : Saint Louis-Marie Grignion de Montfort&nbsp;&nbsp;Etoile Notre Dame",
-      "relevance": 125,
-      "title_th": "Lundi 28 avril 2025 : Saint Louis-Marie Grignion de Montfort - Etoile Notre Dame"
     },
     {
       "title": "SPORTS LIFEปักหมุดภาคเหนือปลุกความคึกคักบาส 3X3 ชวนคุยสนุกกับทีมแม่นห่วง รร.มงฟอร์ตวิทยาลัย - แนวหน้า",
@@ -262,6 +488,9 @@
       "query": "\"มงฟอร์ตวิทยาลัย\"",
       "summary": "SPORTS LIFEปักหมุดภาคเหนือปลุกความคึกคักบาส 3X3 ชวนคุยสนุกกับทีมแม่นห่วง รร.มงฟอร์ตวิทยาลัย&nbsp;&nbsp;แนวหน้า",
       "relevance": 120,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "SPORTS LIFEปักหมุดภาคเหนือปลุกความคึกคักบาส 3X3 ชวนคุยสนุกกับทีมแม่นห่วง รร.มงฟอร์ตวิทยาลัย - แนวหน้า"
     },
     {
@@ -275,6 +504,9 @@
       "query": "\"มงฟอร์ตวิทยาลัย\"",
       "summary": "“อิ๊งค์” ควงสามีเยี่ยม “ทักษิณ” ครบ 7 เดือนในเรือนจำ เพื่อนมงฟอร์ต 08 รวมตัวส่งกำลังใจหนาตา&nbsp;&nbsp;เดลินิวส์",
       "relevance": 120,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "“อิ๊งค์” ควงสามีเยี่ยม “ทักษิณ” ครบ 7 เดือนในเรือนจำ เพื่อนมงฟอร์ต 08 รวมตัวส่งกำลังใจหนาตา - เดลินิวส์"
     },
     {
@@ -288,150 +520,10 @@
       "query": "\"มงฟอร์ตวิทยาลัย\"",
       "summary": "“แพทองธาร-ปิฎก” เยี่ยม “ทักษิณ” เพื่อนมงฟอร์ตบินให้กำลังใจ “ทนายวิญญัติ” ปัดตอบคืบหน้ายื่นพักโทษ&nbsp;&nbsp;สยามรัฐ",
       "relevance": 120,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "“แพทองธาร-ปิฎก” เยี่ยม “ทักษิณ” เพื่อนมงฟอร์ตบินให้กำลังใจ “ทนายวิญญัติ” ปัดตอบคืบหน้ายื่นพักโทษ - สยามรัฐ"
-    },
-    {
-      "title": "สมาพันธ์สมาคมศิษย์เก่าคณะเซนต์คาเบรียลแห่งประเทศไทย จัดโครงการออกหน่วยทันตกรรมเคลื่อนที่ถวายเป็นพระราชกุศลแด่ในหลวงรัชกาลที่ 9 เนื่องในวันนวมินทรมหาราช - NBT CONNEXT",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hLUpJUVZUOGg4RVRfMDB2Z2p3aHZvXzNQeURKMXljcDhwZHc3ZDVpUVRQcjRQNGNaVWhOdGVpcVYtRE1JYnhEaXdsLUlnNVZHQmJCTmp2aWFyMzNPRGxjWDJGemR1MzlDd3l1Uw?oc=5",
-      "pub_date": "2025-10-05T07:00:00+00:00",
-      "pub_ts": 1759647600,
-      "source": "NBT CONNEXT",
-      "lang": "th",
-      "tag": "thai-foundation",
-      "query": "\"คณะเซนต์คาเบรียล\"",
-      "summary": "สมาพันธ์สมาคมศิษย์เก่าคณะเซนต์คาเบรียลแห่งประเทศไทย จัดโครงการออกหน่วยทันตกรรมเคลื่อนที่ถวายเป็นพระราชกุศลแด่ในหลวงรัชกาลที่ 9 เนื่องในวันนวมินทรมหาราช&nbsp;&nbsp;NBT CONNEXT",
-      "relevance": 115,
-      "title_th": "สมาพันธ์สมาคมศิษย์เก่าคณะเซนต์คาเบรียลแห่งประเทศไทย จัดโครงการออกหน่วยทันตกรรมเคลื่อนที่ถวายเป็นพระราชกุศลแด่ในหลวงรัชกาลที่ 9 เนื่องในวันนวมินทรมหาราช - NBT CONNEXT"
-    },
-    {
-      "title": "À Montfort-sur-Meu, la Maison natale de Saint-Louis-Marie Grignion rouverte - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZnRQT2Q0bHZFQ3FwRHk2eDZRaTJlVVNuZEl5SUNoZzdYWDVXeHdWMUJTZXJCUjM2ODhzdjdlWjhLX2FGQndVdE9HeGZlRldYTUlYSGczNGl0dDVCS0JwRVFIZWpQeFFuYmZhNkYxeEIwU3Z4RFowaGd0WkU2dGxOLVZ2RWNTcDY2WTBFQjhBMUtkUUhrTFBlU1dHU0tUY2lYX3dCOEpiZ2pLdHRHQW12RnNWQVZ5U3ZFd0hKMHVKQlFsXzFPNThlUHUwa3ZJM3U4MG5OQ0Y1cEhjYURTYXhFTklqal9PR1M2eW5BenVRWjNIUFBlZUxvaUoyZGFTWGFa?oc=5",
-      "pub_date": "2025-01-27T08:00:00+00:00",
-      "pub_ts": 1737964800,
-      "source": "Ouest-France",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "À Montfort-sur-Meu, la Maison natale de Saint-Louis-Marie Grignion rouverte&nbsp;&nbsp;Ouest-France",
-      "relevance": 115,
-      "title_th": "À Montfort-sur-Meu, la Maison natale de Saint-Louis-Marie Grignion rouverte - Ouest-France"
-    },
-    {
-      "title": "“Continue to be prophetic, voice of the voiceless”, Archbishop Urges Malawi’s Church Leaders in Post Election Reflection - aciafrica.org",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQLUhzZUx5aEdiWk1MUjV0QWYwQmRuOXhsWWNvUE8wdkc2WXJ2WDlFc2tVLWRyTWdUOEdpRERxNzZoTG5md1JjdW9xblk4bi1XdzdIYWZ5MUt1ZUFDazJJcG5MNGxTajF2VmZOTXFoZUtMLTJoTnBnVjJNY0w0NVBwc2Y4ekotczhfMWw4NVduaXhWXzdRZ3BsVlJmTVNvazQwUVZMM1ZFX1cxV29weXgzR053b2gzdkpNZUt6UnhyUUpwRTFWMXJkU3VlWXJuS194SG9IeTFDTjBaQVI5WHJjZXhzOHRpeU3SAewBQVVfeXFMUGItWTZjS3lyZXc4VWFERWxfbTI2am9wWmRtUVJ2djdSWm16TnZjXzNTRDVDWUxhOThsZW5Fc0xGSGZJWm9hb1czTTQwclBfbk4tSWltZGVhX280SUhaYmhhSzJuUEc2WmhDcUJJSVJCdTFXWW1vcmxWbjZ3R0dBQzJCQ0VsdGVCcnQ0d0ZKcWFKY3BpZlVCeWxYSi0teEtZZEFUc1daU1FmM05tcmtjN01LNE9OTXBiRC04Y0VBWGltZWdpdG16b251cnVKeUd2dTl2RXhTTU5sOGtZOWpoeEI2NG1zQksyOFpOVnY?oc=5",
-      "pub_date": "2025-10-27T07:00:00+00:00",
-      "pub_ts": 1761548400,
-      "source": "aciafrica.org",
-      "lang": "en",
-      "tag": "smm-missionaries",
-      "query": "\"Company of Mary\" Montfort Catholic",
-      "summary": "“Continue to be prophetic, voice of the voiceless”, Archbishop Urges Malawi’s Church Leaders in Post Election Reflection&nbsp;&nbsp;aciafrica.org",
-      "relevance": 110,
-      "title_th": "“จงเป็นผู้เผยพระวจนะต่อไป เสียงของผู้ไร้เสียง” พระอัครสังฆราชเรียกร้องให้ผู้นำคริสตจักรของมาลาวีในการไตร่ตรองหลังการเลือกตั้ง - aciafrica.org"
-    },
-    {
-      "title": "Catholic Priests “safe, unharmed” after Armed Robbery at Parish in DR Congo’s Kisangani Archdiocese - aciafrica.org",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNDhpdDZpUlJEWkJRQlJ6ZEx1VjFmTkg2T1c1OC1FdnM3bGoyR3NaNUY2ZHNfczc5b2hOa1RhV0V5T3l3eXAzN3U1SXRXbzdxN3ZOZk1lZHUzSmdTQWF6QkRHUGtvOFdsbU15WHN4U1lteC1FUUVCSHk5M3NfeUM3MHpqMXUzNW9PRG1qbkFmT2I1N25OY21MSklpcXFLU20zMjJKZ21rNE9yc2p1eXBLT0F5T1lYWFI2WXpNVVpDSlhSRXhTZEVucHRYNDDSAdIBQVVfeXFMUGFlY0hrNm9QR0kwbkZvbDZOeXB6c2NFTlJNaXBRQzlqd3hxZzZvYXIxZjRYZl95YUZFZHF0SldwMnpjSFBiOGxMYzNFY0RSQ3Q5SG5Dd3Rwb0ZoNVc5a3lqN1JlR0w4Nl9yM0pZdzVhZmszVlNhWThYYVlwTTFGRjBhQzR2YXJhQ1Y1bktlUTdrN2hfZG1xbkdxRkM1el8yNmhfQ3VZdzd1TS1TcGpzTlJHWHo0MzE3ZUJCcFk2RW1YTXhVVUM1MjhDQmlvVFczbGNR?oc=5",
-      "pub_date": "2025-10-21T07:00:00+00:00",
-      "pub_ts": 1761030000,
-      "source": "aciafrica.org",
-      "lang": "en",
-      "tag": "smm-missionaries",
-      "query": "\"Company of Mary\" Montfort Catholic",
-      "summary": "Catholic Priests “safe, unharmed” after Armed Robbery at Parish in DR Congo’s Kisangani Archdiocese&nbsp;&nbsp;aciafrica.org",
-      "relevance": 110,
-      "title_th": "พระสงฆ์คาทอลิก “ปลอดภัย ไม่ได้รับอันตราย” หลังจากการปล้นด้วยอาวุธที่เขตแพริชในอัครสังฆมณฑล Kisangani ของดีอาร์ คองโก - aciafrica.org"
-    },
-    {
-      "title": "Trois choses à savoir sur le collège Pascal de Roubaix, qui fête ses 150 ans - La Voix du Nord",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdkxsT2Z2Q2x4M29IXzNFSWNZdE9OYUI2dVJVUWVJWE14LTdHR2VZZHJYSllrSjU2SHZvOXNFekY4VGNjclhJVEl3cVgwNkxNTl96a3RBSjM2LWU4VjhWLWNFRmlqZWJ6Snd1anlJcUlhZWQwMWVZSHl0TkVyLXNWMjNpc3VtVHBzeV84Q3REcXR6akJ6WHFfc1ZjbmhINVd0QVhRX3dZOHg0eXBiU2RMMks4MlRhcTVhb05GTTlBR3hVNVZRMWRZ?oc=5",
-      "pub_date": "2025-10-05T07:00:00+00:00",
-      "pub_ts": 1759647600,
-      "source": "La Voix du Nord",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Trois choses à savoir sur le collège Pascal de Roubaix, qui fête ses 150 ans&nbsp;&nbsp;La Voix du Nord",
-      "relevance": 110,
-      "title_th": "Trois choses à savoir sur le collège Pascal de Roubaix, qui fête ses 150 ans - La Voix du Nord"
-    },
-    {
-      "title": "Sr Lise Latulippe - necrologie.cn2i.ca",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYjZiVXlxYjVOekllNWJ2eEoxNUo2cXNna3lqdDhqX3drblctTkVwX1JwWWpHOHlKd0Frb0RnVk5qMEVuZ3VJRW1FN0dqYU1ybmNabDJjeF9RcUhMOG9oRG5hQ1NkRlB3ZF9UOFJKeHhRbWwyUVo2YVhfLW1nNGZldF8zcw?oc=5",
-      "pub_date": "2025-09-27T00:09:20+00:00",
-      "pub_ts": 1758931760,
-      "source": "necrologie.cn2i.ca",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Sr Lise Latulippe&nbsp;&nbsp;necrologie.cn2i.ca",
-      "relevance": 110,
-      "title_th": "Sr Lise Latulippe - necrologie.cn2i.ca"
-    },
-    {
-      "title": "In Memory of Sr Nicole Rousse - Heritage Funeral Complex",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIcndfWjBXSU9CSExEQTMwU29ZVldDYWpnZF82Sy1fYU9IdFVlblFKdm45X0lqQ2JQdmVtemU4bE1JMVR3NWRGa0RKQTNvYlYzV1o5LWFHT2tBMTlfNXpF?oc=5",
-      "pub_date": "2025-09-14T07:00:00+00:00",
-      "pub_ts": 1757833200,
-      "source": "Heritage Funeral Complex",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "In Memory of Sr Nicole Rousse&nbsp;&nbsp;Heritage Funeral Complex",
-      "relevance": 110,
-      "title_th": "In Memory of Sr Nicole Rousse - Heritage Funeral Complex"
-    },
-    {
-      "title": "Saint-Trojan-Les-Bains. Les lundis ludiques de Lud’Oléron - le-littoral.com",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObXk1MkQyUHBWdHR1VG5lNkZXTGJCQXl1RF9kQV9EUkF1QnZJaEMwdXpmVl93QzYwNXU2ZEl4QkdwMExGWno4TTNjbDk3cHptSHUzb0FiMG04WjhQVG1Oc1c0WFJoaWVHLUlYWGdaVDBYN1hoNEpsZmhEcER1cVl5YldmdHBjaURvWllpYlE1dW41TU44dlFfbGFvRXAxS1lmMEE?oc=5",
-      "pub_date": "2025-08-15T07:00:00+00:00",
-      "pub_ts": 1755241200,
-      "source": "le-littoral.com",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Saint-Trojan-Les-Bains. Les lundis ludiques de Lud’Oléron&nbsp;&nbsp;le-littoral.com",
-      "relevance": 110,
-      "title_th": "Saint-Trojan-Les-Bains. Les lundis ludiques de Lud’Oléron - le-littoral.com"
-    },
-    {
-      "title": "Quatre ans après, l’hommage au père Olivier Maire à Saint-Laurent-sur-Sèvre - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVmUzaGdhOHRDX3ZSQVU5NE1uZzdteXotMzl6NGtsSndEN0tGcU9aOFJ3NmI0X1hNdzRFaWxhdUd3SkRuSVNsc2NyTXpkSzdzNDJJaTh5akEwTHRqa0tLMGR5LWhPX3lpTVVXRmZjMHFJWDVfb2ZYbGNsazBvUndNM1lKeGJ2RVZLX0plOTgtakp0OVhfMWlqY0w5SGg0aUNLdno2QW1jdFVHQm5ISkJuYV9EOVpEWVFsbGUtSDZKRDlycm9EcTg4aFUtSF9DM0lhd2RGQWVyVVkwSzlDb2p3UGE0QUk0YmhTS1YwRWh4eGI?oc=5",
-      "pub_date": "2025-08-12T07:00:00+00:00",
-      "pub_ts": 1754982000,
-      "source": "Ouest-France",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Quatre ans après, l’hommage au père Olivier Maire à Saint-Laurent-sur-Sèvre&nbsp;&nbsp;Ouest-France",
-      "relevance": 110,
-      "title_th": "Quatre ans après, l’hommage au père Olivier Maire à Saint-Laurent-sur-Sèvre - Ouest-France"
-    },
-    {
-      "title": "Hamann Sr Denise - necrologie.cn2i.ca",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQV0dXM2I0aWRqOXp1aDg5RVdtay1pQjF4Nm1BSlcyRVRVYTR5cUF4a19qdGJWVW10dnUweTlRRmhsUjdlRWxBaS1zN0RZeDNfelVDSl9tVXpnclk0N1BOOFVfcVNyRWlNMFRTRE9lVElnaDRieG9vTzFVejhlcDAxcmFR?oc=5",
-      "pub_date": "2025-06-17T07:00:00+00:00",
-      "pub_ts": 1750143600,
-      "source": "necrologie.cn2i.ca",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Hamann Sr Denise&nbsp;&nbsp;necrologie.cn2i.ca",
-      "relevance": 110,
-      "title_th": "Hamann Sr Denise - necrologie.cn2i.ca"
-    },
-    {
-      "title": "In Memory of Sr Denise Hamann - Heritage Funeral Complex",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tREVhdVByb0s0endpbGZHSWJxWTRUVVBGZmpYRjA5dFNFZkRWNDBzM1UwQ19GeWhob3ZIMmhaZFZORm1HODZKQXpiaElxTkdUQVk4N2FVVVFFWTE2dnJZ?oc=5",
-      "pub_date": "2025-06-13T07:00:00+00:00",
-      "pub_ts": 1749798000,
-      "source": "Heritage Funeral Complex",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "In Memory of Sr Denise Hamann&nbsp;&nbsp;Heritage Funeral Complex",
-      "relevance": 110,
-      "title_th": "In Memory of Sr Denise Hamann - Heritage Funeral Complex"
     },
     {
       "title": "โปรแกรมทีมชาติไทย U17 สู้ศึก AFC U17 Asian Cup™ Saudi Arabia 2026 - thansettakij",
@@ -444,6 +536,7 @@
       "query": "\"โรงเรียนอัสสัมชัญ\"",
       "summary": "โปรแกรมทีมชาติไทย U17 สู้ศึก AFC U17 Asian Cup™ Saudi Arabia 2026&nbsp;&nbsp;thansettakij",
       "relevance": 105,
+      "audiences": [],
       "title_th": "โปรแกรมทีมชาติไทย U17 สู้ศึก AFC U17 Asian Cup™ Saudi Arabia 2026 - thansettakij"
     },
     {
@@ -457,6 +550,7 @@
       "query": "\"โรงเรียนอัสสัมชัญ\"",
       "summary": "”ชู๊ต“ ภัทรธิติ โพภา ทีมชาติไทย \"ChangsuekU16\" หนุ่มน้อย จากโรงเรียนอัสสัมชัญศรีราชา&nbsp;&nbsp;สยามรัฐ",
       "relevance": 105,
+      "audiences": [],
       "title_th": "”ชู๊ต“ ภัทรธิติ โพภา ทีมชาติไทย \"ChangsuekU16\" หนุ่มน้อย จากโรงเรียนอัสสัมชัญศรีราชา - สยามรัฐ"
     },
     {
@@ -470,7 +564,241 @@
       "query": "\"โรงเรียนอัสสัมชัญ\"",
       "summary": "อัสสัมชัญศรีราชา ทวงแชมป์ภาคตะวันออก “Chang Junior Cup 2026”&nbsp;&nbsp;ข่าวสด",
       "relevance": 105,
+      "audiences": [],
       "title_th": "อัสสัมชัญศรีราชา ทวงแชมป์ภาคตะวันออก “Chang Junior Cup 2026” - ข่าวสด"
+    },
+    {
+      "title": "BACK IN HISTORY | Monfort opens in the North - The Fiji Times",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03OGNhdHZyb0w2a1FRN0ViaEg5c3Q3TG8tbDV6dWNRSnJ4M2Y0WlUwUGVTLUo3NVAxaWVtcnFUQzNBSzVJUlFJSHN0dU5ZR21nbDBUWllWXzlQcVhrWnQ0Y3VIQVFCc0xtT3BiQ3FvYWYwTDFIUzJSODJyeXI?oc=5",
+      "pub_date": "2026-02-11T08:00:00+00:00",
+      "pub_ts": 1770796800,
+      "source": "The Fiji Times",
+      "lang": "en",
+      "tag": "sg-brothers",
+      "query": "\"Brothers of Saint Gabriel\"",
+      "summary": "BACK IN HISTORY | Monfort opens in the North&nbsp;&nbsp;The Fiji Times",
+      "relevance": 150,
+      "audiences": [
+        "montfortian-family"
+      ],
+      "title_th": "ย้อนกลับไปในประวัติศาสตร์ | Monfort เปิดขึ้นทางตอนเหนือ - The Fiji Times"
+    },
+    {
+      "title": "ศิษย์เก่ามงฟอร์ตฯ ซิวแชมป์ใหญ่ CGA ESPORTS 2025 ดวลเดือดสองวันเต็ม 12 ทีมจาก 9 สถาบันประชันฝีมือสุดมันส์ - แนวหน้า",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA1d2thbjJXTVplSzEtaENYZHZkR0dMZEVYV094cmUxMmRSNGplSzFqWF9jMWJNLWZjdFR1cnFYNk13WHdwOC1Ha3J3?oc=5",
+      "pub_date": "2025-11-25T08:00:00+00:00",
+      "pub_ts": 1764057600,
+      "source": "แนวหน้า",
+      "lang": "th",
+      "tag": "thai-foundation",
+      "query": "\"คณะเซนต์คาเบรียล\"",
+      "summary": "ศิษย์เก่ามงฟอร์ตฯ ซิวแชมป์ใหญ่ CGA ESPORTS 2025 ดวลเดือดสองวันเต็ม 12 ทีมจาก 9 สถาบันประชันฝีมือสุดมันส์&nbsp;&nbsp;แนวหน้า",
+      "relevance": 145,
+      "audiences": [
+        "alumni",
+        "montfortian-family"
+      ],
+      "title_th": "ศิษย์เก่ามงฟอร์ตฯ ซิวแชมป์ใหญ่ CGA ESPORTS 2025 ดวลเดือดสองวันเต็ม 12 ทีมจาก 9 สถาบันประชันฝีมือสุดมันส์ - แนวหน้า"
+    },
+    {
+      "title": "เยี่ยมสุสานคณะภราดาเซนต์คาเบรียลแห่งประเทศไทย - chiangmainews.co.th",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIQ0ptcHMxYWJiRHJGUl9qNWtlZFJWQUVrNktyUkVNWGMzMkw3blB2VVVMdkNLcXMzVHY2NjZfZ0VyRjIwVzFnTGtCQzNrcE4zSUhtb1pCdkg?oc=5",
+      "pub_date": "2025-07-26T08:48:54+00:00",
+      "pub_ts": 1753519734,
+      "source": "chiangmainews.co.th",
+      "lang": "th",
+      "tag": "thai-foundation",
+      "query": "\"ภราดาเซนต์คาเบรียล\"",
+      "summary": "เยี่ยมสุสานคณะภราดาเซนต์คาเบรียลแห่งประเทศไทย&nbsp;&nbsp;chiangmainews.co.th",
+      "relevance": 130,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
+      "title_th": "เยี่ยมสุสานคณะภราดาเซนต์คาเบรียลแห่งประเทศไทย - chiangmainews.co.th"
+    },
+    {
+      "title": "Montfort Brother helps urban poor tell their stories - Matters India",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOGJUdGNOMEIxMXlCaFBWX291LUdTUW9zT296X2tyaU5SdjlsTXRfaWt6VDJFRW5OaDNJc0V3UkFCQ2FkZXk4aS0tSnFoOEdoQnJ2UGpsclpNZm4wdEZXNl93Nk8zMkFzeW13V0J2Q0o4WmNmT0NEQV9pemw4YlllSmZVZUVacnF5QXhOTkJNRQ?oc=5",
+      "pub_date": "2025-02-24T08:00:00+00:00",
+      "pub_ts": 1740384000,
+      "source": "Matters India",
+      "lang": "en",
+      "tag": "sg-brothers",
+      "query": "\"Montfort Brothers\"",
+      "summary": "Montfort Brother helps urban poor tell their stories&nbsp;&nbsp;Matters India",
+      "relevance": 130,
+      "audiences": [
+        "montfortian-family"
+      ],
+      "title_th": "Montfort Brother ช่วยคนจนในเมืองบอกเล่าเรื่องราวของพวกเขา - Matters India"
+    },
+    {
+      "title": "Sr Jeanne Lavallée - necrologie.cn2i.ca",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX0s5SnJBNVl4R2RQNUJXYmdiSk1rOUc3M185dGlpM0ZhMWs3SDRMX21uaGtKcERyajY0OFBVN09OaDNjYzR1WVFVQ01oUXA4NDcxVHZvXzY5Rllnc1VuQ2FLRHJhVmdhb1hIaW1zMzZodnYyZWp3blVmS1dhLUhGcjQxMG0?oc=5",
+      "pub_date": "2026-01-20T08:00:00+00:00",
+      "pub_ts": 1768896000,
+      "source": "necrologie.cn2i.ca",
+      "lang": "fr",
+      "tag": "fdls-sisters",
+      "query": "\"Filles de la Sagesse\"",
+      "summary": "Sr Jeanne Lavallée&nbsp;&nbsp;necrologie.cn2i.ca",
+      "relevance": 125,
+      "audiences": [
+        "montfortian-family"
+      ],
+      "title_th": "เซอร์จีนน์ ลาวาเล - necrologie.cn2i.ca"
+    },
+    {
+      "title": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête a séduit le public - Ouest-France",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZV9IMDhLR2hiREdxTk5yOU9TaGQxRHFGczl3eGpVdy1ISjBKR2tUX2tZdjcxQWEtdHlNWkwyNTZzTncwR1p4ZGl6UGFMYXRmb19KY2NJajJfMXprN1NQRmhKWEZ3eEpiLTRuT3JmXzZFVzZaVDdxOEx4VW5FS1FBVXRrdHQ4X2tSSld1eUdMeGdVRWRlcW5ZTk5CSWFqUnc1UkhMYjQ0Qy1uWkg3Vkc0VjBpUzZEUjZ1NThIMFlXVE9fV0htZlhSZVRxaEVkSWlpVk1rbWdpZmJLc2w2UUs3ZUVVdXdDMHpDU3lCZWhXalF1c1d1NXA0a3lCd2hXZw?oc=5",
+      "pub_date": "2025-12-27T08:00:00+00:00",
+      "pub_ts": 1766822400,
+      "source": "Ouest-France",
+      "lang": "fr",
+      "tag": "fdls-sisters",
+      "query": "\"Filles de la Sagesse\"",
+      "summary": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête a séduit le public&nbsp;&nbsp;Ouest-France",
+      "relevance": 125,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
+      "title_th": "แซงต์-โลรองต์-ซูร์-แซฟวร์ ตลาดคริสต์มาส Saint-Lau ที่รื่นเริงได้รับรางวัลเหนือสาธารณชน - Ouest-France"
+    },
+    {
+      "title": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête, c’est ce week-end - Ouest-France",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPTGZrdkd5aHVxb0JlSkI5Zmo5QkI1Y09XMzZvN0RNMFhuQWd4b1A0Q0MwelNndU1xMWk4TnJ0U2FobWFCbUlTZzlaeVVwYzhVU1pOQzZuMy0zcWZVZ2FjVUxuWkVILThwV1lmZi1ZZGx2QkxPZENuME1Bd3BXWnZoMThpRnJwVXdPX2l4clNmbkloRElZMmU4VElFSmQ3TU9JUGU0S0VkbU1NX3Y5MDR5U3lTLXp1VmFCMmRJaHRIbEp5WnNuS2JIdXNma1pibjB3WlVrUnhGV01HYWwzQWZObUhKSkxST0NDZFdQXzJkRFpVeS0yYTg0bTNnZw?oc=5",
+      "pub_date": "2025-12-18T08:00:00+00:00",
+      "pub_ts": 1766044800,
+      "source": "Ouest-France",
+      "lang": "fr",
+      "tag": "fdls-sisters",
+      "query": "\"Filles de la Sagesse\"",
+      "summary": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête, c’est ce week-end&nbsp;&nbsp;Ouest-France",
+      "relevance": 125,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
+      "title_th": "แซงต์-โลรองต์-ซูร์-แซฟวร์ ตลาดคริสต์มาส Saint-Lau กำลังฉลองสุดสัปดาห์นี้ - Ouest-France"
+    },
+    {
+      "title": "La Congrégation des Filles de la Sagesse célèbre 150 ans de service en Haïti - lenouvelliste.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVzEyWFJPOG11ZVZZa04wXzRfQ2paZEhlU3paYUpreGNsMjdWdWhQSXR2Sy1wMHpvWVUtSkY0akJKWGk4bHBSMnpDZS1LT0VHTHRVV0xuNm5FT25JUElZelljY0gwWDl4MHlCbl9melA0UlVaT0w3YVM0RS1UUzdRT2owaWxoZ0RuZU1RSnN6V09HbW44QkpvdFJOVGMxMlVUcDRrUWFFWm9qOVVkYm5CbzcxSnlsZTVO?oc=5",
+      "pub_date": "2025-12-01T08:00:00+00:00",
+      "pub_ts": 1764576000,
+      "source": "lenouvelliste.com",
+      "lang": "fr",
+      "tag": "fdls-sisters",
+      "query": "\"Filles de la Sagesse\"",
+      "summary": "La Congrégation des Filles de la Sagesse célèbre 150 ans de service en Haïti&nbsp;&nbsp;lenouvelliste.com",
+      "relevance": 125,
+      "audiences": [
+        "montfortian-family"
+      ],
+      "title_th": "Congregation of the Daughters of Wisdom เฉลิมฉลองครบรอบ 150 ปีแห่งการรับใช้ในเฮติ - lenouvelliste.com"
+    },
+    {
+      "title": "Technical and cocational training ‘not a fallback Option’: PM - Fiji Sun",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMUhhUTJoWjg4Ujhjb08xVnVGRjY0QXNlR295ZmxxWEJDbFJzalJQUjhPck1kbThPYThnQTY3eTAtZTJqZWpLeHdaU0JXQmxvczQwcklCbnJPaTE3eWVNczl1US1tRGR1MjFLN2JUVktMY05OcG9MS2EwYkYtNFloOFZEc1FybUNpQzZ4ZkxxcUYyQXdSNUpIMV8zYkk?oc=5",
+      "pub_date": "2025-11-30T20:17:18+00:00",
+      "pub_ts": 1764533838,
+      "source": "Fiji Sun",
+      "lang": "en",
+      "tag": "sg-brothers",
+      "query": "\"Brothers of Saint Gabriel\"",
+      "summary": "Technical and cocational training ‘not a fallback Option’: PM&nbsp;&nbsp;Fiji Sun",
+      "relevance": 125,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
+      "title_th": "การฝึกอบรมด้านเทคนิคและ cocational 'ไม่ใช่ทางเลือกสำรอง': PM - Fiji Sun"
+    },
+    {
+      "title": "Saint-Laurent-sur-Sèvre. 1 163 € de bénéfices pour le Secours catholique - Ouest-France",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPS3d0bEpPdzJaYzdyZW1NempNU2Q5V1JVYkNlUlZvWmMzS0pkQi1RX3JERTI2WGtCeGFYVHNzd3NjNEsxT3ZHaGtGX2gwSkxlLWs2WmtLRmo3RzBqX2k0enVWeGd6T25XVnp6VFhScnEyQ21UT05JaDRsVm5wejAyNVVhTGxYTVU5Z1JnOVZrMXI2aTE3c1RUaXctRDVNdGNadVEyMWIydm5FRTQ0ekhKU2s3YUFmQ3ZMeUstb240Wk1LdWRZN3lBWUgzb0NvbTZJQnA5SUpCNVFIendoNGpzZVdUaXl5N3lrQWI4dGl3?oc=5",
+      "pub_date": "2025-11-22T08:00:00+00:00",
+      "pub_ts": 1763798400,
+      "source": "Ouest-France",
+      "lang": "fr",
+      "tag": "fdls-sisters",
+      "query": "\"Filles de la Sagesse\"",
+      "summary": "Saint-Laurent-sur-Sèvre. 1 163 € de bénéfices pour le Secours catholique&nbsp;&nbsp;Ouest-France",
+      "relevance": 125,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
+      "title_th": "แซงต์-โลรองต์-ซูร์-แซฟวร์ กำไร 1,163 ยูโรสำหรับ Secours catholique - Ouest-France"
+    },
+    {
+      "title": "Sr Huguette Blais - necrologie.cn2i.ca",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZFR0V0xuc0t3Tkl5NnpDcC1QbmNwUnlOSjN5c1lTX0V3Z1RHdENaWFZiRHBTRlpPT25ZenE5a1laX1g3ZTIyVmR2X2NhMjN3OU9BOVRZSEU3dWdxNXdlZXBhUGxOa1V5YUVSa2ZmOExwSkxqNHd6Y2llMDg4Vk80Y25DVQ?oc=5",
+      "pub_date": "2025-11-22T08:00:00+00:00",
+      "pub_ts": 1763798400,
+      "source": "necrologie.cn2i.ca",
+      "lang": "fr",
+      "tag": "fdls-sisters",
+      "query": "\"Filles de la Sagesse\"",
+      "summary": "Sr Huguette Blais&nbsp;&nbsp;necrologie.cn2i.ca",
+      "relevance": 125,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
+      "title_th": "ซีเนียร์ Huguette Blais - necrologie.cn2i.ca"
+    },
+    {
+      "title": "Confitures, gâteaux, objets divers… La vente solidaire du Secours catholique du Pays de Sèvre - Ouest-France",
+      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOdm5BRFIzalR6d2djX1EwaXBBc2UzbDdTTHotZkE1ZFF5cWlvYTRnZVo4M29BUlItVEdWcm45VVdnVnFKcG4xM1RvcVNQRlJRTU5GeThCd3dpaF9FOTJiSDdGVkpiaWZGdnhqRWtCQWltSVhVQWd3TUhpOThCT2ItWHZXZ1liOTNVQmx5TEFrSlYzYVhkb2JaMGhOY0prNHRNNTIzR2tCT3I0R0ptZlFqYVB3XzhPcnZSeE0xWF9TbkhtUnA4U19wRnRtTmxmSTI3OExHRjBnNFUwOWkzcTUxMFJtV3hfd2hqa3RuenRCTlJCV1Q5TEc1b0ZwY1dqVHE4aVI4d0s5TjFudkdkaXJnNTNwNGxnU2dEYkdMMzBLRlRoUGpKTVBnY0lR?oc=5",
+      "pub_date": "2025-11-14T08:00:00+00:00",
+      "pub_ts": 1763107200,
+      "source": "Ouest-France",
+      "lang": "fr",
+      "tag": "fdls-sisters",
+      "query": "\"Filles de la Sagesse\"",
+      "summary": "Confitures, gâteaux, objets divers… La vente solidaire du Secours catholique du Pays de Sèvre&nbsp;&nbsp;Ouest-France",
+      "relevance": 125,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
+      "title_th": "แยม เค้ก สิ่งของต่างๆ... การขายความสามัคคีของ Secours catholique du Pays de Sèvre - Ouest-France"
+    },
+    {
+      "title": "สมาพันธ์สมาคมศิษย์เก่าคณะเซนต์คาเบรียลแห่งประเทศไทย จัดโครงการออกหน่วยทันตกรรมเคลื่อนที่ถวายเป็นพระราชกุศลแด่ในหลวงรัชกาลที่ 9 เนื่องในวันนวมินทรมหาราช - NBT CONNEXT",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hLUpJUVZUOGg4RVRfMDB2Z2p3aHZvXzNQeURKMXljcDhwZHc3ZDVpUVRQcjRQNGNaVWhOdGVpcVYtRE1JYnhEaXdsLUlnNVZHQmJCTmp2aWFyMzNPRGxjWDJGemR1MzlDd3l1Uw?oc=5",
+      "pub_date": "2025-10-05T07:00:00+00:00",
+      "pub_ts": 1759647600,
+      "source": "NBT CONNEXT",
+      "lang": "th",
+      "tag": "thai-foundation",
+      "query": "\"คณะเซนต์คาเบรียล\"",
+      "summary": "สมาพันธ์สมาคมศิษย์เก่าคณะเซนต์คาเบรียลแห่งประเทศไทย จัดโครงการออกหน่วยทันตกรรมเคลื่อนที่ถวายเป็นพระราชกุศลแด่ในหลวงรัชกาลที่ 9 เนื่องในวันนวมินทรมหาราช&nbsp;&nbsp;NBT CONNEXT",
+      "relevance": 115,
+      "audiences": [
+        "alumni",
+        "montfortian-family"
+      ],
+      "title_th": "สมาพันธ์สมาคมศิษย์เก่าคณะเซนต์คาเบรียลแห่งประเทศไทย จัดโครงการออกหน่วยทันตกรรมเคลื่อนที่ถวายเป็นพระราชกุศลแด่ในหลวงรัชกาลที่ 9 เนื่องในวันนวมินทรมหาราช - NBT CONNEXT"
+    },
+    {
+      "title": "Catholic Priests “safe, unharmed” after Armed Robbery at Parish in DR Congo’s Kisangani Archdiocese - aciafrica.org",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNDhpdDZpUlJEWkJRQlJ6ZEx1VjFmTkg2T1c1OC1FdnM3bGoyR3NaNUY2ZHNfczc5b2hOa1RhV0V5T3l3eXAzN3U1SXRXbzdxN3ZOZk1lZHUzSmdTQWF6QkRHUGtvOFdsbU15WHN4U1lteC1FUUVCSHk5M3NfeUM3MHpqMXUzNW9PRG1qbkFmT2I1N25OY21MSklpcXFLU20zMjJKZ21rNE9yc2p1eXBLT0F5T1lYWFI2WXpNVVpDSlhSRXhTZEVucHRYNDDSAdIBQVVfeXFMUGFlY0hrNm9QR0kwbkZvbDZOeXB6c2NFTlJNaXBRQzlqd3hxZzZvYXIxZjRYZl95YUZFZHF0SldwMnpjSFBiOGxMYzNFY0RSQ3Q5SG5Dd3Rwb0ZoNVc5a3lqN1JlR0w4Nl9yM0pZdzVhZmszVlNhWThYYVlwTTFGRjBhQzR2YXJhQ1Y1bktlUTdrN2hfZG1xbkdxRkM1el8yNmhfQ3VZdzd1TS1TcGpzTlJHWHo0MzE3ZUJCcFk2RW1YTXhVVUM1MjhDQmlvVFczbGNR?oc=5",
+      "pub_date": "2025-10-21T07:00:00+00:00",
+      "pub_ts": 1761030000,
+      "source": "aciafrica.org",
+      "lang": "en",
+      "tag": "smm-missionaries",
+      "query": "\"Company of Mary\" Montfort Catholic",
+      "summary": "Catholic Priests “safe, unharmed” after Armed Robbery at Parish in DR Congo’s Kisangani Archdiocese&nbsp;&nbsp;aciafrica.org",
+      "relevance": 110,
+      "audiences": [
+        "montfortian-family"
+      ],
+      "title_th": "พระสงฆ์คาทอลิก “ปลอดภัย ไม่ได้รับอันตราย” หลังจากการปล้นด้วยอาวุธที่เขตแพริชในอัครสังฆมณฑล Kisangani ของดีอาร์ คองโก - aciafrica.org"
     },
     {
       "title": "Catholics in Peru diocese where Pope Leo used to be bishop ask him to reconsider Marian titles doctrinal note - CatholicVote org",
@@ -483,6 +811,9 @@
       "query": "\"Saint Louis de Montfort\"",
       "summary": "Catholics in Peru diocese where Pope Leo used to be bishop ask him to reconsider Marian titles doctrinal note&nbsp;&nbsp;CatholicVote org",
       "relevance": 105,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "ชาวคาทอลิกในสังฆมณฑลเปรูซึ่งสมเด็จพระสันตะปาปาลีโอเคยเป็นพระสังฆราชขอให้เขาพิจารณาชื่อบันทึกหลักคำสอนของแมเรียนอีกครั้ง - CatholicVote org"
     },
     {
@@ -496,6 +827,9 @@
       "query": "\"Pope\" \"Montfort\" -concert -music",
       "summary": "What's ‘a motto’ with you?&nbsp;&nbsp;The Pillar",
       "relevance": 105,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "'คำขวัญ' กับคุณคืออะไร? - เสา"
     },
     {
@@ -509,6 +843,9 @@
       "query": "\"Pope\" \"Montfort\" -concert -music",
       "summary": "Conclave: Could the next pope to lead 1.4 billion Roman Catholics come from tiny Singapore?&nbsp;&nbsp;Gulf News",
       "relevance": 105,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "การประชุมใหญ่: สมเด็จพระสันตะปาปาองค์ต่อไปที่จะนำชาวโรมันคาธอลิก 1.4 พันล้านคนมาจากสิงคโปร์เล็กๆ ได้หรือไม่? - ข่าวอ่าวไทย"
     },
     {
@@ -522,59 +859,10 @@
       "query": "\"คณะเซนต์คาเบรียล\"",
       "summary": "โรงเรียนอัสสัมชัญ จัดงานฉลองการก่อตั้งครบ “140 ปี แห่งความภาคภูมิใจ สู่ศตวรรษใหม่ของการศึกษา”&nbsp;&nbsp;ผู้จัดการออนไลน์",
       "relevance": 105,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "โรงเรียนอัสสัมชัญ จัดงานฉลองการก่อตั้งครบ “140 ปี แห่งความภาคภูมิใจ สู่ศตวรรษใหม่ของการศึกษา” - ผู้จัดการออนไลน์"
-    },
-    {
-      "title": "Zomba Diocese CWA organises Way of Cross at Michiru Shrine - Malawi 24",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMW9XY1lIX0U0bTRqcTZWeHFHSWRtNVZqN29vYzdnUjREZUFJUXpvT3RxbFFLcGMwT0JqTVF3dHRvZHVZa3BSMF9pcllsV3FrM3d1QVdxeEFUakdFdlNEQk0yTC14UFlHX2thUkZLTTJtQmM3X29kQnpTZ3Z6TTM5MWhfbVgwM0Z6a1U1cTg4ZnI5T3dJblE?oc=5",
-      "pub_date": "2025-04-03T07:00:00+00:00",
-      "pub_ts": 1743663600,
-      "source": "Malawi 24",
-      "lang": "en",
-      "tag": "fdls-sisters",
-      "query": "\"Daughters of Wisdom\" Catholic",
-      "summary": "Zomba Diocese CWA organises Way of Cross at Michiru Shrine&nbsp;&nbsp;Malawi 24",
-      "relevance": 100,
-      "title_th": "Zomba Diocese CWA จัดงาน Way of Cross ที่ Michiru Shrine - Malawi 24"
-    },
-    {
-      "title": "Avec 100 000 consultations par an, la clinique de la Sagesse cherche à pousser ses murs - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOLUJsWTdfNjVkWGFWMzBKQlVVY0pzMkNqaXRrN3hMdlpzYzNOWXdxM2RJMm15Z216S0VyeVlabGJrZDQ3X0hFeEd3MUowLTBKandaekVMNEI1SjZFdUhRYldzMHl4aHQyRFY0eTUzQXNLb0pXSTFFY0xpZlk0eUplT2NTU1FjS3ZLSl9jdXViNmYwTW8xTUVNaEhBWDZnVmY4QXBFNFZwb056UloyVF9aUnhrdlFmT3dXSDFkS0ptU3c5UHVJQjRzSU1SZG9xdmlmelhBSTZEMGx2d0g4VkRWNW1ZSllDRlpPT1VmSE9xMjhfQkcza25GaGVEM3VlZHkxQ3Jn?oc=5",
-      "pub_date": "2025-04-02T07:00:00+00:00",
-      "pub_ts": 1743577200,
-      "source": "Ouest-France",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Avec 100 000 consultations par an, la clinique de la Sagesse cherche à pousser ses murs&nbsp;&nbsp;Ouest-France",
-      "relevance": 100,
-      "title_th": "Avec 100 000 consultations par an, la clinique de la Sagesse cherche à pousser ses murs - Ouest-France"
-    },
-    {
-      "title": "La congrégation du calvaire de Pontchâteau accueille chaque mois une journée jubilaire - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQZXJObkNFengxcDVaOW03Q0ZrTnQ2TmNvYV9nWjNCanNDWFF4bDVZWDhXNVRPeFhtQmNYSDF6aWRZMDQ1ZGU2dWRVekRXclI5eTJSYUhsRF92cE9vcUE2OFRvRWF5amo3Ul9ranAxazlTcVBQeXh5WERFUUl1a2JnSkhIUnlKQWpSVkt3MUdLRGtZN2NLaVh3NXB3R2hzVnRDYkNSRkhyS2VEVlhqVGJCekw4MFJsWVVmYnhlU3QwbDBTcW5ON2Q0UG53OHEzOVpVWEE3YnhQTGtveDN6aUJtTWZhVlh3Mk1BSjhab0o5MUlsNnhWMWxOanZKNFh3elpZSWRnT2JfVmJtLTdzYXdTWWZVSUI?oc=5",
-      "pub_date": "2025-02-28T08:00:00+00:00",
-      "pub_ts": 1740729600,
-      "source": "Ouest-France",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "La congrégation du calvaire de Pontchâteau accueille chaque mois une journée jubilaire&nbsp;&nbsp;Ouest-France",
-      "relevance": 100,
-      "title_th": "La congrégation du calvaire de Pontchâteau accueille chaque mois une journée jubilaire - Ouest-France"
-    },
-    {
-      "title": "Maulévrier. Les écoliers de Saint-Joseph aident Madagascar - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZENMdWFRRlZRVnBmLUVMWnZsYnRqS0lGS2lkLXZQV21jQlVGczd1QTQ3ZFpKX2NGMDlydFlVeWJUOGVtTzE5WUwzMjk4WDlaOUhUUGxDRE9GTGJKZ0hHRllDRnRRUVpqam9XNFQ4WmZETHhELVFfcUtmNTNTWGZZaHFndWlOd1FYN1dtMlBSbEVFN0ozV0E1Q0MtZU5tZ0RHdFAxOUR2UTBzTU5CQS1CNFp0TWhNMHJ0OGtWSURtRGdNcWNWcFAxVHlDMHVHQ2VHN01aQlRvcHdTSkxiZmc?oc=5",
-      "pub_date": "2025-02-01T08:00:00+00:00",
-      "pub_ts": 1738396800,
-      "source": "Ouest-France",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Maulévrier. Les écoliers de Saint-Joseph aident Madagascar&nbsp;&nbsp;Ouest-France",
-      "relevance": 100,
-      "title_th": "Maulévrier. Les écoliers de Saint-Joseph aident Madagascar - Ouest-France"
     },
     {
       "title": "Moodbidri: Glorious Christmas celebration held at Carmel School - Daijiworld",
@@ -587,33 +875,11 @@
       "query": "\"Brothers of Saint Gabriel\"",
       "summary": "Moodbidri: Glorious Christmas celebration held at Carmel School&nbsp;&nbsp;Daijiworld",
       "relevance": 100,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
       "title_th": "Moodbidri: การเฉลิมฉลองคริสต์มาสอันรุ่งโรจน์จัดขึ้นที่โรงเรียนคาร์เมล - Daijiworld"
-    },
-    {
-      "title": "Le mausolée et la chapelle de la Chartreuse ont été cédés à la ville de Brec’h - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSVQ4dHdGUEUteWRqd3VtZVF3TVBFeF9GZTI0elpHQWVxeHFoS2NLc2VYcTBDejFVU29Zd0lXUGRQZng5MUtTdm8zY1ByMlFlNHh3M3FWMV9OWFJiZVFfWTBqV1A5ejM0cWVhM2Mzb01ET3BWWHFJaWcwOVZyWWkxYXkyVmloNldCVThRNExpRTdjZGJMb05uOFV0Zkw4Smo4bHhGLXBlV0NxclNQbktUd0pOdEU0RWIxVUpqZWRaWjhIR2JEN0MwbC1lZlVlVVJWNC05N0pUQ1J3dTE0amJ5OVY1VHlsMVFHMnN2akhIVzRQOG9DNnc?oc=5",
-      "pub_date": "2024-12-03T08:00:00+00:00",
-      "pub_ts": 1733212800,
-      "source": "Ouest-France",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Le mausolée et la chapelle de la Chartreuse ont été cédés à la ville de Brec’h&nbsp;&nbsp;Ouest-France",
-      "relevance": 100,
-      "title_th": "Le mausolée et la chapelle de la Chartreuse ont été cédés à la ville de Brec’h - Ouest-France"
-    },
-    {
-      "title": "Comment les Égyptiens vivaient-ils à l’époque des pharaons? (vidéo) - Le JDE",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdkt5T1pYMzFFWVBYNWJHekN3cXVzU3h3eDAxSnhmVE9MbjBlbGhNUnFZTUp6S3ZqcVVNd2hsSmxJSzRoLUNsX0owM1dHdTFfVE9fMGUySUN3aTRPLTJyaHRNbVJqd21lMlV2UVVEZjJwdmM2dlBfYTlEeXRUUGhrUUV1Q0Y4MlU2SmJzQ2xmbFZlREYtVGU5dDlLRm9SX0tCLXFRY0hhclZqV25W?oc=5",
-      "pub_date": "2024-11-19T08:00:00+00:00",
-      "pub_ts": 1732003200,
-      "source": "Le JDE",
-      "lang": "fr",
-      "tag": "fdls-sisters",
-      "query": "\"Filles de la Sagesse\"",
-      "summary": "Comment les Égyptiens vivaient-ils à l’époque des pharaons? (vidéo)&nbsp;&nbsp;Le JDE",
-      "relevance": 100,
-      "title_th": "Comment les Égyptiens vivaient-ils à l’époque des pharaons? (vidéo) - Le JDE"
     },
     {
       "title": "Pope Leo XIV pays homage to the Immaculate Conception in the Piazza di Spagna: “You who know that nothing is impossible for God, and that God does nothing alone” - exaudi.org",
@@ -626,6 +892,9 @@
       "query": "\"Totus Tuus\" Mary Pope",
       "summary": "Pope Leo XIV pays homage to the Immaculate Conception in the Piazza di Spagna: “You who know that nothing is impossible for God, and that God does nothing alone”&nbsp;&nbsp;exaudi.org",
       "relevance": 95,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "สมเด็จพระสันตะปาปาลีโอที่ 14 ถวายสักการะต่อพระปฏิสนธินิรมลในจัตุรัสสปาญา: “ท่านผู้รู้ว่าไม่มีสิ่งใดที่เป็นไปไม่ได้สำหรับพระเจ้า และพระเจ้าไม่ทรงไม่ทำอะไรเลยตามลำพัง” - exaudi.org"
     },
     {
@@ -639,111 +908,10 @@
       "query": "\"Totus Tuus\" Mary Pope",
       "summary": "Miss Universe Brazil honors Virgin Mary with pageant costume&nbsp;&nbsp;aleteia.org",
       "relevance": 95,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "มิสยูนิเวิร์สบราซิล ถวายเกียรติแด่พระแม่มารีด้วยชุดประกวด - aleteia.org"
-    },
-    {
-      "title": "นายกฯ เปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ชื่นชมสถาบันบ่มเพาะ “สุภาพบุรุษอัสสัมชัญ” สร้างคุณูปการแก่ประเทศ . วันนี้ (16 ก.พ.69) เวลา 13.30 น. นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและ รมว.มหาดไทย เป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร - facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AdBVV95cUxQWjZ1RFM3blkwVnA1WXBRRGFmSHB2SzZubVk2WmtNY2dfcEZkZEtnV0NIaXpLOEhSaEg4MnNBellKRDFQZ2RodDA2VjA0MVdfZ0paYzFxb1ZvTTFUdWQwTjNYcThPQUZVVTR5N1ZoVXF1RFFHTlp5RUQ2UlpEOVNwdkF4YkFESEZ3bHRsUkZyM3l0TGRFNE5Fd1R5NGJOSVBhTkF6cUJ2b0hXaEVzRHZuVG5FV2hqTjJ5ZUxfNWlDaWpEUWlGUEw1T2pGTWpmSmxSeXRZclEtX29teUpzUTdwaFhJRERNM3l1NlJ5eUZJTzBxWlFaMm03S2VvRFlGMTMwcURReWFXLXIzY3NWek8xOXdsMHVpUElRR3FKT08zVHVQbmVwdXNhMVVIUFEwTEdfM191S29CRWlyaGxhSHA4OWp1S3pYT1JvQ1BLbzAzcHAtS0Q1djFLSXhGZEZlSFVWd0hvT3JmRTQxSXU1RndYNW0zUlRHYW43QmRzcG5pbUpXTGxtNHJrcTR1eXAxUXFCd24ydDZVaWR4Rk5zTGJaX3dQNmE0Mk9pZ1BqOHN6THg3N0hiU2hPSFF5aldYdF9ibmNOa2p0cjVzT0VFOHQyeUZKT1dBcmV0SmF6cHZLenpMWHNzLTA2T1NZUXJERENBTDh4YmVlelluNjh0NVR3eHdxSTlOUGJpQ2dqWnpvWmRvbnVwT2FyX0FfYmdyZUZVeWVGTURKSGZvelYzdndIWG5TOWZrSlNkM0FNNnA0bzBMQU1iZ1pMa2dGdVVFV0RxSHJCRld0VUcyc0UwUG9zd2lRYkE0bEJzZTk1R3lGQmhHTzY3MXFCZ0s3akRrOUcxOGdQUHJyX0xkS05Qd25jTDZJSjNPWkwxNThfWWtzWmV0NmM1Umt6NURwcl9yZ21EMzBqeVBOb3B4Sm9aM09TWEMxTVRaTndha0E0bDRSZUV4NWFlTkZpRzhtMnZjUDRvemFQelVjVVVkRDNvVjZCYUZ2TWxuYzlVYUx0d29vY0tjSHhJRDh0MjR4Q2YtWW5Tcy15eGkwT3I0MVhCZE1WN0R3enlDZG1xMm00ZXVBWWJzNmRBd2RCSk52cUtacFRQOHFTMzlaQUtsYmVrSmNUZ3BITGRuUmpHamt4b2d0cUEyWVFzMHlXZ0FlNzF1cjVCbGNmdDdLS2dnTmI3RDNzODlMOFJFcU5UV0sxcE1VcVg5TXBVekVnVV80aGRsaFIybnBWeU9ZcnNNVHBzODFFRlEyQkxpUWdnM1VHc25NVENZYWlKdHBZN1Z3eVBQR19nV1Z0bw?oc=5",
-      "pub_date": "2026-02-16T08:00:00+00:00",
-      "pub_ts": 1771228800,
-      "source": "facebook.com",
-      "lang": "th",
-      "tag": "thai-school",
-      "query": "\"โรงเรียนอัสสัมชัญ\"",
-      "summary": "นายกฯ เปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ชื่นชมสถาบันบ่มเพาะ “สุภาพบุรุษอัสสัมชัญ” สร้างคุณูปการแก่ประเทศ . วันนี้ (16 ก.พ.69) เวลา 13.30 น. นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและ รมว.มหาดไทย เป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร&nbsp;&nbsp;faceb",
-      "relevance": 90,
-      "title_th": "นายกฯ เปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ชื่นชมสถาบันบ่มเพาะ “สุภาพบุรุษอัสสัมชัญ” สร้างคุณูปการแก่ประเทศ . วันนี้ (16 ก.พ.69) เวลา 13.30 น. นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและ รมว.มหาดไทย เป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร - facebook.com"
-    },
-    {
-      "title": "การเมือง - อนุทิน เยือนถิ่นเก่าอัสสัมชัญ ฉลองครบรอบ 141 ปี โบกมือทักทายศิษย์ปัจจุบัน - แนวหน้า",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBfV1JiN0psUUpFV3M0R0kwdWhlc1QxN1NyaTYzNWtyLWU0VkdZSEE4bEZLcFVzNUlRazdtdFV0bmRCdGxPeUFpeVZTbnJBQQ?oc=5",
-      "pub_date": "2026-02-16T08:00:00+00:00",
-      "pub_ts": 1771228800,
-      "source": "แนวหน้า",
-      "lang": "th",
-      "tag": "thai-school",
-      "query": "\"โรงเรียนอัสสัมชัญ\"",
-      "summary": "การเมือง - อนุทิน เยือนถิ่นเก่าอัสสัมชัญ ฉลองครบรอบ 141 ปี โบกมือทักทายศิษย์ปัจจุบัน&nbsp;&nbsp;แนวหน้า",
-      "relevance": 90,
-      "title_th": "การเมือง - อนุทิน เยือนถิ่นเก่าอัสสัมชัญ ฉลองครบรอบ 141 ปี โบกมือทักทายศิษย์ปัจจุบัน - แนวหน้า"
-    },
-    {
-      "title": "วันนี้ (16 ก.พ. 2569) นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงมหาดไทย เดินทางมาเป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร Saint Louis-Marie Memorial Building โรงเรียนอัสสัมชัญ บางรัก ถนนเจริญกรุง เขตบางรัก กรุงเทพฯ ภาพ วั - facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMirgdBVV95cUxQdE85dndDeGxmd2FEUXZQZGNRb1pVQS01aVNWc2VFU2lOOFgtaml3QWZNanV3U3VZdC1hcGZJM3Jpa21raEFxRUxJN2U3MXVJVU0wdHFXRXJ5NlV3aXBUV0JBVm1hRlk5RTNubUxaRWlBUmE2Yy16cENtd1phOUhEQWJFU3dmM19hTWFFV2prTTBwei1fSXZtNFpkODVRN1VWeFIydEhKZTNWTWxQQ0VQR3lJdVBpYl9obU4zdXZEUERSNzRNLXgwVlVuQU1FYUhJR1RXZmc0SGVMQ09XZ1EwdlRmZVBTMmxDZV8zendGRldTRXBnZG5rN2hxMHNyWUhLNHN5VmNHbkZNUEdtbllTTDdwanIzdE9wVE1nUC1BUFBweHJMcGtTamRhOURZM05sbVA1c3hzU0Q1V2d6Q2U4VG9qTkdXbGQtUWNiZk5FZmpWUzczS1hFNXFmblh0dXVHX0dlWkJVQndiZERUWS1YTWJPOW9jUmJBVHRIbGlBeHRySGVLRDk3eTk2SVN4QmwwaGF1SHNXOEZudm9SZkdnbVNJdUZDU01vSEZXSEt5RnZNLXp6MVM5XzdEWWJKdjB4Yk5DRW4wYzRvV0Y1ZVVyVnRWZi10dDhHVXdxS2l1WkoyMnRRVU9NRnFSQU4yRkFDcDNsd3pLeXdnUWVwSlJYeE11RjNUS183d0kzSHZ4ck5POWpZbmpGRmtqeUg4M0lQWXFOQ0VQeG1YZGtNdkJ1NjZweHNJX01qcHpuQXBpTExxdm80WU5QaTVYLTFwdVhBU0Rtd1hjNE50UXowMWs5SVZXVWhMdWE1YkI3R2UwZWsyOFR6WFVVY1d6enZKVUJmcWJfZmRLWlI1U2RnbWZnclRxSC1wc2JrMW9lcThBak9zbGRJZ3VWTFJGQzVwNUJrSlRJckdWXzVKUG1vblE3VTBNQ0RXM1l5TU1Ma0NhRnFFUmpZRFR2YmVLUEN4UjhtcDZ5U1dUeVBxNUt5UURjeHVYVzd5UjYzaVowVWFBaXVHb2ZWRDZPc1dfWGxjYjNSSHo2aE40RGZOcGZYYjA2YWt4ZUxRd2JLUnFjZUtjRDg1Z1dMQnVmRDJhVDlTUVZmbVJZYkxabmVYVDVtanUtR0hYZWUyeVVxcDlacVZjeGROYk15OFQ0ekZrYWFIWm1xNVJxbTBOd3J0TDVNNm5jc3YxRmVudmRBS3BsQUR1ZzRHd29GODFLUmQzdE81S05nMXJhRHlTZ2V5c2NiRWc?oc=5",
-      "pub_date": "2026-02-16T08:00:00+00:00",
-      "pub_ts": 1771228800,
-      "source": "facebook.com",
-      "lang": "th",
-      "tag": "thai-school",
-      "query": "\"โรงเรียนอัสสัมชัญ\"",
-      "summary": "วันนี้ (16 ก.พ. 2569) นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงมหาดไทย เดินทางมาเป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร Saint Louis-Marie Memorial Building โรงเรียนอัสสัมชัญ บางรัก ถนนเจริญกรุง เขตบางรัก กรุงเทพฯ ภาพ วั&nbsp;&nbsp;faceboo",
-      "relevance": 90,
-      "title_th": "วันนี้ (16 ก.พ. 2569) นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงมหาดไทย เดินทางมาเป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร Saint Louis-Marie Memorial Building โรงเรียนอัสสัมชัญ บางรัก ถนนเจริญกรุง เขตบางรัก กรุงเทพฯ ภาพ วั - facebook.com"
-    },
-    {
-      "title": "“อนุทิน” เข้าทำเนียบฯ ก่อนเปิดงานครบรอบ 141 ปี ที่ รร.อัสสัมชัญ บางรัก บ่ายนี้ - Thairath.co.th",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sZmc0TC15Q0ZZd2hRVkl3V3A0TGU5N0E3aURKeDB3SkVIMnI2QjE1UVpaRHZnTWpOWTEyWjBwSlcycnExajU3Y2hHN2REdjB3dFdnM0llb0NEMVE?oc=5",
-      "pub_date": "2026-02-16T08:00:00+00:00",
-      "pub_ts": 1771228800,
-      "source": "Thairath.co.th",
-      "lang": "th",
-      "tag": "thai-school",
-      "query": "\"โรงเรียนอัสสัมชัญ\"",
-      "summary": "“อนุทิน” เข้าทำเนียบฯ ก่อนเปิดงานครบรอบ 141 ปี ที่ รร.อัสสัมชัญ บางรัก บ่ายนี้&nbsp;&nbsp;Thairath.co.th",
-      "relevance": 90,
-      "title_th": "“อนุทิน” เข้าทำเนียบฯ ก่อนเปิดงานครบรอบ 141 ปี ที่ รร.อัสสัมชัญ บางรัก บ่ายนี้ - Thairath.co.th"
-    },
-    {
-      "title": "ทักษิณ ปลื้มกลุ่มเพื่อนมงฟอร์ตฯ มาให้กำลังใจหน้าเรือนจำ ไม่ฝากอะไรถึงเลือกตั้ง - ข่าวสด",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jMnF6WG1jWjNxNWU2TkUzSFBVV2pVcVc0VHF2TTd0NUdlX1EyQTRDNkk3X2Q4QkZzb2VnYlVUWTN2eE0zUHdFR1NOdlh4RW15MGVtanBDcERHRnZq?oc=5",
-      "pub_date": "2026-02-05T08:00:00+00:00",
-      "pub_ts": 1770278400,
-      "source": "ข่าวสด",
-      "lang": "th",
-      "tag": "thai-school",
-      "query": "\"มงฟอร์ตวิทยาลัย\"",
-      "summary": "ทักษิณ ปลื้มกลุ่มเพื่อนมงฟอร์ตฯ มาให้กำลังใจหน้าเรือนจำ ไม่ฝากอะไรถึงเลือกตั้ง&nbsp;&nbsp;ข่าวสด",
-      "relevance": 90,
-      "title_th": "ทักษิณ ปลื้มกลุ่มเพื่อนมงฟอร์ตฯ มาให้กำลังใจหน้าเรือนจำ ไม่ฝากอะไรถึงเลือกตั้ง - ข่าวสด"
-    },
-    {
-      "title": "การเมือง - อิ๊งค์ เยี่ยมทักษิณ ขอบคุณกลุ่มเพื่อนมงฟอร์ตฯมาให้กำลังใจ แย้มพ่อเรียนทำอาหารในเรือนจำ - แนวหน้า",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9tWFFmaGp1dmdsNGdoVDFDTm5pX19RaUs5VjJWaWt2TTc0YWo5aDFXM1RLaXJxcmxfZkdPZTN2eGR3U0k2OWQxVGU0UGJ6UQ?oc=5",
-      "pub_date": "2026-02-05T08:00:00+00:00",
-      "pub_ts": 1770278400,
-      "source": "แนวหน้า",
-      "lang": "th",
-      "tag": "thai-school",
-      "query": "\"มงฟอร์ตวิทยาลัย\"",
-      "summary": "การเมือง - อิ๊งค์ เยี่ยมทักษิณ ขอบคุณกลุ่มเพื่อนมงฟอร์ตฯมาให้กำลังใจ แย้มพ่อเรียนทำอาหารในเรือนจำ&nbsp;&nbsp;แนวหน้า",
-      "relevance": 90,
-      "title_th": "การเมือง - อิ๊งค์ เยี่ยมทักษิณ ขอบคุณกลุ่มเพื่อนมงฟอร์ตฯมาให้กำลังใจ แย้มพ่อเรียนทำอาหารในเรือนจำ - แนวหน้า"
-    },
-    {
-      "title": "แพทองธาร พร้อมครอบครัวเยี่ยม ‘ทักษิณ’ เผยพ่อฝากความคิดถึงเพื่อนมงฟอร์ต ยันไร้สั่งการการเมืองโค้งสุดท้ายเลือกตั้ง - thestandard.co",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wWXJ5ZFhnOGNEWFNMeTIxWmw1aXdYWTAzVjJFN0FaNV9KTkRrV3dab1hEOEhtRUdOQzdVSEp6bEI1ZXdzNTV1QTZxTEpJZ002UVFObjd5NWhLSlMxaFk4N2lLVlVXaWh1Q0E?oc=5",
-      "pub_date": "2026-02-05T08:00:00+00:00",
-      "pub_ts": 1770278400,
-      "source": "thestandard.co",
-      "lang": "th",
-      "tag": "thai-school",
-      "query": "\"มงฟอร์ตวิทยาลัย\"",
-      "summary": "แพทองธาร พร้อมครอบครัวเยี่ยม ‘ทักษิณ’ เผยพ่อฝากความคิดถึงเพื่อนมงฟอร์ต ยันไร้สั่งการการเมืองโค้งสุดท้ายเลือกตั้ง&nbsp;&nbsp;thestandard.co",
-      "relevance": 90,
-      "title_th": "แพทองธาร พร้อมครอบครัวเยี่ยม ‘ทักษิณ’ เผยพ่อฝากความคิดถึงเพื่อนมงฟอร์ต ยันไร้สั่งการการเมืองโค้งสุดท้ายเลือกตั้ง - thestandard.co"
-    },
-    {
-      "title": "\"อิ๊งค์-ปอ\" เยี่ยม \"ทักษิณ\" คุยเรื่องคอร์สทำอาหาร ปัดตอบการเมือง เพื่อนมงฟอร์ตฯ แห่ให้กำลังใจ - ผู้จัดการออนไลน์",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zY04wVXZlWHpXSUw4cG55WnFjcHJ6RDh6RWo2TUZXNW4xX1VhdE5BbUh5VU1IMjJaVmRMYzE2cXN4bi1QRWRUZk0tRWl0Zlp0NktQMXo0b1RLdjR2?oc=5",
-      "pub_date": "2026-02-05T08:00:00+00:00",
-      "pub_ts": 1770278400,
-      "source": "ผู้จัดการออนไลน์",
-      "lang": "th",
-      "tag": "thai-school",
-      "query": "\"มงฟอร์ตวิทยาลัย\"",
-      "summary": "\"อิ๊งค์-ปอ\" เยี่ยม \"ทักษิณ\" คุยเรื่องคอร์สทำอาหาร ปัดตอบการเมือง เพื่อนมงฟอร์ตฯ แห่ให้กำลังใจ&nbsp;&nbsp;ผู้จัดการออนไลน์",
-      "relevance": 90,
-      "title_th": "\"อิ๊งค์-ปอ\" เยี่ยม \"ทักษิณ\" คุยเรื่องคอร์สทำอาหาร ปัดตอบการเมือง เพื่อนมงฟอร์ตฯ แห่ให้กำลังใจ - ผู้จัดการออนไลน์"
     },
     {
       "title": "5 Glorious Reasons Mary Should Reign as the Queen of Your Heart - ChurchPOP",
@@ -756,6 +924,9 @@
       "query": "\"Saint Louis de Montfort\"",
       "summary": "5 Glorious Reasons Mary Should Reign as the Queen of Your Heart&nbsp;&nbsp;ChurchPOP",
       "relevance": 90,
+      "audiences": [
+        "montfortian-family"
+      ],
       "title_th": "5 เหตุผลที่น่ายินดีที่แมรี่ควรครองราชย์เป็นราชินีแห่งหัวใจของคุณ - ChurchPOP"
     },
     {
@@ -769,6 +940,10 @@
       "query": "\"คณะเซนต์คาเบรียล\"",
       "summary": "CGA ประกาศแต่งตั้ง \"สุนันต์ อรุณนพรัตน์\" เป็นนายกสมาพันธ์ฯ คนใหม่&nbsp;&nbsp;เดลินิวส์",
       "relevance": 90,
+      "audiences": [
+        "administrators",
+        "montfortian-family"
+      ],
       "title_th": "CGA ประกาศแต่งตั้ง \"สุนันต์ อรุณนพรัตน์\" เป็นนายกสมาพันธ์ฯ คนใหม่ - เดลินิวส์"
     },
     {
@@ -782,6 +957,10 @@
       "query": "\"Totus Tuus\" Mary Pope",
       "summary": "'He Looked into My Soul': A Priest's Unforgettable Encounter with Pope Saint John Paul II&nbsp;&nbsp;ChurchPOP",
       "relevance": 80,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
       "title_th": "'เขามองเข้าไปในจิตวิญญาณของฉัน': การเผชิญหน้าอันน่าจดจำของนักบวชกับสมเด็จพระสันตะปาปานักบุญยอห์นปอลที่ 2 - ChurchPOP"
     }
   ]

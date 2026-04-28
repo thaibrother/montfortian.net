@@ -60,6 +60,14 @@ QUERIES = [
     ('"Pope" "Montfort" -concert -music', 'en', 'US', 'vatican-news'),
     ('Montfort Saint-Laurent-sur-Sevre Catholic', 'en', 'US', 'vatican-news'),
 
+    # ===== Beatification / Canonization / Martyrdom — Brothers SG specific =====
+    ('"Brothers of Christian Instruction of Saint Gabriel"', 'en', 'US', 'sg-brothers'),
+    ('"Saint Gabriel" martyrs Spain', 'en', 'US', 'sg-brothers'),
+    ('"Stanislao Ortega"', 'en', 'US', 'sg-brothers'),
+    ('"Hermanos de San Gabriel" mártires', 'es', 'ES', 'sg-brothers'),
+    ('Vatican martyrs decree Pope canonization', 'en', 'US', 'vatican-news'),
+    ('"Causes of Saints" Vatican Pope decrees', 'en', 'US', 'vatican-news'),
+
     # ===== Thai Foundation =====
     ('"ภราดาเซนต์คาเบรียล"', 'th', 'TH', 'thai-foundation'),
     ('"คณะเซนต์คาเบรียล"', 'th', 'TH', 'thai-foundation'),

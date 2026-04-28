@@ -1,0 +1,40 @@
+name: Refresh News Feed
+
+on:
+  schedule:
+    # Daily at 06:00 UTC = 13:00 Bangkok
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser
+
+      - name: Fetch news feed
+        run: python3 scripts/fetch_news.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain news-feed.json)" ]]; then
+            git add news-feed.json
+            git commit -m "auto: refresh news feed [$(date -u +%Y-%m-%d)]"
+            git push
+          else
+            echo "No changes to news-feed.json"
+          fi

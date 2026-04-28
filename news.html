@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News — Brothers of Saint Gabriel Worldwide</title>
+<meta name="description" content="Latest news about Brothers of Saint Gabriel and the Montfortian family worldwide — auto-aggregated daily from global sources.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #1a3a5c;
+  --gold: #8b6914;
+  --gold-light: #c4960a;
+  --cream: #f5f3ed;
+  --text: #2a2a2a;
+  --text-light: #666;
+  --en-blue: #2c5f8a;
+  --th-orange: #c25a06;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--cream); line-height: 1.6; }
+h1, h2, h3 { font-family: 'Cinzel', serif; }
+
+nav {
+  background: white; position: sticky; top: 0; z-index: 100;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  display: flex; align-items: center; flex-wrap: wrap;
+  padding: 0 16px; gap: 0;
+}
+nav a {
+  color: var(--navy); text-decoration: none;
+  padding: 16px 16px; font-size: 0.88em; font-weight: 500;
+  border-bottom: 3px solid transparent; transition: all 0.2s;
+  white-space: nowrap;
+}
+nav a:hover, nav a.active { border-bottom-color: var(--gold); color: var(--gold); }
+nav .brand { font-family: 'Cinzel', serif; font-weight: 700; font-size: 1em; color: var(--navy); margin-right: auto; padding: 12px 0; }
+
+.news-hero {
+  background: linear-gradient(160deg, var(--navy) 0%, #0d2640 70%, var(--gold) 200%);
+  color: white; padding: 70px 20px 50px; text-align: center;
+}
+.news-hero h1 {
+  font-size: clamp(2em, 4vw, 2.8em);
+  letter-spacing: 2px; margin-bottom: 14px;
+}
+.news-hero p {
+  opacity: 0.78; font-size: 1em;
+  max-width: 720px; margin: 0 auto 8px; line-height: 1.7;
+}
+.news-hero .meta {
+  margin-top: 20px;
+  font-size: 0.82em; opacity: 0.55;
+}
+
+.controls {
+  max-width: 1100px; margin: 0 auto;
+  padding: 30px 20px 0;
+  display: flex; gap: 10px; flex-wrap: wrap;
+  align-items: center;
+}
+.filter-tab {
+  padding: 7px 16px; border-radius: 20px;
+  background: white; border: 1px solid #ddd;
+  font-size: 0.85em; cursor: pointer; transition: all 0.2s;
+  color: var(--text-light); font-family: inherit;
+}
+.filter-tab.active {
+  background: var(--navy); color: white; border-color: var(--navy);
+}
+.filter-tab:hover:not(.active) {
+  border-color: var(--gold); color: var(--navy);
+}
+.search-input {
+  margin-left: auto;
+  padding: 7px 14px; border-radius: 20px;
+  border: 1px solid #ddd; background: white;
+  font-size: 0.9em; font-family: inherit;
+  outline: none; min-width: 200px;
+}
+.search-input:focus { border-color: var(--gold); }
+
+.feed-meta {
+  max-width: 1100px; margin: 16px auto 0;
+  padding: 0 20px; font-size: 0.85em;
+  color: var(--text-light);
+}
+
+.feed {
+  max-width: 1100px; margin: 20px auto 60px;
+  padding: 0 20px;
+}
+.news-card {
+  background: white; padding: 22px 26px;
+  border-radius: 12px; margin-bottom: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-left: 4px solid var(--gold);
+  display: block; text-decoration: none; color: inherit;
+}
+.news-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  border-left-color: var(--navy);
+}
+.news-card.lang-en { border-left-color: var(--en-blue); }
+.news-card.lang-th { border-left-color: var(--th-orange); }
+
+.news-card h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05em; font-weight: 600;
+  color: var(--navy); margin-bottom: 8px;
+  line-height: 1.5;
+}
+.news-card .meta {
+  display: flex; gap: 12px; flex-wrap: wrap;
+  font-size: 0.78em; color: var(--text-light);
+  align-items: center;
+}
+.news-card .source {
+  font-weight: 500;
+  color: var(--gold);
+}
+.news-card .lang-tag {
+  display: inline-block;
+  padding: 2px 8px; border-radius: 10px;
+  font-size: 0.72em; font-weight: 600;
+}
+.lang-tag.en { background: #e3edf7; color: var(--en-blue); }
+.lang-tag.th { background: #fef0e6; color: var(--th-orange); }
+
+.empty {
+  text-align: center; padding: 60px 20px; color: var(--text-light);
+}
+
+footer {
+  background: white; padding: 30px 20px;
+  text-align: center; font-size: 0.82em;
+  color: var(--text-light); border-top: 1px solid #eee;
+}
+footer a { color: var(--gold); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav>
+    <a href="index.html" class="brand">Montfortian Network</a>
+    <a href="index.html#congregations">Congregations</a>
+    <a href="index.html#network">Network Directory</a>
+    <a href="index.html#writings">Writings</a>
+    <a href="news.html" class="active">📰 News</a>
+    <a href="search.html">🔍 Search</a>
+    <a href="governance.html">Governance</a>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="news-hero">
+    <h1>News from the Montfortian Family</h1>
+    <p>Latest stories about Brothers of Saint Gabriel and the Montfortian family worldwide — auto-aggregated daily from global news sources.</p>
+    <p class="meta" id="metaTop">Loading…</p>
+</section>
+
+<!-- ===== CONTROLS ===== -->
+<div class="controls">
+    <button class="filter-tab active" data-filter="all">All</button>
+    <button class="filter-tab" data-filter="en">🇬🇧 English (Global)</button>
+    <button class="filter-tab" data-filter="th">🇹🇭 ภาษาไทย</button>
+    <button class="filter-tab" data-filter="thai-foundation">มูลนิธิ/คณะภราดา</button>
+    <button class="filter-tab" data-filter="global-en">Global English</button>
+    <input type="text" class="search-input" id="searchInput" placeholder="Search…">
+</div>
+
+<div class="feed-meta" id="feedMeta"></div>
+
+<!-- ===== FEED ===== -->
+<div class="feed" id="feed">
+    <div class="empty">Loading news…</div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>News auto-aggregated daily via GitHub Actions from Google News and other public sources.</p>
+    <p>For internal Foundation news (Thai Province), see <a href="https://thaibrothers.net">thaibrothers.net</a> · <a href="https://fsgthailand.org">fsgthailand.org</a></p>
+</footer>
+
+<script>
+let DATA = { items: [], count: 0, generated_at: '' };
+let currentFilter = 'all';
+let searchQuery = '';
+
+const feedEl = document.getElementById('feed');
+const metaTopEl = document.getElementById('metaTop');
+const feedMetaEl = document.getElementById('feedMeta');
+const searchInput = document.getElementById('searchInput');
+
+fetch('news-feed.json')
+    .then(r => r.json())
+    .then(data => {
+        DATA = data;
+        const ts = new Date(data.generated_at);
+        const tsStr = ts.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) + ' ' + ts.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Bangkok' });
+        metaTopEl.textContent = `${data.count} stories · last updated ${tsStr} (Bangkok)`;
+        render();
+    })
+    .catch(err => {
+        feedEl.innerHTML = '<div class="empty"><h3>Could not load news feed</h3><p>Please try again later or contact the administrator.</p></div>';
+        metaTopEl.textContent = 'Feed unavailable';
+        console.error(err);
+    });
+
+function render() {
+    let items = DATA.items;
+    // Filter
+    if (currentFilter === 'en') items = items.filter(i => i.lang === 'en');
+    else if (currentFilter === 'th') items = items.filter(i => i.lang === 'th');
+    else if (currentFilter !== 'all') items = items.filter(i => i.tag === currentFilter);
+    // Search
+    if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        items = items.filter(i =>
+            i.title.toLowerCase().includes(q) ||
+            (i.source || '').toLowerCase().includes(q) ||
+            (i.summary || '').toLowerCase().includes(q)
+        );
+    }
+
+    feedMetaEl.textContent = `Showing ${items.length} of ${DATA.count} stories${searchQuery ? ' for "' + searchQuery + '"' : ''}`;
+
+    if (items.length === 0) {
+        feedEl.innerHTML = '<div class="empty"><h3>No matching stories</h3><p>Try a different filter or search.</p></div>';
+        return;
+    }
+
+    feedEl.innerHTML = items.map(item => {
+        const date = item.pub_date ? new Date(item.pub_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : '';
+        const langClass = item.lang === 'en' ? 'lang-en' : 'lang-th';
+        const langTag = item.lang === 'en' ? 'EN' : 'TH';
+        return `
+            <a href="${escape(item.link)}" target="_blank" rel="noopener" class="news-card ${langClass}">
+                <h3>${escape(item.title)}</h3>
+                <div class="meta">
+                    <span class="lang-tag ${item.lang}">${langTag}</span>
+                    <span class="source">${escape(item.source || 'Source')}</span>
+                    <span>·</span>
+                    <span>${date}</span>
+                </div>
+            </a>
+        `;
+    }).join('');
+}
+
+function escape(s) {
+    return String(s || '').replace(/[&<>"']/g, c => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+}
+
+document.querySelectorAll('.filter-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentFilter = btn.dataset.filter;
+        render();
+    });
+});
+
+let searchTimer;
+searchInput.addEventListener('input', () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+        searchQuery = searchInput.value.trim();
+        render();
+    }, 200);
+});
+</script>
+
+</body>
+</html>

@@ -18,9 +18,18 @@ import feedparser
 import json
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from urllib.parse import quote
 from pathlib import Path
+
+# Optional: deep_translator for English → Thai translation
+try:
+    from deep_translator import GoogleTranslator
+    TRANSLATOR_AVAILABLE = True
+except ImportError:
+    TRANSLATOR_AVAILABLE = False
+    print('  deep_translator not available — skipping translation', file=sys.stderr)
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -215,10 +224,33 @@ def main():
     # Cap at 60
     final = deduped[:60]
 
+    # ★ Translate English titles → Thai (for Thai-display pages like fsgthailand.org/news)
+    translation_count = 0
+    if TRANSLATOR_AVAILABLE:
+        translator = GoogleTranslator(source='auto', target='th')
+        for item in final:
+            if item['lang'] != 'th':
+                # Translate any non-Thai item (en, fr, etc.)
+                try:
+                    item['title_th'] = translator.translate(item['title'])
+                    translation_count += 1
+                    time.sleep(0.1)  # gentle rate-limit
+                except Exception as e:
+                    item['title_th'] = item['title']  # fallback to original
+                    print(f'    translate fail "{item["title"][:40]}...": {e}', file=sys.stderr)
+            else:
+                item['title_th'] = item['title']  # already Thai
+        print(f'  translated {translation_count} non-Thai items → Thai', file=sys.stderr)
+    else:
+        # Fallback if translator unavailable — title_th = original
+        for item in final:
+            item['title_th'] = item['title']
+
     out = {
         'generated_at': datetime.now(timezone.utc).isoformat(),
         'count': len(final),
         'sources_queried': len(QUERIES),
+        'translated': translation_count,
         'items': final,
     }
 

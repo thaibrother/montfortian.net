@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-04-28T01:50:56.338526+00:00",
+  "generated_at": "2026-04-28T02:03:08.356025+00:00",
   "count": 60,
   "sources_queried": 19,
+  "translated": 19,
   "items": [
     {
       "title": "Daughters of Wisdom - The Advocate",
@@ -13,7 +14,8 @@
       "tag": "fdls-sisters",
       "query": "\"Daughters of Wisdom\" Catholic",
       "summary": "Daughters of Wisdom&nbsp;&nbsp;The Advocate",
-      "relevance": 180
+      "relevance": 180,
+      "title_th": "ธิดาแห่งปัญญา - ผู้สนับสนุน"
     },
     {
       "title": "Pope Leo XIV advances sainthood causes, including Dutch nun who served in Missouri - Detroit Catholic",
@@ -25,7 +27,8 @@
       "tag": "vatican-news",
       "query": "\"Pope\" \"Montfort\" -concert -music",
       "summary": "Pope Leo XIV advances sainthood causes, including Dutch nun who served in Missouri&nbsp;&nbsp;Detroit Catholic",
-      "relevance": 175
+      "relevance": 175,
+      "title_th": "สมเด็จพระสันตะปาปาลีโอที่ 14 ทรงยกระดับความเป็นนักบุญ ซึ่งรวมถึงแม่ชีชาวดัตช์ที่รับใช้ในรัฐมิสซูรี - คาทอลิกแห่งดีทรอยต์"
     },
     {
       "title": "Story Of Saint Louis Mary De Montfort I Saints And Angels TV | #SaintLouisDeMontfort #saints (LMWt6GvAJB) - Fathom Journal",
@@ -37,7 +40,8 @@
       "tag": "founder",
       "query": "\"Saint Louis de Montfort\"",
       "summary": "Story Of Saint Louis Mary De Montfort I Saints And Angels TV | #SaintLouisDeMontfort #saints (LMWt6GvAJB)&nbsp;&nbsp;Fathom Journal",
-      "relevance": 175
+      "relevance": 175,
+      "title_th": "เรื่องราวของนักบุญหลุยส์ แมรี เดอ มงฟอร์ตที่ 1 นักบุญและเทวดา ทีวี | #SaintLouisDeMontfort #saints (LMWt6GvAJB) - Fathom Journal"
     },
     {
       "title": "Donna Lee Doron Rollman Obituary April 11, 2026 - Flanner Buchanan",
@@ -49,7 +53,8 @@
       "tag": "founder",
       "query": "\"Saint Louis de Montfort\"",
       "summary": "Donna Lee Doron Rollman Obituary April 11, 2026&nbsp;&nbsp;Flanner Buchanan",
-      "relevance": 160
+      "relevance": 160,
+      "title_th": "Donna Lee Doron Rollman ข่าวมรณกรรม 11 เมษายน 2026 - Flanner Buchanan"
     },
     {
       "title": "BACK IN HISTORY | Monfort opens in the North - The Fiji Times",
@@ -61,7 +66,8 @@
       "tag": "sg-brothers",
       "query": "\"Brothers of Saint Gabriel\"",
       "summary": "BACK IN HISTORY | Monfort opens in the North&nbsp;&nbsp;The Fiji Times",
-      "relevance": 150
+      "relevance": 150,
+      "title_th": "ย้อนกลับไปในประวัติศาสตร์ | Monfort เปิดขึ้นทางตอนเหนือ - The Fiji Times"
     },
     {
       "title": "ศิษย์เก่ามงฟอร์ตฯ ซิวแชมป์ใหญ่ CGA ESPORTS 2025 ดวลเดือดสองวันเต็ม 12 ทีมจาก 9 สถาบันประชันฝีมือสุดมันส์ - แนวหน้า",
@@ -73,7 +79,8 @@
       "tag": "thai-foundation",
       "query": "\"คณะเซนต์คาเบรียล\"",
       "summary": "ศิษย์เก่ามงฟอร์ตฯ ซิวแชมป์ใหญ่ CGA ESPORTS 2025 ดวลเดือดสองวันเต็ม 12 ทีมจาก 9 สถาบันประชันฝีมือสุดมันส์&nbsp;&nbsp;แนวหน้า",
-      "relevance": 145
+      "relevance": 145,
+      "title_th": "ศิษย์เก่ามงฟอร์ตฯ ซิวแชมป์ใหญ่ CGA ESPORTS 2025 ดวลเดือดสองวันเต็ม 12 ทีมจาก 9 สถาบันประชันฝีมือสุดมันส์ - แนวหน้า"
     },
     {
       "title": "เยี่ยมสุสานคณะภราดาเซนต์คาเบรียลแห่งประเทศไทย - chiangmainews.co.th",
@@ -85,7 +92,8 @@
       "tag": "thai-foundation",
       "query": "\"ภราดาเซนต์คาเบรียล\"",
       "summary": "เยี่ยมสุสานคณะภราดาเซนต์คาเบรียลแห่งประเทศไทย&nbsp;&nbsp;chiangmainews.co.th",
-      "relevance": 130
+      "relevance": 130,
+      "title_th": "เยี่ยมสุสานคณะภราดาเซนต์คาเบรียลแห่งประเทศไทย - chiangmainews.co.th"
     },
     {
       "title": "Montfort Brother helps urban poor tell their stories - Matters India",
@@ -97,7 +105,8 @@
       "tag": "sg-brothers",
       "query": "\"Montfort Brothers\"",
       "summary": "Montfort Brother helps urban poor tell their stories&nbsp;&nbsp;Matters India",
-      "relevance": 130
+      "relevance": 130,
+      "title_th": "Montfort Brother ช่วยคนจนในเมืองบอกเล่าเรื่องราวของพวกเขา - Matters India"
     },
     {
       "title": "Sr Jeanne Lavallée - necrologie.cn2i.ca",
@@ -109,7 +118,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Sr Jeanne Lavallée&nbsp;&nbsp;necrologie.cn2i.ca",
-      "relevance": 125
+      "relevance": 125,
+      "title_th": "Sr Jeanne Lavallée - necrologie.cn2i.ca"
     },
     {
       "title": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête a séduit le public - Ouest-France",
@@ -121,7 +131,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête a séduit le public&nbsp;&nbsp;Ouest-France",
-      "relevance": 125
+      "relevance": 125,
+      "title_th": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête a séduit le public - Ouest-France"
     },
     {
       "title": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête, c’est ce week-end - Ouest-France",
@@ -133,7 +144,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête, c’est ce week-end&nbsp;&nbsp;Ouest-France",
-      "relevance": 125
+      "relevance": 125,
+      "title_th": "Saint-Laurent-sur-Sèvre. Le marché de Noël de Saint-Lau en fête, c’est ce week-end - Ouest-France"
     },
     {
       "title": "La Congrégation des Filles de la Sagesse célèbre 150 ans de service en Haïti - lenouvelliste.com",
@@ -145,7 +157,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "La Congrégation des Filles de la Sagesse célèbre 150 ans de service en Haïti&nbsp;&nbsp;lenouvelliste.com",
-      "relevance": 125
+      "relevance": 125,
+      "title_th": "La Congrégation des Filles de la Sagesse célèbre 150 ans de service en Haïti - lenouvelliste.com"
     },
     {
       "title": "Technical and cocational training ‘not a fallback Option’: PM - Fiji Sun",
@@ -157,7 +170,8 @@
       "tag": "sg-brothers",
       "query": "\"Brothers of Saint Gabriel\"",
       "summary": "Technical and cocational training ‘not a fallback Option’: PM&nbsp;&nbsp;Fiji Sun",
-      "relevance": 125
+      "relevance": 125,
+      "title_th": "การฝึกอบรมด้านเทคนิคและ cocational 'ไม่ใช่ทางเลือกสำรอง': PM - Fiji Sun"
     },
     {
       "title": "Saint-Laurent-sur-Sèvre. 1 163 € de bénéfices pour le Secours catholique - Ouest-France",
@@ -169,7 +183,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Saint-Laurent-sur-Sèvre. 1 163 € de bénéfices pour le Secours catholique&nbsp;&nbsp;Ouest-France",
-      "relevance": 125
+      "relevance": 125,
+      "title_th": "Saint-Laurent-sur-Sèvre. 1 163 € de bénéfices pour le Secours catholique - Ouest-France"
     },
     {
       "title": "Sr Huguette Blais - necrologie.cn2i.ca",
@@ -181,7 +196,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Sr Huguette Blais&nbsp;&nbsp;necrologie.cn2i.ca",
-      "relevance": 125
+      "relevance": 125,
+      "title_th": "Sr Huguette Blais - necrologie.cn2i.ca"
     },
     {
       "title": "Confitures, gâteaux, objets divers… La vente solidaire du Secours catholique du Pays de Sèvre - Ouest-France",
@@ -193,7 +209,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Confitures, gâteaux, objets divers… La vente solidaire du Secours catholique du Pays de Sèvre&nbsp;&nbsp;Ouest-France",
-      "relevance": 125
+      "relevance": 125,
+      "title_th": "Confitures, gâteaux, objets divers… La vente solidaire du Secours catholique du Pays de Sèvre - Ouest-France"
     },
     {
       "title": "Poitiers : un lieu spirituel et de partage ouvre le 14 novembre à Montmidi - lanouvellerepublique.fr",
@@ -205,7 +222,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Poitiers : un lieu spirituel et de partage ouvre le 14 novembre à Montmidi&nbsp;&nbsp;lanouvellerepublique.fr",
-      "relevance": 125
+      "relevance": 125,
+      "title_th": "Poitiers : un lieu spirituel et de partage ouvre le 14 novembre à Montmidi - lanouvellerepublique.fr"
     },
     {
       "title": "Bishop Chaima urge Sisters of Daughters of Wisdom to rely on God - Malawi 24",
@@ -217,7 +235,8 @@
       "tag": "fdls-sisters",
       "query": "\"Daughters of Wisdom\" Catholic",
       "summary": "Bishop Chaima urge Sisters of Daughters of Wisdom to rely on God&nbsp;&nbsp;Malawi 24",
-      "relevance": 125
+      "relevance": 125,
+      "title_th": "อธิการชัยมาเรียกร้องให้ซิสเตอร์ธิดาแห่งปัญญาพึ่งพาพระเจ้า - มาลาวี 24"
     },
     {
       "title": "Lundi 28 avril 2025 : Saint Louis-Marie Grignion de Montfort - Etoile Notre Dame",
@@ -229,7 +248,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Lundi 28 avril 2025 : Saint Louis-Marie Grignion de Montfort&nbsp;&nbsp;Etoile Notre Dame",
-      "relevance": 125
+      "relevance": 125,
+      "title_th": "Lundi 28 avril 2025 : Saint Louis-Marie Grignion de Montfort - Etoile Notre Dame"
     },
     {
       "title": "SPORTS LIFEปักหมุดภาคเหนือปลุกความคึกคักบาส 3X3 ชวนคุยสนุกกับทีมแม่นห่วง รร.มงฟอร์ตวิทยาลัย - แนวหน้า",
@@ -241,7 +261,8 @@
       "tag": "thai-school",
       "query": "\"มงฟอร์ตวิทยาลัย\"",
       "summary": "SPORTS LIFEปักหมุดภาคเหนือปลุกความคึกคักบาส 3X3 ชวนคุยสนุกกับทีมแม่นห่วง รร.มงฟอร์ตวิทยาลัย&nbsp;&nbsp;แนวหน้า",
-      "relevance": 120
+      "relevance": 120,
+      "title_th": "SPORTS LIFEปักหมุดภาคเหนือปลุกความคึกคักบาส 3X3 ชวนคุยสนุกกับทีมแม่นห่วง รร.มงฟอร์ตวิทยาลัย - แนวหน้า"
     },
     {
       "title": "“อิ๊งค์” ควงสามีเยี่ยม “ทักษิณ” ครบ 7 เดือนในเรือนจำ เพื่อนมงฟอร์ต 08 รวมตัวส่งกำลังใจหนาตา - เดลินิวส์",
@@ -253,7 +274,8 @@
       "tag": "thai-school",
       "query": "\"มงฟอร์ตวิทยาลัย\"",
       "summary": "“อิ๊งค์” ควงสามีเยี่ยม “ทักษิณ” ครบ 7 เดือนในเรือนจำ เพื่อนมงฟอร์ต 08 รวมตัวส่งกำลังใจหนาตา&nbsp;&nbsp;เดลินิวส์",
-      "relevance": 120
+      "relevance": 120,
+      "title_th": "“อิ๊งค์” ควงสามีเยี่ยม “ทักษิณ” ครบ 7 เดือนในเรือนจำ เพื่อนมงฟอร์ต 08 รวมตัวส่งกำลังใจหนาตา - เดลินิวส์"
     },
     {
       "title": "“แพทองธาร-ปิฎก” เยี่ยม “ทักษิณ” เพื่อนมงฟอร์ตบินให้กำลังใจ “ทนายวิญญัติ” ปัดตอบคืบหน้ายื่นพักโทษ - สยามรัฐ",
@@ -265,7 +287,8 @@
       "tag": "thai-school",
       "query": "\"มงฟอร์ตวิทยาลัย\"",
       "summary": "“แพทองธาร-ปิฎก” เยี่ยม “ทักษิณ” เพื่อนมงฟอร์ตบินให้กำลังใจ “ทนายวิญญัติ” ปัดตอบคืบหน้ายื่นพักโทษ&nbsp;&nbsp;สยามรัฐ",
-      "relevance": 120
+      "relevance": 120,
+      "title_th": "“แพทองธาร-ปิฎก” เยี่ยม “ทักษิณ” เพื่อนมงฟอร์ตบินให้กำลังใจ “ทนายวิญญัติ” ปัดตอบคืบหน้ายื่นพักโทษ - สยามรัฐ"
     },
     {
       "title": "สมาพันธ์สมาคมศิษย์เก่าคณะเซนต์คาเบรียลแห่งประเทศไทย จัดโครงการออกหน่วยทันตกรรมเคลื่อนที่ถวายเป็นพระราชกุศลแด่ในหลวงรัชกาลที่ 9 เนื่องในวันนวมินทรมหาราช - NBT CONNEXT",
@@ -277,7 +300,8 @@
       "tag": "thai-foundation",
       "query": "\"คณะเซนต์คาเบรียล\"",
       "summary": "สมาพันธ์สมาคมศิษย์เก่าคณะเซนต์คาเบรียลแห่งประเทศไทย จัดโครงการออกหน่วยทันตกรรมเคลื่อนที่ถวายเป็นพระราชกุศลแด่ในหลวงรัชกาลที่ 9 เนื่องในวันนวมินทรมหาราช&nbsp;&nbsp;NBT CONNEXT",
-      "relevance": 115
+      "relevance": 115,
+      "title_th": "สมาพันธ์สมาคมศิษย์เก่าคณะเซนต์คาเบรียลแห่งประเทศไทย จัดโครงการออกหน่วยทันตกรรมเคลื่อนที่ถวายเป็นพระราชกุศลแด่ในหลวงรัชกาลที่ 9 เนื่องในวันนวมินทรมหาราช - NBT CONNEXT"
     },
     {
       "title": "À Montfort-sur-Meu, la Maison natale de Saint-Louis-Marie Grignion rouverte - Ouest-France",
@@ -289,7 +313,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "À Montfort-sur-Meu, la Maison natale de Saint-Louis-Marie Grignion rouverte&nbsp;&nbsp;Ouest-France",
-      "relevance": 115
+      "relevance": 115,
+      "title_th": "À Montfort-sur-Meu, la Maison natale de Saint-Louis-Marie Grignion rouverte - Ouest-France"
     },
     {
       "title": "“Continue to be prophetic, voice of the voiceless”, Archbishop Urges Malawi’s Church Leaders in Post Election Reflection - aciafrica.org",
@@ -301,7 +326,8 @@
       "tag": "smm-missionaries",
       "query": "\"Company of Mary\" Montfort Catholic",
       "summary": "“Continue to be prophetic, voice of the voiceless”, Archbishop Urges Malawi’s Church Leaders in Post Election Reflection&nbsp;&nbsp;aciafrica.org",
-      "relevance": 110
+      "relevance": 110,
+      "title_th": "“จงเป็นผู้เผยพระวจนะต่อไป เสียงของผู้ไร้เสียง” พระอัครสังฆราชเรียกร้องให้ผู้นำคริสตจักรของมาลาวีในการไตร่ตรองหลังการเลือกตั้ง - aciafrica.org"
     },
     {
       "title": "Catholic Priests “safe, unharmed” after Armed Robbery at Parish in DR Congo’s Kisangani Archdiocese - aciafrica.org",
@@ -313,7 +339,8 @@
       "tag": "smm-missionaries",
       "query": "\"Company of Mary\" Montfort Catholic",
       "summary": "Catholic Priests “safe, unharmed” after Armed Robbery at Parish in DR Congo’s Kisangani Archdiocese&nbsp;&nbsp;aciafrica.org",
-      "relevance": 110
+      "relevance": 110,
+      "title_th": "พระสงฆ์คาทอลิก “ปลอดภัย ไม่ได้รับอันตราย” หลังจากการปล้นด้วยอาวุธที่เขตแพริชในอัครสังฆมณฑล Kisangani ของดีอาร์ คองโก - aciafrica.org"
     },
     {
       "title": "Trois choses à savoir sur le collège Pascal de Roubaix, qui fête ses 150 ans - La Voix du Nord",
@@ -325,7 +352,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Trois choses à savoir sur le collège Pascal de Roubaix, qui fête ses 150 ans&nbsp;&nbsp;La Voix du Nord",
-      "relevance": 110
+      "relevance": 110,
+      "title_th": "Trois choses à savoir sur le collège Pascal de Roubaix, qui fête ses 150 ans - La Voix du Nord"
     },
     {
       "title": "Sr Lise Latulippe - necrologie.cn2i.ca",
@@ -337,7 +365,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Sr Lise Latulippe&nbsp;&nbsp;necrologie.cn2i.ca",
-      "relevance": 110
+      "relevance": 110,
+      "title_th": "Sr Lise Latulippe - necrologie.cn2i.ca"
     },
     {
       "title": "In Memory of Sr Nicole Rousse - Heritage Funeral Complex",
@@ -349,7 +378,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "In Memory of Sr Nicole Rousse&nbsp;&nbsp;Heritage Funeral Complex",
-      "relevance": 110
+      "relevance": 110,
+      "title_th": "In Memory of Sr Nicole Rousse - Heritage Funeral Complex"
     },
     {
       "title": "Saint-Trojan-Les-Bains. Les lundis ludiques de Lud’Oléron - le-littoral.com",
@@ -361,7 +391,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Saint-Trojan-Les-Bains. Les lundis ludiques de Lud’Oléron&nbsp;&nbsp;le-littoral.com",
-      "relevance": 110
+      "relevance": 110,
+      "title_th": "Saint-Trojan-Les-Bains. Les lundis ludiques de Lud’Oléron - le-littoral.com"
     },
     {
       "title": "Quatre ans après, l’hommage au père Olivier Maire à Saint-Laurent-sur-Sèvre - Ouest-France",
@@ -373,7 +404,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Quatre ans après, l’hommage au père Olivier Maire à Saint-Laurent-sur-Sèvre&nbsp;&nbsp;Ouest-France",
-      "relevance": 110
+      "relevance": 110,
+      "title_th": "Quatre ans après, l’hommage au père Olivier Maire à Saint-Laurent-sur-Sèvre - Ouest-France"
     },
     {
       "title": "Hamann Sr Denise - necrologie.cn2i.ca",
@@ -385,7 +417,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Hamann Sr Denise&nbsp;&nbsp;necrologie.cn2i.ca",
-      "relevance": 110
+      "relevance": 110,
+      "title_th": "Hamann Sr Denise - necrologie.cn2i.ca"
     },
     {
       "title": "In Memory of Sr Denise Hamann - Heritage Funeral Complex",
@@ -397,7 +430,21 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "In Memory of Sr Denise Hamann&nbsp;&nbsp;Heritage Funeral Complex",
-      "relevance": 110
+      "relevance": 110,
+      "title_th": "In Memory of Sr Denise Hamann - Heritage Funeral Complex"
+    },
+    {
+      "title": "โปรแกรมทีมชาติไทย U17 สู้ศึก AFC U17 Asian Cup™ Saudi Arabia 2026 - thansettakij",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HMlhwYlN5TjFsQmVkTWw4eFllOXBNN0JQdVlSSi1lTU5VZm9heW52MjI5T0NfMXZOMWZaSjFobWpiRzVrc091NmNmdlV2dFNDb09j?oc=5",
+      "pub_date": "2026-04-20T21:50:00+00:00",
+      "pub_ts": 1776721800,
+      "source": "thansettakij",
+      "lang": "th",
+      "tag": "thai-school",
+      "query": "\"โรงเรียนอัสสัมชัญ\"",
+      "summary": "โปรแกรมทีมชาติไทย U17 สู้ศึก AFC U17 Asian Cup™ Saudi Arabia 2026&nbsp;&nbsp;thansettakij",
+      "relevance": 105,
+      "title_th": "โปรแกรมทีมชาติไทย U17 สู้ศึก AFC U17 Asian Cup™ Saudi Arabia 2026 - thansettakij"
     },
     {
       "title": "”ชู๊ต“ ภัทรธิติ โพภา ทีมชาติไทย \"ChangsuekU16\" หนุ่มน้อย จากโรงเรียนอัสสัมชัญศรีราชา - สยามรัฐ",
@@ -409,7 +456,8 @@
       "tag": "thai-school",
       "query": "\"โรงเรียนอัสสัมชัญ\"",
       "summary": "”ชู๊ต“ ภัทรธิติ โพภา ทีมชาติไทย \"ChangsuekU16\" หนุ่มน้อย จากโรงเรียนอัสสัมชัญศรีราชา&nbsp;&nbsp;สยามรัฐ",
-      "relevance": 105
+      "relevance": 105,
+      "title_th": "”ชู๊ต“ ภัทรธิติ โพภา ทีมชาติไทย \"ChangsuekU16\" หนุ่มน้อย จากโรงเรียนอัสสัมชัญศรีราชา - สยามรัฐ"
     },
     {
       "title": "อัสสัมชัญศรีราชา ทวงแชมป์ภาคตะวันออก “Chang Junior Cup 2026” - ข่าวสด",
@@ -421,7 +469,8 @@
       "tag": "thai-school",
       "query": "\"โรงเรียนอัสสัมชัญ\"",
       "summary": "อัสสัมชัญศรีราชา ทวงแชมป์ภาคตะวันออก “Chang Junior Cup 2026”&nbsp;&nbsp;ข่าวสด",
-      "relevance": 105
+      "relevance": 105,
+      "title_th": "อัสสัมชัญศรีราชา ทวงแชมป์ภาคตะวันออก “Chang Junior Cup 2026” - ข่าวสด"
     },
     {
       "title": "Catholics in Peru diocese where Pope Leo used to be bishop ask him to reconsider Marian titles doctrinal note - CatholicVote org",
@@ -433,7 +482,8 @@
       "tag": "founder",
       "query": "\"Saint Louis de Montfort\"",
       "summary": "Catholics in Peru diocese where Pope Leo used to be bishop ask him to reconsider Marian titles doctrinal note&nbsp;&nbsp;CatholicVote org",
-      "relevance": 105
+      "relevance": 105,
+      "title_th": "ชาวคาทอลิกในสังฆมณฑลเปรูซึ่งสมเด็จพระสันตะปาปาลีโอเคยเป็นพระสังฆราชขอให้เขาพิจารณาชื่อบันทึกหลักคำสอนของแมเรียนอีกครั้ง - CatholicVote org"
     },
     {
       "title": "What's ‘a motto’ with you? - The Pillar",
@@ -445,7 +495,8 @@
       "tag": "vatican-news",
       "query": "\"Pope\" \"Montfort\" -concert -music",
       "summary": "What's ‘a motto’ with you?&nbsp;&nbsp;The Pillar",
-      "relevance": 105
+      "relevance": 105,
+      "title_th": "'คำขวัญ' กับคุณคืออะไร? - เสา"
     },
     {
       "title": "Conclave: Could the next pope to lead 1.4 billion Roman Catholics come from tiny Singapore? - Gulf News",
@@ -457,7 +508,8 @@
       "tag": "vatican-news",
       "query": "\"Pope\" \"Montfort\" -concert -music",
       "summary": "Conclave: Could the next pope to lead 1.4 billion Roman Catholics come from tiny Singapore?&nbsp;&nbsp;Gulf News",
-      "relevance": 105
+      "relevance": 105,
+      "title_th": "การประชุมใหญ่: สมเด็จพระสันตะปาปาองค์ต่อไปที่จะนำชาวโรมันคาธอลิก 1.4 พันล้านคนมาจากสิงคโปร์เล็กๆ ได้หรือไม่? - ข่าวอ่าวไทย"
     },
     {
       "title": "โรงเรียนอัสสัมชัญ จัดงานฉลองการก่อตั้งครบ “140 ปี แห่งความภาคภูมิใจ สู่ศตวรรษใหม่ของการศึกษา” - ผู้จัดการออนไลน์",
@@ -469,7 +521,8 @@
       "tag": "thai-foundation",
       "query": "\"คณะเซนต์คาเบรียล\"",
       "summary": "โรงเรียนอัสสัมชัญ จัดงานฉลองการก่อตั้งครบ “140 ปี แห่งความภาคภูมิใจ สู่ศตวรรษใหม่ของการศึกษา”&nbsp;&nbsp;ผู้จัดการออนไลน์",
-      "relevance": 105
+      "relevance": 105,
+      "title_th": "โรงเรียนอัสสัมชัญ จัดงานฉลองการก่อตั้งครบ “140 ปี แห่งความภาคภูมิใจ สู่ศตวรรษใหม่ของการศึกษา” - ผู้จัดการออนไลน์"
     },
     {
       "title": "Zomba Diocese CWA organises Way of Cross at Michiru Shrine - Malawi 24",
@@ -481,7 +534,8 @@
       "tag": "fdls-sisters",
       "query": "\"Daughters of Wisdom\" Catholic",
       "summary": "Zomba Diocese CWA organises Way of Cross at Michiru Shrine&nbsp;&nbsp;Malawi 24",
-      "relevance": 100
+      "relevance": 100,
+      "title_th": "Zomba Diocese CWA จัดงาน Way of Cross ที่ Michiru Shrine - Malawi 24"
     },
     {
       "title": "Avec 100 000 consultations par an, la clinique de la Sagesse cherche à pousser ses murs - Ouest-France",
@@ -493,7 +547,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Avec 100 000 consultations par an, la clinique de la Sagesse cherche à pousser ses murs&nbsp;&nbsp;Ouest-France",
-      "relevance": 100
+      "relevance": 100,
+      "title_th": "Avec 100 000 consultations par an, la clinique de la Sagesse cherche à pousser ses murs - Ouest-France"
     },
     {
       "title": "La congrégation du calvaire de Pontchâteau accueille chaque mois une journée jubilaire - Ouest-France",
@@ -505,7 +560,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "La congrégation du calvaire de Pontchâteau accueille chaque mois une journée jubilaire&nbsp;&nbsp;Ouest-France",
-      "relevance": 100
+      "relevance": 100,
+      "title_th": "La congrégation du calvaire de Pontchâteau accueille chaque mois une journée jubilaire - Ouest-France"
     },
     {
       "title": "Maulévrier. Les écoliers de Saint-Joseph aident Madagascar - Ouest-France",
@@ -517,7 +573,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Maulévrier. Les écoliers de Saint-Joseph aident Madagascar&nbsp;&nbsp;Ouest-France",
-      "relevance": 100
+      "relevance": 100,
+      "title_th": "Maulévrier. Les écoliers de Saint-Joseph aident Madagascar - Ouest-France"
     },
     {
       "title": "Moodbidri: Glorious Christmas celebration held at Carmel School - Daijiworld",
@@ -529,7 +586,8 @@
       "tag": "sg-brothers",
       "query": "\"Brothers of Saint Gabriel\"",
       "summary": "Moodbidri: Glorious Christmas celebration held at Carmel School&nbsp;&nbsp;Daijiworld",
-      "relevance": 100
+      "relevance": 100,
+      "title_th": "Moodbidri: การเฉลิมฉลองคริสต์มาสอันรุ่งโรจน์จัดขึ้นที่โรงเรียนคาร์เมล - Daijiworld"
     },
     {
       "title": "Le mausolée et la chapelle de la Chartreuse ont été cédés à la ville de Brec’h - Ouest-France",
@@ -541,7 +599,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Le mausolée et la chapelle de la Chartreuse ont été cédés à la ville de Brec’h&nbsp;&nbsp;Ouest-France",
-      "relevance": 100
+      "relevance": 100,
+      "title_th": "Le mausolée et la chapelle de la Chartreuse ont été cédés à la ville de Brec’h - Ouest-France"
     },
     {
       "title": "Comment les Égyptiens vivaient-ils à l’époque des pharaons? (vidéo) - Le JDE",
@@ -553,7 +612,8 @@
       "tag": "fdls-sisters",
       "query": "\"Filles de la Sagesse\"",
       "summary": "Comment les Égyptiens vivaient-ils à l’époque des pharaons? (vidéo)&nbsp;&nbsp;Le JDE",
-      "relevance": 100
+      "relevance": 100,
+      "title_th": "Comment les Égyptiens vivaient-ils à l’époque des pharaons? (vidéo) - Le JDE"
     },
     {
       "title": "Pope Leo XIV pays homage to the Immaculate Conception in the Piazza di Spagna: “You who know that nothing is impossible for God, and that God does nothing alone” - exaudi.org",
@@ -565,7 +625,21 @@
       "tag": "devotion",
       "query": "\"Totus Tuus\" Mary Pope",
       "summary": "Pope Leo XIV pays homage to the Immaculate Conception in the Piazza di Spagna: “You who know that nothing is impossible for God, and that God does nothing alone”&nbsp;&nbsp;exaudi.org",
-      "relevance": 95
+      "relevance": 95,
+      "title_th": "สมเด็จพระสันตะปาปาลีโอที่ 14 ถวายสักการะต่อพระปฏิสนธินิรมลในจัตุรัสสปาญา: “ท่านผู้รู้ว่าไม่มีสิ่งใดที่เป็นไปไม่ได้สำหรับพระเจ้า และพระเจ้าไม่ทรงไม่ทำอะไรเลยตามลำพัง” - exaudi.org"
+    },
+    {
+      "title": "Miss Universe Brazil honors Virgin Mary with pageant costume - aleteia.org",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZlNIZkNsYmVzc3JHT0taYlRfSnRYcUpPNkFqakYtQlZMQ0JWRG1RZm42UXVVRGQyYmhiVktvbE9NSjktdkVTbGJqUnpRdE8xRDdObW83WUpIODNxNFBZRi1nenVjY0pFYjF4LTBUVFhzUXQ3Skk2akpOeWxBb196Y1Eyc3NsbWh6ZnJodDFoVXlVN0Q0d0ZZ?oc=5",
+      "pub_date": "2025-11-21T08:00:00+00:00",
+      "pub_ts": 1763712000,
+      "source": "aleteia.org",
+      "lang": "en",
+      "tag": "devotion",
+      "query": "\"Totus Tuus\" Mary Pope",
+      "summary": "Miss Universe Brazil honors Virgin Mary with pageant costume&nbsp;&nbsp;aleteia.org",
+      "relevance": 95,
+      "title_th": "มิสยูนิเวิร์สบราซิล ถวายเกียรติแด่พระแม่มารีด้วยชุดประกวด - aleteia.org"
     },
     {
       "title": "นายกฯ เปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ชื่นชมสถาบันบ่มเพาะ “สุภาพบุรุษอัสสัมชัญ” สร้างคุณูปการแก่ประเทศ . วันนี้ (16 ก.พ.69) เวลา 13.30 น. นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและ รมว.มหาดไทย เป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร - facebook.com",
@@ -577,7 +651,8 @@
       "tag": "thai-school",
       "query": "\"โรงเรียนอัสสัมชัญ\"",
       "summary": "นายกฯ เปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ชื่นชมสถาบันบ่มเพาะ “สุภาพบุรุษอัสสัมชัญ” สร้างคุณูปการแก่ประเทศ . วันนี้ (16 ก.พ.69) เวลา 13.30 น. นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและ รมว.มหาดไทย เป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร&nbsp;&nbsp;faceb",
-      "relevance": 90
+      "relevance": 90,
+      "title_th": "นายกฯ เปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ชื่นชมสถาบันบ่มเพาะ “สุภาพบุรุษอัสสัมชัญ” สร้างคุณูปการแก่ประเทศ . วันนี้ (16 ก.พ.69) เวลา 13.30 น. นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและ รมว.มหาดไทย เป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร - facebook.com"
     },
     {
       "title": "การเมือง - อนุทิน เยือนถิ่นเก่าอัสสัมชัญ ฉลองครบรอบ 141 ปี โบกมือทักทายศิษย์ปัจจุบัน - แนวหน้า",
@@ -589,7 +664,8 @@
       "tag": "thai-school",
       "query": "\"โรงเรียนอัสสัมชัญ\"",
       "summary": "การเมือง - อนุทิน เยือนถิ่นเก่าอัสสัมชัญ ฉลองครบรอบ 141 ปี โบกมือทักทายศิษย์ปัจจุบัน&nbsp;&nbsp;แนวหน้า",
-      "relevance": 90
+      "relevance": 90,
+      "title_th": "การเมือง - อนุทิน เยือนถิ่นเก่าอัสสัมชัญ ฉลองครบรอบ 141 ปี โบกมือทักทายศิษย์ปัจจุบัน - แนวหน้า"
     },
     {
       "title": "วันนี้ (16 ก.พ. 2569) นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงมหาดไทย เดินทางมาเป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร Saint Louis-Marie Memorial Building โรงเรียนอัสสัมชัญ บางรัก ถนนเจริญกรุง เขตบางรัก กรุงเทพฯ ภาพ วั - facebook.com",
@@ -601,7 +677,8 @@
       "tag": "thai-school",
       "query": "\"โรงเรียนอัสสัมชัญ\"",
       "summary": "วันนี้ (16 ก.พ. 2569) นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงมหาดไทย เดินทางมาเป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร Saint Louis-Marie Memorial Building โรงเรียนอัสสัมชัญ บางรัก ถนนเจริญกรุง เขตบางรัก กรุงเทพฯ ภาพ วั&nbsp;&nbsp;faceboo",
-      "relevance": 90
+      "relevance": 90,
+      "title_th": "วันนี้ (16 ก.พ. 2569) นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงมหาดไทย เดินทางมาเป็นประธานในพิธีเปิดงานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญ ณ อาคาร Saint Louis-Marie Memorial Building โรงเรียนอัสสัมชัญ บางรัก ถนนเจริญกรุง เขตบางรัก กรุงเทพฯ ภาพ วั - facebook.com"
     },
     {
       "title": "“อนุทิน” เข้าทำเนียบฯ ก่อนเปิดงานครบรอบ 141 ปี ที่ รร.อัสสัมชัญ บางรัก บ่ายนี้ - Thairath.co.th",
@@ -613,31 +690,8 @@
       "tag": "thai-school",
       "query": "\"โรงเรียนอัสสัมชัญ\"",
       "summary": "“อนุทิน” เข้าทำเนียบฯ ก่อนเปิดงานครบรอบ 141 ปี ที่ รร.อัสสัมชัญ บางรัก บ่ายนี้&nbsp;&nbsp;Thairath.co.th",
-      "relevance": 90
-    },
-    {
-      "title": "นายกฯ เข้าทำเนียบ ก่อนเป็นประธานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญบ่ายนี้ - Matichon Online",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5fV1RRaGh1QWJkVUQ0T2JZeGJ5WjJqMmlYdXdPN2g0TmtSRmw4OFlDQ05wZ24tMnM0OFVJbG13N21FZnBBcmVFc09kb0tlbDdSRnVQVm9xUnFab2FS?oc=5",
-      "pub_date": "2026-02-16T08:00:00+00:00",
-      "pub_ts": 1771228800,
-      "source": "Matichon Online",
-      "lang": "th",
-      "tag": "thai-school",
-      "query": "\"โรงเรียนอัสสัมชัญ\"",
-      "summary": "นายกฯ เข้าทำเนียบ ก่อนเป็นประธานฉลองครบรอบ 141 ปี โรงเรียนอัสสัมชัญบ่ายนี้&nbsp;&nbsp;Matichon Online",
-      "relevance": 90
-    },
-    {
-      "title": "นายกฯ​ เข้าทำเนียบ ก่อนเป็นปธ.พิธีเปิดงานฉลองครบรอบ 141 ปี อัสสัมชัญ - อมรินทร์ทีวี ช่อง 34",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mMmFsbWlmQ1hWMnZ5elFtYTY4aXFXa1pIWk95LTRBWmZfVUJYNFlTWjdPNFNvaUs4ZWZQSUFrTDJsMGpwNG16TV9tYTV5LV9nYlJuWmFYWQ?oc=5",
-      "pub_date": "2026-02-16T08:00:00+00:00",
-      "pub_ts": 1771228800,
-      "source": "อมรินทร์ทีวี ช่อง 34",
-      "lang": "th",
-      "tag": "thai-school",
-      "query": "\"โรงเรียนอัสสัมชัญ\"",
-      "summary": "นายกฯ​ เข้าทำเนียบ ก่อนเป็นปธ.พิธีเปิดงานฉลองครบรอบ 141 ปี อัสสัมชัญ&nbsp;&nbsp;อมรินทร์ทีวี ช่อง 34",
-      "relevance": 90
+      "relevance": 90,
+      "title_th": "“อนุทิน” เข้าทำเนียบฯ ก่อนเปิดงานครบรอบ 141 ปี ที่ รร.อัสสัมชัญ บางรัก บ่ายนี้ - Thairath.co.th"
     },
     {
       "title": "ทักษิณ ปลื้มกลุ่มเพื่อนมงฟอร์ตฯ มาให้กำลังใจหน้าเรือนจำ ไม่ฝากอะไรถึงเลือกตั้ง - ข่าวสด",
@@ -649,7 +703,8 @@
       "tag": "thai-school",
       "query": "\"มงฟอร์ตวิทยาลัย\"",
       "summary": "ทักษิณ ปลื้มกลุ่มเพื่อนมงฟอร์ตฯ มาให้กำลังใจหน้าเรือนจำ ไม่ฝากอะไรถึงเลือกตั้ง&nbsp;&nbsp;ข่าวสด",
-      "relevance": 90
+      "relevance": 90,
+      "title_th": "ทักษิณ ปลื้มกลุ่มเพื่อนมงฟอร์ตฯ มาให้กำลังใจหน้าเรือนจำ ไม่ฝากอะไรถึงเลือกตั้ง - ข่าวสด"
     },
     {
       "title": "การเมือง - อิ๊งค์ เยี่ยมทักษิณ ขอบคุณกลุ่มเพื่อนมงฟอร์ตฯมาให้กำลังใจ แย้มพ่อเรียนทำอาหารในเรือนจำ - แนวหน้า",
@@ -661,7 +716,8 @@
       "tag": "thai-school",
       "query": "\"มงฟอร์ตวิทยาลัย\"",
       "summary": "การเมือง - อิ๊งค์ เยี่ยมทักษิณ ขอบคุณกลุ่มเพื่อนมงฟอร์ตฯมาให้กำลังใจ แย้มพ่อเรียนทำอาหารในเรือนจำ&nbsp;&nbsp;แนวหน้า",
-      "relevance": 90
+      "relevance": 90,
+      "title_th": "การเมือง - อิ๊งค์ เยี่ยมทักษิณ ขอบคุณกลุ่มเพื่อนมงฟอร์ตฯมาให้กำลังใจ แย้มพ่อเรียนทำอาหารในเรือนจำ - แนวหน้า"
     },
     {
       "title": "แพทองธาร พร้อมครอบครัวเยี่ยม ‘ทักษิณ’ เผยพ่อฝากความคิดถึงเพื่อนมงฟอร์ต ยันไร้สั่งการการเมืองโค้งสุดท้ายเลือกตั้ง - thestandard.co",
@@ -673,7 +729,8 @@
       "tag": "thai-school",
       "query": "\"มงฟอร์ตวิทยาลัย\"",
       "summary": "แพทองธาร พร้อมครอบครัวเยี่ยม ‘ทักษิณ’ เผยพ่อฝากความคิดถึงเพื่อนมงฟอร์ต ยันไร้สั่งการการเมืองโค้งสุดท้ายเลือกตั้ง&nbsp;&nbsp;thestandard.co",
-      "relevance": 90
+      "relevance": 90,
+      "title_th": "แพทองธาร พร้อมครอบครัวเยี่ยม ‘ทักษิณ’ เผยพ่อฝากความคิดถึงเพื่อนมงฟอร์ต ยันไร้สั่งการการเมืองโค้งสุดท้ายเลือกตั้ง - thestandard.co"
     },
     {
       "title": "\"อิ๊งค์-ปอ\" เยี่ยม \"ทักษิณ\" คุยเรื่องคอร์สทำอาหาร ปัดตอบการเมือง เพื่อนมงฟอร์ตฯ แห่ให้กำลังใจ - ผู้จัดการออนไลน์",
@@ -685,7 +742,8 @@
       "tag": "thai-school",
       "query": "\"มงฟอร์ตวิทยาลัย\"",
       "summary": "\"อิ๊งค์-ปอ\" เยี่ยม \"ทักษิณ\" คุยเรื่องคอร์สทำอาหาร ปัดตอบการเมือง เพื่อนมงฟอร์ตฯ แห่ให้กำลังใจ&nbsp;&nbsp;ผู้จัดการออนไลน์",
-      "relevance": 90
+      "relevance": 90,
+      "title_th": "\"อิ๊งค์-ปอ\" เยี่ยม \"ทักษิณ\" คุยเรื่องคอร์สทำอาหาร ปัดตอบการเมือง เพื่อนมงฟอร์ตฯ แห่ให้กำลังใจ - ผู้จัดการออนไลน์"
     },
     {
       "title": "5 Glorious Reasons Mary Should Reign as the Queen of Your Heart - ChurchPOP",
@@ -697,7 +755,8 @@
       "tag": "founder",
       "query": "\"Saint Louis de Montfort\"",
       "summary": "5 Glorious Reasons Mary Should Reign as the Queen of Your Heart&nbsp;&nbsp;ChurchPOP",
-      "relevance": 90
+      "relevance": 90,
+      "title_th": "5 เหตุผลที่น่ายินดีที่แมรี่ควรครองราชย์เป็นราชินีแห่งหัวใจของคุณ - ChurchPOP"
     },
     {
       "title": "CGA ประกาศแต่งตั้ง \"สุนันต์ อรุณนพรัตน์\" เป็นนายกสมาพันธ์ฯ คนใหม่ - เดลินิวส์",
@@ -709,7 +768,8 @@
       "tag": "thai-foundation",
       "query": "\"คณะเซนต์คาเบรียล\"",
       "summary": "CGA ประกาศแต่งตั้ง \"สุนันต์ อรุณนพรัตน์\" เป็นนายกสมาพันธ์ฯ คนใหม่&nbsp;&nbsp;เดลินิวส์",
-      "relevance": 90
+      "relevance": 90,
+      "title_th": "CGA ประกาศแต่งตั้ง \"สุนันต์ อรุณนพรัตน์\" เป็นนายกสมาพันธ์ฯ คนใหม่ - เดลินิวส์"
     },
     {
       "title": "'He Looked into My Soul': A Priest's Unforgettable Encounter with Pope Saint John Paul II - ChurchPOP",
@@ -721,7 +781,8 @@
       "tag": "devotion",
       "query": "\"Totus Tuus\" Mary Pope",
       "summary": "'He Looked into My Soul': A Priest's Unforgettable Encounter with Pope Saint John Paul II&nbsp;&nbsp;ChurchPOP",
-      "relevance": 80
+      "relevance": 80,
+      "title_th": "'เขามองเข้าไปในจิตวิญญาณของฉัน': การเผชิญหน้าอันน่าจดจำของนักบวชกับสมเด็จพระสันตะปาปานักบุญยอห์นปอลที่ 2 - ChurchPOP"
     }
   ]
 }

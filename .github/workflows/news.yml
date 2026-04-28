@@ -22,7 +22,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install feedparser
+        run: pip install feedparser deep_translator
 
       - name: Fetch news feed
         run: python3 scripts/fetch_news.py

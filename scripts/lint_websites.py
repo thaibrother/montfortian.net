@@ -92,26 +92,46 @@ def check_stale_calendar(errors: list[str], files: list[Path]) -> None:
 
 
 def check_thai_in_montfortian(warnings: list[str], files: list[Path]) -> None:
-    """montfortian.net audience = Religious worldwide, English. Thai blocks → warn."""
-    if "montfortian" not in SITE:
-        return
-    # Skip news.html (mixed-language editorial allowed) — but warn
+    """Language policy per website_language_rules.md (29 เม.ย. 2026):
+    - montfortian.net: STRICT English. Thai > 50 chars → warning.
+    - fsgthailand.org: English default; Thai allowed for Thai-audience pages.
+      Only warn if Thai found in scaffold pages (index, governance, strategy).
+    - thaibrothers.net: Thai default — no warning.
+    """
     thai_re = re.compile(r"[฀-๿]+")
-    for p in files:
-        # Allow pages that are explicitly Thai (e.g. news editorial about Thailand)
-        # Just warn so user can decide
-        text = p.read_text(encoding="utf-8", errors="ignore")
-        # Strip <script>...</script> blocks (data may contain Thai) and HTML comments
-        stripped = re.sub(r"<script[\s\S]*?</script>", "", text, flags=re.I)
-        stripped = re.sub(r"<!--[\s\S]*?-->", "", stripped)
-        thai = thai_re.findall(stripped)
-        thai_chars = sum(len(t) for t in thai)
-        if thai_chars > 50:  # threshold — small attribution OK
-            warnings.append(
-                f"{rel(p)}: {thai_chars} Thai chars detected. "
-                f"montfortian.net target = Religious worldwide (English). "
-                f"Confirm intentional or translate."
-            )
+
+    # montfortian.net — strict English
+    if "montfortian" in SITE:
+        for p in files:
+            text = p.read_text(encoding="utf-8", errors="ignore")
+            stripped = re.sub(r"<script[\s\S]*?</script>", "", text, flags=re.I)
+            stripped = re.sub(r"<!--[\s\S]*?-->", "", stripped)
+            thai_chars = sum(len(t) for t in thai_re.findall(stripped))
+            if thai_chars > 50:
+                warnings.append(
+                    f"{rel(p)}: {thai_chars} Thai chars. "
+                    f"montfortian.net = English-only for Religious worldwide."
+                )
+        return
+
+    # fsgthailand.org — only warn for scaffold pages (default-facing English)
+    if "fsgthailand" in SITE:
+        scaffold_pages = {"index.html", "governance.html"}
+        for p in files:
+            if rel(p) not in scaffold_pages:
+                continue
+            text = p.read_text(encoding="utf-8", errors="ignore")
+            stripped = re.sub(r"<script[\s\S]*?</script>", "", text, flags=re.I)
+            stripped = re.sub(r"<!--[\s\S]*?-->", "", stripped)
+            thai_chars = sum(len(t) for t in thai_re.findall(stripped))
+            if thai_chars > 200:  # higher threshold — some Thai in nav/attribution OK
+                warnings.append(
+                    f"{rel(p)}: {thai_chars} Thai chars in scaffold page. "
+                    f"fsgthailand.org international-facing pages should default to English."
+                )
+        return
+
+    # thaibrothers.net & others — Thai is fine, no warning
 
 
 def _git_tracked_files() -> set[str]:

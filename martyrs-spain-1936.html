@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>49 Martyrs of the Brothers of Saint Gabriel — Catalonia, 1936 | Montfortian Network</title>
-<meta name="description" content="Pope Leo XIV recognizes the martyrdom of 49 Brothers of Saint Gabriel and a diocesan priest, killed for the faith in Catalonia, Spain, between July and November 1936. Decree promulgated 27 April 2026.">
+<meta name="description" content="Pope Leo XIV recognizes the martyrdom of 49 Brothers of Saint Gabriel and one diocesan priest, who died in hatred of the faith in Catalonia, Spain, between July and November 1936. Decree promulgated 27 April 2026 — a milestone toward Beatification.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -20,7 +20,7 @@
   --text-light: #5a5a5a;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Inter', system-ui, sans-serif; background: var(--cream); color: var(--text); line-height: 1.7; }
+body { font-family: 'Inter', system-ui, sans-serif; background: var(--cream); color: var(--text); line-height: 1.8; }
 h1, h2, h3 { font-family: 'Cinzel', serif; font-weight: 600; }
 
 .topnav { background: rgba(10,31,61,0.95); padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 100; }
@@ -39,19 +39,19 @@ h1, h2, h3 { font-family: 'Cinzel', serif; font-weight: 600; }
   background-image: radial-gradient(circle at 30% 40%, rgba(201,167,78,0.15) 0%, transparent 60%);
   pointer-events: none;
 }
-.hero .cross { font-size: 56px; color: var(--gold); margin-bottom: 24px; opacity: 0.85; }
+.hero .dove { font-size: 56px; color: var(--gold); margin-bottom: 24px; opacity: 0.85; }
 .hero .announce-line {
   font-size: 0.85em; letter-spacing: 4px; text-transform: uppercase;
   color: var(--light-gold); margin-bottom: 18px; opacity: 0.9;
 }
 .hero h1 {
-  font-size: clamp(1.8em, 5vw, 3em); font-weight: 700;
-  margin-bottom: 20px; line-height: 1.25;
+  font-size: clamp(1.7em, 4.6vw, 2.7em); font-weight: 700;
+  margin-bottom: 20px; line-height: 1.3;
 }
 .hero .subtitle {
-  font-size: clamp(1em, 2.4vw, 1.2em);
+  font-size: clamp(1em, 2.4vw, 1.18em);
   max-width: 760px; margin: 0 auto 30px; opacity: 0.92;
-  font-weight: 300;
+  font-weight: 300; line-height: 1.7;
 }
 .hero .date-badge {
   display: inline-block;
@@ -62,108 +62,129 @@ h1, h2, h3 { font-family: 'Cinzel', serif; font-weight: 600; }
 }
 
 .container { max-width: 880px; margin: 0 auto; padding: 60px 24px; }
-section { margin-bottom: 60px; }
+
+.photo-section {
+  max-width: 720px; margin: 0 auto 50px;
+  text-align: center;
+}
+.photo-section img {
+  max-width: 100%; height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+.photo-section .caption {
+  margin-top: 14px; font-size: 0.95em;
+  color: var(--text-light); font-style: italic;
+}
+.photo-section .caption strong { color: var(--navy); font-style: normal; }
+
+section { margin-bottom: 56px; }
 section h2 {
-  font-size: 1.65em; color: var(--navy); margin-bottom: 20px;
+  font-size: 1.55em; color: var(--navy); margin-bottom: 18px;
   border-left: 5px solid var(--gold); padding-left: 18px;
+  display: flex; align-items: center; gap: 12px;
 }
 section p { margin-bottom: 16px; font-size: 1.05em; color: var(--text); }
 section .lede {
-  font-size: 1.12em; color: var(--text-light); font-weight: 400;
+  font-size: 1.1em; color: var(--text-light); font-weight: 400;
   margin-bottom: 24px;
 }
 
-blockquote {
-  background: var(--paper); border-left: 4px solid var(--gold);
-  padding: 22px 28px; margin: 28px 0;
-  font-style: italic; color: var(--text-light);
+ul.martyrs-list {
+  background: var(--paper); border-radius: 12px;
+  padding: 22px 28px; margin: 22px 0;
+  border-left: 4px solid var(--accent);
+  list-style: none;
+}
+ul.martyrs-list li {
+  margin: 10px 0; padding-left: 18px; position: relative;
+}
+ul.martyrs-list li::before {
+  content: '✝'; color: var(--accent);
+  position: absolute; left: 0; top: 2px;
+  font-size: 0.9em;
+}
+ul.martyrs-list li strong { color: var(--navy); }
+
+.fact-pills {
+  display: flex; gap: 12px; flex-wrap: wrap;
+  margin: 24px 0;
+}
+.fact-pill {
+  background: white; padding: 12px 18px; border-radius: 10px;
+  border: 1px solid var(--light-gold); font-size: 0.95em;
+}
+.fact-pill .num {
+  font-weight: 700; color: var(--accent); margin-right: 6px;
+}
+
+blockquote.message {
+  background: linear-gradient(135deg, #fff8f0 0%, #fff4e6 100%);
+  border-left: 5px solid var(--gold);
+  padding: 26px 30px; margin: 30px 0;
   border-radius: 0 12px 12px 0;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  font-size: 1.04em;
 }
-blockquote cite {
-  display: block; font-style: normal; font-size: 0.9em;
-  color: var(--navy); margin-top: 12px; font-weight: 600;
-}
-
-.facts-box {
-  background: linear-gradient(135deg, #f7f1e1 0%, #faf8f0 100%);
-  border: 1px solid var(--light-gold);
-  border-radius: 16px; padding: 30px; margin: 30px 0;
-}
-.facts-box h3 { color: var(--navy); margin-bottom: 16px; font-size: 1.18em; }
-.facts-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 18px; margin-top: 18px;
-}
-.fact-item {
-  background: white; padding: 16px; border-radius: 10px;
-  border-top: 3px solid var(--gold);
-}
-.fact-item .label { font-size: 0.78em; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-light); margin-bottom: 6px; }
-.fact-item .value { font-weight: 600; color: var(--navy); font-size: 1.05em; }
-
-.names-list {
-  background: var(--paper); border-radius: 14px;
-  padding: 28px 32px; margin: 28px 0;
-  border: 1px dashed #d5c89d;
-}
-.names-list h3 { color: var(--accent); margin-bottom: 14px; font-size: 1.2em; }
-.names-list .leader {
-  background: var(--cream); padding: 14px 18px; border-radius: 8px;
-  margin: 14px 0; border-left: 4px solid var(--accent);
-}
-.names-list .leader .name {
-  font-family: 'Cinzel', serif; color: var(--navy); font-weight: 700; font-size: 1.1em;
-}
-.names-list .leader .born { font-size: 0.92em; color: var(--text-light); margin-top: 4px; }
-.names-list .companions {
-  font-size: 0.96em; color: var(--text-light); margin-top: 14px; line-height: 1.55;
+blockquote.message cite {
+  display: block; font-style: normal; font-size: 0.92em;
+  color: var(--navy); margin-top: 14px; font-weight: 600;
 }
 
-.source-card {
-  background: var(--navy); color: white;
-  padding: 28px 30px; border-radius: 14px; margin: 40px 0;
-}
-.source-card h3 {
-  color: var(--light-gold); margin-bottom: 12px; font-size: 1.1em;
-  border: none; padding: 0;
-}
-.source-card a {
-  color: white; text-decoration: underline;
-  text-decoration-color: rgba(232,213,160,0.5);
-  word-break: break-all;
-}
-.source-card a:hover { text-decoration-color: var(--light-gold); }
-.source-card .meta { font-size: 0.85em; opacity: 0.78; margin-top: 8px; }
-
-.reflection {
+.prayer-card {
   background: linear-gradient(135deg, var(--dark-navy) 0%, var(--navy) 100%);
-  color: white; padding: 40px 32px; border-radius: 16px;
-  margin: 40px 0; text-align: center;
+  color: white; padding: 44px 36px; border-radius: 16px;
+  margin: 40px 0;
+  text-align: center;
 }
-.reflection h3 {
-  color: var(--light-gold); margin-bottom: 18px; font-size: 1.3em;
+.prayer-card .candle { font-size: 36px; margin-bottom: 18px; opacity: 0.9; }
+.prayer-card h3 {
+  color: var(--light-gold); margin-bottom: 22px; font-size: 1.35em;
 }
-.reflection p { color: rgba(255,255,255,0.92); font-size: 1.05em; }
-.reflection .verse { font-style: italic; color: var(--light-gold); margin-top: 20px; font-size: 1.1em; }
+.prayer-card p {
+  color: rgba(255,255,255,0.95); font-size: 1.06em;
+  margin-bottom: 12px; line-height: 1.85;
+}
+.prayer-card .amen {
+  margin-top: 18px; font-style: italic; color: var(--light-gold);
+  font-size: 1.1em;
+}
 
-ul.further { margin-left: 24px; margin-bottom: 24px; }
-ul.further li { margin-bottom: 8px; }
-ul.further li a { color: var(--navy); }
-ul.further li span.note { color: var(--text-light); font-size: 0.92em; }
+.invitation {
+  background: var(--paper);
+  border-radius: 14px; padding: 32px 30px;
+  margin: 36px 0;
+  border-top: 4px solid var(--gold);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.invitation h3 {
+  color: var(--navy); font-size: 1.2em; margin-bottom: 14px;
+  display: flex; align-items: center; gap: 10px;
+}
+
+.amdg {
+  text-align: center; margin: 50px 0 30px;
+  font-family: 'Cinzel', serif; font-size: 1.2em;
+  color: var(--gold); letter-spacing: 2px;
+}
+.amdg .translation {
+  display: block; font-family: 'Inter', sans-serif;
+  font-size: 0.85em; color: var(--text-light);
+  letter-spacing: 0; margin-top: 6px;
+  font-style: italic;
+}
 
 footer {
   background: var(--dark-navy); color: rgba(255,255,255,0.7);
   padding: 40px 24px; text-align: center;
-  font-size: 0.9em;
+  font-size: 0.92em;
 }
 footer a { color: var(--light-gold); text-decoration: none; }
 
 @media (max-width: 600px) {
   .container { padding: 40px 18px; }
   .hero { padding: 60px 18px 80px; }
-  section h2 { font-size: 1.35em; }
-  .facts-box, .names-list { padding: 22px; }
+  section h2 { font-size: 1.3em; }
+  .prayer-card { padding: 32px 22px; }
 }
 </style>
 </head>
@@ -175,242 +196,217 @@ footer a { color: var(--light-gold); text-decoration: none; }
 </nav>
 
 <header class="hero">
-  <div class="cross">✝</div>
+  <div class="dove">🕊️</div>
   <div class="announce-line">Vatican · 27 April 2026</div>
-  <h1>49 Martyrs of the Brothers of Saint Gabriel<br>Catalonia · 1936</h1>
+  <h1>Pope Leo XIV recognizes the martyrdom<br>of 49 Brothers of Saint Gabriel</h1>
   <p class="subtitle">
-    Pope Leo XIV has recognized the martyrdom
-    of forty-nine Brothers of Saint Gabriel together with one diocesan priest,
-    killed in hatred of the faith between July and November 1936
-    in Catalonia, Spain.
+    A historic step toward Beatification<br>
+    90 years after their witness in the Spanish Civil War
   </p>
-  <div class="date-badge">A milestone toward Beatification</div>
+  <div class="date-badge">In odium fidei · in hatred of the faith</div>
 </header>
 
 <div class="container">
 
+  <!-- Group photo of the 50 martyrs -->
+  <div class="photo-section">
+    <img src="images/martyrs/hermanos-gabrielistas-1936.jpg"
+         alt="Hermanos Gabrielistas — Testigos de la Fe 1936 — group portrait of 49 Brothers of Saint Gabriel and one diocesan priest, martyred in the Spanish Civil War"
+         onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+    <div style="display:none;background:#f5e8d0;padding:40px;border-radius:8px;color:#8b0000;font-style:italic">
+      [Image: Hermanos Gabrielistas · Testigos de la Fe · 1936]
+    </div>
+    <div class="caption">
+      <strong>HERMANOS GABRIELISTAS · TESTIGOS DE LA FE · 1936</strong><br>
+      Brothers of Saint Gabriel — Witnesses to the Faith
+    </div>
+  </div>
+
+  <!-- The Decree -->
   <section>
-    <h2>The Decree</h2>
+    <h2>📜 The Decree of 27 April 2026</h2>
     <p class="lede">
-      On Monday, 27 April 2026, during an audience with Cardinal Marcello Semeraro,
-      Prefect of the Dicastery for the Causes of Saints, Pope Leo XIV authorized
-      the promulgation of decrees concerning martyrdom, the offering of life,
-      and the heroic virtues of several Servants of God.
+      On Monday, 27 April 2026, His Holiness Pope Leo XIV authorized the
+      promulgation of decrees recognizing the <strong>martyrdom</strong>,
+      offering of life, and heroic virtues of several Servants of God.
     </p>
+    <p>
+      Cardinal <strong>Marcello Semeraro</strong>, Prefect of the Dicastery for
+      the Causes of Saints, was received in audience to present these decrees.
+    </p>
+    <p>
+      Among the decrees promulgated on that day, one brought profound joy to
+      the Brothers of Saint Gabriel worldwide, including the Province of Thailand.
+    </p>
+  </section>
+
+  <!-- Those recognized -->
+  <section>
+    <h2>✨ Those Recognized — 49 Brothers + 1 Diocesan Priest</h2>
+    <p class="lede">The decree recognizes the martyrdom of:</p>
+
+    <ul class="martyrs-list">
+      <li>
+        <strong>Bro. Stanislao Ortega García</strong>
+        (born Lorenzo) — leader of the group
+      </li>
+      <li>
+        <strong>48 fellow Brothers</strong>
+        of the Institute of the Brothers of Christian Instruction of Saint Gabriel
+      </li>
+      <li>
+        <strong>Fr. Emanuel Berenguer Clusella</strong>
+        — diocesan priest and chaplain
+      </li>
+    </ul>
+
+    <p style="text-align:center;font-size:1.12em;color:var(--accent);font-weight:600;margin-top:20px">
+      A total of <strong>50 Servants of God</strong>
+      who gave their lives in witness to the faith of Christ.
+    </p>
+  </section>
+
+  <!-- Events 90 years ago -->
+  <section>
+    <h2>🕯️ Ninety Years Ago</h2>
+    <p>
+      They were killed between <strong>July and November 1936</strong>
+      in various locations across <strong>Catalonia, Spain</strong>,
+      amid the religious persecution and hatred of the faith
+      (<em>in odium fidei</em>) that marked the early months of the Spanish
+      Civil War (1936–1939).
+    </p>
+    <p>
+      It was one of the most violent persecutions of the Church in the 20th
+      century — an estimated <strong>6,832 religious and clergy</strong> were
+      killed across Spain in that brief period.
+    </p>
+
+    <div class="fact-pills">
+      <div class="fact-pill"><span class="num">49</span>Brothers of Saint Gabriel</div>
+      <div class="fact-pill"><span class="num">+1</span>Diocesan priest</div>
+      <div class="fact-pill"><span class="num">~6,832</span>Religious & clergy in Spain</div>
+      <div class="fact-pill"><span class="num">90</span>Years since martyrdom</div>
+    </div>
 
     <p>
-      Among them is the recognition of the <strong>martyrdom</strong>
-      of the Servant of God <strong>Stanislao Ortega García</strong>
-      (born Lorenzo) and 48 companions, members of the
-      <strong>Institute of the Brothers of Christian Instruction of Saint Gabriel</strong>,
-      together with the diocesan priest <strong>Emanuel Berenguer Clusella</strong>.
+      Threatened with death, the 49 Brothers and their chaplain did not deny
+      their faith, did not abandon the Lord, and did not forsake their vocation
+      as <strong>Brothers entrusted with the formation of youth</strong>
+      according to the spirit of <strong>Saint Louis-Marie Grignion de Montfort</strong>,
+      our Founder.
     </p>
+  </section>
 
-    <blockquote>
-      They were killed between July and November 1936 in various locations of Catalonia,
-      Spain, during the same period of religious persecution
-      &mdash; <strong>in hatred of the faith</strong>.
-      <cite>&mdash; Vatican News, 27 April 2026</cite>
+  <!-- Historical context of the Cause -->
+  <section>
+    <h2>📚 Historical Context of the Cause</h2>
+    <p>
+      According to the records of the Brothers of Saint Gabriel, the Cause for
+      Beatification of the 49 Brothers and their chaplain — all killed between
+      July and November 1936 — was opened in <strong>2001</strong>.
+    </p>
+    <p>
+      The diocesan phase was conducted at the Archdiocese of Barcelona and
+      concluded in <strong>2005</strong>, after the gathering of testimonies
+      and documentary evidence concerning the circumstances of their deaths.
+    </p>
+    <p>
+      The dossier was then forwarded to Rome. Finally, on
+      <strong>27 April 2026</strong>, His Holiness Pope Leo XIV granted official
+      recognition of their martyrdom — opening the way to their proclamation
+      as <strong>Blesseds (Beatification)</strong>, the first step toward
+      <strong>Canonization</strong>.
+    </p>
+  </section>
+
+  <!-- Message from the Superior General -->
+  <section>
+    <h2>📖 Message from the Superior General</h2>
+    <blockquote class="message">
+      Bro. <strong>Dionigi Taffarello</strong>, Superior General of the
+      Brothers of Saint Gabriel, has invited Brothers, teachers, students,
+      and collaborators throughout the world to join in
+      <strong>three days of prayer for the 49 Servants of God and martyrs</strong>,
+      and to make known the witness of these Brothers who gave their lives
+      in faithful service.
+      <cite>— Bro. Dionigi Taffarello, Superior General SG</cite>
     </blockquote>
   </section>
 
+  <!-- Prayer -->
   <section>
-    <h2>Historical Context</h2>
-    <p class="lede">
-      1936 &mdash; the Spanish Civil War began in July, ushering in what historians
-      call the &ldquo;Red Terror&rdquo; in which Catholic religious and clergy were
-      persecuted on an unprecedented scale.
-    </p>
+    <div class="prayer-card">
+      <div class="candle">🕯️</div>
+      <h3>Prayer</h3>
+      <p><strong>O Lord,</strong> grant honour to the Brothers of past generations,<br>
+      who bore witness to faith and love for You with their very lives.</p>
 
-    <div class="facts-box">
-      <h3>By the numbers</h3>
-      <div class="facts-grid">
-        <div class="fact-item">
-          <div class="label">Brothers of Saint Gabriel</div>
-          <div class="value">49</div>
-        </div>
-        <div class="fact-item">
-          <div class="label">+ Diocesan priest</div>
-          <div class="value">1</div>
-        </div>
-        <div class="fact-item">
-          <div class="label">In Barcelona alone</div>
-          <div class="value">46</div>
-        </div>
-        <div class="fact-item">
-          <div class="label">Period of killings</div>
-          <div class="value">Jul&ndash;Nov 1936</div>
-        </div>
-        <div class="fact-item">
-          <div class="label">Cause for Beatification opened</div>
-          <div class="value">2001</div>
-        </div>
-        <div class="fact-item">
-          <div class="label">Total Catholic clergy/religious killed</div>
-          <div class="value">~6,832</div>
-        </div>
-      </div>
-    </div>
+      <p>Protect and strengthen the Brothers serving in the present,<br>
+      that they may stand firm, faithful, and full of love,<br>
+      after the example of <strong>Saint Louis-Marie de Montfort, our beloved Father</strong>.</p>
 
-    <p>
-      Across Spain, approximately <strong>6,832 Catholic clergy and religious</strong>
-      were killed &mdash; including 13 bishops, nearly 4,200 diocesan priests,
-      and thousands of religious men and women. It was the largest religious
-      persecution of the 20th century in Western Europe.
-    </p>
+      <p>And call those whom You have chosen<br>
+      to come and serve You as Brothers in the time to come,<br>
+      that in all things they may give You glory.</p>
 
-    <p>
-      In Barcelona alone, <strong>46 of the 49 Gabrielite Brothers</strong> were murdered,
-      sharing the fate of religious from many congregations whose lives and educational
-      apostolate were rooted in Catalonia.
-    </p>
-  </section>
-
-  <section>
-    <h2>The Group and Its Leader</h2>
-
-    <div class="names-list">
-      <h3>✝ Stanislao Ortega García and his companions</h3>
-
-      <div class="leader">
-        <div class="name">Servant of God Stanislao Ortega García</div>
-        <div class="born">Born Lorenzo &middot; Brother of Saint Gabriel</div>
-      </div>
-
-      <div class="leader">
-        <div class="name">Father Emanuel Berenguer Clusella</div>
-        <div class="born">Diocesan priest &middot; companion in martyrdom</div>
-      </div>
-
-      <div class="companions">
-        <strong>+ 48 fellow Brothers of Saint Gabriel</strong>
-        living in communities across Catalonia.
-        Each had given his life to the teaching apostolate
-        in the spirit of Saint Louis-Marie de Montfort, our Founder.
-      </div>
-    </div>
-
-    <p>
-      The Cause for Beatification of these Servants of God was opened in
-      <strong>2001</strong>. After 25 years of canonical examination,
-      Pope Leo XIV recognized their martyrdom on 27 April 2026 &mdash;
-      a decisive step toward their proclamation as <strong>Blesseds</strong>.
-    </p>
-  </section>
-
-  <section class="reflection">
-    <h3>For the Montfortian family</h3>
-    <p>
-      One day before the 310th anniversary of the death of our Founder,
-      Saint Louis-Marie de Montfort, the Church has given us a gift:
-      the recognition that 49 of our brothers, heirs to his charism,
-      stood firm in faith to the very end.
-    </p>
-    <p>
-      They did not choose to be saints &mdash; they chose to be Brothers
-      of Saint Gabriel faithfully: teaching the young, serving the poor,
-      consecrating themselves to Jesus through Mary &mdash; until the day
-      when everything had to be witnessed in flesh and blood,
-      and they remained who they were.
-    </p>
-    <p class="verse">
-      &ldquo;Whoever loses his life for my sake will save it.&rdquo;
-      &mdash; Luke 9:24
-    </p>
-  </section>
-
-  <section>
-    <h2>Source</h2>
-
-    <div class="source-card">
-      <h3>📰 Original article — Vatican News</h3>
-      <a href="https://www.vaticannews.va/en/pope/news/2026-04/pope-leo-xiv-decrees-causes-saints-martyrs-spain-italy-netherlan.html" target="_blank" rel="noopener">
-        Pope recognizes martyrdom of 49 Spaniards during civil war
-      </a>
-      <div class="meta">Published 27 April 2026 · 12:25 (Vatican time) · English</div>
+      <p class="amen">Amen.</p>
     </div>
   </section>
 
+  <!-- Invitation -->
   <section>
-    <h2>Further reading</h2>
-    <p class="lede">
-      For those who wish to study more deeply &mdash; the names of the martyrs,
-      the historical context of the Civil War, or the canonical process toward Beatification.
+    <div class="invitation">
+      <h3>🌍 In Communion with the Universal Church</h3>
+      <p>
+        On this grace-filled occasion, the Brothers of Saint Gabriel invite all
+        members of the Montfortian family worldwide — Brothers, Sisters, priests,
+        teachers, students, parents, and alumni —
+        to join in thanksgiving to God and to observe
+        <strong>three days of prayer</strong> as the Superior General has asked.
+      </p>
+      <p>
+        May the witness of faith offered by the 49 martyrs ninety years ago
+        be a source of inspiration for the Brothers of today, for those discerning
+        a vocation, and for all who serve in the educational mission according
+        to the Montfortian spirit.
+      </p>
+    </div>
+  </section>
+
+  <!-- AMDG -->
+  <div class="amdg">
+    Ad Majorem Dei Gloriam
+    <span class="translation">For the greater glory of God</span>
+  </div>
+
+  <!-- Sources -->
+  <section>
+    <h2 style="font-size:1.2em">📰 Sources & References</h2>
+    <p style="font-size:0.95em;color:var(--text-light)">
+      <strong>Original article:</strong>
+      <a href="https://www.vaticannews.va/en/pope/news/2026-04/pope-leo-xiv-decrees-causes-saints-martyrs-spain-italy-netherlan.html" target="_blank" rel="noopener" style="color:var(--navy)">Vatican News — Pope recognizes martyrdom of 49 Spaniards during civil war</a>
+      <span style="display:block;margin-top:6px;font-size:0.9em">Published 27 April 2026 · 12:25 (Vatican time)</span>
     </p>
-
-    <h3 style="font-size: 1.1em; color: var(--navy); margin-top: 24px; margin-bottom: 12px; border: none; padding: 0;">
-      🌐 Official Congregation sources
-    </h3>
-    <ul class="further">
-      <li>
-        <a href="https://www.stgabrielinst.org/" target="_blank" rel="noopener">Brothers of Saint Gabriel — Generalate (Rome)</a>
-        <span class="note">— Official site of the international Congregation</span>
-      </li>
-      <li>
-        <a href="https://www.stgabrielinst.org/important-dates" target="_blank" rel="noopener">Important Dates in our history</a>
-        <span class="note">— Including the events of 1936</span>
-      </li>
-      <li>
-        <a href="brothers.html">Montfortian Network — Brothers Directory</a>
-        <span class="note">— Brothers in Thailand</span>
-      </li>
-    </ul>
-
-    <h3 style="font-size: 1.1em; color: var(--navy); margin-top: 24px; margin-bottom: 12px; border: none; padding: 0;">
-      📚 Historical references
-    </h3>
-    <ul class="further">
-      <li>
-        <a href="https://en.wikipedia.org/wiki/Martyrs_of_the_Spanish_Civil_War" target="_blank" rel="noopener">Wikipedia — Martyrs of the Spanish Civil War</a>
-        <span class="note">— Overview of the Civil War and religious persecution of 1936</span>
-      </li>
-      <li>
-        <a href="https://www.catholicculture.org/culture/library/view.cfm?recnum=8096" target="_blank" rel="noopener">Catholic Culture — The Martyrs of the Spanish Civil War</a>
-        <span class="note">— Analysis of the impact on the worldwide Catholic mission</span>
-      </li>
-      <li>
-        <a href="http://newsaints.faithweb.com/martyrs/MSPC.htm" target="_blank" rel="noopener">Hagiography Circle — Spanish Civil War Martyrs</a>
-        <span class="note">— Most complete name-by-name listing of those already beatified</span>
-      </li>
-    </ul>
-
-    <h3 style="font-size: 1.1em; color: var(--navy); margin-top: 24px; margin-bottom: 12px; border: none; padding: 0;">
-      📰 Catholic press coverage
-    </h3>
-    <ul class="further">
-      <li><a href="https://www.catholicnewsworld.com/2026/04/pope-leo-xiv-authorizes-new-decrees.html" target="_blank" rel="noopener">Catholic News World — Pope Leo XIV Authorizes New Decrees</a></li>
-      <li><a href="https://relevantradio.com/2026/04/pope-leo-xiv-advances-causes-of-49-spanish-martyrs-and-other-servants-of-god/" target="_blank" rel="noopener">Relevant Radio — Pope Leo XIV Advances Causes of 49 Spanish Martyrs</a></li>
-      <li><a href="https://catholicconnect.in/news/pope-recognises-martyrdom-of-49-spaniards-during-civil-war" target="_blank" rel="noopener">Catholic Connect — Pope recognises martyrdom of 49 Spaniards</a></li>
-      <li><a href="https://www.gaudiumpress.ca/pope-leo-xiv-advances-canonization-causes-of-54-servants-of-god-highlighting-heroic-sacrifice-and-martyrdom/" target="_blank" rel="noopener">Gaudium Press — Pope Leo XIV Advances Canonization Causes</a></li>
-    </ul>
-
-    <h3 style="font-size: 1.1em; color: var(--navy); margin-top: 24px; margin-bottom: 12px; border: none; padding: 0;">
-      ⛪ Official Vatican sources
-    </h3>
-    <ul class="further">
-      <li><a href="https://www.vatican.va/" target="_blank" rel="noopener">Vatican.va — The Holy See</a></li>
-      <li><a href="https://www.vaticannews.va/" target="_blank" rel="noopener">Vatican News — official news service</a></li>
-      <li>
-        <a href="https://press.vatican.va/" target="_blank" rel="noopener">Holy See Press Office</a>
-        <span class="note">— Full text of the decrees in the Bollettino</span>
-      </li>
-    </ul>
-
-    <p style="font-size: 0.92em; color: var(--text-light); margin-top: 30px; padding: 14px 18px; background: var(--paper); border-radius: 8px; border-left: 3px solid var(--gold);">
-      💡 <strong>Note:</strong> The complete roster of the 49 Brothers,
-      with biographical detail for each, will be published officially at the
-      Beatification. Watch <a href="https://www.stgabrielinst.org/" target="_blank" rel="noopener">stgabrielinst.org</a>
-      and the Spanish Province for updates.
+    <p style="font-size:0.95em;color:var(--text-light);margin-top:14px">
+      <strong>Official sites:</strong>
+      <a href="https://www.stgabrielinst.org/" target="_blank" rel="noopener" style="color:var(--navy)">Brothers of Saint Gabriel — Generalate (Rome)</a>
+    </p>
+    <p style="font-size:0.95em;color:var(--text-light);margin-top:14px">
+      <strong>Further reading (Catholic press):</strong>
+      <a href="https://www.catholicnewsworld.com/2026/04/pope-leo-xiv-authorizes-new-decrees.html" target="_blank" rel="noopener" style="color:var(--navy)">Catholic News World</a> ·
+      <a href="https://relevantradio.com/2026/04/pope-leo-xiv-advances-causes-of-49-spanish-martyrs-and-other-servants-of-god/" target="_blank" rel="noopener" style="color:var(--navy)">Relevant Radio</a> ·
+      <a href="https://en.wikipedia.org/wiki/Martyrs_of_the_Spanish_Civil_War" target="_blank" rel="noopener" style="color:var(--navy)">Wikipedia — Martyrs of the Spanish Civil War</a>
     </p>
   </section>
 
 </div>
 
 <footer>
-  <p>⚜ Montfortian Network &mdash; One Root, Many Branches</p>
-  <p style="margin-top: 12px;">
-    <a href="/">Home</a> &middot;
-    <a href="/news.html">News</a> &middot;
+  <p>⚜ Montfortian Network — One Root, Many Branches</p>
+  <p style="margin-top:12px">
+    <a href="/">Home</a> ·
+    <a href="/news.html">News</a> ·
     <a href="/brothers.html">Brothers</a>
   </p>
 </footer>

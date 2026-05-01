@@ -1,0 +1,1240 @@
+{
+  "first_vows": {
+    "01-31": [
+      {
+        "name": "Bro. Nattapong Wantaprom",
+        "community": "ACL",
+        "year": 2025
+      }
+    ],
+    "02-05": [
+      {
+        "name": "Bro. Warut Waenphet",
+        "community": "ACU",
+        "year": 2023
+      },
+      {
+        "name": "Bro. Pakpoom Jaisamret",
+        "community": "SLC",
+        "year": 2023
+      },
+      {
+        "name": "Bro. Sarawut Singyai",
+        "community": "SLJ",
+        "year": 2023
+      },
+      {
+        "name": "Bro. Teerachai Charoensamran",
+        "community": "GPC",
+        "year": 2023
+      },
+      {
+        "name": "Bro. Thanapoom Saiprom",
+        "community": "ACR",
+        "year": 2023
+      },
+      {
+        "name": "Bro. Apisit Ngamwong",
+        "community": "ACP",
+        "year": 2023
+      }
+    ],
+    "02-19": [
+      {
+        "name": "Bro. Patcharapakorn Langbubpha",
+        "community": "AC",
+        "year": 2019
+      },
+      {
+        "name": "Bro. Pathanant Chaiyara",
+        "community": "GPC",
+        "year": 2019
+      },
+      {
+        "name": "Bro. Kornkavee Yindeevech",
+        "community": "ACSP",
+        "year": 2019
+      },
+      {
+        "name": "Bro. Natton Suphon",
+        "community": "ACEP",
+        "year": 2019
+      },
+      {
+        "name": "Bro. Krissada Ngamwong",
+        "community": "ACS",
+        "year": 2019
+      },
+      {
+        "name": "Bro. Panuwat Mouentup",
+        "community": "ACSP",
+        "year": 2019
+      }
+    ],
+    "03-20": [
+      {
+        "name": "Bro. Supharoek Singhaphan",
+        "community": "ACT",
+        "year": 2016
+      },
+      {
+        "name": "Bro. Palakorn Pianpan",
+        "community": "ACN",
+        "year": 2016
+      }
+    ],
+    "03-29": [
+      {
+        "name": "Bro. Seksan Sakonthawat",
+        "community": "ACR",
+        "year": 1993
+      }
+    ],
+    "04-01": [
+      {
+        "name": "Bro. Verayuth Boonpram",
+        "community": "ACT",
+        "year": 1995
+      }
+    ],
+    "04-07": [
+      {
+        "name": "Bro. Amnuay Yoonprayong",
+        "community": "SLJ",
+        "year": 1963
+      }
+    ],
+    "04-12": [
+      {
+        "name": "Bro. Visith Srivichairatana",
+        "community": "ACT",
+        "year": 1961
+      }
+    ],
+    "04-25": [
+      {
+        "name": "Bro. Phiranant Numkanisorn",
+        "community": "SG",
+        "year": 1981
+      },
+      {
+        "name": "Bro. Surakit Srisarankulwong",
+        "community": "SG",
+        "year": 1981
+      }
+    ],
+    "04-27": [
+      {
+        "name": "Bro. Dechachai Sripicharn",
+        "community": "AC",
+        "year": 1979
+      },
+      {
+        "name": "Bro. Vicharn Saengharn",
+        "community": "MNS",
+        "year": 1972
+      },
+      {
+        "name": "Bro. Anurak Nidhibhadrabhorn",
+        "community": "MHE",
+        "year": 1979
+      }
+    ],
+    "04-28": [
+      {
+        "name": "Bro. Anant Prichavudhi",
+        "community": "AU",
+        "year": 1973
+      },
+      {
+        "name": "Bro. Sunant Yotharaksa",
+        "community": "ACS",
+        "year": 1973
+      }
+    ],
+    "05-01": [
+      {
+        "name": "Bro. Sirichai Fonseka",
+        "community": "AU",
+        "year": 1976
+      },
+      {
+        "name": "Bro. Phiraphongs Darathai",
+        "community": "ACT",
+        "year": 1976
+      }
+    ],
+    "05-07": [
+      {
+        "name": "Bro. Anucha Karunprot",
+        "community": "ACN",
+        "year": 1959
+      }
+    ],
+    "05-08": [
+      {
+        "name": "Bro. Thinaratana Komkris",
+        "community": "GPC",
+        "year": 1964
+      },
+      {
+        "name": "Bro. Surasit Sukchai",
+        "community": "ACS",
+        "year": 1969
+      },
+      {
+        "name": "Bro. Siriroj Viriyasirimongkol",
+        "community": "SG",
+        "year": 1953
+      },
+      {
+        "name": "Bro. Chumpol Deesutchit",
+        "community": "ACS",
+        "year": 1965
+      },
+      {
+        "name": "Bro. Bancha Saenghiran",
+        "community": "AU",
+        "year": 1965
+      },
+      {
+        "name": "Bro. Prathip M. Komolmas",
+        "community": "AU",
+        "year": 1954
+      },
+      {
+        "name": "Bro. Viriya Chandavarodom",
+        "community": "AC",
+        "year": 1954
+      }
+    ],
+    "05-15": [
+      {
+        "name": "Bro. Achin Tengtrakul",
+        "community": "SG",
+        "year": 1970
+      }
+    ],
+    "08-15": [
+      {
+        "name": "Bro. Monthol Prathumarach",
+        "community": "ACSP",
+        "year": 1988
+      },
+      {
+        "name": "Bro. Pisutr Vapiso",
+        "community": "ACS",
+        "year": 1987
+      },
+      {
+        "name": "Bro. Chamnan Laoruckphon",
+        "community": "MC/MCP",
+        "year": 1988
+      },
+      {
+        "name": "Bro. Viharn Srihaphol",
+        "community": "SLC",
+        "year": 1987
+      },
+      {
+        "name": "Bro. Bhuvarindhara Khemrachanon",
+        "community": "SGS",
+        "year": 1988
+      }
+    ],
+    "10-05": [
+      {
+        "name": "Bro. Prawat Sutthinont",
+        "community": "GPC",
+        "year": 1996
+      },
+      {
+        "name": "Bro. Supanun Khantapreecha",
+        "community": "ACEP",
+        "year": 1996
+      }
+    ],
+    "10-06": [
+      {
+        "name": "Bro. Thaksabutr Kraiprasit",
+        "community": "MC/MCP",
+        "year": 1991
+      },
+      {
+        "name": "Bro. Thankorn Tansuwongs",
+        "community": "ACR",
+        "year": 1991
+      }
+    ],
+    "10-14": [
+      {
+        "name": "Bro. Sarawut Yuchompoo",
+        "community": "MC/MCP",
+        "year": 2006
+      }
+    ],
+    "10-16": [
+      {
+        "name": "Bro. Kriangsak Mayod",
+        "community": "ACU",
+        "year": 2005
+      },
+      {
+        "name": "Bro. Sa-ard Vongsacharoenbhakdi",
+        "community": "GPC",
+        "year": 2005
+      },
+      {
+        "name": "Bro. Pichitphon Buraphan",
+        "community": "ACU",
+        "year": 2004
+      },
+      {
+        "name": "Bro. Anuwat Wipakthamrongkun",
+        "community": "GPC",
+        "year": 2005
+      }
+    ],
+    "10-17": [
+      {
+        "name": "Bro. Wanwasan Sukul",
+        "community": "ACEP",
+        "year": 2020
+      },
+      {
+        "name": "Bro. Pongpat Wanse",
+        "community": "ATSN",
+        "year": 2020
+      }
+    ],
+    "10-25": [
+      {
+        "name": "Bro. Prajak Nansrithong",
+        "community": "ACL",
+        "year": 2014
+      },
+      {
+        "name": "Bro. Pittaya Tueaita",
+        "community": "ACS",
+        "year": 2014
+      },
+      {
+        "name": "Bro. Jamrus Kaewamka",
+        "community": "ATSN",
+        "year": 2014
+      },
+      {
+        "name": "Bro. Khanchit Seesawan",
+        "community": "ACN",
+        "year": 2014
+      },
+      {
+        "name": "Bro. Charnnarong Boonpharm",
+        "community": "AU",
+        "year": 2014
+      },
+      {
+        "name": "Bro. Rachanon Udomsungnern",
+        "community": "SLJ",
+        "year": 2014
+      }
+    ],
+    "11-02": [
+      {
+        "name": "Bro. Witthaya Thepkom",
+        "community": "ACL",
+        "year": 2008
+      }
+    ],
+    "11-04": [
+      {
+        "name": "Bro. Nontacha Srivilai",
+        "community": "MNS",
+        "year": 2007
+      },
+      {
+        "name": "Bro. Kullachart Juntachoto",
+        "community": "SLC",
+        "year": 2007
+      }
+    ],
+    "11-07": [
+      {
+        "name": "Bro. Sirichai Phangrak",
+        "community": "ATSN",
+        "year": 2010
+      }
+    ],
+    "11-20": [
+      {
+        "name": "Bro. Arwut Silaket",
+        "community": "SG",
+        "year": 1999
+      },
+      {
+        "name": "Bro. Siam Kaewprasith",
+        "community": "ACT",
+        "year": 1999
+      }
+    ],
+    "12-08": [
+      {
+        "name": "Bro. Meesakdi Wongprachanukul",
+        "community": "SGS",
+        "year": 1965
+      }
+    ],
+    "12-21": [
+      {
+        "name": "Bro. Manit Sakonthawat",
+        "community": "AC/ACP",
+        "year": 2002
+      },
+      {
+        "name": "Bro. Kittisak Charoensri",
+        "community": "MC/MCP",
+        "year": 2002
+      }
+    ]
+  },
+  "perpetual_vows": {
+    "03-19": [
+      {
+        "name": "Bro. Anucha Karunprot",
+        "community": "ACN",
+        "year": 1965
+      }
+    ],
+    "03-29": [
+      {
+        "name": "Bro. Thinaratana Komkris",
+        "community": "GPC",
+        "year": 1970
+      },
+      {
+        "name": "Bro. Siriroj Viriyasirimongkol",
+        "community": "SG",
+        "year": 1959
+      }
+    ],
+    "03-30": [
+      {
+        "name": "Bro. Surasit Sukchai",
+        "community": "ACS",
+        "year": 1975
+      }
+    ],
+    "04-03": [
+      {
+        "name": "Bro. Visith Srivichairatana",
+        "community": "ACT",
+        "year": 1967
+      }
+    ],
+    "04-06": [
+      {
+        "name": "Bro. Amnuay Yoonprayong",
+        "community": "SLJ",
+        "year": 1969
+      }
+    ],
+    "04-09": [
+      {
+        "name": "Bro. Vicharn Saengharn",
+        "community": "MNS",
+        "year": 1978
+      }
+    ],
+    "04-11": [
+      {
+        "name": "Bro. Chumpol Deesutchit",
+        "community": "ACS",
+        "year": 1971
+      },
+      {
+        "name": "Bro. Bancha Saenghiran",
+        "community": "AU",
+        "year": 1971
+      }
+    ],
+    "04-13": [
+      {
+        "name": "Bro. Phiraphongs Darathai",
+        "community": "ACT",
+        "year": 1985
+      }
+    ],
+    "04-15": [
+      {
+        "name": "Bro. Anant Prichavudhi",
+        "community": "AU",
+        "year": 1979
+      }
+    ],
+    "04-17": [
+      {
+        "name": "Bro. Prathip M. Komolmas",
+        "community": "AU",
+        "year": 1960
+      },
+      {
+        "name": "Bro. Viriya Chandavarodom",
+        "community": "AC",
+        "year": 1960
+      }
+    ],
+    "05-01": [
+      {
+        "name": "Bro. Achin Tengtrakul",
+        "community": "SG",
+        "year": 1976
+      }
+    ],
+    "05-09": [
+      {
+        "name": "Bro. Sirichai Fonseka",
+        "community": "AU",
+        "year": 1982
+      },
+      {
+        "name": "Bro. Sunant Yotharaksa",
+        "community": "ACS",
+        "year": 1982
+      }
+    ],
+    "05-23": [
+      {
+        "name": "Bro. Phiranant Numkanisorn",
+        "community": "SG",
+        "year": 1987
+      }
+    ],
+    "05-24": [
+      {
+        "name": "Bro. Dechachai Sripicharn",
+        "community": "AC",
+        "year": 1986
+      },
+      {
+        "name": "Bro. Anurak Nidhibhadrabhorn",
+        "community": "MHE",
+        "year": 1986
+      }
+    ],
+    "06-03": [
+      {
+        "name": "Bro. Meesakdi Wongprachanukul",
+        "community": "SGS",
+        "year": 1972
+      }
+    ],
+    "06-04": [
+      {
+        "name": "Bro. Surakit Srisarankulwong",
+        "community": "SG",
+        "year": 1988
+      }
+    ],
+    "06-21": [
+      {
+        "name": "Bro. Nontacha Srivilai",
+        "community": "MNS",
+        "year": 2015
+      },
+      {
+        "name": "Bro. Witthaya Thepkom",
+        "community": "ACL",
+        "year": 2015
+      },
+      {
+        "name": "Bro. Kullachart Juntachoto",
+        "community": "SLC",
+        "year": 2015
+      },
+      {
+        "name": "Bro. Sarawut Yuchompoo",
+        "community": "MC/MCP",
+        "year": 2015
+      }
+    ],
+    "06-26": [
+      {
+        "name": "Bro. Viharn Srihaphol",
+        "community": "SLC",
+        "year": 1994
+      }
+    ],
+    "09-16": [
+      {
+        "name": "Bro. Chamnan Laoruckphon",
+        "community": "MC/MCP",
+        "year": 1995
+      }
+    ],
+    "09-23": [
+      {
+        "name": "Bro. Charnnarong Boonpharm",
+        "community": "AU",
+        "year": 2023
+      },
+      {
+        "name": "Bro. Supharoek Singhaphan",
+        "community": "ACT",
+        "year": 2023
+      },
+      {
+        "name": "Bro. Palakorn Pianpan",
+        "community": "ACN",
+        "year": 2023
+      }
+    ],
+    "10-01": [
+      {
+        "name": "Bro. Thaksabutr Kraiprasit",
+        "community": "MC/MCP",
+        "year": 2000
+      }
+    ],
+    "10-18": [
+      {
+        "name": "Bro. Prawat Sutthinont",
+        "community": "GPC",
+        "year": 2003
+      },
+      {
+        "name": "Bro. Supanun Khantapreecha",
+        "community": "ACEP",
+        "year": 2003
+      }
+    ],
+    "11-01": [
+      {
+        "name": "Bro. Manit Sakonthawat",
+        "community": "AC/ACP",
+        "year": 2009
+      },
+      {
+        "name": "Bro. Kittisak Charoensri",
+        "community": "MC/MCP",
+        "year": 2009
+      }
+    ],
+    "11-04": [
+      {
+        "name": "Bro. Arwut Silaket",
+        "community": "SG",
+        "year": 2007
+      },
+      {
+        "name": "Bro. Kriangsak Mayod",
+        "community": "ACU",
+        "year": 2012
+      },
+      {
+        "name": "Bro. Sa-ard Vongsacharoenbhakdi",
+        "community": "GPC",
+        "year": 2012
+      },
+      {
+        "name": "Bro. Siam Kaewprasith",
+        "community": "ACT",
+        "year": 2007
+      },
+      {
+        "name": "Bro. Pichitphon Buraphan",
+        "community": "ACU",
+        "year": 2012
+      },
+      {
+        "name": "Bro. Anuwat Wipakthamrongkun",
+        "community": "GPC",
+        "year": 2012
+      }
+    ],
+    "11-05": [
+      {
+        "name": "Bro. Sirichai Phangrak",
+        "community": "ATSN",
+        "year": 2017
+      }
+    ],
+    "11-07": [
+      {
+        "name": "Bro. Thankorn Tansuwongs",
+        "community": "ACR",
+        "year": 1998
+      }
+    ],
+    "11-22": [
+      {
+        "name": "Bro. Monthol Prathumarach",
+        "community": "ACSP",
+        "year": 1997
+      },
+      {
+        "name": "Bro. Bhuvarindhara Khemrachanon",
+        "community": "SGS",
+        "year": 1997
+      }
+    ],
+    "11-27": [
+      {
+        "name": "Bro. Prajak Nansrithong",
+        "community": "ACL",
+        "year": 2021
+      },
+      {
+        "name": "Bro. Pittaya Tueaita",
+        "community": "ACS",
+        "year": 2021
+      },
+      {
+        "name": "Bro. Jamrus Kaewamka",
+        "community": "ATSN",
+        "year": 2021
+      },
+      {
+        "name": "Bro. Khanchit Seesawan",
+        "community": "ACN",
+        "year": 2021
+      },
+      {
+        "name": "Bro. Rachanon Udomsungnern",
+        "community": "SLJ",
+        "year": 2021
+      }
+    ],
+    "11-30": [
+      {
+        "name": "Bro. Pisutr Vapiso",
+        "community": "ACS",
+        "year": 1996
+      }
+    ],
+    "12-15": [
+      {
+        "name": "Bro. Verayuth Boonpram",
+        "community": "ACT",
+        "year": 2001
+      },
+      {
+        "name": "Bro. Seksan Sakonthawat",
+        "community": "ACR",
+        "year": 2001
+      }
+    ]
+  },
+  "feast_days": {
+    "01-24": [
+      {
+        "name": "Bro. Rachanon Udomsungnern",
+        "community": "SLJ",
+        "saint": "Francis de Sale",
+        "feast": "St. Francis de Sales"
+      }
+    ],
+    "03-19": [
+      {
+        "name": "Bro. Monthol Prathumarach",
+        "community": "ACSP",
+        "saint": "Joseph",
+        "feast": "Solemnity of St. Joseph"
+      },
+      {
+        "name": "Bro. Pisutr Vapiso",
+        "community": "ACS",
+        "saint": "Joseph",
+        "feast": "Solemnity of St. Joseph"
+      },
+      {
+        "name": "Bro. Surakit Srisarankulwong",
+        "community": "SG",
+        "saint": "Joseph",
+        "feast": "Solemnity of St. Joseph"
+      },
+      {
+        "name": "Bro. Pittaya Tueaita",
+        "community": "ACS",
+        "saint": "Joseph",
+        "feast": "Solemnity of St. Joseph"
+      },
+      {
+        "name": "Bro. Sarawut Singyai",
+        "community": "SLJ",
+        "saint": "Joseph",
+        "feast": "Solemnity of St. Joseph"
+      }
+    ],
+    "04-25": [
+      {
+        "name": "Bro. Sa-ard Vongsacharoenbhakdi",
+        "community": "GPC",
+        "saint": "Mark",
+        "feast": "St. Mark the Evangelist"
+      },
+      {
+        "name": "Bro. Seksan Sakonthawat",
+        "community": "ACR",
+        "saint": "Mark",
+        "feast": "St. Mark the Evangelist"
+      }
+    ],
+    "04-28": [
+      {
+        "name": "Bro. Viriya Chandavarodom",
+        "community": "AC",
+        "saint": "Louis Chanel",
+        "feast": "St. Peter Chanel"
+      }
+    ],
+    "05-01": [
+      {
+        "name": "Bro. Monthol Prathumarach",
+        "community": "ACSP",
+        "saint": "Joseph",
+        "feast": "St. Joseph the Worker"
+      },
+      {
+        "name": "Bro. Pisutr Vapiso",
+        "community": "ACS",
+        "saint": "Joseph",
+        "feast": "St. Joseph the Worker"
+      },
+      {
+        "name": "Bro. Surakit Srisarankulwong",
+        "community": "SG",
+        "saint": "Joseph",
+        "feast": "St. Joseph the Worker"
+      },
+      {
+        "name": "Bro. Pittaya Tueaita",
+        "community": "ACS",
+        "saint": "Joseph",
+        "feast": "St. Joseph the Worker"
+      },
+      {
+        "name": "Bro. Sarawut Singyai",
+        "community": "SLJ",
+        "saint": "Joseph",
+        "feast": "St. Joseph the Worker"
+      }
+    ],
+    "05-18": [
+      {
+        "name": "Bro. Amnuay Yoonprayong",
+        "community": "SLJ",
+        "saint": "Felix Mary",
+        "feast": "St. Felix of Cantalice"
+      }
+    ],
+    "05-19": [
+      {
+        "name": "Bro. Anurak Nidhibhadrabhorn",
+        "community": "MHE",
+        "saint": "Celestine",
+        "feast": "St. Celestine V"
+      }
+    ],
+    "05-23": [
+      {
+        "name": "Bro. Sunant Yotharaksa",
+        "community": "ACS",
+        "saint": "Desiderius",
+        "feast": "St. Desiderius"
+      }
+    ],
+    "06-13": [
+      {
+        "name": "Bro. Kriangsak Mayod",
+        "community": "ACU",
+        "saint": "Anthony",
+        "feast": "St. Anthony of Padua"
+      },
+      {
+        "name": "Bro. Sarawut Yuchompoo",
+        "community": "MC/MCP",
+        "saint": "Anthony",
+        "feast": "St. Anthony of Padua"
+      }
+    ],
+    "06-21": [
+      {
+        "name": "Bro. Meesakdi Wongprachanukul",
+        "community": "SGS",
+        "saint": "Aloysius Mary",
+        "feast": "St. Aloysius Gonzaga"
+      }
+    ],
+    "06-24": [
+      {
+        "name": "Bro. Kullachart Juntachoto",
+        "community": "SLC",
+        "saint": "John Baptist",
+        "feast": "Birth of St. John the Baptist"
+      },
+      {
+        "name": "Bro. Anuwat Wipakthamrongkun",
+        "community": "GPC",
+        "saint": "John Baptist",
+        "feast": "Birth of St. John the Baptist"
+      }
+    ],
+    "06-27": [
+      {
+        "name": "Bro. Siriroj Viriyasirimongkol",
+        "community": "SG",
+        "saint": "Cyril",
+        "feast": "St. Cyril of Alexandria"
+      }
+    ],
+    "06-29": [
+      {
+        "name": "Bro. Dechachai Sripicharn",
+        "community": "AC",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Arwut Silaket",
+        "community": "SG",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Witthaya Thepkom",
+        "community": "ACL",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Anant Prichavudhi",
+        "community": "AU",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Phiraphongs Darathai",
+        "community": "ACT",
+        "saint": "Paul",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Viharn Srihaphol",
+        "community": "SLC",
+        "saint": "Paul",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Siam Kaewprasith",
+        "community": "ACT",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Kittisak Charoensri",
+        "community": "MC/MCP",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Pichitphon Buraphan",
+        "community": "ACU",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Jamrus Kaewamka",
+        "community": "ATSN",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Khanchit Seesawan",
+        "community": "ACN",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Supharoek Singhaphan",
+        "community": "ACT",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Pathanant Chaiyara",
+        "community": "GPC",
+        "saint": "Paul",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Krissada Ngamwong",
+        "community": "ACS",
+        "saint": "Paul",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Warut Waenphet",
+        "community": "ACU",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Pakpoom Jaisamret",
+        "community": "SLC",
+        "saint": "Peter",
+        "feast": "Sts. Peter & Paul, Apostles"
+      },
+      {
+        "name": "Bro. Pongpat Wanse",
+        "community": "ATSN",
+        "saint": "Paul",
+        "feast": "Sts. Peter & Paul, Apostles"
+      }
+    ],
+    "07-03": [
+      {
+        "name": "Bro. Nontacha Srivilai",
+        "community": "MNS",
+        "saint": "Thomas",
+        "feast": "St. Thomas the Apostle"
+      }
+    ],
+    "07-11": [
+      {
+        "name": "Bro. Teerachai Charoensamran",
+        "community": "GPC",
+        "saint": "Benedict of Nursia",
+        "feast": "St. Benedict of Nursia"
+      }
+    ],
+    "07-12": [
+      {
+        "name": "Bro. Thankorn Tansuwongs",
+        "community": "ACR",
+        "saint": "John Guanberto",
+        "feast": "St. John Gualbert"
+      }
+    ],
+    "07-14": [
+      {
+        "name": "Bro. Panuwat Mouentup",
+        "community": "ACSP",
+        "saint": "Camillus",
+        "feast": "St. Camillus de Lellis"
+      }
+    ],
+    "07-17": [
+      {
+        "name": "Bro. Chamnan Laoruckphon",
+        "community": "MC/MCP",
+        "saint": "Alexis",
+        "feast": "St. Alexis of Rome"
+      }
+    ],
+    "07-25": [
+      {
+        "name": "Bro. Bhuvarindhara Khemrachanon",
+        "community": "SGS",
+        "saint": "James",
+        "feast": "St. James the Apostle"
+      }
+    ],
+    "08-01": [
+      {
+        "name": "Bro. Nattapong Wantaprom",
+        "community": "ACL",
+        "saint": "Alphonsus",
+        "feast": "St. Alphonsus Liguori"
+      }
+    ],
+    "08-10": [
+      {
+        "name": "Bro. Sirichai Phangrak",
+        "community": "ATSN",
+        "saint": "Lawrence",
+        "feast": "St. Lawrence of Rome"
+      }
+    ],
+    "08-21": [
+      {
+        "name": "Bro. Prawat Sutthinont",
+        "community": "GPC",
+        "saint": "Pius",
+        "feast": "St. Pius X"
+      }
+    ],
+    "08-25": [
+      {
+        "name": "Bro. Surasit Sukchai",
+        "community": "ACS",
+        "saint": "Louis",
+        "feast": "St. Louis IX of France"
+      }
+    ],
+    "08-28": [
+      {
+        "name": "Bro. Chumpol Deesutchit",
+        "community": "ACS",
+        "saint": "Augustine Mary",
+        "feast": "St. Augustine of Hippo"
+      },
+      {
+        "name": "Bro. Achin Tengtrakul",
+        "community": "SG",
+        "saint": "Augustine",
+        "feast": "St. Augustine of Hippo"
+      },
+      {
+        "name": "Bro. Wanwasan Sukul",
+        "community": "ACEP",
+        "saint": "Augustine",
+        "feast": "St. Augustine of Hippo"
+      }
+    ],
+    "09-13": [
+      {
+        "name": "Bro. Anucha Karunprot",
+        "community": "ACN",
+        "saint": "John Chrysostom",
+        "feast": "St. John Chrysostom"
+      }
+    ],
+    "09-29": [
+      {
+        "name": "Bro. Sirichai Fonseka",
+        "community": "AU",
+        "saint": "Gabriel",
+        "feast": "Sts. Michael, Gabriel & Raphael, Archangels"
+      },
+      {
+        "name": "Bro. Manit Sakonthawat",
+        "community": "AC/ACP",
+        "saint": "Michael",
+        "feast": "Sts. Michael, Gabriel & Raphael, Archangels"
+      },
+      {
+        "name": "Bro. Thinaratana Komkris",
+        "community": "GPC",
+        "saint": "Michael Ludovico",
+        "feast": "St. Michael Archangel"
+      },
+      {
+        "name": "Bro. Charnnarong Boonpharm",
+        "community": "AU",
+        "saint": "Raphael",
+        "feast": "Sts. Michael, Gabriel & Raphael, Archangels"
+      },
+      {
+        "name": "Bro. Patcharapakorn Langbubpha",
+        "community": "AC",
+        "saint": "Gabriel",
+        "feast": "Sts. Michael, Gabriel & Raphael, Archangels"
+      },
+      {
+        "name": "Bro. Kornkavee Yindeevech",
+        "community": "ACSP",
+        "saint": "Gabriel",
+        "feast": "Sts. Michael, Gabriel & Raphael, Archangels"
+      },
+      {
+        "name": "Bro. Natton Suphon",
+        "community": "ACEP",
+        "saint": "Michael",
+        "feast": "Sts. Michael, Gabriel & Raphael, Archangels"
+      }
+    ],
+    "10-04": [
+      {
+        "name": "Bro. Supanun Khantapreecha",
+        "community": "ACEP",
+        "saint": "Francis of Assisi",
+        "feast": "St. Francis of Assisi"
+      }
+    ],
+    "10-28": [
+      {
+        "name": "Bro. Palakorn Pianpan",
+        "community": "ACN",
+        "saint": "Simon",
+        "feast": "Sts. Simon & Jude, Apostles"
+      }
+    ],
+    "11-10": [
+      {
+        "name": "Bro. Visith Srivichairatana",
+        "community": "ACT",
+        "saint": "Leo Joseph",
+        "feast": "St. Leo the Great"
+      }
+    ],
+    "11-11": [
+      {
+        "name": "Bro. Prathip M. Komolmas",
+        "community": "AU",
+        "saint": "Martin de Tours",
+        "feast": "St. Martin of Tours"
+      }
+    ],
+    "11-15": [
+      {
+        "name": "Bro. Bancha Saenghiran",
+        "community": "AU",
+        "saint": "Albert Lawrence",
+        "feast": "St. Albert the Great"
+      }
+    ],
+    "11-24": [
+      {
+        "name": "Bro. Verayuth Boonpram",
+        "community": "ACT",
+        "saint": "Theophane",
+        "feast": "St. Andrew Dũng-Lạc & Companions (Vietnamese Martyrs incl. St. Théophane Vénard)"
+      }
+    ],
+    "12-03": [
+      {
+        "name": "Bro. Thaksabutr Kraiprasit",
+        "community": "MC/MCP",
+        "saint": "Francis Xavier",
+        "feast": "St. Francis Xavier"
+      },
+      {
+        "name": "Bro. Prajak Nansrithong",
+        "community": "ACL",
+        "saint": "Francis Xavier",
+        "feast": "St. Francis Xavier"
+      }
+    ],
+    "12-06": [
+      {
+        "name": "Bro. Phiranant Numkanisorn",
+        "community": "SG",
+        "saint": "Nicholas",
+        "feast": "St. Nicholas of Myra"
+      }
+    ],
+    "12-26": [
+      {
+        "name": "Bro. Thanapoom Saiprom",
+        "community": "ACR",
+        "saint": "Stephen",
+        "feast": "St. Stephen, Protomartyr"
+      }
+    ],
+    "12-27": [
+      {
+        "name": "Bro. Vicharn Saengharn",
+        "community": "MNS",
+        "saint": "John",
+        "feast": "St. John the Apostle"
+      },
+      {
+        "name": "Bro. Apisit Ngamwong",
+        "community": "ACP",
+        "saint": "John",
+        "feast": "St. John the Apostle"
+      }
+    ]
+  },
+  "note": "Birthdays intentionally excluded per privacy policy. See brobook-memory/feedback_no_birthdate_brothers.md"
+}

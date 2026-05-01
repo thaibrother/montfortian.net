@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brothers Today — Province of Thailand | Montfortian Network</title>
+<meta name="description" content="Today's Saint Feast Days, First Vows and Perpetual Vows anniversaries for the Brothers of Saint Gabriel — Province of Thailand.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root { --navy:#1a3a5c; --dark-navy:#0f2440; --gold:#c9a74e; --light-gold:#e8d5a0; --cream:#fafaf7; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Segoe UI',system-ui,-apple-system,sans-serif; background:var(--cream); color:#333; line-height:1.6; }
+  .header { background:linear-gradient(135deg,var(--navy) 0%,var(--dark-navy) 100%); color:white; padding:48px 20px; text-align:center; }
+  .header h1 { font-family:'Playfair Display',Georgia,serif; font-size:2.2em; margin-bottom:8px; }
+  .header p { opacity:0.85; font-size:1.05em; }
+  .header .date { color:var(--gold); font-weight:600; margin-top:14px; font-size:1.15em; }
+  .back-link { display:inline-block; margin-bottom:14px; color:var(--light-gold); text-decoration:none; font-weight:600; font-size:0.9em; }
+  .back-link:hover { text-decoration:underline; }
+  .content { max-width:880px; margin:0 auto; padding:32px 20px; }
+  .section { background:white; border-radius:16px; padding:28px 32px; margin-bottom:22px; box-shadow:0 2px 10px rgba(0,0,0,0.05); }
+  .section h2 { font-family:'Playfair Display',Georgia,serif; color:var(--navy); font-size:1.45em; margin-bottom:6px; display:flex; align-items:center; gap:10px; }
+  .section .label { color:var(--gold); font-size:0.7em; font-weight:600; text-transform:uppercase; letter-spacing:1px; padding:4px 12px; background:rgba(201,167,78,0.12); border-radius:14px; }
+  .section .desc { color:#777; font-size:0.92em; margin-bottom:18px; font-style:italic; }
+  .empty { color:#999; padding:18px 0; font-style:italic; text-align:center; }
+  .feast-group { margin-bottom:18px; padding-bottom:18px; border-bottom:1px solid #eee; }
+  .feast-group:last-child { margin-bottom:0; padding-bottom:0; border-bottom:0; }
+  .feast-name { font-weight:700; color:var(--dark-navy); font-size:1.05em; margin-bottom:8px; }
+  .bro-list { display:flex; flex-direction:column; gap:6px; padding-left:8px; }
+  .bro-item { display:flex; align-items:baseline; gap:10px; font-size:0.97em; }
+  .bro-item .name { color:#333; }
+  .bro-item .meta { color:#888; font-size:0.85em; }
+  .bro-item .badge { background:#f0f4ff; color:var(--navy); padding:2px 8px; border-radius:8px; font-size:0.75em; font-weight:600; }
+  .footer { text-align:center; padding:24px 20px 36px; color:#999; font-size:0.85em; max-width:780px; margin:0 auto; }
+  .footer a { color:var(--navy); }
+  .privacy-note { background:#fff8e6; border-left:3px solid var(--gold); padding:14px 18px; border-radius:8px; margin-top:24px; font-size:0.88em; color:#7a6020; }
+  @media (max-width:640px) {
+    .header h1 { font-size:1.6em; }
+    .section { padding:22px 20px; }
+    .section h2 { font-size:1.2em; flex-wrap:wrap; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="brothers.html" class="back-link">&larr; Brothers Directory</a>
+  <h1>Brothers Today</h1>
+  <p>Province of Thailand &mdash; Saint name days &amp; vow anniversaries</p>
+  <div class="date" id="todayDate">&hellip;</div>
+</div>
+
+<div class="content">
+
+  <div class="section">
+    <h2>Feast Day <span class="label">วันฉลองศาสนนาม</span></h2>
+    <div class="desc">Brothers whose patron saint is celebrated today in the Roman Calendar.</div>
+    <div id="feast-content"><div class="empty">Loading&hellip;</div></div>
+  </div>
+
+  <div class="section">
+    <h2>First Vows Anniversary <span class="label">ครบรอบปฏิญาณตนครั้งแรก</span></h2>
+    <div class="desc">Brothers who professed their first vows on this day.</div>
+    <div id="firstvow-content"><div class="empty">Loading&hellip;</div></div>
+  </div>
+
+  <div class="section">
+    <h2>Perpetual Vows Anniversary <span class="label">ครบรอบถวายตัวตลอดชีวิต</span></h2>
+    <div class="desc">Brothers who professed their perpetual vows on this day.</div>
+    <div id="perpvow-content"><div class="empty">Loading&hellip;</div></div>
+  </div>
+
+  <div class="privacy-note">
+    <strong>Privacy note:</strong> Birthday information for living Brothers is not displayed publicly. This page only includes religious milestones (feast days &amp; vow anniversaries) which are public observances of consecrated life.
+  </div>
+
+</div>
+
+<div class="footer">
+  Maintained by the Montfortian Network &mdash; Province of Thailand.<br>
+  See also: <a href="brothers.html">Brothers Directory</a> &middot; <a href="brothers-vow.html">By Vows &amp; Postings</a> &middot; <a href="https://fsgthailand.org">Foundation (school administration)</a>
+</div>
+
+<script>
+const fmtDateLong = (d) => {
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  return `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
+};
+
+const today = new Date();
+const mmdd = String(today.getMonth()+1).padStart(2,'0') + '-' + String(today.getDate()).padStart(2,'0');
+document.getElementById('todayDate').textContent = fmtDateLong(today);
+
+function renderEmpty(id, msg) {
+  document.getElementById(id).innerHTML = '<div class="empty">' + msg + '</div>';
+}
+
+function renderFeast(list) {
+  if (!list || list.length === 0) { renderEmpty('feast-content', 'No feast days for living Brothers today.'); return; }
+  const byFeast = {};
+  list.forEach(b => {
+    const key = b.feast || b.saint;
+    if (!byFeast[key]) byFeast[key] = [];
+    byFeast[key].push(b);
+  });
+  const html = Object.keys(byFeast).map(feast => {
+    const bros = byFeast[feast].map(b =>
+      `<div class="bro-item"><span class="name">${b.name}</span><span class="badge">${b.community}</span></div>`
+    ).join('');
+    return `<div class="feast-group"><div class="feast-name">${feast}</div><div class="bro-list">${bros}</div></div>`;
+  }).join('');
+  document.getElementById('feast-content').innerHTML = html;
+}
+
+function renderVows(id, list, suffix) {
+  if (!list || list.length === 0) { renderEmpty(id, 'No anniversaries today.'); return; }
+  const thisYear = new Date().getFullYear();
+  const html = '<div class="bro-list">' + list.map(b => {
+    const yrs = (typeof b.year === 'number') ? (thisYear - b.year) : '';
+    return `<div class="bro-item"><span class="name">${b.name}</span><span class="badge">${b.community}</span>${yrs !== '' ? '<span class="meta">' + yrs + ' ' + suffix + '</span>' : ''}</div>`;
+  }).join('') + '</div>';
+  document.getElementById(id).innerHTML = html;
+}
+
+fetch('data/brothers_dates.json', { cache:'no-cache' })
+  .then(r => r.json())
+  .then(data => {
+    renderFeast((data.feast_days || {})[mmdd]);
+    renderVows('firstvow-content', (data.first_vows || {})[mmdd], 'years');
+    renderVows('perpvow-content', (data.perpetual_vows || {})[mmdd], 'years');
+  })
+  .catch(err => {
+    renderEmpty('feast-content', 'Could not load brothers data.');
+    renderEmpty('firstvow-content', 'Could not load brothers data.');
+    renderEmpty('perpvow-content', 'Could not load brothers data.');
+    console.error(err);
+  });
+</script>
+</body>
+</html>

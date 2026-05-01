@@ -105,15 +105,31 @@ QUERIES = [
     ('"เงินอุดหนุน" "โรงเรียนเอกชน"', 'th', 'TH', 'private-edu'),
     ('"การศึกษาเอกชน" "นโยบาย"', 'th', 'TH', 'private-edu'),
 
-    # ===== วงการศึกษาคาทอลิก =====
+    # ===== วงการศึกษาคาทอลิก — สภาการศึกษาคาทอลิกแห่งประเทศไทย (CECT) =====
     ('"สภาการศึกษาคาทอลิก"', 'th', 'TH', 'catholic-edu'),
+    ('"สภาการศึกษาคาทอลิกแห่งประเทศไทย"', 'th', 'TH', 'catholic-edu'),
+    ('site:catholic-education.or.th', 'th', 'TH', 'catholic-edu'),
     ('"การศึกษาคาทอลิก"', 'th', 'TH', 'catholic-edu'),
     ('"โรงเรียนคาทอลิก"', 'th', 'TH', 'catholic-edu'),
     ('"พระสังฆราช" "การศึกษา"', 'th', 'TH', 'catholic-edu'),
     ('"อัครสังฆมณฑล" การศึกษา', 'th', 'TH', 'catholic-edu'),
+    ('"Catholic Education Council" Thailand', 'en', 'US', 'catholic-edu'),
     ('"Catholic schools" Thailand', 'en', 'US', 'catholic-edu'),
     ('"Catholic education" Asia', 'en', 'US', 'catholic-edu'),
     ('"Catholic schools" Asia', 'en', 'US', 'catholic-edu'),
+
+    # ===== สื่อมวลชนคาทอลิก ประเทศไทย — อุดมสาร / CCT / Bishops' Conference =====
+    ('"สื่อมวลชนคาทอลิก"', 'th', 'TH', 'catholic-media'),
+    ('"คณะกรรมการคาทอลิกเพื่อสื่อมวลชน"', 'th', 'TH', 'catholic-media'),
+    ('"อุดมสาร"', 'th', 'TH', 'catholic-media'),
+    ('"อุดมศานต์"', 'th', 'TH', 'catholic-media'),  # นิตยสารคาทอลิกอีกฉบับ
+    ('site:udomsarn.com', 'th', 'TH', 'catholic-media'),
+    ('site:thaicatholicpress.org', 'th', 'TH', 'catholic-media'),
+    ('site:cbct.or.th', 'th', 'TH', 'catholic-media'),  # สภาประมุขบาทหลวงโรมันคาทอลิก
+    ('"สภาประมุขบาทหลวง" คาทอลิก', 'th', 'TH', 'catholic-media'),
+    ('"พระศาสนจักรคาทอลิก" ไทย', 'th', 'TH', 'catholic-media'),
+    ('"Catholic Bishops Conference of Thailand"', 'en', 'US', 'catholic-media'),
+    ('"CBCT" Thailand Catholic', 'en', 'US', 'catholic-media'),
 ]
 
 # Words that indicate UNRELATED content (filter out)
@@ -133,6 +149,12 @@ PRIORITY_KEYWORDS = [
     'ภราดา', 'คณะภราดา', 'มูลนิธิคณะ', 'มงฟอร์ต',
     'ศิษย์เก่า', 'ครบรอบ', 'ก่อตั้ง', 'อธิการ',
     'หลักสูตร', 'การเรียนการสอน', 'รับสมัคร',
+    # Catholic education + media
+    'สภาการศึกษาคาทอลิก', 'การศึกษาคาทอลิก', 'โรงเรียนคาทอลิก',
+    'สื่อมวลชนคาทอลิก', 'คณะกรรมการคาทอลิก',
+    'อุดมสาร', 'อุดมศานต์', 'พระศาสนจักร', 'สภาประมุขบาทหลวง',
+    'พระสังฆราช', 'อัครสังฆมณฑล', 'สังฆมณฑล',
+    'catholic education', 'catholic schools', 'bishops conference', 'archdiocese',
 ]
 
 def fetch_query(query, lang, region, tag):
@@ -225,8 +247,14 @@ AUDIENCE_KEYWORDS = {
     ],
     'catholic-edu': [
         'คาทอลิก', 'สังฆมณฑล', 'อัครสังฆมณฑล', 'พระสังฆราช',
-        'สภาการศึกษาคาทอลิก', 'โรงเรียนคาทอลิก',
+        'สภาการศึกษาคาทอลิก', 'โรงเรียนคาทอลิก', 'การศึกษาคาทอลิก',
         'Catholic', 'Diocese', 'Archdiocese', 'Bishop',
+    ],
+    'catholic-media': [
+        'สื่อมวลชนคาทอลิก', 'คณะกรรมการคาทอลิก',
+        'อุดมสาร', 'อุดมศานต์', 'พระศาสนจักร',
+        'สภาประมุขบาทหลวง', 'CBCT',
+        'Catholic media', 'Bishops Conference', 'Catholic press',
     ],
 }
 
@@ -239,6 +267,7 @@ SOURCE_TAG_TO_AUDIENCE = {
     'founder':           ['montfortian-family'],
     'devotion':          ['montfortian-family'],
     'thai-foundation':   ['montfortian-family'],
+    'catholic-media':    ['catholic-media', 'catholic-edu'],
 }
 
 
@@ -325,6 +354,7 @@ def relevance_score(item):
         'thai-school':       25,  # tangential
         'private-edu':       95,  # ตรงกับโรงเรียนคุณ
         'catholic-edu':      95,  # ตรงกับเครือคาทอลิก
+        'catholic-media':    92,  # สื่อมวลชนคาทอลิก / สภาประมุขฯ
     }
     score += tag_scores.get(item['tag'], 40)
     # Priority keyword boost
@@ -395,7 +425,8 @@ def main():
         'gov-edu':           20,
         'thai-school':       5,
         'private-edu':       12,
-        'catholic-edu':      12,
+        'catholic-edu':      14,  # เพิ่มจาก 12 — มี queries เพิ่ม
+        'catholic-media':    10,  # tag ใหม่ — สื่อมวลชนคาทอลิก
     }
 
     # ★ Classify audiences for each item

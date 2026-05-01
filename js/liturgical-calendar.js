@@ -58,6 +58,32 @@
     return await resp.json();
   }
 
+  // ─── Adjust layout when rome-cal height changes ───
+  // Pages may have nav with fixed top — recalculate it after badge content
+  // is filled, so nav doesn't overlap the calendar bar.
+  function adjustLayout() {
+    const cal = document.querySelector('.rome-cal');
+    const nav = document.querySelector('nav');
+    if (!cal) return;
+
+    const calH = cal.offsetHeight;
+    if (nav && getComputedStyle(nav).position === 'fixed') {
+      nav.style.top = calH + 'px';
+    }
+
+    // Find first content section after nav and adjust its top spacing
+    const navH = nav ? nav.offsetHeight : 0;
+    const firstHero = document.querySelector('.hero, .hero-section, main, .main-content');
+    if (firstHero && getComputedStyle(firstHero).position !== 'fixed') {
+      const totalOffset = calH + navH;
+      // Only set if pages already have explicit margin-top set (sign of layout dependency)
+      const computed = parseInt(getComputedStyle(firstHero).marginTop, 10) || 0;
+      if (computed > 0 || firstHero.classList.contains('hero')) {
+        firstHero.style.marginTop = totalOffset + 'px';
+      }
+    }
+  }
+
   async function render(date) {
     date = date || new Date();
     const today = new Date(date.getFullYear(), date.getMonth(), date.getDate());
@@ -75,16 +101,22 @@
     }
 
     if (!entry) {
-      // Hide all section tags if no data
       SECTIONS.forEach(s => setTag('rc-' + s, ''));
-      return;
+    } else {
+      setTag('rc-season', entry.season);
+      setTag('rc-saints', entry.saints);
+      setTag('rc-special', entry.special);
+      setTag('rc-history', entry.history);
+      setTag('rc-deceased', entry.deceased);
     }
 
-    setTag('rc-season', entry.season);
-    setTag('rc-saints', entry.saints);
-    setTag('rc-special', entry.special);
-    setTag('rc-history', entry.history);
-    setTag('rc-deceased', entry.deceased);
+    // After content set, recompute heights
+    adjustLayout();
+    // Adjust again on window resize (e.g. mobile orientation change)
+    if (!window._liturgicalResize) {
+      window._liturgicalResize = true;
+      window.addEventListener('resize', adjustLayout);
+    }
   }
 
   if (document.readyState === 'loading') {

@@ -37,7 +37,9 @@
   .section p { margin-bottom:14px; }
 
   .chairman-card { background:linear-gradient(135deg,var(--navy) 0%,var(--dark-navy) 100%); color:#fff; border-radius:16px; padding:30px 36px; margin-bottom:22px; display:flex; align-items:center; gap:24px; flex-wrap:wrap; }
-  .chairman-avatar { width:90px; height:90px; border-radius:50%; background:linear-gradient(135deg,var(--gold) 0%,var(--light-gold) 100%); display:flex; align-items:center; justify-content:center; color:var(--navy); font-family:'Playfair Display',Georgia,serif; font-weight:700; font-size:30px; flex-shrink:0; box-shadow:0 4px 14px rgba(0,0,0,0.2); }
+  .chairman-photo { width:96px; height:96px; border-radius:50%; flex-shrink:0; overflow:hidden; box-shadow:0 4px 14px rgba(0,0,0,0.25); border:3px solid var(--gold); position:relative; background:linear-gradient(135deg,var(--gold) 0%,var(--light-gold) 100%); }
+  .chairman-photo img { width:100%; height:100%; object-fit:cover; object-position:center 20%; display:block; }
+  .chairman-photo .initial-fallback { display:none; position:absolute; inset:0; align-items:center; justify-content:center; color:var(--navy); font-family:'Playfair Display',Georgia,serif; font-weight:700; font-size:32px; }
   .chairman-info .label { color:var(--gold); font-size:0.78em; font-weight:600; text-transform:uppercase; letter-spacing:1.5px; margin-bottom:6px; }
   .chairman-info .name { font-family:'Playfair Display',Georgia,serif; font-size:1.55em; font-weight:700; margin-bottom:4px; }
   .chairman-info .name-th { opacity:0.85; font-size:1em; }
@@ -80,7 +82,11 @@
 <div class="content">
 
   <div class="chairman-card">
-    <div class="chairman-avatar">PV</div>
+    <div class="chairman-photo">
+      <img src="รูปคณะภราดา/04 Bro Pisutr Vapiso/DSC_0762.JPG" alt="Bro. Pisutr Vapiso"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="initial-fallback">PV</div>
+    </div>
     <div class="chairman-info">
       <div class="label">Chairman of the Commission</div>
       <div class="name">Bro. Pisutr Vapiso</div>

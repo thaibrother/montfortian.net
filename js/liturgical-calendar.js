@@ -72,14 +72,14 @@
     }
 
     // Find first content section after nav and adjust its top spacing
-    const navH = nav ? nav.offsetHeight : 0;
-    const firstHero = document.querySelector('.hero, .hero-section, main, .main-content');
-    if (firstHero && getComputedStyle(firstHero).position !== 'fixed') {
-      const totalOffset = calH + navH;
-      // Only set if pages already have explicit margin-top set (sign of layout dependency)
-      const computed = parseInt(getComputedStyle(firstHero).marginTop, 10) || 0;
-      if (computed > 0 || firstHero.classList.contains('hero')) {
-        firstHero.style.marginTop = totalOffset + 'px';
+    // Only push hero down if the nav is FIXED (layout depends on calendar offset).
+    // Pages with sticky nav (montfortian.net) don't need this — calendar floats
+    // above the natural flow and hero begins at the top normally.
+    if (nav && getComputedStyle(nav).position === 'fixed') {
+      const navH = nav.offsetHeight;
+      const firstHero = document.querySelector('.hero, .hero-section, main, .main-content');
+      if (firstHero && getComputedStyle(firstHero).position !== 'fixed') {
+        firstHero.style.marginTop = (calH + navH) + 'px';
       }
     }
   }

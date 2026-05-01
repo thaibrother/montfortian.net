@@ -246,9 +246,9 @@ fetch('news-feed.json')
         DATA = data;
         const ts = new Date(data.generated_at);
         const tsStr = ts.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) + ' ' + ts.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Bangkok' });
-        // Show count of international-relevant stories only (exclude domestic Thai gov-edu/thai-school/private-edu)
-        const intlCount = (data.items || []).filter(i => !isDomesticTh(i)).length;
-        metaTopEl.textContent = `${intlCount} international stories · last updated ${tsStr} (Bangkok)`;
+        // Show English-only count (international audience)
+        const enCount = (data.items || []).filter(isEnglish).length;
+        metaTopEl.textContent = `${enCount} English stories · last updated ${tsStr} (Bangkok)`;
         render();
     })
     .catch(err => {
@@ -257,24 +257,25 @@ fetch('news-feed.json')
         console.error(err);
     });
 
-// Tags that are domestic Thai education news — not relevant for international audience
-const DOMESTIC_TH_TAGS = ['gov-edu', 'thai-school', 'private-edu'];
-const isDomesticTh = (i) => DOMESTIC_TH_TAGS.includes(i.tag);
+// Montfortian Network = INTERNATIONAL audience (English).
+// Thai-language news belongs on fsgthailand.org/news, not here.
+// Default + "All" = English only. "ภาษาไทย" tab kept for explicit opt-in only.
+const isEnglish = (i) => i.lang === 'en';
 
 function render() {
     let items = DATA.items;
     // Filter
     if (currentFilter === 'en') {
-        items = items.filter(i => i.lang === 'en');
+        items = items.filter(isEnglish);
     } else if (currentFilter === 'th') {
-        // "ภาษาไทย" tab on Montfortian Network = Thai-language news ABOUT
-        // Montfortian family / Catholic — still excludes domestic Thai gov-edu noise
-        items = items.filter(i => i.lang === 'th' && !isDomesticTh(i));
+        // Explicit opt-in: show Thai news (full feed)
+        items = items.filter(i => i.lang === 'th');
     } else if (currentFilter === 'all') {
-        // Default: hide domestic Thai education news (international audience)
-        items = items.filter(i => !isDomesticTh(i));
+        // Default: English only — international audience
+        items = items.filter(isEnglish);
     } else {
-        items = items.filter(i => i.tag === currentFilter);
+        // Tag-specific filter still respects English-only default
+        items = items.filter(i => i.tag === currentFilter && isEnglish(i));
     }
     // Search
     if (searchQuery) {
@@ -286,9 +287,9 @@ function render() {
         );
     }
 
-    // International-relevant total = total stories minus domestic Thai education news
-    const intlTotal = (DATA.items || []).filter(i => !isDomesticTh(i)).length;
-    feedMetaEl.textContent = `Showing ${items.length} of ${intlTotal} international stories${searchQuery ? ' for "' + searchQuery + '"' : ''}`;
+    // Total = English-only by default (international audience)
+    const enTotal = (DATA.items || []).filter(isEnglish).length;
+    feedMetaEl.textContent = `Showing ${items.length} of ${enTotal} English stories${searchQuery ? ' for "' + searchQuery + '"' : ''}`;
 
     if (items.length === 0) {
         feedEl.innerHTML = '<div class="empty"><h3>No matching stories</h3><p>Try a different filter or search.</p></div>';

@@ -4,12 +4,22 @@
  * Data source: data/rome_calendar_YYYY.json
  *   (converted from Calendar_YYYY.csv maintained by Province staff)
  *
- * 5 badges (each hidden if empty):
+ * 8 badges (each hidden if empty):
  *   - Season   ← Liturgical Season/Sunday
  *   - Saints   ← Saints/Feasts
  *   - Special  ← Special Days/Events
  *   - History  ← Historical Events
- *   - Deceased ← Deceased Brothers
+ *   - Deceased ← Deceased Brothers (from rome calendar JSON)
+ *   - Feastday ← Living Brothers' Saint name day (วันฉลองศาสนนาม)
+ *   - Firstvow ← Living Brothers' First Vows anniversary (with years)
+ *   - Perpvow  ← Living Brothers' Perpetual Vows anniversary (with years)
+ *
+ * NOTE: Birthday is intentionally NOT shown here — privacy rule
+ *   (see brobook-memory/feedback_no_birthdate_brothers.md)
+ *
+ * Brothers data source: data/brothers_dates.json
+ *   { "first_vows": {...}, "perpetual_vows": {...}, "feast_days": {...} }
+ *   (no "birthdays" key on montfortian.net)
  *
  * Required HTML:
  *   <span id="rc-date"></span>
@@ -18,12 +28,16 @@
  *   <span id="rc-special"></span>
  *   <span id="rc-history"></span>
  *   <span id="rc-deceased"></span>
+ *   <span id="rc-feastday"></span>
+ *   <span id="rc-firstvow"></span>
+ *   <span id="rc-perpvow"></span>
  * ────────────────────────────────────────────────────────────────── */
 
 (function () {
   'use strict';
 
-  const SECTIONS = ['season', 'saints', 'special', 'history', 'deceased'];
+  const SECTIONS = ['season', 'saints', 'special', 'history', 'deceased',
+                    'feastday', 'firstvow', 'perpvow'];
 
   function fmtDate(date) {
     const m = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -56,6 +70,41 @@
     const resp = await fetch(url, { cache: 'no-cache' });
     if (!resp.ok) throw new Error(`HTTP ${resp.status} fetching ${url}`);
     return await resp.json();
+  }
+
+  async function loadBrotherDates() {
+    const resp = await fetch('data/brothers_dates.json', { cache: 'no-cache' });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status} fetching brothers_dates.json`);
+    return await resp.json();
+  }
+
+  function fmtAnniversary(list, suffixFn) {
+    if (!Array.isArray(list) || list.length === 0) return '';
+    const thisYear = new Date().getFullYear();
+    return list.map(b => {
+      const yrs = (typeof b.year === 'number') ? (thisYear - b.year) : null;
+      const meta = [];
+      if (b.community) meta.push(b.community);
+      if (yrs !== null) meta.push(suffixFn(yrs));
+      const tail = meta.length ? ' (' + meta.join(', ') + ')' : '';
+      return `${b.name}${tail}`;
+    }).join(', ');
+  }
+
+  function fmtFeastList(list) {
+    if (!Array.isArray(list) || list.length === 0) return '';
+    const byFeast = {};
+    list.forEach(b => {
+      const key = b.feast || b.saint;
+      if (!byFeast[key]) byFeast[key] = [];
+      byFeast[key].push(b);
+    });
+    return Object.keys(byFeast).map(feast => {
+      const bros = byFeast[feast].map(b =>
+        b.name + (b.community ? ' (' + b.community + ')' : '')
+      ).join(', ');
+      return feast + ' — ' + bros;
+    }).join(' · ');
   }
 
   // ─── Adjust layout when rome-cal height changes ───
@@ -101,7 +150,7 @@
     }
 
     if (!entry) {
-      SECTIONS.forEach(s => setTag('rc-' + s, ''));
+      ['season', 'saints', 'special', 'history', 'deceased'].forEach(s => setTag('rc-' + s, ''));
     } else {
       setTag('rc-season', entry.season);
       setTag('rc-saints', entry.saints);
@@ -109,6 +158,22 @@
       setTag('rc-history', entry.history);
       setTag('rc-deceased', entry.deceased);
     }
+
+    // Brothers' anniversaries — independent of liturgical calendar
+    // Birthday is NOT loaded here per privacy rule
+    let fdText = '', fvText = '', pvText = '';
+    try {
+      const data = await loadBrotherDates();
+      const mmdd = String(today.getMonth() + 1).padStart(2, '0') + '-' + String(today.getDate()).padStart(2, '0');
+      fdText = fmtFeastList((data.feast_days || {})[mmdd]);
+      fvText = fmtAnniversary((data.first_vows || {})[mmdd], (yrs) => yrs + ' yrs');
+      pvText = fmtAnniversary((data.perpetual_vows || {})[mmdd], (yrs) => yrs + ' yrs');
+    } catch (err) {
+      console.warn('liturgical-calendar (brothers):', err.message);
+    }
+    setTag('rc-feastday', fdText);
+    setTag('rc-firstvow', fvText);
+    setTag('rc-perpvow', pvText);
 
     // After content set, recompute heights
     adjustLayout();

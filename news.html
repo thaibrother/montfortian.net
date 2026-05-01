@@ -227,7 +227,7 @@ footer a:hover { text-decoration: underline; }
 
 <!-- ===== FOOTER ===== -->
 <footer>
-    <p>For internal Foundation news (Thai Province), see <a href="https://thaibrothers.net">thaibrothers.net</a> · <a href="https://fsgthailand.org">fsgthailand.org</a></p>
+    <p>Domestic Thai education news (Ministry, public-school, etc.) is filtered out — see <a href="https://fsgthailand.org/news.html">fsgthailand.org/news</a> for full Thai-context coverage. Internal Foundation news: <a href="https://thaibrothers.net">thaibrothers.net</a></p>
 </footer>
 
 <script>
@@ -246,7 +246,9 @@ fetch('news-feed.json')
         DATA = data;
         const ts = new Date(data.generated_at);
         const tsStr = ts.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) + ' ' + ts.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Bangkok' });
-        metaTopEl.textContent = `${data.count} stories · last updated ${tsStr} (Bangkok)`;
+        // Show count of international-relevant stories only (exclude domestic Thai gov-edu/thai-school/private-edu)
+        const intlCount = (data.items || []).filter(i => !isDomesticTh(i)).length;
+        metaTopEl.textContent = `${intlCount} international stories · last updated ${tsStr} (Bangkok)`;
         render();
     })
     .catch(err => {
@@ -255,12 +257,25 @@ fetch('news-feed.json')
         console.error(err);
     });
 
+// Tags that are domestic Thai education news — not relevant for international audience
+const DOMESTIC_TH_TAGS = ['gov-edu', 'thai-school', 'private-edu'];
+const isDomesticTh = (i) => DOMESTIC_TH_TAGS.includes(i.tag);
+
 function render() {
     let items = DATA.items;
     // Filter
-    if (currentFilter === 'en') items = items.filter(i => i.lang === 'en');
-    else if (currentFilter === 'th') items = items.filter(i => i.lang === 'th');
-    else if (currentFilter !== 'all') items = items.filter(i => i.tag === currentFilter);
+    if (currentFilter === 'en') {
+        items = items.filter(i => i.lang === 'en');
+    } else if (currentFilter === 'th') {
+        // "ภาษาไทย" tab on Montfortian Network = Thai-language news ABOUT
+        // Montfortian family / Catholic — still excludes domestic Thai gov-edu noise
+        items = items.filter(i => i.lang === 'th' && !isDomesticTh(i));
+    } else if (currentFilter === 'all') {
+        // Default: hide domestic Thai education news (international audience)
+        items = items.filter(i => !isDomesticTh(i));
+    } else {
+        items = items.filter(i => i.tag === currentFilter);
+    }
     // Search
     if (searchQuery) {
         const q = searchQuery.toLowerCase();
@@ -271,7 +286,9 @@ function render() {
         );
     }
 
-    feedMetaEl.textContent = `Showing ${items.length} of ${DATA.count} stories${searchQuery ? ' for "' + searchQuery + '"' : ''}`;
+    // International-relevant total = total stories minus domestic Thai education news
+    const intlTotal = (DATA.items || []).filter(i => !isDomesticTh(i)).length;
+    feedMetaEl.textContent = `Showing ${items.length} of ${intlTotal} international stories${searchQuery ? ' for "' + searchQuery + '"' : ''}`;
 
     if (items.length === 0) {
         feedEl.innerHTML = '<div class="empty"><h3>No matching stories</h3><p>Try a different filter or search.</p></div>';

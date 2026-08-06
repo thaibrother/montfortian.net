@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T08:40:08.427695+00:00",
-  "count": 104,
+  "generated_at": "2026-08-06T08:41:17.669355+00:00",
+  "count": 105,
   "sources_queried": 67,
-  "translated": 49,
+  "translated": 50,
   "items": [
     {
       "title": "📌 สภาการศึกษาคาทอลิกฯ เข้าพบรัฐมนตรีว่าการกระทรวงศึกษาธิการ เรียนเชิญปาฐกถาพิเศษในการประชุมสัมมนาประจำปี 2569 - สภา การ ศึกษา คาทอลิก แห่ง ประเทศไทย",
@@ -20,6 +20,23 @@
         "catholic-edu"
       ],
       "title_th": "📌 สภาการศึกษาคาทอลิกฯ เข้าพบรัฐมนตรีว่าการกระทรวงศึกษาธิการ เรียนเชิญปาฐกถาพิเศษในการประชุมสัมมนาประจำปี 2569 - สภา การ ศึกษา คาทอลิก แห่ง ประเทศไทย"
+    },
+    {
+      "title": "La maison en pierre de l'hôpital Montfort désignée bien patrimonial - ONFR",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNWRiS3QwbGFXWTF2UzNGLU1FVENLRzkzbE5qbElSN1ZjUkdKVmkzc1hnQllNZFZGTkpSdy15NEhmbDFucWpUSm9xODZrWTFJZ3o2bDQ4cTZUX0RhdGZjMEpwcHNpX2QzSFpWWEpEVmlmbXl5QnA2U1JVWS1MZEdPV2JmemVicHdBaWMxMFdYVEhfUQ?oc=5",
+      "pub_date": "2026-07-17T14:22:52+00:00",
+      "pub_ts": 1784298172,
+      "source": "ONFR",
+      "lang": "fr",
+      "tag": "fdls-sisters",
+      "query": "\"Filles de la Sagesse\"",
+      "summary": "La maison en pierre de l'hôpital Montfort désignée bien patrimonial&nbsp;&nbsp;ONFR",
+      "relevance": 195,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
+      "title_th": "บ้านหินของโรงพยาบาลมงฟอร์ตถูกกำหนดให้เป็นทรัพย์สินมรดก - ONFR"
     },
     {
       "title": "Montforts of Bay Shore selling century-old home where those considering the priesthood once trained - Newsday",
@@ -53,6 +70,38 @@
         "private-edu"
       ],
       "title_th": "\"ดร.ดาริกา ลัทธพิพัฒน์\" อธิการบดี DPU รับตำแหน่ง นายกสมาคม สสอท. คนใหม่ ชูวิสัยทัศน์ขับเคลื่อนการอุดมศึกษาเอกชนร่วมกันทุกสถาบันในทุกมิติ - มติชนสุดสัปดาห์ - Matichon Online"
+    },
+    {
+      "title": "ยกระดับการอบรมแพทย์ไทย เปิดหลักสูตรเทคนิคศัลยกรรมมาตรฐานสากล - เดลินิวส์",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PUGltb3VScEtvWEd5dzN1X3IyT2JKTEZUMU9aNlFRYVc1RlFwTDhGMm1CZV9JaC0xQUVUSDZianctTkZSQ1otclJMQVQ3bVJHMjVR?oc=5",
+      "pub_date": "2026-08-06T05:49:00+00:00",
+      "pub_ts": 1785995340,
+      "source": "เดลินิวส์",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "site:dailynews.co.th การศึกษา",
+      "summary": "ยกระดับการอบรมแพทย์ไทย เปิดหลักสูตรเทคนิคศัลยกรรมมาตรฐานสากล&nbsp;&nbsp;เดลินิวส์",
+      "relevance": 180,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "ยกระดับการอบรมแพทย์ไทย เปิดหลักสูตรเทคนิคศัลยกรรมมาตรฐานสากล - เดลินิวส์"
+    },
+    {
+      "title": "หลักสูตร \"วัคซีนชีวิต\" สร้างผู้นำยุคใหม่ ปลูกหัวใจแห่งการให้-เสียสละเพื่อสังคม - Thairath.co.th",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBOLVNnRlUzZFhXWkxaeUtVN1d6dG9YUTNDWF9iejB2eUVsNC12RGZrQkdGWTYtSGVXZGZsd252NG5qc0hoRlBxb3cxWFFQM3ZnZzNFanNZTTQ?oc=5",
+      "pub_date": "2026-08-06T04:15:00+00:00",
+      "pub_ts": 1785989700,
+      "source": "Thairath.co.th",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "site:thairath.co.th การศึกษา",
+      "summary": "หลักสูตร \"วัคซีนชีวิต\" สร้างผู้นำยุคใหม่ ปลูกหัวใจแห่งการให้-เสียสละเพื่อสังคม&nbsp;&nbsp;Thairath.co.th",
+      "relevance": 180,
+      "audiences": [
+        "edu-tech"
+      ],
+      "title_th": "หลักสูตร \"วัคซีนชีวิต\" สร้างผู้นำยุคใหม่ ปลูกหัวใจแห่งการให้-เสียสละเพื่อสังคม - Thairath.co.th"
     },
     {
       "title": "หลักสูตรวัคซีนชีวิตเพื่อสังคม รุ่น 1-3 ลุย CSR มอบทุน-ตรวจสุขภาพ โรงเรียน ตชด.ป่าละอู - Thairath.co.th",
@@ -120,40 +169,57 @@
       "title_th": "ซีเนียร์ Marie-Paule Carrière - necrologie@cn2i.ca"
     },
     {
-      "title": "“What a joy for us”: Catholic Archbishop Celebrates Malawi’s 125 Years of Evangelization - ACI Africa",
+      "title": "“What a joy for us”: Catholic Archbishop Celebrates Malawi’s 125 Years of Evangelization - aciafrica.org",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTE5vTlBUc1M0RklYRWk4TEFUUThPLXFoS2tTcVl1UXRGUEI0Q2ZZa0tNUzdmMjVvemkzQVZ5eXFFRVFrZFk5Nk9NZjVPUnJkMWtxYm94ckQzYXFGeHVoSHZyX0VaRTlZV202S1hZdWxBcVpfMktocVY2b216dDU4N2hkOEk1VEp2N3BmS3FEbzdNcjlsSlVJNndPSElMMWt0UGdpOWRwVGQzRTR4VW1YOHVQWnFQRUlrYnhWckZB0gHDAUFVX3lxTE40YjhhejNOTGxUMUNHNHBoVlc0d1RLeW9sTmdWQU5GQlFoNjRGajBwcGJFN3ZjR2YyakVWaG1RLWhRSV9PLUV6aUhhbmxWbHRXSzRPNnowaGZyY2VmZmpCTDV2ay1ua052TW5rZ3ZCWk9PZFFBb1A3NUpoNkRUd2l1b3QyZVJmbE5lQTUtMVhOblJrTWhfVHNNUXpETkRLOG1fWjE5WTdBZVpsSUlodmN6dVBUazMyNFdoeklIMnluaUlFdw?oc=5",
       "pub_date": "2026-07-24T17:32:50+00:00",
       "pub_ts": 1784914370,
-      "source": "ACI Africa",
+      "source": "aciafrica.org",
       "lang": "en",
       "tag": "smm-missionaries",
       "query": "\"Company of Mary\" Montfort Catholic",
-      "summary": "“What a joy for us”: Catholic Archbishop Celebrates Malawi’s 125 Years of Evangelization&nbsp;&nbsp;ACI Africa",
+      "summary": "“What a joy for us”: Catholic Archbishop Celebrates Malawi’s 125 Years of Evangelization&nbsp;&nbsp;aciafrica.org",
       "relevance": 180,
       "audiences": [
         "administrators",
         "catholic-edu",
         "montfortian-family"
       ],
-      "title_th": "“ช่างเป็นความยินดีสำหรับเรา”: พระอัครสังฆราชคาทอลิกเฉลิมฉลอง 125 ปีแห่งการประกาศข่าวดีของมาลาวี - ACI Africa"
+      "title_th": "“ช่างเป็นความยินดีสำหรับพวกเรา”: พระอัครสังฆราชคาทอลิกเฉลิมฉลอง 125 ปีแห่งการประกาศข่าวดีของมาลาวี - aciafrica.org"
     },
     {
-      "title": "Church Must Listen to Young People to Secure Its Future, Malawian Catholic Archbishop Says - ACI Africa",
+      "title": "Church Must Listen to Young People to Secure Its Future, Malawian Catholic Archbishop Says - aciafrica.org",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbktmRUQtMDJQWWZ3eGcxM3dXNGtmVUJBS09jYVRaVHBsTGVPSlp2WEJmdGM3UU0yWHdwaGI5aVM5TDNWVC1MZF9RckFQTkh1U0lHdy1JS2REUU81Zl9uVEZKLWNzbmFUdnlOY0MyMHdfLTN5UmVNbHRMTUkzdmluREd5WEtuVXkyaHQ0Rmh5R2RQN1Ffam45OTNZUXVmeGZTdDZNdVAxTGhMN0VNMnkzZTF2OVNaclBDMDVQMXNaQTFYQlNt0gHKAUFVX3lxTE5iZGNORnZCUlhZZUNTMlhtZVV2cXBpTkFVb3J5elk2bmVXajBzVjQ4dGtTdGtyaDBqaFJNbzYyMjBtaVVtQWpQNzhXNE5FMXBCenR4TnpRa3A2bXdDUUowVXpMdF9zeXExYUp2ejVuZlU0WlBia280R3otT0c1S19qcE45emEwaFFIYnVYODF4eTkwYjBnSlN5ZC12RTRVUVFOaDU4NjQxQ2RGNHhhV3NYekctemI0NVlmSFZIbmhkanh5X2tScnF5QkE?oc=5",
       "pub_date": "2026-07-24T06:49:12+00:00",
       "pub_ts": 1784875752,
-      "source": "ACI Africa",
+      "source": "aciafrica.org",
       "lang": "en",
       "tag": "smm-missionaries",
       "query": "\"Company of Mary\" Montfort Catholic",
-      "summary": "Church Must Listen to Young People to Secure Its Future, Malawian Catholic Archbishop Says&nbsp;&nbsp;ACI Africa",
+      "summary": "Church Must Listen to Young People to Secure Its Future, Malawian Catholic Archbishop Says&nbsp;&nbsp;aciafrica.org",
       "relevance": 180,
       "audiences": [
         "administrators",
         "catholic-edu",
         "montfortian-family"
       ],
-      "title_th": "คริสตจักรต้องฟังคนหนุ่มสาวเพื่อรักษาอนาคต บาทหลวงคาทอลิกชาวมาลาวีกล่าว - ACI Africa"
+      "title_th": "คริสตจักรต้องฟังคนหนุ่มสาวเพื่อรักษาอนาคต บาทหลวงคาทอลิกชาวมาลาวีกล่าว - aciafrica.org"
+    },
+    {
+      "title": "Muslim boarding school plan in Bay Shore deserves fairness - Newsday",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLTUtOUxtZlJpTjFaVEEzRzRid25kUFRQUGxvZlFuazA4eE92WmlRWnN0THUzdm1XTVJRWGxCNkdsQllvNjJxRUpiUXZ0ZVZ3bVNSREV0cmtRWFNlMXNHekx4a1RwbDN5ZnFkUUFwZEd0eUhPQS11Mnk2azBDaDJ1UjZyNWotSmJ5WWtxNA?oc=5",
+      "pub_date": "2026-07-23T07:00:00+00:00",
+      "pub_ts": 1784790000,
+      "source": "Newsday",
+      "lang": "en",
+      "tag": "smm-missionaries",
+      "query": "\"Montfort Missionaries\"",
+      "summary": "Muslim boarding school plan in Bay Shore deserves fairness&nbsp;&nbsp;Newsday",
+      "relevance": 180,
+      "audiences": [
+        "edu-tech",
+        "montfortian-family"
+      ],
+      "title_th": "แผนโรงเรียนประจำของชาวมุสลิมในเบย์ชอร์สมควรได้รับความเป็นธรรม - Newsday"
     },
     {
       "title": "Islip hearing on proposed Muslim school for boys brings out overflow crowd of opponents - Newsday",
@@ -169,7 +235,7 @@
       "audiences": [
         "montfortian-family"
       ],
-      "title_th": "อิสลิปพิจารณาเรื่องข้อเสนอโรงเรียนมุสลิมสำหรับเด็กชาย ส่งผลให้ฝูงชนฝ่ายตรงข้ามหลั่งไหลออกมามากมาย - Newsday"
+      "title_th": "อิสลิปพิจารณาเรื่องข้อเสนอโรงเรียนมุสลิมสำหรับเด็กชาย ส่งผลให้ฝูงชนฝ่ายตรงข้ามหลั่งไหลล้น - Newsday"
     },
     {
       "title": "À LA DOUCE MÉMOIRE DE Sr Rita Paquette - Heritage Funeral Complex",
@@ -188,6 +254,23 @@
       "title_th": "ในความทรงจำอันน่ารักของ Sr. Rita Paquette - ศูนย์จัดงานศพที่เป็นมรดก"
     },
     {
+      "title": "ตั้งแต่วันที่ 8 สิงหาคมเป็นต้นไป โรงเรียนเอกชนที่ปิดทำการจะสามารถคืนค่าเล่าเรียนให้กับนักเรียนได้อย่างไร? - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMzdxRjNhd0hSY1lzbndEbmlFZlBMOE1jSFZ4YXh2bmFrOFpmSEQ4U2hxQ3I5V2tXVjBJVS14M3pkdmR6am1QM1NIbEFZa29SVUg5d2VSM1JJcTJwREh5ZHVNdHlPckhmM014WUlCVElpeHhiaENwYXRXSXgwREU5eERNaTM0WGhuZnprMGV3U2JEZkxXU1ZYdXpn?oc=5",
+      "pub_date": "2026-08-05T17:39:25+00:00",
+      "pub_ts": 1785951565,
+      "source": "Vietnam.vn",
+      "lang": "th",
+      "tag": "private-edu",
+      "query": "\"โรงเรียนเอกชน\"",
+      "summary": "ตั้งแต่วันที่ 8 สิงหาคมเป็นต้นไป โรงเรียนเอกชนที่ปิดทำการจะสามารถคืนค่าเล่าเรียนให้กับนักเรียนได้อย่างไร?&nbsp;&nbsp;Vietnam.vn",
+      "relevance": 175,
+      "audiences": [
+        "private-edu",
+        "students"
+      ],
+      "title_th": "ตั้งแต่วันที่ 8 สิงหาคมเป็นต้นไป โรงเรียนเอกชนที่ปิดทำการจะสามารถคืนค่าเล่าเรียนให้กับนักเรียนได้อย่างไร? - Vietnam.vn"
+    },
+    {
       "title": "ม.หอการค้าไทย เจ้าภาพประชุมใหญ่ สสอท. 2569 ร่วมกำหนดอนาคตอุดมศึกษาเอกชนไทย - RYT9",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBWbDZUcF81bkU1U3RpWlVBSkQ4NHZlWWFKWjN5b01wZEZ2VW5CelhOc0RldkZackQ4V1ZsaHhtZjA5dFZtdUVwZGF5OA?oc=5",
       "pub_date": "2026-08-05T02:37:46+00:00",
@@ -202,22 +285,6 @@
         "private-edu"
       ],
       "title_th": "ม.หอการค้าไทย เจ้าภาพประชุมใหญ่ สสอท. 2569 ร่วมกำหนดอนาคตอุดมศึกษาเอกชนไทย - RYT9"
-    },
-    {
-      "title": "🎖️✨ การประชุมใหญ่สามัญประจำปี 2569 สมาคมสโมสรลูกเสือรัตนโกสินทร์ ✨🎖️ - สภา การ ศึกษา คาทอลิก แห่ง ประเทศไทย",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMzdDNkVvSWNGM3lrUUVKRVRPeWlnWEFIZG02X1NVZmc5bVc5MWViWF9ZSC1oakc2S04yc2w5Zy1LMTBJWWZkeWl0NmRoaWVXYVFVV25iQ2Rka3pHcFk2NG1GLUhvR09GWUI4UkhRWjVJNDgxZmNPSVVxdU1sQmJBZTR2SGVtNGxNc3Y0N253UUVVazJIWmJCaE5mX2gwbTJlQV9kNFdTejZWS2xaejRsSWpmSVpoUHBMbWVTX0lHbElRLVRTcWhiYXdGLThjMjItSlY4ZEhlSm1RR3EyWHFFeE12NzBKdw?oc=5",
-      "pub_date": "2026-08-04T05:23:34+00:00",
-      "pub_ts": 1785821014,
-      "source": "สภา การ ศึกษา คาทอลิก แห่ง ประเทศไทย",
-      "lang": "th",
-      "tag": "catholic-edu",
-      "query": "site:catholic-education.or.th",
-      "summary": "🎖️✨ การประชุมใหญ่สามัญประจำปี 2569 สมาคมสโมสรลูกเสือรัตนโกสินทร์ ✨🎖️&nbsp;&nbsp;สภา การ ศึกษา คาทอลิก แห่ง ประเทศไทย",
-      "relevance": 175,
-      "audiences": [
-        "catholic-edu"
-      ],
-      "title_th": "🎖️✨ การประชุมใหญ่สามัญประจำปี 2569 สมาคมสโมสรลูกเสือรัตนโกสินทร์ ✨🎖️ - สภา การ ศึกษา คาทอลิก แห่ง ประเทศไทย"
     },
     {
       "title": "Youth Social Hackathon concludes with proposals mental health, ecology - Vatican News",
@@ -349,42 +416,6 @@
       "title_th": "สมชื่อการบัญชีดิจิทัล! DPU คว้า 4 รางวัล สนามตอบปัญหาบัญชี-ตรวจสอบภายใน สสอท - ผู้จัดการออนไลน์"
     },
     {
-      "title": "การสร้างความเท่าเทียมกันในนโยบายเงินอุดหนุนระหว่างนักเรียนในโรงเรียนรัฐและโรงเรียนเอกชน - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRnh0NHR3VkFMTlJSRUZQYTIzZVpZcWhSV2UxWFN0QjNZbG5nNmNZaWl2YVJremZxTWtHM3MyZzR6SHM1dnVJSEtHY19ZcldnamotRHhVUUNjaU5hT09vMDFCUTZPNV9ubGV3NnZEcUxsanBJYlcxNmlCb195Nkp4enIwa2pINjlORTh5NG5tb0gtMVFmTDl5UFNCT3IybzB0eE1pVktDSDI?oc=5",
-      "pub_date": "2026-07-27T10:34:02+00:00",
-      "pub_ts": 1785148442,
-      "source": "Vietnam.vn",
-      "lang": "th",
-      "tag": "private-edu",
-      "query": "\"เงินอุดหนุน\" \"โรงเรียนเอกชน\"",
-      "summary": "การสร้างความเท่าเทียมกันในนโยบายเงินอุดหนุนระหว่างนักเรียนในโรงเรียนรัฐและโรงเรียนเอกชน&nbsp;&nbsp;Vietnam.vn",
-      "relevance": 175,
-      "audiences": [
-        "administrators",
-        "private-edu",
-        "students"
-      ],
-      "title_th": "การสร้างความเท่าเทียมกันในนโยบายเงินอุดหนุนระหว่างนักเรียนในโรงเรียนรัฐและโรงเรียนเอกชน - Vietnam.vn"
-    },
-    {
-      "title": "ข้อเสนอเพื่อขยายขอบเขตนโยบายการให้เงินอุดหนุนสำหรับนักเรียนในโรงเรียนเอกชน - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZjF1ZW5VX2dnRUhMOHZPSVRwMkFabHZFUWg0eXQ1OVlDZmxtRGFfeEVIeGZINl9NSXJWVG4tM3BZb18tY1B1cjQzRGdpam1ld0lnRGNicmlXTm00MkIxbTNWLWlXUXJGVUtPWF9PNEFvcFVIYmYtTGpoOTlXbTN0SHdITkRrTEFLcGdPdg?oc=5",
-      "pub_date": "2026-07-27T10:33:55+00:00",
-      "pub_ts": 1785148435,
-      "source": "Vietnam.vn",
-      "lang": "th",
-      "tag": "private-edu",
-      "query": "\"เงินอุดหนุน\" \"โรงเรียนเอกชน\"",
-      "summary": "ข้อเสนอเพื่อขยายขอบเขตนโยบายการให้เงินอุดหนุนสำหรับนักเรียนในโรงเรียนเอกชน&nbsp;&nbsp;Vietnam.vn",
-      "relevance": 175,
-      "audiences": [
-        "administrators",
-        "private-edu",
-        "students"
-      ],
-      "title_th": "ข้อเสนอเพื่อขยายขอบเขตนโยบายการให้เงินอุดหนุนสำหรับนักเรียนในโรงเรียนเอกชน - Vietnam.vn"
-    },
-    {
       "title": "MISSION POSSIBLE Season 3 opens in Thailand, inspiring youth to become agents of social change - Herald Malaysia Online",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNV2YwbWIwc2Z4ZFA3d3QtYlFmdERqc0NJODI2NjJGeW1pQzk4Ymd3TFI0SGMxY3BJOW91Vng3dk5PdTJRX1JNLVpOcFlWajJpQy1YOTlBeGh3NktJUVhBOExvbUpqREdBb0JhUk1GZFdIenBLdkVvNlI3ci1fb2FsZXFsRjlnMWRNcFZLa3B4dVZBSGJVRWp0eW1EeWxYZ05kRllPckxKOF9ZZG5vSGM1QTlnYThXSXlhMFJUWnl4WlpLZ0JpalZZa3Y0NkVfVW9DbUMxdA?oc=5",
       "pub_date": "2026-07-27T10:00:54+00:00",
@@ -501,24 +532,6 @@
       "title_th": "อัครนันท์ ลั่นปักธงศูนย์พิทักษ์สิทธิฯ ยกระดับการศึกษาเอกชนให้ปลอดภัย มาตรฐานเดียวกันทั่วประเทศ - ข่าวสด"
     },
     {
-      "title": "ศธจ.เพชรบุรีตรวจสอบคุณสมบัติครูโรงเรียนเอกชนสอนนักเรียนพิการ ขอรับเงินค่าตอบแทนพิเศษ (พ.ค.ก.) ปี 2569 - สำนักงานปลัดกระทรวงศึกษาธิการ",
-      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOeU5GendhWjlMc0N6NEg3WjM4Vkx2Q2R3Z2huZkRYUGZMWDh4UE9uSFhhc3BhQXM5UXBaUDdmUlk0QkVWTHZVM2xGUzZCcTVYRDh6amNEOHRzSzRGeV82ODhuYk16VVZJbnlwZDdJczhfaXBtS1JFZW5ZdzFaMGlFSkkwVWVCNEs4QjY0RFNyelVHOV9pRENKVmNhdW1hMEdLRlN4ZWtnbm4tN3U4Wm9SNW5sUEw1aUIwc3ktVU9XNWM2cEVvaFFKN2VNcm9RbWZIQXhXSnJtakVndkV0X2t6eHloTjNEbHlPRmQ1VVFaelV2SDJKMHp3STFxcmVGdTRHd3VfM2xCcVN3c0FYLTZpNElDN3RiVXRqX2FIMzBGNTJnRUlNalNJVjlnQ0ZKcjJPY2VranBWbllxN2Jfekx1UEI0Tmk?oc=5",
-      "pub_date": "2026-07-07T08:14:42+00:00",
-      "pub_ts": 1783412082,
-      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
-      "lang": "th",
-      "tag": "private-edu",
-      "query": "\"โรงเรียนเอกชน\"",
-      "summary": "ศธจ.เพชรบุรีตรวจสอบคุณสมบัติครูโรงเรียนเอกชนสอนนักเรียนพิการ ขอรับเงินค่าตอบแทนพิเศษ (พ.ค.ก.) ปี 2569&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
-      "relevance": 175,
-      "audiences": [
-        "administrators",
-        "private-edu",
-        "students"
-      ],
-      "title_th": "ศธจ.เพชรบุรีตรวจสอบคุณสมบัติครูโรงเรียนเอกชนสอนนักเรียนพิการ ขอรับเงินค่าตอบแทนพิเศษ (พ.ค.ก.) ปี 2569 - สำนักงานปลัดกระทรวงศึกษาธิการ"
-    },
-    {
       "title": "New Chiang Mai bishop pledges unity across cultures and faiths - Herald Malaysia Online",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWVZJUE96T1JQXzdvWkZkZjFadThVQTh3VXo0TEdRNnp4S2RjVkdCUE53Um1aNFkxREtUUl9ncHUwUFVtWkhtejlIcmxaNlpSdzhvWE9XdnRhQnJNNlJMUHVMTmxUQVpYRElHNXNvYUdPZVBqbmZwVzA0OEZ4UDZONi1IYVRzcEVBdE9yZmhPS0VjYzE3a1hDaW9mUzBZc3p1WHQ3X0hERHo1QQ?oc=5",
       "pub_date": "2026-07-30T07:01:40+00:00",
@@ -570,381 +583,361 @@
       "title_th": "สมาคมอัสสัมชัญ-CGA แทคทีมจตุรมิตร เยี่ยมชม \"ศาลเจ้าไต้ฮงกง หยกขาว\" มูลนิธิป่อเต็กตึ๊ง - เดลินิวส์"
     },
     {
-      "title": "รมว.ศธ.ชู ‘อาชีวะคือทางหลัก’ ปฏิรูปการเรียน ปั้นกำลังคนคุณภาพตอบโจทย์อนาคต - เดลินิวส์",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ESk5KTy1fWDI1dlFvR0VNcGtFc3ZvY0lZcHcyenFVZWVSUVpmb095YkZrNHFITFI3UlRqZUFRcDZVbml2Z0twVXlKYlUwdVpCaGZF?oc=5",
-      "pub_date": "2026-08-05T08:26:00+00:00",
-      "pub_ts": 1785918360,
-      "source": "เดลินิวส์",
+      "title": "🎓 ศธจ.กาญจนบุรี ร่วมนำเสนอผลงาน กลไก Credit Bank พัฒนาการศึกษาเมืองกาญจน์ - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNem9xNDB1SkRqT2FxdmZMMzN4M3g1S0RwTjFxVEk2eXFBeFJuZVpfZnkwaVVnQlEtaEpldEc1Sl9LRE5WVE5iSmhPZlhwVld1LW44N24wQ2l0R3hPb1hoX0F3dDJ0TzhiejY3R3dLQTQ3NmNiVEt0blNPbkpEcF9RaW9SQ0Z0Xy00eWh1bHNnd1NjVkFoYVhJa1NCbXhOeWFWWWhQR2Y4ZjQxY0JPV3lMTG1QdXZOMzQ0V25oNmZ3UVBXZ2U3TzU3ZktTV0NkY3RnZTFxOUJ2V3BuZHM5RDZ0cXprQm5kMjNmVlo4WHVmZXpyd0lPYnI3Yy1vSjYtdDZJeDk1YWkwUURpQWg2em85YkhuVmR6M3EyaUtHWDA0UGswN1VPMjNfOVd3U1RoSkFxcmRxVEtJVGhENjc4SXRj?oc=5",
+      "pub_date": "2026-08-06T08:08:45+00:00",
+      "pub_ts": 1786003725,
+      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
       "lang": "th",
       "tag": "gov-edu",
-      "query": "site:dailynews.co.th การศึกษา",
-      "summary": "รมว.ศธ.ชู ‘อาชีวะคือทางหลัก’ ปฏิรูปการเรียน ปั้นกำลังคนคุณภาพตอบโจทย์อนาคต&nbsp;&nbsp;เดลินิวส์",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "🎓 ศธจ.กาญจนบุรี ร่วมนำเสนอผลงาน กลไก Credit Bank พัฒนาการศึกษาเมืองกาญจน์&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
       "relevance": 165,
       "audiences": [
         "administrators"
       ],
-      "title_th": "รมว.ศธ.ชู ‘อาชีวะคือทางหลัก’ ปฏิรูปการเรียน ปั้นกำลังคนคุณภาพตอบโจทย์อนาคต - เดลินิวส์"
+      "title_th": "🎓 ศธจ.กาญจนบุรี ร่วมนำเสนอผลงาน กลไก Credit Bank พัฒนาการศึกษาเมืองกาญจน์ - สำนักงานปลัดกระทรวงศึกษาธิการ"
     },
     {
-      "title": "“สส.อัมพร” ชี้งบฯ เรียนฟรีไม่ตรงปก จี้เร่งปฏิรูปโครงสร้าง ศธ. แทนยุบโรงเรียน - Thairath.co.th",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1laE1UMW9aSkpyZ3h1Q2JnUnpib3J4WThLb0paaXI0UHp2anJ3Wko5Uk5GajhnbENPX3k3NVZyYTB1WkdBdUY5T05lcWFmMmRlbG1LaVQzVVZLQmc?oc=5",
-      "pub_date": "2026-08-05T07:43:22+00:00",
-      "pub_ts": 1785915802,
-      "source": "Thairath.co.th",
+      "title": "(ศธจ.สระแก้ว) เข้าร่วมเป็นเกียรติในพิธีเปิดและรับมอบเกียรติบัตร กิจกรรมมหกรรมวิทยาศาสตร์เทคโนโลยีสัปดาห์วิทยาศาสตร์แห่งชาติประจำปี พ.ศ 2569 - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBMYUVKSlNBVnhULWRtejBKTEF0cXhobUI1Y2tsRThSNTBVNE9tRkZLeVBjZG14ckV2bFh5SEVpUl9jLVNqTWc?oc=5",
+      "pub_date": "2026-08-06T07:42:28+00:00",
+      "pub_ts": 1786002148,
+      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
       "lang": "th",
       "tag": "gov-edu",
-      "query": "site:thairath.co.th การศึกษา",
-      "summary": "“สส.อัมพร” ชี้งบฯ เรียนฟรีไม่ตรงปก จี้เร่งปฏิรูปโครงสร้าง ศธ. แทนยุบโรงเรียน&nbsp;&nbsp;Thairath.co.th",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "(ศธจ.สระแก้ว) เข้าร่วมเป็นเกียรติในพิธีเปิดและรับมอบเกียรติบัตร กิจกรรมมหกรรมวิทยาศาสตร์เทคโนโลยีสัปดาห์วิทยาศาสตร์แห่งชาติประจำปี พ.ศ 2569&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
       "relevance": 165,
       "audiences": [
         "administrators",
         "edu-tech"
       ],
-      "title_th": "“สส.อัมพร” ชี้งบฯ เรียนฟรีไม่ตรงปก จี้เร่งปฏิรูปโครงสร้าง ศธ. แทนยุบโรงเรียน - Thairath.co.th"
+      "title_th": "(ศธจ.สระแก้ว) เข้าร่วมเป็นเกียรติในพิธีเปิดและรับมอบเกียรติบัตร กิจกรรมมหกรรมวิทยาศาสตร์เทคโนโลยีสัปดาห์วิทยาศาสตร์แห่งชาติประจำปี พ.ศ 2569 - สำนักงานปลัดกระทรวงศึกษาธิการ"
     },
     {
-      "title": "กระทรวงศึกษาธิการและการฝึกอบรมกล่าวถึงความรับผิดชอบของตนอย่างไร หลังจากเกิด escándalo การโกงข้อสอบในเมืองตวนกวาง? - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQakpVcmh6ZzhYdUtUbWRoRFRxdWtsUkNlY2o4LTZ5NTNGdFhYSnZuZTNGdDh0Y0Q4bjdfbUlpSDNnSlZiaVVLc1dCQjd6S1FwczFvaDk5RTdDTjVILURFNFlLRjhKQ2VSdUEtQ0hKUXdiTlZWLU5VNnBYQ212UVgyc19COHJhWGpmc1VscHZDcEFHcTVSRWdKam9MMnRGUQ?oc=5",
-      "pub_date": "2026-08-05T07:10:03+00:00",
-      "pub_ts": 1785913803,
-      "source": "Vietnam.vn",
+      "title": "‘สพฐ.’ เปิดเวทีแข่งขันทักษะวิชาการน.ร. โครงการตามพระราชดำริฯ - Matichon Online",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xb3VKZEF6bjdZTlhCYTBsQl95bnc2a0xqNzRWR21pbkthc2ZsVHRTVFdDUVhFMy1ZLXA5Wk43TGgwb2R4X2lmYkM2VkphM2thdVdhT2Q3dmsyMmQ4ZjMzX1BQeVRTQQ?oc=5",
+      "pub_date": "2026-08-06T07:30:22+00:00",
+      "pub_ts": 1786001422,
+      "source": "Matichon Online",
       "lang": "th",
       "tag": "gov-edu",
-      "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "กระทรวงศึกษาธิการและการฝึกอบรมกล่าวถึงความรับผิดชอบของตนอย่างไร หลังจากเกิด escándalo การโกงข้อสอบในเมืองตวนกวาง?&nbsp;&nbsp;Vietnam.vn",
+      "query": "site:matichon.co.th การศึกษา",
+      "summary": "‘สพฐ.’ เปิดเวทีแข่งขันทักษะวิชาการน.ร. โครงการตามพระราชดำริฯ&nbsp;&nbsp;Matichon Online",
       "relevance": 165,
       "audiences": [
         "administrators"
       ],
-      "title_th": "กระทรวงศึกษาธิการและการฝึกอบรมกล่าวถึงความรับผิดชอบของตนอย่างไร หลังจากเกิด escándalo การโกงข้อสอบในเมืองตวนกวาง? - Vietnam.vn"
+      "title_th": "‘สพฐ.’ เปิดเวทีแข่งขันทักษะวิชาการน.ร. โครงการตามพระราชดำริฯ - Matichon Online"
     },
     {
-      "title": "วันพุธที่ 5 สิงหาคม 2569 นางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง เป็นประธานประชุมคณะกรรมการดำเนินงานการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานของหน่วยงานในสังกัดสำนักงานปลัดกระทรวงศึกษาธิการ (Integrity and Transparency Assessment: ITA) ประจำปึงบประ - สำนักงานปลัดกระทรวงศึกษาธิการ",
-      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNUUVDcXhINnFWaXZlZXFtbklqVldSb1NmbnlHTU4wWWFEaDNkMldzOUhRb2FHYW9ZbThzZmdndGVaMHZXN1dPb0Y5SVNyMDdsWnpIeFJJV1dZd24yMGxWUVhNMmI4dDZZcFNIbUpYYUxXM0ZsdWtrWjdTRmo5cXpQMFNxNTNmNVhMbUJUNFBteVh6bG5GREpLVWdKYlkyYWd3d1hPdmhxUGNkakJEajhhU29XZDRDalFsbS1MVmozZS04NDY3Ny1EMjBmVzVFUV9QQ0l3RWhBa2pLRFB2cExsTVpvc04wOVpyNklRaHlKYjd6aWpDQUZKZjBvcGNMbEswY004N2pqellaMDVaOWowamN6WnM3ZWJNZURUVHhxczQwVVo1R21ZUHlHWTNNQllDYXREaFBVRXpmdWpDM3M3NGpqRQ?oc=5",
-      "pub_date": "2026-08-05T07:04:20+00:00",
-      "pub_ts": 1785913460,
-      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "title": "190 เด็กเก่ง 4 ภูมิภาค ชิงแชมป์ทักษะวิชาการ สพฐ. สานพระราชดำริ \"สร้างฝัน ปั้นอาชีพ\" - เดลินิวส์",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBwYnhUVjhvZzE3LTZLb3E5VXVoOEFEMTFLY1lxaEM4N3FmS3dXaEN5dno0RjJrbWFMLS15VHkyWEFaWlNEdFZmQ0gtc0J4SkR3RlVN?oc=5",
+      "pub_date": "2026-08-06T07:27:00+00:00",
+      "pub_ts": 1786001220,
+      "source": "เดลินิวส์",
       "lang": "th",
       "tag": "gov-edu",
-      "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "วันพุธที่ 5 สิงหาคม 2569 นางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง เป็นประธานประชุมคณะกรรมการดำเนินงานการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานของหน่วยงานในสังกัดสำนักงานปลัดกระทรวงศึกษาธิการ (Integrity and Transparency Assessment: ITA) ประจำปึงบประ&nbsp;&nbsp;สำนักงานปลัดก",
+      "query": "site:dailynews.co.th การศึกษา",
+      "summary": "190 เด็กเก่ง 4 ภูมิภาค ชิงแชมป์ทักษะวิชาการ สพฐ. สานพระราชดำริ \"สร้างฝัน ปั้นอาชีพ\"&nbsp;&nbsp;เดลินิวส์",
       "relevance": 165,
       "audiences": [
-        "administrators",
-        "quality"
+        "administrators"
       ],
-      "title_th": "วันพุธที่ 5 สิงหาคม 2569 นางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง เป็นประธานประชุมคณะกรรมการดำเนินงานการประเมินคุณธรรมและความโปร่งใสในการดำเนินงานของหน่วยงานในสังกัดสำนักงานปลัดกระทรวงศึกษาธิการ (Integrity and Transparency Assessment: ITA) ประจำปึงบประ - สำนักงานปลัดกระทรวงศึกษาธิการ"
+      "title_th": "190 เด็กเก่ง 4 ภูมิภาค ชิงแชมป์ทักษะวิชาการ สพฐ. สานพระราชดำริ \"สร้างฝัน ปั้นอาชีพ\" - เดลินิวส์"
     },
     {
-      "title": "(ศธจ.เพชรบูรณ์) “ลงพื้นที่ตรวจสอบการดำเนินงานตามมาตรการช่วยเหลือนักเรียนในโรงเรียนเอกชนเป็นเงินอุดหนุนรายบุคคล ประจำปีงบประมาณ 2569” - สำนักงานปลัดกระทรวงศึกษาธิการ",
-      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOMU9JTjJiVFVKdHJydjY1THVLX214WEduQWdGeGRfSVRfTTRHcHFpMGxmYXJpQmYwQXlaSC1qdktmSENBQk9fZWFkT3lfNWhqZGVtNDBtWkRSNENTeE56aGxZdGVnak5sN1Zhb0lteUlJcDlQOXk5N3NFTDJvZUdacEhRSjVoVEQ2TXhqZ0I0WG1veTNxa3FfcG9SMFdZaUszSzNQMS1nNG9qSGVUdFR2dFNXU2pyNUVsU0poUktWX1FKVlVOSkdWc2oyTmljT3dHTElFYXZ5U0x1anAtZk1qSEtKdzd3Q21iT1E1QTlxMGFKaUlDQUlNaDRocVUtVENVVTJZWVFGWFFSRnN6NWhCd1VrT2tpczFzQi1pWXlaTTNxUkJnZjhwaXN2bkEyUERRbUw0?oc=5",
-      "pub_date": "2026-08-05T06:49:49+00:00",
-      "pub_ts": 1785912589,
+      "title": "(ศธจ.สระแก้ว) ออกเยี่ยมนักเรียนทุนมูลนิธิร่วมจิตต์น้อมเกล้า เพื่อเยาวชน ในพระบรมราชูปถัมภ์ จำนวน 5 คน ณ สถานศึกษาของนักเรียนทุน - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9LTDJUYVgtRV8zcWNJNWFLVWhQZEl5dXhfbnJWS2FyQzI5M1dLZkhvU2VTUzJZUHFlSUZkbzVpWmNCRTBKanc?oc=5",
+      "pub_date": "2026-08-06T07:13:07+00:00",
+      "pub_ts": 1786000387,
       "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
       "lang": "th",
       "tag": "gov-edu",
       "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "(ศธจ.เพชรบูรณ์) “ลงพื้นที่ตรวจสอบการดำเนินงานตามมาตรการช่วยเหลือนักเรียนในโรงเรียนเอกชนเป็นเงินอุดหนุนรายบุคคล ประจำปีงบประมาณ 2569”&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "summary": "(ศธจ.สระแก้ว) ออกเยี่ยมนักเรียนทุนมูลนิธิร่วมจิตต์น้อมเกล้า เพื่อเยาวชน ในพระบรมราชูปถัมภ์ จำนวน 5 คน ณ สถานศึกษาของนักเรียนทุน&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
       "relevance": 165,
       "audiences": [
         "administrators",
-        "private-edu",
         "students"
       ],
-      "title_th": "(ศธจ.เพชรบูรณ์) “ลงพื้นที่ตรวจสอบการดำเนินงานตามมาตรการช่วยเหลือนักเรียนในโรงเรียนเอกชนเป็นเงินอุดหนุนรายบุคคล ประจำปีงบประมาณ 2569” - สำนักงานปลัดกระทรวงศึกษาธิการ"
+      "title_th": "(ศธจ.สระแก้ว) ออกเยี่ยมนักเรียนทุนมูลนิธิร่วมจิตต์น้อมเกล้า เพื่อเยาวชน ในพระบรมราชูปถัมภ์ จำนวน 5 คน ณ สถานศึกษาของนักเรียนทุน - สำนักงานปลัดกระทรวงศึกษาธิการ"
     },
     {
-      "title": "การประชุมคณะกรรมาธิการวิสามัญพิจารณาร่างพระราชบัญญัติงบประมาณรายจ่าย ประจำปีงบประมาณ พ.ศ. 2570 สภาผู้แทนราษฎร - สำนักงานปลัดกระทรวงศึกษาธิการ",
-      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPZGUyVWtpaWVqV21adjdxbV95VnJzaWVzbU9Fa0xsQ3pxQUJPanVfbDhYR1F2Vk41bllfY010ZW1NdDk2cE1XN3p5MmRLMXdKamdPc1RhNWEyc1VtaVRBSXZ2dFVlelF6ZXYxNWtsQ0liSzE1bHRRcVB4T0g4SnVZaVo0M3Iyam53dnBQNFFBSlM0eUlGejNyZWFPeDRQNmVQdm1LQWFINXJTdERSYjMxdnY4Y0MyVWlkYXNXblRWZTE4LURKa1RXRlcyWFNodnZWM0hKM083Vm1QVjhpbXM5Z3BTSUJheExBRW1xemtkLWJPUmh1UGduQkVyQkI3SFNXZ3pOMXNDNmxTUHNPUmhEenh0aDJSdmU1dEJYUG9ickVZQ042Q2hFUFEwWlpKbGh6UVVhYmU2b3VsWjdaSEJFMnlITQ?oc=5",
-      "pub_date": "2026-08-05T06:35:24+00:00",
-      "pub_ts": 1785911724,
+      "title": "(ศธจ.เพชรบูรณ์) ร่วม“โครงการน้ำพระทัยพระราชทาน “วันแม่แห่งชาติ” ส่วนภูมิภาค 76 จังหวัด ประจำปี 2569” - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQVjBHTXpESXBld0t2QXlUOUEzdVpuRXdsbXRoTzdOU1p5SXU1RWMwWklPaFZKZldNcW9iWUhVRWhjeGhveWZFcGJyZy05ZVNWRnVSMFlsTkdIZUZFSlRkOEo5TGdTX2c3Q3VhenltU0lqRE5DWmlqMUZOZW0ySUxSS2RITHhPRERvOHhMN3dJbGZ5aHR2eU9PTzR5b04tZ0xnczFubXFVZjAzeVZkem5Rd2FxMFQyRTE1a21nWURDbmR1Z0czSVdsdW9waHF5anlPMU43bmdnaEFqMFdITDNrYkRmNklQWHU3T2t3R2hRcG9xa25Zd01nM0VfMlU1b2N6SXB0TnBhdnBGMktQVGg0TWkySWNPOFhSM2xRZ0hfSlF3Ui1HSlg0X2p2UlhLTmdfc2c?oc=5",
+      "pub_date": "2026-08-06T07:07:27+00:00",
+      "pub_ts": 1786000047,
       "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
       "lang": "th",
       "tag": "gov-edu",
       "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "การประชุมคณะกรรมาธิการวิสามัญพิจารณาร่างพระราชบัญญัติงบประมาณรายจ่าย ประจำปีงบประมาณ พ.ศ. 2570 สภาผู้แทนราษฎร&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "summary": "(ศธจ.เพชรบูรณ์) ร่วม“โครงการน้ำพระทัยพระราชทาน “วันแม่แห่งชาติ” ส่วนภูมิภาค 76 จังหวัด ประจำปี 2569”&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
       "relevance": 165,
       "audiences": [
         "administrators"
       ],
-      "title_th": "การประชุมคณะกรรมาธิการวิสามัญพิจารณาร่างพระราชบัญญัติงบประมาณรายจ่าย ประจำปีงบประมาณ พ.ศ. 2570 สภาผู้แทนราษฎร - สำนักงานปลัดกระทรวงศึกษาธิการ"
+      "title_th": "(ศธจ.เพชรบูรณ์) ร่วม“โครงการน้ำพระทัยพระราชทาน “วันแม่แห่งชาติ” ส่วนภูมิภาค 76 จังหวัด ประจำปี 2569” - สำนักงานปลัดกระทรวงศึกษาธิการ"
     },
     {
-      "title": "\"มงคลกิตติ์\" ยื่นนายกฯ สอบงบ ศธ.หมื่นล้าน สงสัยบริษัทกลุ่มเดิมเวียนชนะงาน - topnews.co.th",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VRHc5Y1lUdmZIZkFtOThpQnJmYTgwSFVtSURCWXdhTWN1ejN6YloyV3JTZkJNWFlRbjBqeXk2Qlo2bkdwZzhTMFQ2R3pTNmM?oc=5",
-      "pub_date": "2026-08-05T06:34:34+00:00",
-      "pub_ts": 1785911674,
-      "source": "topnews.co.th",
+      "title": "กระทรวงศึกษาธิการและการฝึกอบรมกำหนดให้ลดจำนวนโรงเรียนอาชีวศึกษาทั่วประเทศลงอย่างน้อย 30% - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb0U2MW9JUXV1R0JyaXJIOG1KR3JFLWp4RndIaUVNV1N6ZkE5LWpKUFZhWC1Iak13V1JhZlJyZE51UmYyYzZ5ZkxWdDN0X1R2TUN2WGdzLTNUcFBTeml0R0ZUalB0aU5oR3JyNWNGWEcwbjNlMF9FQ0Y0bW5WWGFtT1lPZktaLXpQVl9DVndoVzJKVUZ3Y0E?oc=5",
+      "pub_date": "2026-08-06T06:56:19+00:00",
+      "pub_ts": 1785999379,
+      "source": "Vietnam.vn",
       "lang": "th",
       "tag": "gov-edu",
       "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "\"มงคลกิตติ์\" ยื่นนายกฯ สอบงบ ศธ.หมื่นล้าน สงสัยบริษัทกลุ่มเดิมเวียนชนะงาน&nbsp;&nbsp;topnews.co.th",
+      "summary": "กระทรวงศึกษาธิการและการฝึกอบรมกำหนดให้ลดจำนวนโรงเรียนอาชีวศึกษาทั่วประเทศลงอย่างน้อย 30%&nbsp;&nbsp;Vietnam.vn",
       "relevance": 165,
       "audiences": [
         "administrators"
       ],
-      "title_th": "\"มงคลกิตติ์\" ยื่นนายกฯ สอบงบ ศธ.หมื่นล้าน สงสัยบริษัทกลุ่มเดิมเวียนชนะงาน - topnews.co.th"
+      "title_th": "กระทรวงศึกษาธิการและการฝึกอบรมกำหนดให้ลดจำนวนโรงเรียนอาชีวศึกษาทั่วประเทศลงอย่างน้อย 30% - Vietnam.vn"
     },
     {
-      "title": "กิจกรรม “เวทีแบ่งปันพลังการเปลี่ยนแปลง : SDGs สู่การปฏิบัติ เพื่อการเรียนรู้ที่ยั่งยืน” - สำนักงานปลัดกระทรวงศึกษาธิการ",
-      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQUnIzblJ2U3ZDVFB4ekZIMVhhMHNmZ3liR3pYVk9UVi1RaUhuY1pZVHNlWUdCS1NvQzROVVlTbTJtVElyeG5ibGJ3d19yOHI1bldROUJRVWtpZnpzY1Y4UlNwempteTEtZlpOMk42RS1pMFozMDZBbEhSc2poQUJtMTdGMHJvY3ozM0RGR2lXSzdhSk5oTFd3eEV5czdUbkVrRmhtN29ncVBmZGFBT25qNm5jNE94b3BydTV5UjVFY2J4d0c5V0wxcXEtMlc3VVVvcDlCR0NBeHVRcmRRQ2tBUTZnOGwzUTA1VVhzVnlYNERDbzBfTzh3LS1PTmh2R29qQ2tIVWdWR1pIVzRlUlY3enI3QzVEM28tc1o2QjZ1RUZ4NVpKNF8zT2dUQ0RBS0RnOFlEV0JWSTk?oc=5",
-      "pub_date": "2026-08-05T06:34:16+00:00",
-      "pub_ts": 1785911656,
+      "title": "(ศธจ.เพชรบูรณ์) “เปิดงาน “เทศกาลงานหนองนารี ประจำปี 2569” ส่งเสริมเศรษฐกิจสร้างสรรค์ที่เชื่อมโยงกับวัฒนธรรมของชุมชน จังหวัดเพชรบูรณ์” - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNTUV0ZzNJRzBWWTNHeF81LWtBYml4N0JVT216bnRnX09aTEUtN1VuOWg0bEVXajduZ3FkZHhPbmVzQ3dCY01QVU1XR3pFMWZycVZZZzBtYk93eGRQUlR1cXozQ3FnZ2JPZVZhcjZSYkxlOExYZVl6OFJMclJDQ1ZtX2dpZm82ZHBna3p4Zm83LWhpNFNVT0ZNeXFfU3hzUmdzYmNLZmo1dmFjR2NWeFoweng2LW1fVk81NVlaU1gxLVJQOE1VSFpkVE53N2l2VWF1Wi1POEEwcDBXVWhfS3F1UElkQTZ6QkJ3Z2hOUi1YUnQ2WEFLNENyems2ZmVZNVFUaTRrMVg1bTI0S3UyQzRVdjhTNmpkQnZLYzFoWTRFZ2dDUQ?oc=5",
+      "pub_date": "2026-08-06T06:16:46+00:00",
+      "pub_ts": 1785997006,
       "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
       "lang": "th",
       "tag": "gov-edu",
       "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "กิจกรรม “เวทีแบ่งปันพลังการเปลี่ยนแปลง : SDGs สู่การปฏิบัติ เพื่อการเรียนรู้ที่ยั่งยืน”&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "summary": "(ศธจ.เพชรบูรณ์) “เปิดงาน “เทศกาลงานหนองนารี ประจำปี 2569” ส่งเสริมเศรษฐกิจสร้างสรรค์ที่เชื่อมโยงกับวัฒนธรรมของชุมชน จังหวัดเพชรบูรณ์”&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
       "relevance": 165,
       "audiences": [
         "administrators"
       ],
-      "title_th": "กิจกรรม “เวทีแบ่งปันพลังการเปลี่ยนแปลง : SDGs สู่การปฏิบัติ เพื่อการเรียนรู้ที่ยั่งยืน” - สำนักงานปลัดกระทรวงศึกษาธิการ"
+      "title_th": "(ศธจ.เพชรบูรณ์) “เปิดงาน “เทศกาลงานหนองนารี ประจำปี 2569” ส่งเสริมเศรษฐกิจสร้างสรรค์ที่เชื่อมโยงกับวัฒนธรรมของชุมชน จังหวัดเพชรบูรณ์” - สำนักงานปลัดกระทรวงศึกษาธิการ"
     },
     {
-      "title": "การประชุมติดตามโครงการตามแผนปฏิบัติราชการประจำปีของจังหวัด และกลุ่มจังหวัด ภาคตะวันออกเฉียงเหนือตอนล่าง 1 และ 2 - สำนักงานปลัดกระทรวงศึกษาธิการ",
-      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOLURTclBERkhpcUVxdjVSOTA2UXExU2JMemw4V01vbFFDQlA1RTNUank3ekFCdFBSN0tjdGJaNzdhclJpejdPd1FaZXJUbE1LYVVuTG16YVgzNXlyemptRi1CWkpSOWRjeUxQWXV4QzE2czdoeGNoT2ZLeVdzeXVhX2VRdmZlNjZuRFBtX3ZoV3g5YWNqV0RZdDhzSWNKaDNZR296YUZJSURpUTZ4cFlMVjN2ekRpb29xUWlENGpGX0FDNTNfc0ZnLW1QTmVSemtfT2dYNFJabHF0OXl0ZzZLSWc2WnpfMmpXQ0hnY2RYWEJqX3dUSm5rdWowNzU2MmM3cmZZZU05aXVZSFFRc0NMTUdOYUVEbzhqbUtVOElwcXNwRmlnWmZROHJnZlFTbU4zekJKZjFkdWlOTmR6bl94MUlfNA?oc=5",
-      "pub_date": "2026-08-05T06:29:12+00:00",
-      "pub_ts": 1785911352,
+      "title": "(ศธจ.เพชรบูรณ์) ร่วม“ประชุมคณะกรรมการคุ้มครองเด็กจังหวัดเพชรบูรณ์ ครั้งที่ 2/2569” - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNUW81dzByNjFjQ2NRYTlPRkQwUnhLVjdhYzc1ZUI1a2kxSXc3YzI5UmVjOUxCYkppd1F6ZUNvSzB5Mkt6YmlFcGh0UEl6S3h3QzhEeDV5bmhlNWJWMHY3dzFYR0Jod1dfaW9XeWNPeE9iU3pPdVh5NTk3RldrMjRLRWJhbjd0QWxnbGd2YnRxQmE5c3FkU2V1NjN4Y1NQNnBPNzVzMWxycXhQdmQxaEduRlRoWEFVcnU5VnJtbnBfNnVkOEViZ1VKRmpTV2RpUnkxU0VCSWpQRDBOUW44N0MzSlFOSHlITmplU0VjV3BEOWlxSmNXMEdBQmhKdkJDTE5rU1pOWVhONkNSUFd4YXF5S2ZGRkNORUU3ampkaXg0czdqeXJ2Z1B2QmZBZ1RNdzlPT2hv?oc=5",
+      "pub_date": "2026-08-06T05:21:44+00:00",
+      "pub_ts": 1785993704,
       "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
       "lang": "th",
       "tag": "gov-edu",
       "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "การประชุมติดตามโครงการตามแผนปฏิบัติราชการประจำปีของจังหวัด และกลุ่มจังหวัด ภาคตะวันออกเฉียงเหนือตอนล่าง 1 และ 2&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "summary": "(ศธจ.เพชรบูรณ์) ร่วม“ประชุมคณะกรรมการคุ้มครองเด็กจังหวัดเพชรบูรณ์ ครั้งที่ 2/2569”&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
       "relevance": 165,
       "audiences": [
         "administrators"
       ],
-      "title_th": "การประชุมติดตามโครงการตามแผนปฏิบัติราชการประจำปีของจังหวัด และกลุ่มจังหวัด ภาคตะวันออกเฉียงเหนือตอนล่าง 1 และ 2 - สำนักงานปลัดกระทรวงศึกษาธิการ"
+      "title_th": "(ศธจ.เพชรบูรณ์) ร่วม“ประชุมคณะกรรมการคุ้มครองเด็กจังหวัดเพชรบูรณ์ ครั้งที่ 2/2569” - สำนักงานปลัดกระทรวงศึกษาธิการ"
     },
     {
-      "title": "กมธ.สธ. เตรียมชงวุฒิสภา พิจารณาข้อศึกษา แก้กฎหมาย สปสช. ยันไม่เจตนาล้มระบบบัตรทอง - เดลินิวส์",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mNXVaZUlpSWZ1ckxCX2VUc3ZCY3k0bUZlclEtM2FQNjVWWlpuNVg5eVNOSjJTdHFCamI1LUFuOFVSUUItNlhqcThKdjdXU3RLQnlv?oc=5",
-      "pub_date": "2026-08-05T06:12:00+00:00",
-      "pub_ts": 1785910320,
+      "title": "‘ประเสริฐ’ สั่ง สพฐ.แจงย้าย ผอ.สพท. 40 ตำแหน่ง เร่งหาทางเยียวยาผู้ได้รับผลกระทบ - เดลินิวส์",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1M082UWZabDlDY2x3X3haZmRrTHctck1ZbDVjSHRFRHM4dkk1MGoyRWNRYnBfRFBRZS1qd3dQLVhLbENoendUVTIzaVdjSXFRS3hj?oc=5",
+      "pub_date": "2026-08-06T04:51:00+00:00",
+      "pub_ts": 1785991860,
       "source": "เดลินิวส์",
       "lang": "th",
       "tag": "gov-edu",
       "query": "site:dailynews.co.th การศึกษา",
-      "summary": "กมธ.สธ. เตรียมชงวุฒิสภา พิจารณาข้อศึกษา แก้กฎหมาย สปสช. ยันไม่เจตนาล้มระบบบัตรทอง&nbsp;&nbsp;เดลินิวส์",
+      "summary": "‘ประเสริฐ’ สั่ง สพฐ.แจงย้าย ผอ.สพท. 40 ตำแหน่ง เร่งหาทางเยียวยาผู้ได้รับผลกระทบ&nbsp;&nbsp;เดลินิวส์",
       "relevance": 165,
       "audiences": [
         "administrators"
       ],
-      "title_th": "กมธ.สธ. เตรียมชงวุฒิสภา พิจารณาข้อศึกษา แก้กฎหมาย สปสช. ยันไม่เจตนาล้มระบบบัตรทอง - เดลินิวส์"
+      "title_th": "‘ประเสริฐ’ สั่ง สพฐ.แจงย้าย ผอ.สพท. 40 ตำแหน่ง เร่งหาทางเยียวยาผู้ได้รับผลกระทบ - เดลินิวส์"
     },
     {
-      "title": "ห่วงโครงสร้าง ศธ. ชี้งบประจำสูง เสนอปฏิรูปองค์กร-จัดการเรียนรวมโรงเรียนขนาดเล็ก - ประชาไท Prachatai.com",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9FWlc0OE9RMDVOYmlHSDhtN0RqaTRBN2RjMUhZQ185VURBTlpieXZfSkxfNzJDR09nckpLM01QcGlZdDJWX2JqVy1mWHVfMG5zS0JXWlJMYw?oc=5",
-      "pub_date": "2026-08-05T03:33:50+00:00",
-      "pub_ts": 1785900830,
-      "source": "ประชาไท Prachatai.com",
-      "lang": "th",
-      "tag": "gov-edu",
-      "query": "\"พ.ร.บ.การศึกษา\"",
-      "summary": "ห่วงโครงสร้าง ศธ. ชี้งบประจำสูง เสนอปฏิรูปองค์กร-จัดการเรียนรวมโรงเรียนขนาดเล็ก&nbsp;&nbsp;ประชาไท Prachatai.com",
-      "relevance": 165,
-      "audiences": [
-        "administrators",
-        "edu-tech"
-      ],
-      "title_th": "ห่วงโครงสร้าง ศธ. ชี้งบประจำสูง เสนอปฏิรูปองค์กร-จัดการเรียนรวมโรงเรียนขนาดเล็ก - ประชาไท Prachatai.com"
-    },
-    {
-      "title": "ศธ. หนุน อว. – NARIT สร้างแรงบันดาลใจผู้เรียน “ครั้งแรกของไทยสู่ภารกิจสำรวจดวงจันทร์” ส่งยานฉางเอ๋อ 7 ทะยานอวกาศ 24 สิงหาคมนี้ - สำนักงานปลัดกระทรวงศึกษาธิการ",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Lc1dQWDRBa0J3cjRxekxKVlpwVW1RWk4yVk9GTWRvTFY2VWVjM3dpRFdITHpDUk5jN2ZPUGVLV3JNX0QwNWhzVw?oc=5",
-      "pub_date": "2026-08-05T02:28:23+00:00",
-      "pub_ts": 1785896903,
+      "title": "ศธภ.5 ร่วมลงพื้นที่ตรวจราชการและติดตามการดําเนินงานขับเคลื่อนนโยบายการจัดการศึกษาของกระทรวงศึกษาธิการ รอบที่ 2 ประจําปีงบประมาณ พ.ศ. 2569 ในจังหวัดสงขลา - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxObUNPOC00Z3lCdGdISGl0Qy01bnlIUTZ5RTBVTno4RGdQNk8xSFQtYW9iQVo5NXk4T3htaTlqUG5nbE5ibEJTMDRmWXJYbG1TQU12NWFDNW5PM3BiX01QeTJPNzREVzc2ME9SaHF5QXUxSFNjVjF6UzFuR2paTnZqdC00ZjNBLVE4MTZGakJqeW4zTlFBNlMydmVtNkZyZ0pFbmRnckNncUppdDZqc3BEUG5MMF9MTXpqUWJPUkUxYjRjbk1IalhpWmJiNEk1S2FRVll5SHk1ODc1al9hVk5xU0xBVWQtVG5JUGVIRU9naDZpTnY0eTRFbmF2aU16ck5pQk1vV2d4bURvU3kxLXlhY05LazJwbm1xVXJzZ0JtNDJkby04V2tvM3ZrZXctYjBubG9lV21SSGxtZUVXWlhJ?oc=5",
+      "pub_date": "2026-08-06T04:49:06+00:00",
+      "pub_ts": 1785991746,
       "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
       "lang": "th",
       "tag": "gov-edu",
       "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "ศธ. หนุน อว. – NARIT สร้างแรงบันดาลใจผู้เรียน “ครั้งแรกของไทยสู่ภารกิจสำรวจดวงจันทร์” ส่งยานฉางเอ๋อ 7 ทะยานอวกาศ 24 สิงหาคมนี้&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "summary": "ศธภ.5 ร่วมลงพื้นที่ตรวจราชการและติดตามการดําเนินงานขับเคลื่อนนโยบายการจัดการศึกษาของกระทรวงศึกษาธิการ รอบที่ 2 ประจําปีงบประมาณ พ.ศ. 2569 ในจังหวัดสงขลา&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
       "relevance": 165,
       "audiences": [
         "administrators"
       ],
-      "title_th": "ศธ. หนุน อว. – NARIT สร้างแรงบันดาลใจผู้เรียน “ครั้งแรกของไทยสู่ภารกิจสำรวจดวงจันทร์” ส่งยานฉางเอ๋อ 7 ทะยานอวกาศ 24 สิงหาคมนี้ - สำนักงานปลัดกระทรวงศึกษาธิการ"
+      "title_th": "ศธภ.5 ร่วมลงพื้นที่ตรวจราชการและติดตามการดําเนินงานขับเคลื่อนนโยบายการจัดการศึกษาของกระทรวงศึกษาธิการ รอบที่ 2 ประจําปีงบประมาณ พ.ศ. 2569 ในจังหวัดสงขลา - สำนักงานปลัดกระทรวงศึกษาธิการ"
     },
     {
-      "title": "วีระ’ เดือด! โวยโดนข้าราชการกระทรวงศึกษาธิการหัวเราะเยาะกลางห้องประชุมกมธ.งบประมาณฯ ถาม ‘หัวเราะอะไร’ - ผู้จัดการออนไลน์",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wMDBzQjBQNjZiRVRHOFFkY0Ntd1RNTEd0dG9maXdORHRjZGNwX3lGNW1XbjBrczU4NWVTOGFEZGo4Y09aOS1FZGZIVThqX0ZTR2hfR3VhZ0NmWEYydG5WNA?oc=5",
-      "pub_date": "2026-08-05T02:19:00+00:00",
-      "pub_ts": 1785896340,
-      "source": "ผู้จัดการออนไลน์",
-      "lang": "th",
-      "tag": "gov-edu",
-      "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "วีระ’ เดือด! โวยโดนข้าราชการกระทรวงศึกษาธิการหัวเราะเยาะกลางห้องประชุมกมธ.งบประมาณฯ ถาม ‘หัวเราะอะไร’&nbsp;&nbsp;ผู้จัดการออนไลน์",
-      "relevance": 165,
-      "audiences": [
-        "administrators"
-      ],
-      "title_th": "วีระ’ เดือด! โวยโดนข้าราชการกระทรวงศึกษาธิการหัวเราะเยาะกลางห้องประชุมกมธ.งบประมาณฯ ถาม ‘หัวเราะอะไร’ - ผู้จัดการออนไลน์"
-    },
-    {
-      "title": "กระทรวงศึกษาธิการและการฝึกอบรมได้ประกาศคะแนนสอบคัดเลือกเข้าศึกษาต่อในระดับชั้นมัธยมศึกษาปีที่ 4 (เกรด 10) สำหรับปีการศึกษา 2026-2027 แล้ว - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcUhzUTh3dzM5X0dTeWI5OFlYODR6eGNMREtpM19sdWxyNDl2MkZKaGtHMl94ZXlhM2wwU0xfZDNfcnFXdHlyblJUT0k2OXRWUi1NNEQtRnRoMHdHN0hES1NTWHR6NTRUbDJnX0xVdXdsZ2FfdzZxZFlfMjR5OXNhTU9CUU5VRGlFZ2haai1PMXpzVkZRaXBQV21raHg0TFhYQzY1elFVSmo2WE1FY2E2OEJhLVYtMnU2aFR5VFN3?oc=5",
-      "pub_date": "2026-08-05T02:07:48+00:00",
-      "pub_ts": 1785895668,
+      "title": "กระทรวงศึกษาธิการและการฝึกอบรมมีแผนที่จะปรับปรุงการแต่งตั้งตำแหน่งและระดับเงินเดือนของครู - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbjJveVlwTlV3WnVod29TX2k0Ym9pYk9mZEpxdTFub3pwLTZJcVQtbVpLcmFtTnItNjFwaUVONXcwOXV2RkFCYVdqemNZcnQtRlVNb1FFdGRKNkZ6bTN5SHNoSi1iVm5LZGJkSm5UdmNubGZjOXRqdmZLb281cHlqRWNXZFRleEl3Q1R4Wjc4RUl5MDRDem9kUW9rQTYxVkRBcFE?oc=5",
+      "pub_date": "2026-08-06T04:44:16+00:00",
+      "pub_ts": 1785991456,
       "source": "Vietnam.vn",
       "lang": "th",
       "tag": "gov-edu",
       "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "กระทรวงศึกษาธิการและการฝึกอบรมได้ประกาศคะแนนสอบคัดเลือกเข้าศึกษาต่อในระดับชั้นมัธยมศึกษาปีที่ 4 (เกรด 10) สำหรับปีการศึกษา 2026-2027 แล้ว&nbsp;&nbsp;Vietnam.vn",
+      "summary": "กระทรวงศึกษาธิการและการฝึกอบรมมีแผนที่จะปรับปรุงการแต่งตั้งตำแหน่งและระดับเงินเดือนของครู&nbsp;&nbsp;Vietnam.vn",
       "relevance": 165,
       "audiences": [
-        "administrators"
+        "administrators",
+        "teachers"
       ],
-      "title_th": "กระทรวงศึกษาธิการและการฝึกอบรมได้ประกาศคะแนนสอบคัดเลือกเข้าศึกษาต่อในระดับชั้นมัธยมศึกษาปีที่ 4 (เกรด 10) สำหรับปีการศึกษา 2026-2027 แล้ว - Vietnam.vn"
+      "title_th": "กระทรวงศึกษาธิการและการฝึกอบรมมีแผนที่จะปรับปรุงการแต่งตั้งตำแหน่งและระดับเงินเดือนของครู - Vietnam.vn"
     },
     {
-      "title": "วันอังคารที่ 4 สิงหาคม 2569 นางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง มอบหมายให้ นางปัทมา มิตรกูล นักทรัพยากรบุคคลชำนาญการพิเศษ ผู้อำนวยการกลุ่มบริหารงานบุคคล เข้าร่วมประชุมการประกวดสื่อดิจิทัลเพื่อ การประชาสัมพันธ์จังหวัดระนอง ครั้งที่ 2 ณ ห้องประชุมรักษะวาริน ชั้น 5 ศ - สำนักงานปลัดกระทรวงศึกษาธิการ",
-      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPanlXTllJbXBpM1gtS3dRb0dwai1UeGZxT3lRLVI0ZGZKVndUOHNCWHNhVUlhcWhJTUdtNkx3Sk4tYTdIZzVIOUFVckVrTEowNnlWa2xDbTRmWnpldUd0alYzejFTbmxKQ29UdklWekdTSGMwZlpJODRZQTVPX1hYUFh5bVpBQ2tZY2NpU01icVFfcFgyVFd3WFdsMmVsWlk1Y0hUV1N6Y0NWREhpSmhBbm1xbTZRMHNOYXhIS1U1TEw4QlRHQ0o3UFVCQXR5ekhrNk12M2M2SU9uWElxT3BGRThGVGpLUnowODBmNkV6ZWZwSzFhNElNVDRkcG5tbU1URFhtSEJiLUJ5Q0IxY3UxQzJkM1V6LUQwQnh1cFMwUHB2TGROMW15STBPS3FpaktlaTNJc0gtSEZ5cno5OGpWN1lTZw?oc=5",
-      "pub_date": "2026-08-05T02:00:14+00:00",
-      "pub_ts": 1785895214,
+      "title": "ศธภ.5 จัดกิจกรรมโครงการลูกเสือ เนตรนารี ยุวกาชาดบำเพ็ญประโยชน์ “รวมใจภักดี ถวายความอาลัยสมเด็จพระพันปีหลวง” ในพื้นที่สำนักงานศึกษาธิการภาค 5 - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOcTlXSGdUOEdkVFVjaG51Z2JEd0pYWVdvZTVOYml1V01hUzJManlWZkNUZ25EbWpNVEh5UUhWWWVuMDdocDdaQ0FUckI5WGJzMEIwdG5DTktrYkFsTDZYc011Y2hPc3dNV1pBbjIzZUhTcTFBV1h0TlVxekF1Qy1BSC02bFllZ2NWYUctbVg2aXVhMUdCcEkwZHJURGtWMVlYa1ZQcUFWdFg2V3hzZ19LVUpXTXh5Y1lwSDFnRUR5N0Y1dDk5eGEwVHE4T2N2dGFUUmhyTnpQMDVkZ2loODFUQnFGeFRIMzd5bUpwdXlRLTg4MUJzUWNoOUJXdUd3MFcta2pVb0tvUHhLTzBDUENBVGUxTVRnbkpfc0lFRWoyNjZVWldpOUlFaE55Vko4RzllRGZ5anNheWZOc1k?oc=5",
+      "pub_date": "2026-08-06T04:41:39+00:00",
+      "pub_ts": 1785991299,
       "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
       "lang": "th",
       "tag": "gov-edu",
       "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "วันอังคารที่ 4 สิงหาคม 2569 นางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง มอบหมายให้ นางปัทมา มิตรกูล นักทรัพยากรบุคคลชำนาญการพิเศษ ผู้อำนวยการกลุ่มบริหารงานบุคคล เข้าร่วมประชุมการประกวดสื่อดิจิทัลเพื่อ การประชาสัมพันธ์จังหวัดระนอง ครั้งที่ 2 ณ ห้องประชุมรักษะวาริน ชั้น 5 ศ&nbsp;&n",
-      "relevance": 165,
-      "audiences": [
-        "administrators",
-        "edu-tech"
-      ],
-      "title_th": "วันอังคารที่ 4 สิงหาคม 2569 นางรัชดาภรณ์ ปฏิบัติ ศึกษาธิการจังหวัดระนอง มอบหมายให้ นางปัทมา มิตรกูล นักทรัพยากรบุคคลชำนาญการพิเศษ ผู้อำนวยการกลุ่มบริหารงานบุคคล เข้าร่วมประชุมการประกวดสื่อดิจิทัลเพื่อ การประชาสัมพันธ์จังหวัดระนอง ครั้งที่ 2 ณ ห้องประชุมรักษะวาริน ชั้น 5 ศ - สำนักงานปลัดกระทรวงศึกษาธิการ"
-    },
-    {
-      "title": "ปริศนา ศธ. ย้ายฟ้าผ่า 'ผอ.สพท.' 40 เขต 3 เก้าอี้ว่าง แต่เขย่าทั้งกระดาน - bangkokbiznews",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aalkwM3MyMXB5bDItZ21KTFl6aDhKVTFaWlVuNGZEaU83Ulp2ZllGZmFkbnRqamJLWkRmYWRjbDVyYnhNODR4NWw0bEhIQ29LNDlqcEo2d1JNZzg?oc=5",
-      "pub_date": "2026-08-04T15:02:54+00:00",
-      "pub_ts": 1785855774,
-      "source": "bangkokbiznews",
-      "lang": "th",
-      "tag": "gov-edu",
-      "query": "\"ครูและบุคลากรทางการศึกษา\"",
-      "summary": "ปริศนา ศธ. ย้ายฟ้าผ่า 'ผอ.สพท.' 40 เขต 3 เก้าอี้ว่าง แต่เขย่าทั้งกระดาน&nbsp;&nbsp;bangkokbiznews",
+      "summary": "ศธภ.5 จัดกิจกรรมโครงการลูกเสือ เนตรนารี ยุวกาชาดบำเพ็ญประโยชน์ “รวมใจภักดี ถวายความอาลัยสมเด็จพระพันปีหลวง” ในพื้นที่สำนักงานศึกษาธิการภาค 5&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
       "relevance": 165,
       "audiences": [
         "administrators"
       ],
-      "title_th": "ปริศนา ศธ. ย้ายฟ้าผ่า 'ผอ.สพท.' 40 เขต 3 เก้าอี้ว่าง แต่เขย่าทั้งกระดาน - bangkokbiznews"
+      "title_th": "ศธภ.5 จัดกิจกรรมโครงการลูกเสือ เนตรนารี ยุวกาชาดบำเพ็ญประโยชน์ “รวมใจภักดี ถวายความอาลัยสมเด็จพระพันปีหลวง” ในพื้นที่สำนักงานศึกษาธิการภาค 5 - สำนักงานปลัดกระทรวงศึกษาธิการ"
     },
     {
-      "title": "เมื่อเช้าวันที่ 5 สิงหาคม กระทรวงศึกษาธิการและการฝึกอบรมได้ประกาศแผนการจัดการกรณีคะแนนเต็ม 10/10 ในวิชาคณิตศาสตร์ จำนวน 147 คน ในอำเภอตวนกวาง - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNHFib2xUbXo2ZXdLZU01MXZ0OWloUkhqb0NHR0c3M1VNVnB1eFFXVlpiRWc0OHF0OVdEMjItQ25WN2JEdmNYVGIxMDQ3RTAzQ3c1WGpod1JKbW0xS05JX21XeXhVNDRHcTBoanN0MjlSazlPVDc4VVVsMDVETUdacEhWZHdzdE1RRG9mMm9EZEZyb3RWZG5Tb0hfUE5PVTF1NVR5S0QzX1o0b0VxNlBB?oc=5",
-      "pub_date": "2026-08-04T14:48:37+00:00",
-      "pub_ts": 1785854917,
-      "source": "Vietnam.vn",
+      "title": "ศธภ. 5 หนุนอีสปอร์ตเพื่อการศึกษา เปิดเวที KEEC 2026 สร้างโอกาสการเรียนรู้อย่างเท่าเทียม - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQSWQ2T0YteTNIVC1GVGg1bnJCTzNJa3dIekpaRmFJUVhnRGtDamg1bU52eHkyZXkzWGNBdlVyM19TQ0xfa2czSnVMb01vcUZoM3I1M2hUdEVRWFN6M05LdFowSnFDZl9QT1BnQlMwUmNRR2M4Q3lQWE9ja3kxZ25nd0tieXlpV1hvaWF0RzcwM1lfLVNUWWppcW03VFpKbHFvM2RQT3RKY09kNTNNajkxWmhmbFRYcHRjTTlPWGQyTjhjR3RrOHo2a2pzOWl6TlZQNXVkZU9UcVZrT0xuR3dhR1lsTEF1UzNVa0NZVkhhR2Q5T20tdmJsN0xjYmU0ZGJiN1p0aEx0WjhRTlc2VFFXZl9SdUdOMzZwZm5GakZma2tsaURXWnN4VG5YTkpHZzY2LWFlZ2VoSTNTVDQ?oc=5",
+      "pub_date": "2026-08-06T04:31:37+00:00",
+      "pub_ts": 1785990697,
+      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
       "lang": "th",
       "tag": "gov-edu",
       "query": "\"กระทรวงศึกษาธิการ\"",
-      "summary": "เมื่อเช้าวันที่ 5 สิงหาคม กระทรวงศึกษาธิการและการฝึกอบรมได้ประกาศแผนการจัดการกรณีคะแนนเต็ม 10/10 ในวิชาคณิตศาสตร์ จำนวน 147 คน ในอำเภอตวนกวาง&nbsp;&nbsp;Vietnam.vn",
+      "summary": "ศธภ. 5 หนุนอีสปอร์ตเพื่อการศึกษา เปิดเวที KEEC 2026 สร้างโอกาสการเรียนรู้อย่างเท่าเทียม&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
       "relevance": 165,
       "audiences": [
         "administrators"
       ],
-      "title_th": "เมื่อเช้าวันที่ 5 สิงหาคม กระทรวงศึกษาธิการและการฝึกอบรมได้ประกาศแผนการจัดการกรณีคะแนนเต็ม 10/10 ในวิชาคณิตศาสตร์ จำนวน 147 คน ในอำเภอตวนกวาง - Vietnam.vn"
+      "title_th": "ศธภ. 5 หนุนอีสปอร์ตเพื่อการศึกษา เปิดเวที KEEC 2026 สร้างโอกาสการเรียนรู้อย่างเท่าเทียม - สำนักงานปลัดกระทรวงศึกษาธิการ"
     },
     {
-      "title": "คณะกรรมการสมาคมผู้ปกครองและครูเซนต์คาเบรียลชุดใหม่ เริ่มทำงานอย่างเป็นทางการ มุ่งประสานความร่วมมือทุกภาคส่วน - nakornchiangrainews.com",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9oNl9acEZDZXZLc1F2NW1rMjh4SU1PNmVMQVBEZ0xrQ0p2WVJCVjBKV2lub3R4ZGlrem51ZXBlX2lYQU5NV24xN2RaaFYzaXRsdjhjQTN2TV93MjFGVjF3enhPV19zVDVGMVpmbmhvUk9MeEpX?oc=5",
-      "pub_date": "2026-08-02T23:48:44+00:00",
-      "pub_ts": 1785714524,
-      "source": "nakornchiangrainews.com",
+      "title": "(ศธจ.จันทบุรี) โครงการเข้าวัดปฏิบัติธรรมวันธรรมสวนะ ศรัทธาอิมบุญ อุดหนุนชุมชน จังหวัดจันทบุรี ประจำปีงบประมาณ พ.ศ. 2569 - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPN1dRcjl2WEs3cnlWTmQ5Y0hNSkZSNkhCYWFiRUltTUJVOVotcTdIZlpycHdFc0NaeHhOSU9fNFZPeHgtZ3BISWVQSWdEZDNlRndaWlNOaTlsWVo3TFF0SjUxYVRFTUIyN1hyVm9fclZXaFBUMnN6OEp1bE9WU29HelJySFJWczgzS3d3Skg4LWIwVkNRQTcxYjJfRTB6Sk84Q05obUJhWkdVX0xXT241ZUVKNC1tX3I0X3BfZWRSZG5zX25HeUFVcFdJUERxVFdJSUJzNzZpUmNSck5yX2lfQ3RtT1RXSmpYWkkwVlhEQnY4dEtCSTBUY09RUkp6M2VtX0RLWkgwbFc4RWd4RlNZUDVSdjdzV1FTZERtQ2c3NXluRlFuY284NVRlRGVLYzVwVmV2Y2ZUY3BHeFZz?oc=5",
+      "pub_date": "2026-08-06T03:52:02+00:00",
+      "pub_ts": 1785988322,
+      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "lang": "th",
+      "tag": "gov-edu",
+      "query": "\"กระทรวงศึกษาธิการ\"",
+      "summary": "(ศธจ.จันทบุรี) โครงการเข้าวัดปฏิบัติธรรมวันธรรมสวนะ ศรัทธาอิมบุญ อุดหนุนชุมชน จังหวัดจันทบุรี ประจำปีงบประมาณ พ.ศ. 2569&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "relevance": 165,
+      "audiences": [
+        "administrators"
+      ],
+      "title_th": "(ศธจ.จันทบุรี) โครงการเข้าวัดปฏิบัติธรรมวันธรรมสวนะ ศรัทธาอิมบุญ อุดหนุนชุมชน จังหวัดจันทบุรี ประจำปีงบประมาณ พ.ศ. 2569 - สำนักงานปลัดกระทรวงศึกษาธิการ"
+    },
+    {
+      "title": "โรงเรียนอัสสัมชัญ ออกแถลงการณ์เตือนภัยพบคนนอกแต่งตัวเลียนแบบ-แอบอ้างเป็นนักเรียน พยายามเข้าใน รร. - CH3Plus.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8tcVhxOThZT1loU25FeXVSYzUxVVBoN3dzZlp0SDZNSTg3NUUtVHVnSG56M18zYnQxWk12MDVTbWNDUDRaYzJqa0c5RWJEVEJoaFByMEhJalZqYzRPYWc?oc=5",
+      "pub_date": "2026-08-06T03:09:11+00:00",
+      "pub_ts": 1785985751,
+      "source": "CH3Plus.com",
       "lang": "th",
       "tag": "thai-school",
-      "query": "\"เซนต์คาเบรียล\" โรงเรียน",
-      "summary": "คณะกรรมการสมาคมผู้ปกครองและครูเซนต์คาเบรียลชุดใหม่ เริ่มทำงานอย่างเป็นทางการ มุ่งประสานความร่วมมือทุกภาคส่วน&nbsp;&nbsp;nakornchiangrainews.com",
+      "query": "\"โรงเรียนอัสสัมชัญ\"",
+      "summary": "โรงเรียนอัสสัมชัญ ออกแถลงการณ์เตือนภัยพบคนนอกแต่งตัวเลียนแบบ-แอบอ้างเป็นนักเรียน พยายามเข้าใน รร.&nbsp;&nbsp;CH3Plus.com",
+      "relevance": 105,
+      "audiences": [
+        "students"
+      ],
+      "title_th": "โรงเรียนอัสสัมชัญ ออกแถลงการณ์เตือนภัยพบคนนอกแต่งตัวเลียนแบบ-แอบอ้างเป็นนักเรียน พยายามเข้าใน รร. - CH3Plus.com"
+    },
+    {
+      "title": "แอปเปิล วางยุทธศาสตร์ห้องเรียนยุคใหม่ชู 4 เสาหลักสู่ระบบนิเวศการศึกษา - Thairath.co.th",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBtSWMxUE9VSFdIcjB5SlczZmdscThqQ1FySk1EUUZEQkZuakt1dkNfcEg5M050VFBtOUE0dTB4OG1jNGJKVjM3YmJ0QTZDaDlZLXlaSTZ3RnBhekNWVGZ1d2tqTXJDMEdDWHQ3d0JyTThJTXZnTU52UUdYSQ?oc=5",
+      "pub_date": "2026-08-06T01:11:00+00:00",
+      "pub_ts": 1785978660,
+      "source": "Thairath.co.th",
+      "lang": "th",
+      "tag": "thai-school",
+      "query": "\"โรงเรียนอัสสัมชัญ\"",
+      "summary": "แอปเปิล วางยุทธศาสตร์ห้องเรียนยุคใหม่ชู 4 เสาหลักสู่ระบบนิเวศการศึกษา&nbsp;&nbsp;Thairath.co.th",
       "relevance": 105,
       "audiences": [
         "edu-tech",
-        "montfortian-family"
+        "teachers"
       ],
-      "title_th": "คณะกรรมการสมาคมผู้ปกครองและครูเซนต์คาเบรียลชุดใหม่ เริ่มทำงานอย่างเป็นทางการ มุ่งประสานความร่วมมือทุกภาคส่วน - nakornchiangrainews.com"
+      "title_th": "แอปเปิล วางยุทธศาสตร์ห้องเรียนยุคใหม่ชู 4 เสาหลักสู่ระบบนิเวศการศึกษา - Thairath.co.th"
     },
     {
-      "title": "อัสสัมชัญธนบุรี เฉือน คริสเตียน คว้าแชมป์บาสเกตบอลเยาวชน IYBC 2026 - Siamsport",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FRHpodXlJZXN4cVp0QWdSandVUW5ETkFiUjY5WXJiZFVELWR4LUFwZHI5ZjdENFB1bVFJV3VSRTFBd1BzUDAxaV9Gb3JicW4yOGhQeXRHc3oybDdTOFNYUW43OWZwQmt6a3R3?oc=5",
-      "pub_date": "2026-07-31T10:30:14+00:00",
-      "pub_ts": 1785493814,
-      "source": "Siamsport",
+      "title": "แชมป์เก่า \"อัสสัมชัญ\" เปิดหัวเจ๊า \"กรุงเทพคริสเตียน\" ศึกเดลินิวส์ คัพ 2026 รุ่น 16 ปี ก - เดลินิวส์",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lY1FwNUZWcHE4TXk2TDFkbE5URWpGNWRnYkNFaFZQbXJfSzUtQU42NkwwRWFCQkR0aUM4RkRNYWx3M2xHamM4bkM0a2lhM29ZcDJJ?oc=5",
+      "pub_date": "2026-08-05T08:56:00+00:00",
+      "pub_ts": 1785920160,
+      "source": "เดลินิวส์",
       "lang": "th",
       "tag": "thai-school",
       "query": "\"โรงเรียนอัสสัมชัญ\"",
-      "summary": "อัสสัมชัญธนบุรี เฉือน คริสเตียน คว้าแชมป์บาสเกตบอลเยาวชน IYBC 2026&nbsp;&nbsp;Siamsport",
+      "summary": "แชมป์เก่า \"อัสสัมชัญ\" เปิดหัวเจ๊า \"กรุงเทพคริสเตียน\" ศึกเดลินิวส์ คัพ 2026 รุ่น 16 ปี ก&nbsp;&nbsp;เดลินิวส์",
       "relevance": 105,
       "audiences": [
-        "students"
+        "alumni"
       ],
-      "title_th": "อัสสัมชัญธนบุรี เฉือน คริสเตียน คว้าแชมป์บาสเกตบอลเยาวชน IYBC 2026 - Siamsport"
+      "title_th": "แชมป์เก่า \"อัสสัมชัญ\" เปิดหัวเจ๊า \"กรุงเทพคริสเตียน\" ศึกเดลินิวส์ คัพ 2026 รุ่น 16 ปี ก - เดลินิวส์"
     },
     {
-      "title": "อัสสัมชัญธนบุรี เฉือนหวิวผงาดแชมป์ ยู16 บาสเยาวชนนานาชาติ ไอวายบีซี - Matichon Online",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fOHNrU3BtZzBlbzVUMDduc3ZpNXhMMXpiVk40SUdYcEoza2hIdDJMeVVvREE0clhaQVhhUnNPc1psdUg3OWttaERWZ1BHR250em5vcXg1Rkl3WXJrUFRLdHE2YmxYUnM?oc=5",
-      "pub_date": "2026-07-30T07:00:24+00:00",
-      "pub_ts": 1785394824,
-      "source": "Matichon Online",
-      "lang": "th",
-      "tag": "thai-school",
-      "query": "\"โรงเรียนอัสสัมชัญ\"",
-      "summary": "อัสสัมชัญธนบุรี เฉือนหวิวผงาดแชมป์ ยู16 บาสเยาวชนนานาชาติ ไอวายบีซี&nbsp;&nbsp;Matichon Online",
-      "relevance": 105,
-      "audiences": [
-        "students"
-      ],
-      "title_th": "อัสสัมชัญธนบุรี เฉือนหวิวผงาดแชมป์ ยู16 บาสเยาวชนนานาชาติ ไอวายบีซี - Matichon Online"
-    },
-    {
-      "title": "ประกาศ : รายชื่อ 26 แข้ง ฟุตบอลชายทีมชาติไทย U20 เก็บตัวครั้งที่ 2 เตรียมลุยศึกชิงแชมป์เอเชีย รุ่นอายุไม่เกิน 20 ปี 2027 รอบคัดเลือก สมาคมกีฬาฟุตบอลแห่งประเทศไทย ในพระบรมราชูปถัมภ์ ประกาศรายชื่อ 26 นักฟุตบอลชายทีมชาติไทย รุ่นอายุไม่เกิน 20 ปี เพื่อเก็บตัวฝึกซ้อม ครั้งที่ 2 ส - facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMiowdBVV95cUxOT21zLVJkXzF6cGowMVB3SXhCYWtiTlNlTTJRQ29DbXJZOFhaN3h3WjRrYXlJdUVzRFhTZkRXVm5MbmdrVTdTelFuMF8xTVZ4T293VE1Fbjg1bHk3WnljRTNFZk1VbFowbkw5b1YxVUw2Uy11dlFmcTU2TFdSOERQcVZiaXpmNUhqMTg0VlozSDFHeEZyY2QzSGczaVk2azNyZFd2cnEzSWcwcG92RFo4SWZaejk4MVZLOVhyUkoxVzVDMzYzVTdLZ2twUWRpZnJCR05vWjJweFkybVBqMkg3dl82UnB3RnhKVHY5akYyQl9adGlFYUxlTXJPZWszdHpzM2NOZEJ3V3k2SURsSnliZXRVajYzT3VhWkN1ZE9JbG5Jang0YVZheFptREVsU2hjbk5mcHFheUpieVQ4Q0V5cThvS05kVDM4eWNXX2YxVzI2LXdUTXFFUTdOY3VQWUxBa3FNRTN6bVJqX2MydWNiMXFpU2lxM3pkeGM1aTBsdl8wcVEtREZhNzVYTjY5bW9iZjJUWF9pdkVvZ3RWcWtWRndtbVR6dFpTMGlqVnFndy11RjN0cDI0WHNKWlVrNFUzNFpyLU0zanFuNzRMQ2ZOMjVoaTN5TFRLcnQ5MVV5U0pEbFByOENVU1p3Z05WOEdtZkVoV0NoblBreWVBelA5bExUMVQ1bm1ndW05Z2NkdmFVQ21icHBOSjAtLW9yR3pXM09fcUlkbld2djJjcEFQd3hPbUsyRlYtaENDaVJEV0tWbHdyb0tSQ3g4aFRDMGNpZW12OU96bTBCLVUwQ2xxWEZyOUczczlwcHprczBKSkU5VE5uYXZDaS1OT1RHbUlxWmlKMDh0ank4NGJLVTU3LXVhUE52R3V1NW11MTY1N096ZUJuN2lZNFlXSWlmNHRhSXMxd19TQXpiYktHclpnQnpGVHhHZngtYkoyU29NRTdPVjBuSjRmT0taaUlVbmZCdDV6LVBQbVp0bG5CS3I1Rm1Sbktmc3VvV0dQVVA1cGpHRGJmMFdEblhjeW1hMFUzUjE2OXJXYjJkUVRkS1NPOVhZdHFtN0ExNVlveGd1OERXY2dxU3FlU21LeVdMQk11ZTJ2TGozRkg4NktxX29FSGNtMmx0VnRQSlNMbUNzaEhFeG5laU1zS1hmU3kzMktNUDcxU1NCcGRIR283c0tqMmtYdjA1VHB1RmZleEVLVVJiekNsTmFVeDNFdXJyRklnSFMw?oc=5",
-      "pub_date": "2026-07-24T04:00:02+00:00",
-      "pub_ts": 1784865602,
+      "title": "FA Thailand. . 🔴LIVE l อัสสัมชัญ ยูไนเต็ด vs ทรู แบงค็อก ยูไนเต็ด Coke® Cup U17 🕣 13.00 น. 🏟 สนามฟุุตบอลศูนย์พัฒนาศักยภาพกีฬาฟุตบอล ม.กรุงเทพธนบุรี 1 🏆Coke® Cup U17 Thailand Football Championship 2026 รอบชิงชนะเลิศ โซนกรุงเทพและปริมณฑล Coke Cup Th - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMizwRBVV95cUxQcXhEc3kteG9UYVBSWVdjU1ZORWZvLWRoLXJSM1pPYW1vWkRvUmdTWGdVdV9ZSnhUQkR2cXdBMFpNUWVjOFNHX1dxQWdYVEJYaUlkNFk4S0ZiTnJqeDQ0S2hEMEVMeDZVaWhqamVLVmpZNVJmWVplN3dFRzliU1N3Sy12WHozellfQ3dPSjg3a3V5cDUtRnd5ZGxHWVBreUVONXhaUE9tbkpITTRQUGJ3Tl93czBTZjRRSDY3dUZsdGNHb2gycXFUZXd5RURCZWhveUtwNTVIYVdBX251S19hVXBnQzc3SHZTd1pJSHZQYTdNMm5mTDNRa01BYWhVVlZ4MVdNRHpqVDFoclZ4akUxbUx3cGp6Ui1QYTkwZUZZV2JWOXBISl80ZnJ5QUVvanJjSVY3Z2dHWjNuNXh6NjBXeTczZ0Fid1RGRmJUN05SM0dPNFNna3JpMDRobjYzeHdUbEc3X1NEZU1HZmhodnFJRG54UUl1SlFOb2VvdVFZa3NlQTd1MGw2NGdwZ25VN3RkOVFyNmtmakJXLVhJYTAzaHJmblZHdlFzczJ6bC05TF9JMXJuYnN1WmR1R3NhSmJHSE15YS04Q2ZXR2Vyaks0ajdhQl9QRFJLaUp4Tk5fTUdZOWt0bWF5b3dfeUk3M1dadjY1cW05Q1JmNzlobmltdnZoUFRuWXZ1bklFYTJheU5ZYnctRTZXejRHcThvWndkaWVvNnhJd1E0V3h6eVVvYmxGb193NE1NbDlQY1JubWpDdlRuTkltZHFpUUVWSHc?oc=5",
+      "pub_date": "2026-08-02T05:50:59+00:00",
+      "pub_ts": 1785649859,
       "source": "facebook.com",
       "lang": "th",
       "tag": "thai-school",
       "query": "\"โรงเรียนอัสสัมชัญ\"",
-      "summary": "ประกาศ : รายชื่อ 26 แข้ง ฟุตบอลชายทีมชาติไทย U20 เก็บตัวครั้งที่ 2 เตรียมลุยศึกชิงแชมป์เอเชีย รุ่นอายุไม่เกิน 20 ปี 2027 รอบคัดเลือก สมาคมกีฬาฟุตบอลแห่งประเทศไทย ในพระบรมราชูปถัมภ์ ประกาศรายชื่อ 26 นักฟุตบอลชายทีมชาติไทย รุ่นอายุไม่เกิน 20 ปี เพื่อเก็บตัวฝึกซ้อม ครั้งที่ 2 ส&nbsp",
+      "summary": "FA Thailand. . 🔴LIVE l อัสสัมชัญ ยูไนเต็ด vs ทรู แบงค็อก ยูไนเต็ด Coke® Cup U17 🕣 13.00 น. 🏟 สนามฟุุตบอลศูนย์พัฒนาศักยภาพกีฬาฟุตบอล ม.กรุงเทพธนบุรี 1 🏆Coke® Cup U17 Thailand Football Championship 2026 รอบชิงชนะเลิศ โซนกรุงเทพและปริมณฑล Coke Cup Th&nbsp;&nbsp;facebook.com",
       "relevance": 105,
       "audiences": [
-        "administrators",
-        "alumni"
+        "edu-tech"
       ],
-      "title_th": "ประกาศ : รายชื่อ 26 แข้ง ฟุตบอลชายทีมชาติไทย U20 เก็บตัวครั้งที่ 2 เตรียมลุยศึกชิงแชมป์เอเชีย รุ่นอายุไม่เกิน 20 ปี 2027 รอบคัดเลือก สมาคมกีฬาฟุตบอลแห่งประเทศไทย ในพระบรมราชูปถัมภ์ ประกาศรายชื่อ 26 นักฟุตบอลชายทีมชาติไทย รุ่นอายุไม่เกิน 20 ปี เพื่อเก็บตัวฝึกซ้อม ครั้งที่ 2 ส - facebook.com"
+      "title_th": "FA Thailand. . 🔴LIVE l อัสสัมชัญ ยูไนเต็ด vs ทรู แบงค็อก ยูไนเต็ด Coke® Cup U17 🕣 13.00 น. 🏟 สนามฟุุตบอลศูนย์พัฒนาศักยภาพกีฬาฟุตบอล ม.กรุงเทพธนบุรี 1 🏆Coke® Cup U17 Thailand Football Championship 2026 รอบชิงชนะเลิศ โซนกรุงเทพและปริมณฑล Coke Cup Th - facebook.com"
     },
     {
-      "title": "โรงเรียนอัสสัมชัญ แจ้งเตือน บุคคลภายนอก แต่งตัวเป็นนักเรียน เข้ามาในโรงเรียนหลายครั้ง - ข่าวสด",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HdU5sanlWWGJ1ZEdFZlJSZEh1S0hlaWZOZ3VZb3EyQ1pTMTdCblhLbGR3eElrMmpIZVRXT0F3ekVlLVZBa2lGNUJVUnlJNkU4ZU1wMTJOY2NJcG5KbW9kbFVJVzhFQQ?oc=5",
-      "pub_date": "2026-07-23T07:00:00+00:00",
-      "pub_ts": 1784790000,
-      "source": "ข่าวสด",
+      "title": "'อัสสัมชัญธนบุรี' ผงาดแชมป์ U16 ไดมอนด์บาสเกตบอลเยาวชนนานาชาติ ไอวายบีซี 2026 - ไทยโพสต์",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6MXV0R2ROTTJ4U0xvT2o2WVcxVm04OWpyNFZIQzc5dFBJM1BpVDRvc2ZnR1Bkd2p3SjhzdVhjQkFiOTFjcm85dG5CS0J5X0RDVzVBbkoyZw?oc=5",
+      "pub_date": "2026-07-31T15:32:52+00:00",
+      "pub_ts": 1785511972,
+      "source": "ไทยโพสต์",
       "lang": "th",
       "tag": "thai-school",
       "query": "\"โรงเรียนอัสสัมชัญ\"",
-      "summary": "โรงเรียนอัสสัมชัญ แจ้งเตือน บุคคลภายนอก แต่งตัวเป็นนักเรียน เข้ามาในโรงเรียนหลายครั้ง&nbsp;&nbsp;ข่าวสด",
+      "summary": "'อัสสัมชัญธนบุรี' ผงาดแชมป์ U16 ไดมอนด์บาสเกตบอลเยาวชนนานาชาติ ไอวายบีซี 2026&nbsp;&nbsp;ไทยโพสต์",
       "relevance": 105,
       "audiences": [
         "students"
       ],
-      "title_th": "โรงเรียนอัสสัมชัญ แจ้งเตือน บุคคลภายนอก แต่งตัวเป็นนักเรียน เข้ามาในโรงเรียนหลายครั้ง - ข่าวสด"
+      "title_th": "'อัสสัมชัญธนบุรี' ผงาดแชมป์ U16 ไดมอนด์บาสเกตบอลเยาวชนนานาชาติ ไอวายบีซี 2026 - ไทยโพสต์"
     },
     {
-      "title": "สมเด็จพระอริยวงศาคตญาณ พระสังฆราช องค์ที่ 20 แห่งกรุงรัตนโกสินทร์ - MThai.com",
+      "title": "สมเด็จพระอริยวงศาคตญาณ พระสังฆราช องค์ที่ 20 แห่งกรุงรัตนโกสินทร์ - mthai.com",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9nSk5saEduSTVNdUlDcGNlQ2pwMlFQODdtd2U3VVVnemphd3FzQmNLUlVzc3lhcTlhRVhFS2xQazFmNzBXaFRJQVJn?oc=5",
       "pub_date": "2026-06-26T07:00:00+00:00",
       "pub_ts": 1782457200,
-      "source": "MThai.com",
+      "source": "mthai.com",
       "lang": "th",
       "tag": "catholic-edu",
       "query": "\"พระสังฆราช\" \"การศึกษา\"",
-      "summary": "สมเด็จพระอริยวงศาคตญาณ พระสังฆราช องค์ที่ 20 แห่งกรุงรัตนโกสินทร์&nbsp;&nbsp;MThai.com",
+      "summary": "สมเด็จพระอริยวงศาคตญาณ พระสังฆราช องค์ที่ 20 แห่งกรุงรัตนโกสินทร์&nbsp;&nbsp;mthai.com",
       "relevance": 160,
       "audiences": [
         "catholic-edu",
         "edu-tech"
       ],
-      "title_th": "สมเด็จพระอริยวงศาคตญาณ พระสังฆราช องค์ที่ 20 แห่งกรุงรัตนโกสินทร์ - MThai.com"
+      "title_th": "สมเด็จพระอริยวงศาคตญาณ พระสังฆราช องค์ที่ 20 แห่งกรุงรัตนโกสินทร์ - mthai.com"
+    },
+    {
+      "title": "**จับตาโรงเรียนเอกชนสัญชาติเมียนมาในสมุทรสาคร ผู้ร้องตั้งข้อสงสัยอาจเชื่อมโยงเครือข่ายทุนสีเทา เตรียมยื่นผู้ว่าฯ ตรวจสอบ** เกิดกระแสวิพากษ์วิจารณ์ในโลกออนไลน์ หลังมีการเผยแพร่ข้อมูลและข้อกล่าวหาเกี่ยวกับโรงเรียนเอกชนที่ใช้หลักสูตรจากประเทศเมียนมาในพื้นที่จังหวัดสมุทรสาคร - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMioAhBVV95cUxQblY4MHM1YWIzTWUxaU0xbm9rc3dFRmR4MmhSYTMtbVVfcFY5MkVqM0JfdlY3WVhDVFZNdVo3NWFHS1lwWkxWQ2ZoVGd2WnRKVXJJR1NGdVROZjdYaDdHTTR4ek1CYzFyNDc4ZmR3UlpHcGhRamRnb2lQRFh2TVpXRFNsbEJ1dzh5bzh5NmViVnVvcGZMMTUyU05EdjZKaUsyak8zY3RtTFRiRTNxYzVPb21EcWFNd0dxdlJLa3VwT1RNeGs4RVdOcmE3Z3ptRnl6VHhkcUk4RW9MYm5yVGFicGtFdGpSdWlxVjhKT3Qxcy1XdnQwX1R3aGVrWFo4RHljV2E4OEFDZllibExIUFFuRGVtNjVJblFzVmdCZEwtTHUxMjdWa0VLdi1qcll1bEJYNndvMWhXWmt0X3Rpa3RrdmNFaFY1UHlBNm9JTEUxaW5mblZMQkRJMHZDcFhvNHdITnBWaEk1RzBEWm9KZU5GT0UyWkZRbVZkaGE4UXlyc3dsX1FmNXNjQjZKY2pOZXJ4VWlUVXpCdllNVFBRQ3I0TWY5WFlvdjJxVXZKWmMyTnkwdUhuUFNZWVFUVU9tZjZjeFozSUZfTmxULUNpYjB0NjFqSXV0WGZuaVZPRTB5ck1zUmw2Nmotb05RTmN4N0V1ZVJxY21pdDhLMW5ZNlJ1aC1faEp3aE40Y21ndUJ2V05BVk10UkNRS3pBckYwOXNGb3ZJc2F0Rl9MN19NQ19hc1Y5T3BHbldBc0g5TU1hNDFLejlaSWhwRjVPeE10c0U2ODFUa1gtdlpodzNzWnhEd0hBbEdZSHpRR3F2Mm9iY05BcFVQR1lRWkk2SDd3c0R6bFpReFhTbnhXakVlUThqZDRBLXBIYm5VYlBUTmJJVDBldUhoUWVvNGVma0NJVl9YTi1GbzFZMW1OQXAtc20tR0JCZDNndk51YmloRXR1bWZ5R1Q3RUU5emh2LTE2ajJNcXppeDJaYkx1bkNaUDg0ekM0RzJEMjhlZFYwdlB1VndyN0l1MC1ib1gzd3dyRFNjWUVNRGhYN1lBeE1paVRpWnNzbm15akEwTmhhT1pRYTkyMTFwQXEtanRuRTNmaWVQWEhWaDhiYjZDRnEzWGtMSEVUYjZ0eGEzOFRCOGR0bF9FMlhvQW15c0xDc254QTJpS2VjRUZKTkhiOXRYVUtVdjlPY2tlYlAyb2JMOTBRb0VDZ3M5V0Z4VGVyVWU5dl9hVnF1dG1oOEZ5b05OOEUzUEpaQTJVbGNzVzdlUHFQSGxtZWRqZlVWWldHajByR0dhc0pnUnJOT3FkbFlxc0pKUENaT2l5NFM1dlg1NlNranJBVG4zWVkwNEFuVTVYc2RicldDZVdmV0ZrUE1UYWZpVXdOaDZWWnJTc0hjSjZfbXI?oc=5",
+      "pub_date": "2026-06-25T07:00:00+00:00",
+      "pub_ts": 1782370800,
+      "source": "facebook.com",
+      "lang": "th",
+      "tag": "private-edu",
+      "query": "\"โรงเรียนเอกชน\"",
+      "summary": "**จับตาโรงเรียนเอกชนสัญชาติเมียนมาในสมุทรสาคร ผู้ร้องตั้งข้อสงสัยอาจเชื่อมโยงเครือข่ายทุนสีเทา เตรียมยื่นผู้ว่าฯ ตรวจสอบ** เกิดกระแสวิพากษ์วิจารณ์ในโลกออนไลน์ หลังมีการเผยแพร่ข้อมูลและข้อกล่าวหาเกี่ยวกับโรงเรียนเอกชนที่ใช้หลักสูตรจากประเทศเมียนมาในพื้นที่จังหวัดสมุทรสาคร&nbsp;&nb",
+      "relevance": 160,
+      "audiences": [
+        "private-edu"
+      ],
+      "title_th": "**จับตาโรงเรียนเอกชนสัญชาติเมียนมาในสมุทรสาคร ผู้ร้องตั้งข้อสงสัยอาจเชื่อมโยงเครือข่ายทุนสีเทา เตรียมยื่นผู้ว่าฯ ตรวจสอบ** เกิดกระแสวิพากษ์วิจารณ์ในโลกออนไลน์ หลังมีการเผยแพร่ข้อมูลและข้อกล่าวหาเกี่ยวกับโรงเรียนเอกชนที่ใช้หลักสูตรจากประเทศเมียนมาในพื้นที่จังหวัดสมุทรสาคร - facebook.com"
     },
     {
       "title": "Pakistan: Lahore Archdiocese Hosts Higher Education Expo to Guide Christian Youth - Radio Veritas Asia",
@@ -960,7 +953,7 @@
       "audiences": [
         "catholic-edu"
       ],
-      "title_th": "ปากีสถาน: อัครสังฆมณฑลละฮอร์จัดงานมหกรรมการศึกษาระดับอุดมศึกษาเพื่อเป็นแนวทางแก่เยาวชนคริสเตียน - Radio Veritas Asia"
+      "title_th": "ปากีสถาน: อัครสังฆมณฑลละฮอร์เป็นเจ้าภาพงานมหกรรมการศึกษาระดับอุดมศึกษาเพื่อเป็นแนวทางแก่เยาวชนคริสเตียน - Radio Veritas Asia"
     },
     {
       "title": "Philippines: Strong Earthquake Damages Parish Church, Disrupts Catholic Schools in Mindanao - Radio Veritas Asia",
@@ -976,7 +969,7 @@
       "audiences": [
         "catholic-edu"
       ],
-      "title_th": "ฟิลิปปินส์: แผ่นดินไหวรุนแรงสร้างความเสียหายให้กับโบสถ์ประจำเขต และโรงเรียนคาทอลิกในมินดาเนาต้องหยุดชะงัก - Radio Veritas Asia"
+      "title_th": "ฟิลิปปินส์: แผ่นดินไหวรุนแรงสร้างความเสียหายให้กับโบสถ์ประจำเขต ส่งผลให้โรงเรียนคาทอลิกในมินดาเนาต้องหยุดชะงัก - Radio Veritas Asia"
     },
     {
       "title": "เสมเด็จพระสังฆราช ประทานพระคติธรรม เนื่องในวันวิสาขบูชา 2569 - สยามนิวส์",
@@ -1009,6 +1002,22 @@
         "catholic-edu"
       ],
       "title_th": "รัฐบาล เตรียมจัดงานฉลอง พระชนมายุ 99 ปี สมเด็จพระสังฆราช - thansettakij"
+    },
+    {
+      "title": "การอบรมออนไลน์เตรียมความพร้อมก่อนเปิดปีการศึกษา 2569 หัวข้อ “ครูโรงเรียนคาทอลิกในโลกใหม่ ตามพระประสงค์สมเด็จพระสันตะปาปา” - สภา การ ศึกษา คาทอลิก แห่ง ประเทศไทย",
+      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPb3pOZGpMZll5Tkd1MndiZEJIajBVU0lnSHRGZG5qRE1iUS1kaFg4TnE3ekNyY2NzVExzRkE1QnVkdjVYQ3V2MHZ5RmJ6WjBJWExYQlZ6b3RhT09oaDFJUlJwYVBsRDhVWUg1ZE9pcjZEVlpiakN1VDBNMVozeDE1aWlkNlViVUlFMVJIdHJpOXV3MWtLRXNmYVJPTTVQemhmTU52MWUzdWdReTRycjJKTjFVSHNzX0dFZVdqWDR6SmhNRW84R3BpM0FHcFU1MWxXVXdJRFNuTDQwQTkxVGlyUWxRc0Q1S1hGcXZma2QwaG42dV9VQ0l4TTlDdVNmTDNFb0JCaGNnN1BVbmFKTGxXamI4R3VRWHB5aUprZEg0S1IweElPNjRWdVRsWlpUdHJ5dERueTliM1lEblVRLTlaSXNZam5qUjA?oc=5",
+      "pub_date": "2026-05-14T07:00:00+00:00",
+      "pub_ts": 1778742000,
+      "source": "สภา การ ศึกษา คาทอลิก แห่ง ประเทศไทย",
+      "lang": "th",
+      "tag": "catholic-edu",
+      "query": "site:catholic-education.or.th",
+      "summary": "การอบรมออนไลน์เตรียมความพร้อมก่อนเปิดปีการศึกษา 2569 หัวข้อ “ครูโรงเรียนคาทอลิกในโลกใหม่ ตามพระประสงค์สมเด็จพระสันตะปาปา”&nbsp;&nbsp;สภา การ ศึกษา คาทอลิก แห่ง ประเทศไทย",
+      "relevance": 160,
+      "audiences": [
+        "catholic-edu"
+      ],
+      "title_th": "การอบรมออนไลน์เตรียมความพร้อมก่อนเปิดปีการศึกษา 2569 หัวข้อ “ครูโรงเรียนคาทอลิกในโลกใหม่ ตามพระประสงค์สมเด็จพระสันตะปาปา” - สภา การ ศึกษา คาทอลิก แห่ง ประเทศไทย"
     },
     {
       "title": "สภาประมุขบาทหลวงโรมันคาทอลิก แถลงการณ์เรียกร้อง รัฐสภาเห็นชอบ พ.ร.บ.อากาศสะอาด - Matichon Online",
@@ -1110,6 +1119,24 @@
         "montfortian-family"
       ],
       "title_th": "ในเมือง Brec'h ซิสเตอร์มารีฉลองวันเกิดครบรอบ 100 ปีของเธอที่บ้านพัก La Sagesse - Le Télégramme"
+    },
+    {
+      "title": "ศธจ.เพชรบุรีตรวจสอบคุณสมบัติครูโรงเรียนเอกชนสอนนักเรียนพิการ ขอรับเงินค่าตอบแทนพิเศษ (พ.ค.ก.) ปี 2569 - สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOeU5GendhWjlMc0N6NEg3WjM4Vkx2Q2R3Z2huZkRYUGZMWDh4UE9uSFhhc3BhQXM5UXBaUDdmUlk0QkVWTHZVM2xGUzZCcTVYRDh6amNEOHRzSzRGeV82ODhuYk16VVZJbnlwZDdJczhfaXBtS1JFZW5ZdzFaMGlFSkkwVWVCNEs4QjY0RFNyelVHOV9pRENKVmNhdW1hMEdLRlN4ZWtnbm4tN3U4Wm9SNW5sUEw1aUIwc3ktVU9XNWM2cEVvaFFKN2VNcm9RbWZIQXhXSnJtakVndkV0X2t6eHloTjNEbHlPRmQ1VVFaelV2SDJKMHp3STFxcmVGdTRHd3VfM2xCcVN3c0FYLTZpNElDN3RiVXRqX2FIMzBGNTJnRUlNalNJVjlnQ0ZKcjJPY2VranBWbllxN2Jfekx1UEI0Tmk?oc=5",
+      "pub_date": "2026-07-07T08:14:42+00:00",
+      "pub_ts": 1783412082,
+      "source": "สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "lang": "th",
+      "tag": "private-edu",
+      "query": "\"โรงเรียนเอกชน\"",
+      "summary": "ศธจ.เพชรบุรีตรวจสอบคุณสมบัติครูโรงเรียนเอกชนสอนนักเรียนพิการ ขอรับเงินค่าตอบแทนพิเศษ (พ.ค.ก.) ปี 2569&nbsp;&nbsp;สำนักงานปลัดกระทรวงศึกษาธิการ",
+      "relevance": 145,
+      "audiences": [
+        "administrators",
+        "private-edu",
+        "students"
+      ],
+      "title_th": "ศธจ.เพชรบุรีตรวจสอบคุณสมบัติครูโรงเรียนเอกชนสอนนักเรียนพิการ ขอรับเงินค่าตอบแทนพิเศษ (พ.ค.ก.) ปี 2569 - สำนักงานปลัดกระทรวงศึกษาธิการ"
     },
     {
       "title": "Vatican recognises the martyrdom of 20 Spanish priests murdered during the Civil War - Crux | Taking the Catholic Pulse",
@@ -1227,7 +1254,7 @@
         "catholic-edu",
         "catholic-media"
       ],
-      "title_th": "เวียดนามเป็นเจ้าภาพมิสซาแต่งตั้งบุญราศีเป็นครั้งแรกในประวัติศาสตร์คาทอลิก - Báo VietNamNet"
+      "title_th": "เวียดนามเป็นเจ้าภาพมิสซาแต่งตั้งบุญราศีครั้งแรกในประวัติศาสตร์คาทอลิก - Báo VietNamNet"
     },
     {
       "title": "'วัดคาทอลิก' ทั่วราชอาณาจักร น้อมถวายพระราชกุศลแด่ 'องค์ภา' - ไทยโพสต์",
@@ -1262,6 +1289,22 @@
         "catholic-media"
       ],
       "title_th": "เงา เวลา กับความทรงจำของ คุณพ่อจำเนียร กิจเจริญ - CBCT Library"
+    },
+    {
+      "title": "Guy Latrémouille Obituary - Ottawa, ON - Dignity Memorial",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON1VzbHIyWllMaFZiWkQySExmTzlvRFNYaUI5T2x3UDlOcHA4eHFZUEh6WndLQXh4eWFtOXdkYWFKYTJaamFDN3NqenlHUklYVE9ucU1RVWRyQUdBNzRaTjBIdlFWTTVuWUlYVUl1bG0yd01lZVFSaVc2elp4OGFqQlBfR29mNWtMam1z?oc=5",
+      "pub_date": "2026-06-01T19:59:19+00:00",
+      "pub_ts": 1780343959,
+      "source": "Dignity Memorial",
+      "lang": "en",
+      "tag": "founder",
+      "query": "\"Louis-Marie de Montfort\"",
+      "summary": "Guy Latrémouille Obituary - Ottawa, ON&nbsp;&nbsp;Dignity Memorial",
+      "relevance": 130,
+      "audiences": [
+        "montfortian-family"
+      ],
+      "title_th": "Guy Latrémouille ข่าวร้าย - ออตตาวา, ON - อนุสรณ์สถานศักดิ์ศรี"
     },
     {
       "title": "‘Faith should never justify violence’ say Muslims after church attack - Aid to the Church in Need",
@@ -1511,23 +1554,7 @@
       "audiences": [
         "montfortian-family"
       ],
-      "title_th": "สมเด็จพระสันตะปาปาทรงรำลึกถึงผู้พลีชีพชาวสเปน 50 รายจากการประหัตประหารทางศาสนาในปี 1936 - infovaticana"
-    },
-    {
-      "title": "Daughters of Wisdom - The Advocate",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRGlaZ0F2QmczekJmRXpfZmdBRWQtVkhiSVlPaWZmZHlzMFFNbHRlcUxDd0xpSTgyZS1ZZ2s1OFp2ZkNfSjVsMXEzbG16WVFQSWJvUDExY04zWVBfTTBOd3pyVGNSN2E1N09iZmoxemFXZFdWVldCWDZkQWJWaDBjMndCZVZnTVBDbEV6UFVDbHJ6NWp1Znc2dmFoNA?oc=5",
-      "pub_date": "2026-04-24T07:00:00+00:00",
-      "pub_ts": 1777014000,
-      "source": "The Advocate",
-      "lang": "en",
-      "tag": "fdls-sisters",
-      "query": "\"Daughters of Wisdom\" Catholic",
-      "summary": "Daughters of Wisdom&nbsp;&nbsp;The Advocate",
-      "relevance": 125,
-      "audiences": [
-        "montfortian-family"
-      ],
-      "title_th": "ธิดาแห่งปัญญา - ผู้สนับสนุน"
+      "title_th": "สมเด็จพระสันตะปาปาทรงยกย่องผู้พลีชีพชาวสเปน 50 รายจากการประหัตประหารทางศาสนาในปี 1936 - infovaticana"
     },
     {
       "title": "Monfort opens in the North - PressReader",
@@ -1544,6 +1571,23 @@
         "montfortian-family"
       ],
       "title_th": "Monfort เปิดทำการในภาคเหนือ - PressReader"
+    },
+    {
+      "title": "Catholic Priests “safe, unharmed” after Armed Robbery at Parish in DR Congo’s Kisangani Archdiocese - aciafrica.org",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNDhpdDZpUlJEWkJRQlJ6ZEx1VjFmTkg2T1c1OC1FdnM3bGoyR3NaNUY2ZHNfczc5b2hOa1RhV0V5T3l3eXAzN3U1SXRXbzdxN3ZOZk1lZHUzSmdTQWF6QkRHUGtvOFdsbU15WHN4U1lteC1FUUVCSHk5M3NfeUM3MHpqMXUzNW9PRG1qbkFmT2I1N25OY21MSklpcXFLU20zMjJKZ21rNE9yc2p1eXBLT0F5T1lYWFI2WXpNVVpDSlhSRXhTZEVucHRYNDDSAdIBQVVfeXFMUGFlY0hrNm9QR0kwbkZvbDZOeXB6c2NFTlJNaXBRQzlqd3hxZzZvYXIxZjRYZl95YUZFZHF0SldwMnpjSFBiOGxMYzNFY0RSQ3Q5SG5Dd3Rwb0ZoNVc5a3lqN1JlR0w4Nl9yM0pZdzVhZmszVlNhWThYYVlwTTFGRjBhQzR2YXJhQ1Y1bktlUTdrN2hfZG1xbkdxRkM1el8yNmhfQ3VZdzd1TS1TcGpzTlJHWHo0MzE3ZUJCcFk2RW1YTXhVVUM1MjhDQmlvVFczbGNR?oc=5",
+      "pub_date": "2025-10-21T07:00:00+00:00",
+      "pub_ts": 1761030000,
+      "source": "aciafrica.org",
+      "lang": "en",
+      "tag": "smm-missionaries",
+      "query": "\"Company of Mary\" Montfort Catholic",
+      "summary": "Catholic Priests “safe, unharmed” after Armed Robbery at Parish in DR Congo’s Kisangani Archdiocese&nbsp;&nbsp;aciafrica.org",
+      "relevance": 125,
+      "audiences": [
+        "catholic-edu",
+        "montfortian-family"
+      ],
+      "title_th": "พระสงฆ์คาทอลิก “ปลอดภัย ไม่ได้รับอันตราย” หลังจากการปล้นด้วยอาวุธที่ตำบลในอัครสังฆมณฑล Kisangani ของดีอาร์ คองโก - aciafrica.org"
     },
     {
       "title": "Saint of the day: Louis-Marie Grignion de Montfort - Angelus News",
@@ -1615,20 +1659,20 @@
       "title_th": "ฉะเชิงเทรา สมาพันธ์สมาคมศิษย์เก่าคณะเซนต์คาเบรียลแห่งประเทศไทย จัดโครงการออกหน่วยทันตกรรมเคลื่อนที่ถวายเป็นพระราชกุศลแด่ในหลวงรัชกาลที่ 9 เนื่องในวันนวมินทรมหาราช - topnews.co.th"
     },
     {
-      "title": "Trial opens for man accused of killing French priest who sheltered him - Le Monde.fr",
+      "title": "Trial opens for man accused of killing French priest who sheltered him - lemonde.fr",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOWFHNmYxX0owOWxGWnpDOHpxRmFNVnVzMUZncE9SY29mb0Fic1ROSHF4dlEzRTZyRXpvbVd5Rkl1cHpyMUZIbklXNzQ4cDI5T2RfVEhYWkx1ZWpsSmFYWUwzODJvcFd0TWhQT085NThYS1RMMTZ1OTk4ZjBIeGtxa0gtT0p3WWF4TVBWX2FXMEEzelI2WDN2NldrdVJCOU9KXzNDMTNMeTRBSk1Demx5WHh6aU54bTlBaDQ2a0VpYXp3cHdTeUlybmFiejdZNDlENjNn?oc=5",
       "pub_date": "2026-01-20T08:00:00+00:00",
       "pub_ts": 1768896000,
-      "source": "Le Monde.fr",
+      "source": "lemonde.fr",
       "lang": "en",
       "tag": "smm-missionaries",
       "query": "\"Montfort Missionaries\"",
-      "summary": "Trial opens for man accused of killing French priest who sheltered him&nbsp;&nbsp;Le Monde.fr",
+      "summary": "Trial opens for man accused of killing French priest who sheltered him&nbsp;&nbsp;lemonde.fr",
       "relevance": 110,
       "audiences": [
         "montfortian-family"
       ],
-      "title_th": "เปิดการพิจารณาคดีชายที่ถูกกล่าวหาว่าสังหารบาทหลวงชาวฝรั่งเศสที่ให้ที่พักพิงแก่เขา - Le Monde.fr"
+      "title_th": "เปิดการพิจารณาคดีชายที่ถูกกล่าวหาว่าสังหารบาทหลวงชาวฝรั่งเศสที่ให้ที่พักพิงแก่เขา - lemonde.fr"
     },
     {
       "title": "Technical and cocational training ‘not a fallback Option’: PM - Fiji Sun",
@@ -1664,23 +1708,6 @@
       "title_th": "โรงเรียนอัสสัมชัญ จัดงานฉลองการก่อตั้งครบ “140 ปี แห่งความภาคภูมิใจ สู่ศตวรรษใหม่ของการศึกษา” - ผู้จัดการออนไลน์"
     },
     {
-      "title": "African duo ordained after completing theology studies at Bomana - The National | Your Number One Daily!",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcFdlOVJnQUFPeGhRcEtMQVJkNFp5OEl2YUxKTER0WDloTmtIWTVMdXBQd2szN1F3cXZQYThGdG9pdi1ncl9CbEFMb29LMEdIYkFtZ2xTX1QzTEI1RWtOWDBxMC0xZXI5aHp0dUVHZ3hmc3JrWmR6NlpfNEV5bzFwR1hJT09Tb3dEVlU4SkxhdWw3WVNwR0FJWUJPMjk?oc=5",
-      "pub_date": "2025-07-03T07:00:00+00:00",
-      "pub_ts": 1751526000,
-      "source": "The National | Your Number One Daily!",
-      "lang": "en",
-      "tag": "smm-missionaries",
-      "query": "\"Montfort Missionaries\"",
-      "summary": "African duo ordained after completing theology studies at Bomana&nbsp;&nbsp;The National | Your Number One Daily!",
-      "relevance": 100,
-      "audiences": [
-        "edu-tech",
-        "montfortian-family"
-      ],
-      "title_th": "คู่หูชาวแอฟริกันออกบวชหลังจากสำเร็จการศึกษาด้านเทววิทยาที่ Bomana - The National | หมายเลขหนึ่งของคุณทุกวัน!"
-    },
-    {
       "title": "St. Gabriel de la Dolorosa and St. Anne Line, martyred for welcoming priests - omnesmag.com",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONm5RdVVUd1VBM2xLQzA0dnd3X0NoYXY0YzJ2TE5EckxJckVOcVFrVjJHY2tCeDk0Ynd4ZG5FblhfWjNZdTVSSUtTWU9EZjlPZzdCcFB6UUxYajhNYjdMeFFFRnlJbk84R3d3aV83cEhfTk9IVkwtSnh1MER3bVNxWEtvZTc?oc=5",
       "pub_date": "2025-02-27T08:00:00+00:00",
@@ -1697,37 +1724,21 @@
       "title_th": "นักบุญกาเบรียล เดอ ลา โดโลโรซา และแนวนักบุญแอนน์ พลีชีพเพื่อต้อนรับพระสงฆ์ - omnesmag.com"
     },
     {
-      "title": "Catholics in Peru diocese where Pope Leo used to be bishop ask him to reconsider Marian titles doctrinal note - catholicvote.org",
+      "title": "Catholics in Peru diocese where Pope Leo used to be bishop ask him to reconsider Marian titles doctrinal note - CatholicVote org",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLVpNSUJsMmVCaTRxTDlUd1BqbkxhdEViY2I3N0p0a2s5MHQ2SjdDMTZOUVFLNTFMYVZnOVpRVjdhS3hEbkxVUTNINnpNUTZHb0FXcUFYNlNWNHU2N1NicFczQlI3X3JJWkdLaDZfTlA0RzRzSkV4MVFQckNnWDM2Y3p5VWpfVHY2d1RQOGd3ZVVhSFg4bmh2d19fcG93blB3VUxhNW80M1I2bmVOeDhwSHhZeGRrV0QxdzFNQ0N2N0NVZmdwUV9zQ3hVQjdGZFNO?oc=5",
       "pub_date": "2026-01-02T08:00:00+00:00",
       "pub_ts": 1767340800,
-      "source": "catholicvote.org",
+      "source": "CatholicVote org",
       "lang": "en",
       "tag": "founder",
       "query": "\"Saint Louis de Montfort\"",
-      "summary": "Catholics in Peru diocese where Pope Leo used to be bishop ask him to reconsider Marian titles doctrinal note&nbsp;&nbsp;catholicvote.org",
+      "summary": "Catholics in Peru diocese where Pope Leo used to be bishop ask him to reconsider Marian titles doctrinal note&nbsp;&nbsp;CatholicVote org",
       "relevance": 90,
       "audiences": [
         "catholic-edu",
         "montfortian-family"
       ],
-      "title_th": "ชาวคาทอลิกในสังฆมณฑลเปรูที่สมเด็จพระสันตะปาปาลีโอเคยเป็นพระสังฆราชขอให้เขาพิจารณาชื่อบันทึกหลักคำสอนของแมเรียนอีกครั้ง - catholicvote.org"
-    },
-    {
-      "title": "5 Glorious Reasons Mary Should Reign as the Queen of Your Heart - churchpop.com",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tX3B5Qmt4R0IwclAwcHlNQnQwRkZoWFJkVWFLSmlVbUpvVEFBRkRUa0Rac3ZWQmVZN0MwUERBb0xvZ3FRZk1DOVlBS2lBcFhWMVNYNGJybFRDeTMzekRZSjF3aHVvbGp2Wjg1RlVB?oc=5",
-      "pub_date": "2025-08-22T07:00:00+00:00",
-      "pub_ts": 1755846000,
-      "source": "churchpop.com",
-      "lang": "en",
-      "tag": "founder",
-      "query": "\"Saint Louis de Montfort\"",
-      "summary": "5 Glorious Reasons Mary Should Reign as the Queen of Your Heart&nbsp;&nbsp;churchpop.com",
-      "relevance": 90,
-      "audiences": [
-        "montfortian-family"
-      ],
-      "title_th": "5 เหตุผลอันรุ่งโรจน์ที่แมรีควรครองราชย์เป็นราชินีในดวงใจของคุณ - churchpop.com"
+      "title_th": "ชาวคาทอลิกในสังฆมณฑลเปรูซึ่งสมเด็จพระสันตะปาปาลีโอเคยเป็นพระสังฆราชขอให้เขาพิจารณาชื่อบันทึกหลักคำสอนของแมเรียนอีกครั้ง - CatholicVote org"
     }
   ]
 }
